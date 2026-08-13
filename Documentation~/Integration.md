@@ -82,3 +82,7 @@ skeleton.AnimationState.SetAnimation(0, "attack/melee/horn-gore", false);
 ```
 
 Genes stay 512-bit `newGenes`. See `Documentation~/MixerAnimations.md`.
+
+## PvE enemies and starters
+
+Chimera and starter-Axie bodies are Spine 3.8 folders under `Assets/OriginsKit/PvE/`. They use the same clip names and the same `Prefabs/Skills/` VFX as mixer Axies. Full map: [PvE](PvE.md).

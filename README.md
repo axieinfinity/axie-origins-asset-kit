@@ -20,8 +20,11 @@ This is not a browser pack. Prefabs, clips, textures, and audio are Unity 2021.3
 | 8 | Summoner Spine sets | `Assets/OriginsKit/Summoners/` |
 | 4 | Battle UI Spine (win / lose / draw / flag) | `Assets/OriginsKit/BattleUI/` |
 | 22 | PvE chimera Spine bodies + animations | `Assets/OriginsKit/PvE/Chimeras/` |
-| 7 | PvE battle backgrounds | `Assets/OriginsKit/PvE/Backgrounds/` |
-| 4 | PvE / boss music | `Assets/OriginsKit/PvE/Music/` |
+| 38 | Starter Axie Spine bodies (19 characters × 2 stages) | `Assets/OriginsKit/PvE/Starters/` |
+| 20 | Story + event battle arenas | `Assets/OriginsKit/PvE/Backgrounds/` |
+| 15 | PvE / boss / seasonal music | `Assets/OriginsKit/PvE/Music/` |
+| 38 | Chimera ability cards + 91 tool-card arts | `Assets/OriginsKit/PvE/Cards/` + `Catalogs/pve-cards.json` |
+| 17 | Enemy intent icons | `Assets/OriginsKit/PvE/Intents/` |
 | 46 | Mixer Spine animation names Origins actually uses | `Assets/OriginsKit/Catalogs/mixer-animations.json` |
 
 Axie **bodies** are not included. Mix them with the official 2D mixer, then play the animation names in the catalog.
@@ -115,12 +118,12 @@ Buffs (`heal`, `shield`, `sleep`, …) skip `OnAttack` / `OnThrow` / `OnHit`. Th
 - [Audio](Documentation~/Audio.md) — SFX naming
 - [Status icons, morph, summoners, extras](Documentation~/Extras.md)
 - [Packaging research](Documentation~/Research.md) — why Assets tree, not UPM Git or OSX bundles
-- [PvE chimeras](Documentation~/PvE.md) — enemy Spine, nodes, backgrounds, music
+- [PvE](Documentation~/PvE.md) — chimera + starter characters, cards, intents, arenas, music, UI
 
 ## What we deliberately left out
 
 - Epic Toon FX and other Asset Store packages
-- Shop, home, stickers, non-battle UI
+- Shop, home stickers, and other non-battle UI (PvE chapter / lobby / HUD art is included)
 - Client secrets / HMAC / Firebase
 - Raw StandaloneOSX Addressable bundles (they do not load in WebGL or Windows)
 

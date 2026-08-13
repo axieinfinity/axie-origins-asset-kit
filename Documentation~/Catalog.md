@@ -4,6 +4,17 @@
 
 Source of truth: `Assets/OriginsKit/Catalogs/`.
 
+PvE extras (same folder):
+
+| File | Contents |
+| --- | --- |
+| `pve-chimeras.json` | 73 chimera rows, 35 nodes, 41 teams, extracted spines, arenas, spawn points |
+| `pve-cards.json` | 38 chimera abilities + 50 other tool cards, VFX ids, art filenames |
+| `pve-intents.json` | Enemy intent → `PvE/Intents/{id}.png` |
+| `pve-starters.json` | Official starter Axie roster and extracted Spine folders |
+
+See [PvE](PvE.md).
+
 ## Skill families
 
 Each class has the same seven verbs:

@@ -674,6 +674,10 @@
     "chimera/treant-fighter",
     "chimera/werewolf"
   ],
+  "extraCatalogSkeletons": [
+    "chimera/machito",
+    "chimera/shilin"
+  ],
   "nodes": [
     {
       "id": 1,
@@ -1642,10 +1646,52 @@
       "sourceBundle": "chimera_assets_machito_skeletondata_acdc6c91263799e3b4dc3be200d115a2.bundle",
       "files": [
         "machito.atlas",
-        "machito.png",
-        "machito.json"
+        "machito.json",
+        "machito.png"
       ],
-      "unityClips": []
+      "unityClips": [
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/idle/random-04",
+        "action/idle/random-05",
+        "action/move-back",
+        "action/move-forward",
+        "action/run",
+        "activity/appear",
+        "activity/bath",
+        "activity/eat-bite",
+        "activity/eat-chew",
+        "activity/entrance",
+        "activity/evolve",
+        "activity/prepare",
+        "activity/sleep",
+        "activity/victory-pose-back-flip",
+        "attack/melee/horn-gore",
+        "attack/melee/mouth-bite",
+        "attack/melee/multi-attack",
+        "attack/melee/normal-attack",
+        "attack/melee/shrimp",
+        "attack/melee/tail-multi-slap",
+        "attack/melee/tail-roll",
+        "attack/melee/tail-smash",
+        "attack/melee/tail-thrash",
+        "attack/ranged/cast-fly",
+        "attack/ranged/cast-high",
+        "attack/ranged/cast-low",
+        "attack/ranged/cast-multi",
+        "attack/ranged/cast-tail",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/evade",
+        "defense/hit-by-normal",
+        "defense/hit-by-normal-crit",
+        "defense/hit-by-normal-dramatic",
+        "defense/hit-by-ranged-attack",
+        "defense/hit-with-shield",
+        "draft/run-origin"
+      ]
     },
     {
       "id": "mommy-bear",
@@ -1679,10 +1725,52 @@
       "sourceBundle": "chimera_assets_shilin_skeletondata_8e2092e789e383516690473040845c75.bundle",
       "files": [
         "shilin.atlas",
-        "shilin.png",
-        "shilin.json"
+        "shilin.json",
+        "shilin.png"
       ],
-      "unityClips": []
+      "unityClips": [
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/idle/random-04",
+        "action/idle/random-05",
+        "action/move-back",
+        "action/move-forward",
+        "action/run",
+        "activity/appear",
+        "activity/bath",
+        "activity/eat-bite",
+        "activity/eat-chew",
+        "activity/entrance",
+        "activity/evolve",
+        "activity/prepare",
+        "activity/sleep",
+        "activity/victory-pose-back-flip",
+        "attack/melee/horn-gore",
+        "attack/melee/mouth-bite",
+        "attack/melee/multi-attack",
+        "attack/melee/normal-attack",
+        "attack/melee/shrimp",
+        "attack/melee/tail-multi-slap",
+        "attack/melee/tail-roll",
+        "attack/melee/tail-smash",
+        "attack/melee/tail-thrash",
+        "attack/ranged/cast-fly",
+        "attack/ranged/cast-high",
+        "attack/ranged/cast-low",
+        "attack/ranged/cast-multi",
+        "attack/ranged/cast-tail",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/evade",
+        "defense/hit-by-normal",
+        "defense/hit-by-normal-crit",
+        "defense/hit-by-normal-dramatic",
+        "defense/hit-by-ranged-attack",
+        "defense/hit-with-shield",
+        "draft/run-origin"
+      ]
     },
     {
       "id": "slime",
@@ -1783,48 +1871,75 @@
   "backgrounds": [
     {
       "id": "10-rocky-mountain-2",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_10-rocky-mountain-2_a3cb9c1b527f4c56953cbf9addc1300f.bundle",
       "files": [
-        "sactx-0-1024x2048-Crunch-rocky-mountain-2-3127de7b.png",
         "10_FOG-3.png",
         "10_RIVER.png",
         "10_ROCK.png",
-        "10_TREE2.png",
-        "10_TREE1.png"
+        "10_TREE1.png",
+        "10_TREE2.png"
+      ],
+      "layers": [
+        "10_FOG-3.png",
+        "10_RIVER.png",
+        "10_ROCK.png",
+        "10_TREE1.png",
+        "10_TREE2.png"
       ]
     },
     {
       "id": "4-entrance",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_4-entrance_2f4019ccdcda8b989875311d19b7a0ae.bundle",
       "files": [
-        "4_Ground.png",
-        "4_FOREST1.png",
         "4_BG.png",
-        "sactx-1-1024x1024-Crunch-entrance-f83c6d36.png",
         "4_BUSH - BLUR.png",
-        "sactx-0-2048x2048-Crunch-entrance-f83c6d36.png",
+        "4_FOREST1.png",
         "4_FOREST3.png",
+        "4_Ground.png",
+        "4_TREES.png"
+      ],
+      "layers": [
+        "4_BG.png",
+        "4_BUSH - BLUR.png",
+        "4_FOREST1.png",
+        "4_FOREST3.png",
+        "4_Ground.png",
         "4_TREES.png"
       ]
     },
     {
       "id": "5-crossroad",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_5-crossroad_7772ffbad50cef15380882d607256a89.bundle",
       "files": [
         "5_FOREST2.png",
-        "5_TREE3.png",
+        "5_FRONT.png",
         "5_Ground.png",
         "5_TREE1.png",
-        "sactx-0-1024x2048-Crunch-crossroad-e2147c59.png",
         "5_TREE2.png",
-        "5_FRONT.png"
+        "5_TREE3.png"
+      ],
+      "layers": [
+        "5_FOREST2.png",
+        "5_FRONT.png",
+        "5_Ground.png",
+        "5_TREE1.png",
+        "5_TREE2.png",
+        "5_TREE3.png"
       ]
     },
     {
       "id": "6-river",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_6-river_51741b5b169125a531f146612f711c91.bundle",
       "files": [
-        "sactx-0-1024x1024-Crunch-river-46ef355a.png",
+        "6_Ground.png",
+        "6_TREES.png",
+        "6_WATER.png"
+      ],
+      "layers": [
         "6_Ground.png",
         "6_TREES.png",
         "6_WATER.png"
@@ -1832,101 +1947,1301 @@
     },
     {
       "id": "7-deep-forest",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_7-deep-forest_bd3db17450f63b2596de6c10df63bea8.bundle",
       "files": [
-        "7_FRONT-TOP.png",
-        "7_MANY-TREES.png",
-        "7_ROCK.png",
-        "sactx-0-2048x2048-Crunch-deep-forest-f6b36757.png",
-        "7_FRONT-BOT.png",
         "7_BG-FOREST.png",
-        "7_Ground.png"
+        "7_FRONT-BOT.png",
+        "7_FRONT-TOP.png",
+        "7_Ground.png",
+        "7_MANY-TREES.png",
+        "7_ROCK.png"
+      ],
+      "layers": [
+        "7_BG-FOREST.png",
+        "7_FRONT-BOT.png",
+        "7_FRONT-TOP.png",
+        "7_Ground.png",
+        "7_MANY-TREES.png",
+        "7_ROCK.png"
       ]
     },
     {
       "id": "8-temple",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_8-temple_3707399e2ce05ca5e81c0d0c7f06164f.bundle",
       "files": [
-        "sactx-0-1024x2048-Crunch-temple-96fb7f79.png",
-        "8_TEMPLE.png",
         "8_Ground.png",
-        "8_ROCK.png"
+        "8_ROCK.png",
+        "8_TEMPLE.png"
+      ],
+      "layers": [
+        "8_Ground.png",
+        "8_ROCK.png",
+        "8_TEMPLE.png"
       ]
     },
     {
       "id": "9-rocky-mountain-1",
+      "kind": "story",
       "sourceBundle": "battle-bg_assets_9-rocky-mountain-1_cce63ea4cfa4a3422c6ac170733b4931.bundle",
       "files": [
-        "9_FOG.png",
-        "9_Ground.png",
-        "sactx-0-2048x2048-Crunch-rocky-mountain-1-c3daa721.png",
-        "sactx-1-1024x2048-Crunch-rocky-mountain-1-c3daa721.png",
-        "9_FRONT-1.png",
-        "9_CLOUD-3.png",
-        "9_CLOUD-1.png",
-        "9_FRONT-2.png",
-        "9_ROCK.png",
-        "9_MOUNTAIN.png",
         "9_BG.png",
-        "9_CLOUD-2.png"
+        "9_CLOUD-1.png",
+        "9_CLOUD-2.png",
+        "9_CLOUD-3.png",
+        "9_FOG.png",
+        "9_FRONT-1.png",
+        "9_FRONT-2.png",
+        "9_Ground.png",
+        "9_MOUNTAIN.png",
+        "9_ROCK.png"
+      ],
+      "layers": [
+        "9_BG.png",
+        "9_CLOUD-1.png",
+        "9_CLOUD-2.png",
+        "9_CLOUD-3.png",
+        "9_FOG.png",
+        "9_FRONT-1.png",
+        "9_FRONT-2.png",
+        "9_Ground.png",
+        "9_MOUNTAIN.png",
+        "9_ROCK.png"
+      ]
+    },
+    {
+      "id": "arena",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_arena_5760da0b0b98becc4dc3738f50aca6e4.bundle",
+      "files": [],
+      "layers": [
+        "13_BACK.png",
+        "13_BG.png",
+        "13_CLOUD-FAR.png",
+        "13_CLOUD-NEAR.png",
+        "13_FRONT-LEFT.png",
+        "13_FRONT-RIGHT.png",
+        "13_GROUND.png",
+        "13_STATUE.png",
+        "13_WEAPON-LEFT.png",
+        "13_WEAPON-RIGHT.png"
+      ]
+    },
+    {
+      "id": "autumn24",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_autumn24_745dbf9b75d9782fba2e962a3cf60efe.bundle",
+      "files": [
+        "autumn24_bg.png",
+        "autumn24_fg.png"
+      ],
+      "layers": [
+        "autumn24_bg.png",
+        "autumn24_fg.png"
+      ]
+    },
+    {
+      "id": "autumn25",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_autumn25_2fba9c45af018703845172e40ab13fdb.bundle",
+      "files": [
+        "autumn25_bg.png",
+        "autumn25_fg.png"
+      ],
+      "layers": [
+        "autumn25_bg.png",
+        "autumn25_fg.png"
+      ]
+    },
+    {
+      "id": "halloween24",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_halloween24_00dd86da8eeb1810477c5db7d1cf38fd.bundle",
+      "files": [
+        "halloween24_bg.png",
+        "halloween24_fg.png"
+      ],
+      "layers": [
+        "halloween24_bg.png",
+        "halloween24_fg.png"
+      ]
+    },
+    {
+      "id": "lunar",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_lunar_bfbd1cda1421a46b6175e5353523eba1.bundle",
+      "files": [
+        "12_FRONT-TOP.png",
+        "BG_BattleScene_back.png",
+        "BG_BattleScene_front.png",
+        "Lion_L.png",
+        "Lion_R.png",
+        "bg_b.png",
+        "bg_f.png",
+        "bg_m.png"
+      ],
+      "layers": [
+        "12_FRONT-TOP.png",
+        "bg_b.png",
+        "bg_f.png",
+        "bg_m.png"
+      ]
+    },
+    {
+      "id": "ragnarok",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_ragnarok_f08f3c451eb4f89481cd07e38348bc70.bundle",
+      "files": [],
+      "layers": [
+        "ragnarok_bg.png",
+        "ragnarok_front_left.png",
+        "ragnarok_front_right.png"
+      ]
+    },
+    {
+      "id": "summer23",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_summer23_c994376d689d3861f415b64a9d32fe2b.bundle",
+      "files": [
+        "s23_bg_b.png",
+        "s23_bg_f.png",
+        "s23_bg_m.png"
+      ],
+      "layers": [
+        "s23_bg_b.png",
+        "s23_bg_f.png",
+        "s23_bg_m.png"
+      ]
+    },
+    {
+      "id": "summer24-arcade",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_summer24-arcade_a3161c86fa82e761cb46befaea856681.bundle",
+      "files": [
+        "arcade-bg.png",
+        "arcade-fg.png"
+      ],
+      "layers": [
+        "arcade-bg.png",
+        "arcade-fg.png"
+      ]
+    },
+    {
+      "id": "summer24-gauntlet",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_summer24-gauntlet_d83019888edc6d060a67059916d82546.bundle",
+      "files": [
+        "gauntlet-bg.png",
+        "gauntlet-fg.png"
+      ],
+      "layers": [
+        "gauntlet-bg.png",
+        "gauntlet-fg.png"
+      ]
+    },
+    {
+      "id": "summer24-rank",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_summer24-rank_6fcdcbfc0248e7e9aec169d953dbf3d7.bundle",
+      "files": [
+        "rank-bg.png",
+        "rank-fg.png"
+      ],
+      "layers": [
+        "rank-bg.png",
+        "rank-fg.png"
+      ]
+    },
+    {
+      "id": "valentine",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_valentine_5ee1510ead4f15ea2292914c42d38386.bundle",
+      "files": [
+        "Valentine_PVP_back.png",
+        "Valentine_PVP_mid.png"
+      ],
+      "layers": []
+    },
+    {
+      "id": "winter24",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_winter24_358935f56d58f005f82d5423cf72cf75.bundle",
+      "files": [
+        "winter24_bg.png",
+        "winter24_fg.png"
+      ],
+      "layers": [
+        "winter24_bg.png",
+        "winter24_fg.png"
+      ]
+    },
+    {
+      "id": "xmas24",
+      "kind": "event",
+      "sourceBundle": "battle-bg_assets_xmas24_65cf9758fb59a7dc1d0dbada68df5d19.bundle",
+      "files": [
+        "xmas24_bg.png",
+        "xmas24_fg1.png",
+        "xmas24_fg2.png"
+      ],
+      "layers": [
+        "xmas24_bg.png",
+        "xmas24_fg1.png",
+        "xmas24_fg2.png"
+      ]
+    }
+  ],
+  "spawnPoints": [
+    {
+      "id": "arena",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "autumn24",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "autumn25",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
       ]
     },
     {
       "id": "crossroad",
-      "sourceBundle": "battle-bg_assets_crossroad_08e5ca77a8d2d5f960f4a3b119881931.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "deep-forest",
-      "sourceBundle": "battle-bg_assets_deep-forest_b578a83c5a22c6a89d1db3e2107a3dc2.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "entrance",
-      "sourceBundle": "battle-bg_assets_entrance_f14a35cf2e49ecc3aa540cd462eb1bc7.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "halloween24",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "lunar",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "ragnarok",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "river",
-      "sourceBundle": "battle-bg_assets_river_f60fed13323a82b8edb53465f2e9c1b7.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "rocky-mountain-1",
-      "sourceBundle": "battle-bg_assets_rocky-mountain-1_4bbeb932c22b1cacf64850a0f477d003.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "rocky-mountain-2",
-      "sourceBundle": "battle-bg_assets_rocky-mountain-2_ca56d30b89bd96bd4a55558a62787faa.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "spawnpoints",
-      "sourceBundle": "battle-bg_assets_spawnpoints_27dd5114f218436a4bad0b218a2dd6af.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "summer23",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "summer24-arcade",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "summer24-gauntlet",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "summer24-rank",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     },
     {
       "id": "temple",
-      "sourceBundle": "battle-bg_assets_temple_c2880b317982a2240d9b1305463f7fa9.bundle",
-      "files": []
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "valentine",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "winter24",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
+    },
+    {
+      "id": "xmas24",
+      "points": [
+        {
+          "name": "SP1",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP2",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP3",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP4",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP5",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        {
+          "name": "SP6",
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      ]
     }
   ],
-  "avatars": [
-    "sactx-0-2048x2048-Crunch-avatar-52aabb69.png",
-    "sactx-1-1024x1024-Crunch-avatar-52aabb69.png"
+  "avatars": {
+    "portraits": [
+      "alpha-wolf.png",
+      "aqua-alpha-wolf.png",
+      "aqua-slime-atk.png",
+      "aqua-slime-boss.png",
+      "aqua-slime-def.png",
+      "aqua-slime-sup.png",
+      "aqua-wolf.png",
+      "daddy-bear.png",
+      "dryad-fighter.png",
+      "dryad-mage.png",
+      "dryad-ranger.png",
+      "flowering-treant.png",
+      "forest-slime-fighter.png",
+      "forest-slime-flower.png",
+      "gray-wolf.png",
+      "machito.png",
+      "mommy-bear.png",
+      "shilin.png",
+      "slime.png",
+      "treant-fighter.png",
+      "treant.png",
+      "werewolf.png"
+    ],
+    "atlasPages": [
+      "sactx-0-2048x2048-Crunch-avatar-52aabb69.png",
+      "sactx-1-1024x1024-Crunch-avatar-52aabb69.png"
+    ]
+  },
+  "story": [
+    "Bing_normal.png",
+    "Xia_normal.png",
+    "black.png",
+    "xia-bing.png"
   ],
   "music": [
+    "boss.wav",
+    "halloween.wav",
+    "halloween_2023.wav",
+    "halloween_battle_2023.wav",
+    "home.wav",
+    "lunar_battle.wav",
+    "lunar_bloodmoon.wav",
+    "lunar_menu.wav",
     "pve_1.wav",
     "pve_2.wav",
     "pve_3.wav",
-    "boss.wav"
+    "pvp.wav",
+    "summer23.wav",
+    "xmas_battle.wav",
+    "xmas_menu.wav"
   ],
+  "ui": {
+    "chapter": [
+      "chimera_riddler_icon.png",
+      "dryad_mage.png",
+      "icon_riddle_1.png",
+      "icon_riddle_2.png",
+      "icon_riddle_3.png",
+      "icon_stage_boss.png",
+      "icon_stage_elite.png",
+      "icon_stage_normal.png",
+      "map_chapter_1.png",
+      "map_chapter_2.png",
+      "riddle_card_aquatic.png",
+      "riddle_card_beast.png",
+      "riddle_card_bird.png",
+      "riddle_card_bug.png",
+      "riddle_card_dawn.png",
+      "riddle_card_dusk.png",
+      "riddle_card_merch.png",
+      "riddle_card_plant.png",
+      "riddle_card_question.png",
+      "riddle_card_reptile.png",
+      "riddle_dryadmage.png",
+      "riddle_locked_bg.png",
+      "riddler_3.png"
+    ],
+    "lobby": [
+      "bg_pve_lobby_axie_lv_1.png",
+      "bg_pve_lobby_axie_lv_2.png",
+      "bg_pve_lobby_axie_lv_3.png",
+      "bg_pve_lobby_chimera_lv_1.png",
+      "bg_pve_lobby_chimera_lv_2.png",
+      "bg_pve_lobby_chimera_lv_3.png",
+      "rougelike_bg_seperator.png"
+    ],
+    "pveFrames": [
+      "bg_wood_behind.png",
+      "bg_wood_ground.png",
+      "frame_back.png",
+      "frame_border.png",
+      "pve_loading_fg.png",
+      "slider-bg.png",
+      "slider-fill.png",
+      "star.png"
+    ],
+    "inBattle": [
+      "avatar_enemy.png",
+      "avatar_frame.png",
+      "avatar_player.png",
+      "banish.png",
+      "bg_log_blue.png",
+      "bg_log_green_big.png",
+      "bg_log_red.png",
+      "big_wheel.png",
+      "bottom_part.png",
+      "card wheel.png",
+      "card.png",
+      "countdown_glow.png",
+      "discarded_card.png",
+      "enemy/enemy_banish.png",
+      "enemy/enemy_deck.png",
+      "enemy/enemy_discard_pile.png",
+      "enemy/enemy_energy.png",
+      "energy_jar.png",
+      "energy_jar_empty.png",
+      "energy_remnant_base.png",
+      "energy_remnant_progress.png",
+      "energy_remnant_progress_base.png",
+      "energy_your.png",
+      "flag_location.png",
+      "hp_bar.png",
+      "hp_fill.png",
+      "icon_shield.png",
+      "machine.png",
+      "name_panel.png",
+      "rope_high.png",
+      "rope_low.png",
+      "small_wheel.png",
+      "top_part.png",
+      "wide-hp-bar/hp_divider.png",
+      "wide-hp-bar/hp_fill_big.png"
+    ],
+    "hpBar": [
+      "frame-hp-class.png",
+      "icon-shield-broken-bot.png",
+      "icon-shield-broken-top.png",
+      "icon-shield-down.png",
+      "icon-shield-hp.png",
+      "icon-shield-up.png",
+      "shield-border.png",
+      "slice9-hp-bar.png",
+      "slice9-hp-frame.png",
+      "slice9-hp-white.png"
+    ],
+    "hpBar2": [
+      "hp-bar-big.png",
+      "hp-bar-small.png",
+      "hp-big.png",
+      "hp-small.png"
+    ],
+    "classBackgrounds": [
+      "bg-aquatic.jpg",
+      "bg-beast.jpg",
+      "bg-bird.jpg",
+      "bg-bug.jpg",
+      "bg-dawn.jpg",
+      "bg-dusk.jpg",
+      "bg-mech.jpg",
+      "bg-plant.jpg",
+      "bg-reptile-2.png",
+      "bg-reptile.jpg",
+      "bg_gauntlet.png",
+      "bg_metamorph.png",
+      "bg_metamorph2.png",
+      "bg_shop.png"
+    ],
+    "icons": [
+      "icon_ticket_pve.png"
+    ]
+  },
   "playback": {
     "idle": "action/idle/normal",
     "hit": "defense/hit-by-normal",
     "moveForward": "action/move-forward",
     "moveBack": "action/move-back",
     "note": "Chimeras use the same mixer animation names as Axies. Attack clips come from the card's attackAnimation in skill-vfx.json. VFX are the same battle-vfx prefabs."
+  },
+  "backgroundAliases": {
+    "battle-bg/entrance": "PvE/Backgrounds/story/4-entrance",
+    "battle-bg/crossroad": "PvE/Backgrounds/story/5-crossroad",
+    "battle-bg/river": "PvE/Backgrounds/story/6-river",
+    "battle-bg/deep-forest": "PvE/Backgrounds/story/7-deep-forest",
+    "battle-bg/temple": "PvE/Backgrounds/story/8-temple",
+    "battle-bg/rocky-mountain-1": "PvE/Backgrounds/story/9-rocky-mountain-1",
+    "battle-bg/rocky-mountain-2": "PvE/Backgrounds/story/10-rocky-mountain-2"
   }
 }

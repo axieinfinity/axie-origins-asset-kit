@@ -13,6 +13,8 @@ _extract/export_vfx_graphs.py
 _extract/export_activation.py
 _extract/rebuild_vfx_clips.py
 _extract/build_pack.py
+_extract/download_pve_bundles.py
+_extract/export_pve.py
 origins-vfx-baker  →  OriginsVfxPreview.SetupScene
 ```
 

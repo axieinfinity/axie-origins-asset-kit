@@ -1,0 +1,188 @@
+
+5.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: false
+  xy: 353, 154
+  size: 160, 153
+  orig: 160, 155
+  offset: 0, 2
+  index: -1
+ball
+  rotate: true
+  xy: 353, 311
+  size: 197, 195
+  orig: 197, 195
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 94, 152
+  size: 356, 255
+  orig: 356, 255
+  offset: 0, 0
+  index: -1
+body-pattern
+  rotate: true
+  xy: 4, 4
+  size: 67, 81
+  orig: 70, 85
+  offset: 2, 3
+  index: -1
+ear-left
+  rotate: true
+  xy: 94, 75
+  size: 73, 64
+  orig: 80, 70
+  offset: 6, 6
+  index: -1
+ear-right
+  rotate: false
+  xy: 581, 262
+  size: 62, 62
+  orig: 62, 62
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 89, 6
+  size: 92, 65
+  orig: 92, 65
+  offset: 0, 0
+  index: -1
+eyes-angry
+  rotate: true
+  xy: 162, 83
+  size: 65, 49
+  orig: 78, 49
+  offset: 0, 0
+  index: -1
+eyes-happy
+  rotate: true
+  xy: 517, 217
+  size: 90, 60
+  orig: 90, 60
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: true
+  xy: 552, 419
+  size: 89, 64
+  orig: 89, 64
+  offset: 0, 0
+  index: -1
+horn
+  rotate: true
+  xy: 215, 15
+  size: 133, 124
+  orig: 133, 125
+  offset: 0, 1
+  index: -1
+leg-back-left
+  rotate: true
+  xy: 510, 4
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+leg-back-left-long
+  rotate: false
+  xy: 620, 218
+  size: 43, 40
+  orig: 43, 41
+  offset: 0, 0
+  index: -1
+leg-back-left-stretch
+  rotate: false
+  xy: 647, 289
+  size: 34, 35
+  orig: 34, 35
+  offset: 0, 0
+  index: -1
+leg-front-left
+  rotate: true
+  xy: 656, 332
+  size: 35, 31
+  orig: 36, 32
+  offset: 0, 1
+  index: -1
+leg-front-left-long
+  rotate: true
+  xy: 582, 169
+  size: 44, 39
+  orig: 45, 39
+  offset: 1, 0
+  index: -1
+leg-front-left-stretch
+  rotate: false
+  xy: 617, 328
+  size: 35, 39
+  orig: 35, 39
+  offset: 0, 0
+  index: -1
+leg-front-right
+  rotate: true
+  xy: 561, 4
+  size: 40, 46
+  orig: 40, 47
+  offset: 0, 1
+  index: -1
+leg-front-right-long
+  rotate: true
+  xy: 617, 371
+  size: 44, 39
+  orig: 45, 39
+  offset: 1, 0
+  index: -1
+leg-front-right-stretch
+  rotate: true
+  xy: 581, 217
+  size: 41, 35
+  orig: 41, 35
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 517, 163
+  size: 61, 50
+  orig: 61, 51
+  offset: 0, 1
+  index: -1
+mouth-bite
+  rotate: true
+  xy: 450, 36
+  size: 114, 56
+  orig: 114, 57
+  offset: 0, 1
+  index: -1
+mouth-open
+  rotate: true
+  xy: 510, 48
+  size: 102, 90
+  orig: 103, 91
+  offset: 1, 0
+  index: -1
+mouth-smile
+  rotate: false
+  xy: 552, 328
+  size: 61, 87
+  orig: 61, 88
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 4, 75
+  size: 433, 86
+  orig: 473, 96
+  offset: 20, 5
+  index: -1
+tail
+  rotate: false
+  xy: 343, 27
+  size: 103, 121
+  orig: 104, 121
+  offset: 0, 0
+  index: -1

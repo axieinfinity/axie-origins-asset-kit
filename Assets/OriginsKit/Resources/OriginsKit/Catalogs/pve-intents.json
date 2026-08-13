@@ -1,0 +1,106 @@
+{
+  "intents": [
+    {
+      "id": "WeakAttack",
+      "image": "intent/WeakAttack.png",
+      "file": "PvE/Intents/WeakAttack.png"
+    },
+    {
+      "id": "WeakDefend",
+      "image": "intent/WeakDefend.png",
+      "file": "PvE/Intents/WeakDefend.png"
+    },
+    {
+      "id": "ModerateAttack",
+      "image": "intent/ModerateAttack.png",
+      "file": "PvE/Intents/ModerateAttack.png"
+    },
+    {
+      "id": "ModerateDefend",
+      "image": "intent/ModerateDefend.png",
+      "file": "PvE/Intents/ModerateDefend.png"
+    },
+    {
+      "id": "StrongAttack",
+      "image": "intent/StrongAttack.png",
+      "file": "PvE/Intents/StrongAttack.png"
+    },
+    {
+      "id": "StrongDefend",
+      "image": "intent/StrongDefend.png",
+      "file": "PvE/Intents/StrongDefend.png"
+    },
+    {
+      "id": "AttackAndDefend",
+      "image": "intent/AttackAndDefend.png",
+      "file": "PvE/Intents/AttackAndDefend.png"
+    },
+    {
+      "id": "Buff",
+      "image": "intent/Buff.png",
+      "file": "PvE/Intents/Buff.png"
+    },
+    {
+      "id": "Debuff",
+      "image": "intent/Debuff.png",
+      "file": "PvE/Intents/Debuff.png"
+    },
+    {
+      "id": "AttackAndBuff",
+      "image": "intent/AttackAndBuff.png",
+      "file": "PvE/Intents/AttackAndBuff.png"
+    },
+    {
+      "id": "AttackAndDebuff",
+      "image": "intent/AttackAndDebuff.png",
+      "file": "PvE/Intents/AttackAndDebuff.png"
+    },
+    {
+      "id": "DefendAndBuff",
+      "image": "intent/DefendAndBuff.png",
+      "file": "PvE/Intents/DefendAndBuff.png"
+    },
+    {
+      "id": "DefendAndDebuff",
+      "image": "intent/DefendAndDebuff.png",
+      "file": "PvE/Intents/DefendAndDebuff.png"
+    },
+    {
+      "id": "DangerousAction",
+      "image": "intent/DangerousAction.png",
+      "file": "PvE/Intents/DangerousAction.png"
+    },
+    {
+      "id": "SecretAction",
+      "image": "intent/SecretAction.png",
+      "file": "PvE/Intents/SecretAction.png"
+    }
+  ],
+  "extracted": [
+    "AttackAndBuff.png",
+    "AttackAndDebuff.png",
+    "AttackAndDefend.png",
+    "AttackMelee.png",
+    "AttackRanged.png",
+    "Buff.png",
+    "DangerousAction.png",
+    "Debuff.png",
+    "DefendAndBuff.png",
+    "DefendAndDebuff.png",
+    "ModerateAttack.png",
+    "ModerateDefend.png",
+    "SecretAction.png",
+    "StrongAttack.png",
+    "StrongDefend.png",
+    "WeakAttack.png",
+    "WeakDefend.png"
+  ],
+  "nodeIcons": [
+    "node_current.png",
+    "node_default.png",
+    "node_draw.png",
+    "node_lose.png",
+    "node_lose_none.png",
+    "node_win.png"
+  ]
+}

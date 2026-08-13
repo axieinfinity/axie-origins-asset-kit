@@ -2,7 +2,7 @@
 
 These assets come from **Axie Infinity: Origins**, a Sky Mavis game.
 
-- Axie characters, mixer animation data, Origins VFX, status icons, summoner spines, battle UI, and battle SFX are **Sky Mavis / Axie Infinity IP**.
+- Axie characters, PvE chimeras, starter Axies, mixer animation data, Origins VFX, status icons, summoner spines, battle UI, and battle SFX are **Sky Mavis / Axie Infinity IP**.
 - This repository is an **organizer-owned Axie Vibeathon builder resource**.
 - Use is limited to **Axie Vibeathon** and other Sky Mavis-approved programs. Do not treat this as an open-source dump.
 - Do **not** redistribute Epic Toon FX or any other third-party Unity Asset Store package. Those files were left out on purpose.

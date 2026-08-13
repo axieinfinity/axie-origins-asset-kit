@@ -1,0 +1,1566 @@
+{
+  "chimeraAbilities": [
+    {
+      "code": "ChimeraNormalAttack",
+      "id": 45,
+      "abilityId": "tool-chimeranormalattack-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "plant_smash",
+      "art": "tool-chimeranormalattack-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyWeak",
+      "id": 46,
+      "abilityId": "tool-chimeraapplyweak-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "plant_projectile",
+      "art": "tool-chimeraapplyweak-02-00.png"
+    },
+    {
+      "code": "ChimeraBite",
+      "id": 47,
+      "abilityId": "tool-chimerabite-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "beast_bite",
+      "art": "tool-chimerabite-02-00.png"
+    },
+    {
+      "code": "ChimeraChomp",
+      "id": 48,
+      "abilityId": "tool-chimerachomp-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "aquatic_gore",
+      "art": "tool-chimerachomp-02-00.png"
+    },
+    {
+      "code": "ChimeraApplySleep",
+      "id": 49,
+      "abilityId": "tool-chimeraapplysleep-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "plant_throw",
+      "art": "tool-chimeraapplysleep-02-00.png"
+    },
+    {
+      "code": "ChimeraSleepShieldTreant",
+      "id": 50,
+      "abilityId": "tool-chimerasleepshieldtreant-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 40,
+      "healing": null,
+      "attributes": [
+        "Secret"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerasleepshieldtreant-02-00.png"
+    },
+    {
+      "code": "ChimeraSleepTight",
+      "id": 51,
+      "abilityId": "tool-chimerasleeptight-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "plant_smash",
+      "art": "tool-chimerasleeptight-02-00.png"
+    },
+    {
+      "code": "ChimeraThickBark",
+      "id": 52,
+      "abilityId": "tool-chimerathickbark-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 80,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerathickbark-02-00.png"
+    },
+    {
+      "code": "ChimeraThornyAttack",
+      "id": 53,
+      "abilityId": "tool-chimerathornyattack-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "plant_gore",
+      "art": "tool-chimerathornyattack-02-00.png"
+    },
+    {
+      "code": "ChimeraThornyShield",
+      "id": 54,
+      "abilityId": "tool-chimerathornyshield-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 65,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerathornyshield-02-00.png"
+    },
+    {
+      "code": "ChimeraOvergrow",
+      "id": 55,
+      "abilityId": "tool-chimeraovergrow-02",
+      "attackType": 1,
+      "abilityType": 5,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Power",
+        "Innate"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeraovergrow-02-00.png"
+    },
+    {
+      "code": "ChimeraSummonClover",
+      "id": 56,
+      "abilityId": "tool-chimerasummonclover-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 50,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerasummonclover-02-00.png"
+    },
+    {
+      "code": "ChimeraSummonMavis",
+      "id": 57,
+      "abilityId": "tool-chimerasummonmavis-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerasummonmavis-02-00.png"
+    },
+    {
+      "code": "ChimeraGrowLeaf",
+      "id": 58,
+      "abilityId": "tool-chimeragrowleaf-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 20,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeragrowleaf-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyGoo",
+      "id": 59,
+      "abilityId": "tool-chimeraapplygoo-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "bug_cast",
+      "art": "tool-chimeraapplygoo-02-00.png"
+    },
+    {
+      "code": "ChimeraGooAttack",
+      "id": 60,
+      "abilityId": "tool-chimeragooattack-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "bug_gore",
+      "art": "tool-chimeragooattack-02-00.png"
+    },
+    {
+      "code": "ChimeraSleepShieldSlime",
+      "id": 61,
+      "abilityId": "tool-chimerasleepshieldslime-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 40,
+      "healing": null,
+      "attributes": [
+        "Secret"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerasleepshieldslime-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyWeaknVulnerable",
+      "id": 62,
+      "abilityId": "tool-chimeraapplyweaknvulnerable-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "plant_throw",
+      "art": "tool-chimeraapplyweaknvulnerable-02-00.png"
+    },
+    {
+      "code": "ChimeraGainBubble",
+      "id": 63,
+      "abilityId": "tool-chimeragainbubble-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "plant_smash",
+      "art": "tool-chimeragainbubble-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyWeaknFragile",
+      "id": 64,
+      "abilityId": "tool-chimeraapplyweaknfragile-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "plant_cast",
+      "art": "tool-chimeraapplyweaknfragile-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyWeaknDoubt",
+      "id": 65,
+      "abilityId": "tool-chimeraapplyweakndoubt-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "plant_projectile",
+      "art": "tool-chimeraapplyweakndoubt-02-00.png"
+    },
+    {
+      "code": "ChimeraBloodyBite",
+      "id": 66,
+      "abilityId": "tool-chimerabloodybite-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "beast_bite",
+      "art": "tool-chimerabloodybite-02-00.png"
+    },
+    {
+      "code": "ChimeraGrievousBite",
+      "id": 67,
+      "abilityId": "tool-chimeragrievousbite-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "beast_bite",
+      "art": "tool-chimeragrievousbite-02-00.png"
+    },
+    {
+      "code": "ChimeraElderProtection",
+      "id": 68,
+      "abilityId": "tool-chimeraelderprotection-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 50,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeraelderprotection-02-00.png"
+    },
+    {
+      "code": "ChimeraTailStrike",
+      "id": 69,
+      "abilityId": "tool-chimeratailstrike-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "mech_bite",
+      "art": "tool-chimeratailstrike-02-00.png"
+    },
+    {
+      "code": "ChimeraSplash",
+      "id": 70,
+      "abilityId": "tool-chimerasplash-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee",
+        "Innate",
+        "Retain"
+      ],
+      "vfxId": "aquatic_cast",
+      "art": "tool-chimerasplash-02-00.png"
+    },
+    {
+      "code": "ChimeraFragileBeing",
+      "id": 71,
+      "abilityId": "tool-chimerafragilebeing-02",
+      "attackType": 1,
+      "abilityType": 5,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Power",
+        "Innate"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerafragilebeing-02-00.png"
+    },
+    {
+      "code": "ChimeraUnpredictableAttack",
+      "id": 72,
+      "abilityId": "tool-chimeraunpredictableattack-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "dusk_throw",
+      "art": "tool-chimeraunpredictableattack-02-00.png"
+    },
+    {
+      "code": "ChimeraExterminate",
+      "id": 73,
+      "abilityId": "tool-chimeraexterminate-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged",
+        "Retain"
+      ],
+      "vfxId": "beast_cast",
+      "art": "tool-chimeraexterminate-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyJinxnDoubt",
+      "id": 74,
+      "abilityId": "tool-chimeraapplyjinxndoubt-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 60,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeraapplyjinxndoubt-02-00.png"
+    },
+    {
+      "code": "ChimeraApplyGoonWeak",
+      "id": 75,
+      "abilityId": "tool-chimeraapplygoonweak-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 60,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeraapplygoonweak-02-00.png"
+    },
+    {
+      "code": "ChimeraAlienBeam",
+      "id": 76,
+      "abilityId": "tool-chimeraalienbeam-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "mech_cast",
+      "art": "tool-chimeraalienbeam-02-00.png"
+    },
+    {
+      "code": "ChimeraSlipperyHand",
+      "id": 77,
+      "abilityId": "tool-chimeraslipperyhand-02",
+      "attackType": 1,
+      "abilityType": 5,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Power",
+        "Innate",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeraslipperyhand-02-00.png"
+    },
+    {
+      "code": "ChimeraMamaWarmth",
+      "id": 78,
+      "abilityId": "tool-chimeramamawarmth-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 40,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimeramamawarmth-02-00.png"
+    },
+    {
+      "code": "ChimeraLaddleStrike",
+      "id": 79,
+      "abilityId": "tool-chimeraladdlestrike-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged"
+      ],
+      "vfxId": "beast_throw",
+      "art": "tool-chimeraladdlestrike-02-00.png"
+    },
+    {
+      "code": "ChimeraAxe",
+      "id": 80,
+      "abilityId": "tool-chimeraaxe-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": "beast_slash",
+      "art": "tool-chimeraaxe-02-00.png"
+    },
+    {
+      "code": "ChimeraPapaProtection",
+      "id": 81,
+      "abilityId": "tool-chimerapapaprotection-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 60,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-chimerapapaprotection-02-00.png"
+    },
+    {
+      "code": "PveRiddle",
+      "id": 82,
+      "abilityId": "tool-pveriddle-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": null,
+      "healing": 999,
+      "attributes": [
+        "Secret"
+      ],
+      "vfxId": null,
+      "art": "tool-pveriddle-02-00.png"
+    }
+  ],
+  "otherToolCards": [
+    {
+      "code": "LumberShield",
+      "id": 1,
+      "abilityId": "tool-lumbershield-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 10,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-lumbershield-02-00.png"
+    },
+    {
+      "code": "Strawberry",
+      "id": 2,
+      "abilityId": "tool-strawberry-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-strawberry-02-00.png"
+    },
+    {
+      "code": "PureWater",
+      "id": 3,
+      "abilityId": "tool-purewater-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 10,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-purewater-02-00.png"
+    },
+    {
+      "code": "Blackmail",
+      "id": 4,
+      "abilityId": "tool-blackmail-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [],
+      "vfxId": null,
+      "art": "tool-blackmail-02-00.png"
+    },
+    {
+      "code": "Jinx",
+      "id": 5,
+      "abilityId": "tool-jinx-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-jinx-02-00.png"
+    },
+    {
+      "code": "Goo",
+      "id": 6,
+      "abilityId": "tool-goo-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-goo-02-00.png"
+    },
+    {
+      "code": "Burn",
+      "id": 7,
+      "abilityId": "tool-burn-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-burn-02-00.png"
+    },
+    {
+      "code": "Shuriken",
+      "id": 8,
+      "abilityId": "tool-shuriken-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-shuriken-02-00.png"
+    },
+    {
+      "code": "Confused",
+      "id": 9,
+      "abilityId": "tool-confused-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-confused-02-00.png"
+    },
+    {
+      "code": "Dazed",
+      "id": 10,
+      "abilityId": "tool-dazed-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-dazed-02-00.png"
+    },
+    {
+      "code": "Scorch",
+      "id": 11,
+      "abilityId": "tool-scorch-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-scorch-02-00.png"
+    },
+    {
+      "code": "Void",
+      "id": 12,
+      "abilityId": "tool-void-02",
+      "attackType": 1,
+      "abilityType": 6,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Unplayable"
+      ],
+      "vfxId": null,
+      "art": "tool-void-02-00.png"
+    },
+    {
+      "code": "EnergyCoin",
+      "id": 13,
+      "abilityId": "tool-energycoin-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-energycoin-02-00.png"
+    },
+    {
+      "code": "ForestBreath",
+      "id": 14,
+      "abilityId": "tool-forestbreath-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 5,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-forestbreath-02-00.png"
+    },
+    {
+      "code": "ForestWrath",
+      "id": 15,
+      "abilityId": "tool-forestwrath-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 65,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-forestwrath-02-00.png"
+    },
+    {
+      "code": "Mandarine",
+      "id": 16,
+      "abilityId": "tool-mandarine-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 30,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-mandarine-02-00.png"
+    },
+    {
+      "code": "Pacu",
+      "id": 17,
+      "abilityId": "tool-pacu-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": "reptile_gore",
+      "art": "tool-pacu-02-00.png"
+    },
+    {
+      "code": "DeadAttack0",
+      "id": 18,
+      "abilityId": "tool-deadattack0-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadattack0-02-00.png"
+    },
+    {
+      "code": "DeadAttack1",
+      "id": 19,
+      "abilityId": "tool-deadattack1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadattack1-02-00.png"
+    },
+    {
+      "code": "DeadAttack2",
+      "id": 20,
+      "abilityId": "tool-deadattack2-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadattack2-02-00.png"
+    },
+    {
+      "code": "DeadAttack3",
+      "id": 21,
+      "abilityId": "tool-deadattack3-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadattack3-02-00.png"
+    },
+    {
+      "code": "DeadSkill0",
+      "id": 22,
+      "abilityId": "tool-deadskill0-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 15,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadskill0-02-00.png"
+    },
+    {
+      "code": "DeadSkill1",
+      "id": 23,
+      "abilityId": "tool-deadskill1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 50,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadskill1-02-00.png"
+    },
+    {
+      "code": "DeadSkill2",
+      "id": 24,
+      "abilityId": "tool-deadskill2-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 100,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadskill2-02-00.png"
+    },
+    {
+      "code": "DeadSkill3",
+      "id": 25,
+      "abilityId": "tool-deadskill3-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 150,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadskill3-02-00.png"
+    },
+    {
+      "code": "DeadSecret0",
+      "id": 26,
+      "abilityId": "tool-deadsecret0-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 10,
+      "healing": null,
+      "attributes": [
+        "Secret",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadsecret0-02-00.png"
+    },
+    {
+      "code": "DeadSecret1",
+      "id": 27,
+      "abilityId": "tool-deadsecret1-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 30,
+      "healing": null,
+      "attributes": [
+        "Secret",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadsecret1-02-00.png"
+    },
+    {
+      "code": "DeadSecret2",
+      "id": 28,
+      "abilityId": "tool-deadsecret2-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 60,
+      "healing": null,
+      "attributes": [
+        "Secret",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadsecret2-02-00.png"
+    },
+    {
+      "code": "DeadSecret3",
+      "id": 29,
+      "abilityId": "tool-deadsecret3-02",
+      "attackType": 1,
+      "abilityType": 3,
+      "damage": null,
+      "defense": 90,
+      "healing": null,
+      "attributes": [
+        "Secret",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadsecret3-02-00.png"
+    },
+    {
+      "code": "DeadPower2",
+      "id": 30,
+      "abilityId": "tool-deadpower2-02",
+      "attackType": 1,
+      "abilityType": 5,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Power",
+        "Ethereal",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-deadpower2-02-00.png"
+    },
+    {
+      "code": "FeatherDagger",
+      "id": 31,
+      "abilityId": "tool-featherdagger-02",
+      "attackType": 1,
+      "abilityType": 1,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackRanged",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": "bird_gore",
+      "art": "tool-featherdagger-02-00.png"
+    },
+    {
+      "code": "Detect",
+      "id": 32,
+      "abilityId": "tool-detect-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-detect-02-00.png"
+    },
+    {
+      "code": "Purify",
+      "id": 33,
+      "abilityId": "tool-purify-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-purify-02-00.png"
+    },
+    {
+      "code": "Purge",
+      "id": 34,
+      "abilityId": "tool-purge-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-purge-02-00.png"
+    },
+    {
+      "code": "GiantBubble",
+      "id": 35,
+      "abilityId": "tool-giantbubble-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 5,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-giantbubble-02-00.png"
+    },
+    {
+      "code": "VenomBurst",
+      "id": 36,
+      "abilityId": "tool-venomburst-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 50,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-venomburst-02-00.png"
+    },
+    {
+      "code": "BasicAttack",
+      "id": 37,
+      "abilityId": "tool-basicattack-02",
+      "attackType": null,
+      "abilityType": null,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "AttackMelee"
+      ],
+      "vfxId": null,
+      "art": "tool-basicattack-02-00.png"
+    },
+    {
+      "code": "BasicShield",
+      "id": 38,
+      "abilityId": "tool-basicshield-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 65,
+      "healing": null,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-basicshield-02-00.png"
+    },
+    {
+      "code": "BasicHeal",
+      "id": 39,
+      "abilityId": "tool-basicheal-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 60,
+      "attributes": [
+        "Skill"
+      ],
+      "vfxId": null,
+      "art": "tool-basicheal-02-00.png"
+    },
+    {
+      "code": "Torpedo",
+      "id": 40,
+      "abilityId": "tool-torpedo-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-torpedo-02-00.png"
+    },
+    {
+      "code": "BeachBallGame",
+      "id": 41,
+      "abilityId": "tool-beachballgame-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-beachballgame-02-00.png"
+    },
+    {
+      "code": "MountainWind",
+      "id": 42,
+      "abilityId": "tool-mountainwind-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": 5,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-mountainwind-02-00.png"
+    },
+    {
+      "code": "PrayingForRain",
+      "id": 43,
+      "abilityId": "tool-prayingforrain-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 5,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-prayingforrain-02-00.png"
+    },
+    {
+      "code": "SummerMiracle",
+      "id": 44,
+      "abilityId": "tool-summermiracle-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 30,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-summermiracle-02-00.png"
+    },
+    {
+      "code": "Detect1",
+      "id": 83,
+      "abilityId": "tool-detect1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-detect1-02-00.png"
+    },
+    {
+      "code": "Purify1",
+      "id": 84,
+      "abilityId": "tool-purify1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 10,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-purify1-02-00.png"
+    },
+    {
+      "code": "Purge1",
+      "id": 85,
+      "abilityId": "tool-purge1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": null,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-purge1-02-00.png"
+    },
+    {
+      "code": "VenomBurst1",
+      "id": 86,
+      "abilityId": "tool-venomburst1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 50,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-venomburst1-02-00.png"
+    },
+    {
+      "code": "ForestBreath1",
+      "id": 87,
+      "abilityId": "tool-forestbreath1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 7,
+      "attributes": [
+        "Skill",
+        "Retain"
+      ],
+      "vfxId": null,
+      "art": "tool-forestbreath1-02-00.png"
+    },
+    {
+      "code": "ForestWrath1",
+      "id": 88,
+      "abilityId": "tool-forestwrath1-02",
+      "attackType": 1,
+      "abilityType": 2,
+      "damage": null,
+      "defense": null,
+      "healing": 70,
+      "attributes": [
+        "Skill",
+        "Retain",
+        "Banish"
+      ],
+      "vfxId": null,
+      "art": "tool-forestwrath1-02-00.png"
+    }
+  ],
+  "art": {
+    "tools": [
+      "temp.png",
+      "tool-basicattack-02-00.png",
+      "tool-basicheal-02-00.png",
+      "tool-basicshield-02-00.png",
+      "tool-beachballgame-02-00.png",
+      "tool-blackmail-02-00.png",
+      "tool-burn-02-00.png",
+      "tool-chimeraalienbeam-02-00.png",
+      "tool-chimeraapplygoo-02-00.png",
+      "tool-chimeraapplygoonweak-02-00.png",
+      "tool-chimeraapplyjinxndoubt-02-00.png",
+      "tool-chimeraapplysleep-02-00.png",
+      "tool-chimeraapplyweak-02-00.png",
+      "tool-chimeraapplyweakndoubt-02-00.png",
+      "tool-chimeraapplyweaknfragile-02-00.png",
+      "tool-chimeraapplyweaknvulnerable-02-00.png",
+      "tool-chimeraaxe-02-00.png",
+      "tool-chimerabite-02-00.png",
+      "tool-chimerabloodybite-02-00.png",
+      "tool-chimerachomp-02-00.png",
+      "tool-chimeraelderprotection-02-00.png",
+      "tool-chimeraexterminate-02-00.png",
+      "tool-chimerafragilebeing-02-00.png",
+      "tool-chimeragainbubble-02-00.png",
+      "tool-chimeragooattack-02-00.png",
+      "tool-chimeragrievousbite-02-00.png",
+      "tool-chimeragrowleaf-02-00.png",
+      "tool-chimeraladdlestrike-02-00.png",
+      "tool-chimeramamawarmth-02-00.png",
+      "tool-chimeranormalattack-02-00.png",
+      "tool-chimeraovergrow-02-00.png",
+      "tool-chimerapapaprotection-02-00.png",
+      "tool-chimerasleepshieldslime-02-00.png",
+      "tool-chimerasleepshieldtreant-02-00.png",
+      "tool-chimerasleeptight-02-00.png",
+      "tool-chimeraslipperyhand-02-00.png",
+      "tool-chimerasplash-02-00.png",
+      "tool-chimerasummonclover-02-00.png",
+      "tool-chimerasummonmavis-02-00.png",
+      "tool-chimeratailstrike-02-00.png",
+      "tool-chimerathickbark-02-00.png",
+      "tool-chimerathornyattack-02-00.png",
+      "tool-chimerathornyshield-02-00.png",
+      "tool-chimeraunpredictableattack-02-00.png",
+      "tool-confused-02-00.png",
+      "tool-confusion-02-00.png",
+      "tool-daze-02-00.png",
+      "tool-dazed-02-00.png",
+      "tool-deadattack0-02-00.png",
+      "tool-deadattack1-02-00.png",
+      "tool-deadattack2-02-00.png",
+      "tool-deadattack3-02-00.png",
+      "tool-deadpower2-02-00.png",
+      "tool-deadsecret0-02-00.png",
+      "tool-deadsecret1-02-00.png",
+      "tool-deadsecret2-02-00.png",
+      "tool-deadsecret3-02-00.png",
+      "tool-deadskill0-02-00.png",
+      "tool-deadskill1-02-00.png",
+      "tool-deadskill2-02-00.png",
+      "tool-deadskill3-02-00.png",
+      "tool-detect-02-00.png",
+      "tool-detect1-02-00.png",
+      "tool-energycoin-02-00.png",
+      "tool-featherdagger-02-00.png",
+      "tool-forestbreath-02-00.png",
+      "tool-forestbreath1-02-00.png",
+      "tool-forestwrath-02-00.png",
+      "tool-forestwrath1-02-00.png",
+      "tool-giantbubble-02-00.png",
+      "tool-goo-02-00.png",
+      "tool-jinx-02-00.png",
+      "tool-lumbershield-02-00.png",
+      "tool-mandarine-02-00.png",
+      "tool-mountainwind-02-00.png",
+      "tool-pacu-02-00.png",
+      "tool-prayingforrain-02-00.png",
+      "tool-purewater-02-00.png",
+      "tool-purge-02-00.png",
+      "tool-purge1-02-00.png",
+      "tool-purify-02-00.png",
+      "tool-purify1-02-00.png",
+      "tool-pveriddle-02-00.png",
+      "tool-scorch-02-00.png",
+      "tool-shuriken-02-00.png",
+      "tool-strawberry-02-00.png",
+      "tool-summermiracle-02-00.png",
+      "tool-torpedo-02-00.png",
+      "tool-venomburst-02-00.png",
+      "tool-venomburst1-02-00.png",
+      "tool-void-02-00.png"
+    ],
+    "chimeraCards": [
+      "alpha-wolf-01-00.png",
+      "alpha-wolf-02-00.png",
+      "alpha-wolf-03-00.png",
+      "aqua-alpha-wolf-01-00.png",
+      "aqua-alpha-wolf-02-00.png",
+      "aqua-slime-atk-01-00.png",
+      "aqua-slime-atk-02-00.png",
+      "aqua-slime-atk-03-00.png",
+      "aqua-slime-boss-01-00.png",
+      "aqua-slime-boss-02-00.png",
+      "aqua-slime-boss-03-00.png",
+      "aqua-slime-boss-04-00.png",
+      "aqua-slime-boss-05-00.png",
+      "aqua-slime-def-01-00.png",
+      "aqua-slime-def-02-00.png",
+      "aqua-slime-def-03-00.png",
+      "aqua-slime-sup-01-00.png",
+      "aqua-slime-sup-02-00.png",
+      "aqua-slime-sup-03-00.png",
+      "aqua-wolf-01-00.png",
+      "daddy-bear-01-00.png",
+      "daddy-bear-02-00.png",
+      "daddy-bear-03-00.png",
+      "daddy-bear-04-00.png",
+      "dryad-fighter-01-00.png",
+      "dryad-fighter-02-00.png",
+      "dryad-fighter-03-00.png",
+      "dryad-fighter-04-00.png",
+      "dryad-mage-01-00.png",
+      "dryad-mage-02-00.png",
+      "dryad-mage-03-00.png",
+      "dryad-mage-04-00.png",
+      "dryad-ranger-01-00.png",
+      "dryad-ranger-02-00.png",
+      "dryad-ranger-03-00.png",
+      "dryad-ranger-04-00.png",
+      "flowering-treant-01-00.png",
+      "flowering-treant-02-00.png",
+      "flowering-treant-03-00.png",
+      "forest-slime-fighter-01-00.png",
+      "forest-slime-fighter-02-00.png",
+      "forest-slime-fighter-03-00.png",
+      "forest-slime-fighter-04-00.png",
+      "forest-slime-flower-01-00.png",
+      "forest-slime-flower-02-00.png",
+      "forest-slime-flower-03-00.png",
+      "forest-slime-flower-04-00.png",
+      "gray-wolf-01-00.png",
+      "gray-wolf-02-00.png",
+      "gray-wolf-03-00.png",
+      "machito-01-00.png",
+      "machito-02-00.png",
+      "machito-03-00.png",
+      "machito-04-00.png",
+      "mommy-bear-01-00.png",
+      "mommy-bear-02-00.png",
+      "mommy-bear-03-00.png",
+      "mommy-bear-04-00.png",
+      "shilin-01-00.png",
+      "shilin-02-00.png",
+      "shilin-03-00.png",
+      "shilin-04-00.png",
+      "slime-01-00.png",
+      "slime-02-00.png",
+      "slime-03-00.png",
+      "treant-01-00.png",
+      "treant-02-00.png",
+      "treant-03-00.png",
+      "treant-fighter-01-00.png",
+      "treant-fighter-02-00.png",
+      "treant-fighter-03-00.png",
+      "werewolf-01-00.png",
+      "werewolf-02-00.png",
+      "werewolf-03-00.png",
+      "werewolf-04-00.png"
+    ]
+  },
+  "note": "Chimera cards map to Prefabs/Skills/{vfxId} through skill-vfx.json. Cards without vfxId are shields / heals / secrets \u2014 play buff prefabs or no particle."
+}

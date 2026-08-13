@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.3.0 — 2026-08-13
+
+- Full PvE pack: 22 chimera bodies, 38 starter-Axie spines, 73 chimera rows, 41 teams, 35 nodes.
+- Chimera portraits, 75 NPC card arts, 91 tool-card arts, 17 intent icons, chapter / lobby / HP-bar UI.
+- 7 story arenas + 13 event arenas (Halloween, Lunar, Xmas, Ragnarok, Summer, Valentine, …).
+- 15 music loops (adventure, boss, seasonal, PvP, home).
+- Catalogs: `pve-chimeras.json`, `pve-cards.json`, `pve-intents.json`, `pve-starters.json`.
+- Chimera cards still play the existing `Prefabs/Skills/` VFX (`tool-chimerabite-02` → `beast_bite`, …).
+
 ## 1.2.0 — 2026-08-13
 
 - PvE: 22 chimera Spine skeletons (atlas + png + skel) and 73 catalog rows.
