@@ -26,4 +26,16 @@ Noise, glow, water, lightning tiles authored by the Origins VFX team (not Epic T
 
 ## Card attribute VFX
 
-Origins plays a small UI burst on the card when an attribute procs. Prefabs live in origin-client `Resources/Prefabs/Components/Card_*_FX`. First-party copies are under `Prefabs/CardAttribute/` when present.
+Origins plays a small UI burst on the card when an attribute procs. Prefabs are under `Prefabs/CardAttribute/` (`Card_Blue_FX`, `Green`, `Yellow`, `Red`, `Other`, plus `CardAttributeVFX`).
+
+## Extra first-party battle particles
+
+`Prefabs/BattleExtras/` (not in the Addressable skill bundle):
+
+- Hand: `card-addition`, `card-banish`, `card-banish-green`, `card-banish-dead`, `BanishBurnOut`, `BanishGlow`, `BanishMist`, `CardCursedAppear`
+- Board: `WindlinesStormy`, `BlowingLeaves`, `SmokeWhiteSoft`, `LightningStrikeSharpRed`, `SmokeSummon`
+- Energy: `Energy Orb`, `Energy Orb Aura`, `Energy Orb Broken`
+- HUD: `SleepAnimator`, `StunAnimator`, `Laser Beam`
+- Shield clips: `Animations/ShieldHud/shield-up-clip`, `shield-down-clip`, `shield-broken-clip`
+
+These prefabs still reference origin-client materials/scripts. If Unity shows a missing script, the ParticleSystem still plays; strip the missing MonoBehaviour or ignore it.
