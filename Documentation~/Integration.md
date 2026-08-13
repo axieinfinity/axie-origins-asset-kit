@@ -12,17 +12,11 @@ The sample gallery scene (if present) loops six representative effects.
 
 ## Existing Unity project
 
-**Option 1 — copy folder**
-
 Copy `Assets/OriginsKit` into your project. Keep `.meta` files so clip ↔ prefab links survive.
 
-**Option 2 — UPM git**
+Do **not** install via Package Manager → Git URL. That path is for code packages, not this art tree.
 
-```json
-"com.skymavis.origins-kit": "https://github.com/jaatster/axie-origins-unity-kit.git"
-```
-
-Then `Resources.Load` paths stay `ImportedVfx/{id}` or `OriginsKit/Animations/{id}` depending on how you copied Resources. `SkillPlayer` tries both.
+`SkillPlayer` loads clips from `Resources/ImportedVfx/{id}` and `Resources/OriginsKit/Animations/{id}`.
 
 ## Render pipeline
 

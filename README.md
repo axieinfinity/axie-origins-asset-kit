@@ -33,27 +33,24 @@ Axie **bodies** are not included. Mix them with the official 2D mixer, then play
 
 ## Install
 
-### A. Open as a project (fastest)
+**Do not add this repo as a UPM Git URL.** The kit is binary art (prefabs, clips, textures, audio). Unity’s Package Manager Git install is for versioned *code*; it is a bad fit here (immutable checkout, credential friction, LFS pointer risk).
 
-1. Clone this repo.
-2. Unity Hub → **Open** → this folder.
-3. Open `Assets/OriginsKit/Samples/Gallery/Gallery.unity` (after you add the sample scene) or drop a prefab from `Prefabs/Skills/` into any scene.
+### A. Open as a project (recommended)
 
-### B. UPM git (add to an existing project)
+1. Get access to this private repo, then:
+   ```bash
+   git clone https://github.com/jaatster/axie-origins-unity-kit.git
+   ```
+2. Unity Hub → Unity **2021.3 LTS** → **Open** → the clone.
+3. Drop a prefab from `Assets/OriginsKit/Prefabs/Skills/` into a scene, or use `SkillPlayer.Spawn`.
 
-`Window → Package Manager → + → Add package from git URL`:
+### B. Copy into an existing project
 
-```
-https://github.com/jaatster/axie-origins-unity-kit.git
-```
+Copy the whole `Assets/OriginsKit` folder (keep `.meta` files) into your project’s `Assets/`. Built-in RP works as-is. On URP, particles still draw with the remapped Legacy shaders; reassign URP/Particles Unlit if you want pixel-perfect URP.
 
-Or in `Packages/manifest.json`:
+### C. Optional `.unitypackage`
 
-```json
-"com.skymavis.origins-kit": "https://github.com/jaatster/axie-origins-unity-kit.git"
-```
-
-Private repo: GitHub must already be authenticated (`gh auth login` / SSH key).
+In the Editor: select `Assets/OriginsKit` → **Assets → Export Package…**. That is the informal art-share format. We do **not** commit a prebuilt `.unitypackage` (it would exceed GitHub’s 100 MB file limit).
 
 ## Play a skill in 15 lines
 
@@ -115,6 +112,7 @@ Buffs (`heal`, `shield`, `sleep`, …) skip `OnAttack` / `OnThrow` / `OnHit`. Th
 - [Mixer animations](Documentation~/MixerAnimations.md) — Spine clip names
 - [Audio](Documentation~/Audio.md) — SFX naming
 - [Status icons, morph, summoners, extras](Documentation~/Extras.md)
+- [Packaging research](Documentation~/Research.md) — why Assets tree, not UPM Git or OSX bundles
 
 ## What we deliberately left out
 
