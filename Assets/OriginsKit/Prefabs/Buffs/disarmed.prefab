@@ -15,7 +15,7 @@ GameObject:
   m_Name: Particle System
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 16777216
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &669326473345606174
@@ -4761,7 +4761,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ccea3bd389ef04daca492b39abd309cd, type: 2}
+  - {fileID: 2100000, guid: 2de9d6fd82cde4827a50bb892543513f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4827,7 +4827,7 @@ GameObject:
   m_Name: Glow_ad (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 16777216
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4880739283716907373
@@ -9636,7 +9636,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9f2b0f5c12554dc29e9347bbd79493b, type: 2}
+  - {fileID: 2100000, guid: 6bcdcbb87f3714f24b46b365fda311a2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9702,7 +9702,7 @@ GameObject:
   m_Name: leaf_cycle_02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 16777216
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &1428687172470612699
@@ -14511,7 +14511,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5924008d4831146b69da35a2054639b4, type: 2}
+  - {fileID: 2100000, guid: d83f4cb6d2f444082b8bff0cfd8aa5ef, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14577,7 +14577,7 @@ GameObject:
   m_Name: Hit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 3073
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8760271004063199332
@@ -19394,7 +19394,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 078c859003373436bac2c5dfaad4cd4f, type: 2}
+  - {fileID: 2100000, guid: e1095d8d6bf664845984453ae2513b91, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19460,7 +19460,7 @@ GameObject:
   m_Name: Glow_ad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 16777216
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &1726539347724331355
@@ -24269,7 +24269,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf00c8967cd044dada7bb7283f4de914, type: 2}
+  - {fileID: 2100000, guid: db2231500da9d4218a2e1d75cb41ad3c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24335,7 +24335,7 @@ GameObject:
   m_Name: leaf_cycle_01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1239564005
+  m_NavMeshLayer: 1481924405
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4190946156501986170
@@ -29198,7 +29198,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 640e10c66c5a24f0fb5a93c05bb034c3, type: 2}
+  - {fileID: 2100000, guid: 5f74710e2a4d84e45a5fac3e8882e8c8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29263,7 +29263,7 @@ GameObject:
   m_Name: disarmed
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 3640655872
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &2517462591656031118
@@ -29323,7 +29323,7 @@ GameObject:
   m_Name: leaf_cycle_02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 201413636
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &3246318575060745184
@@ -34177,7 +34177,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5f74710e2a4d84e45a5fac3e8882e8c8, type: 2}
+  - {fileID: 2100000, guid: 7208a496cd5f245b8ba9d026c69486bc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34243,7 +34243,7 @@ GameObject:
   m_Name: Glow_ab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 280232448
+  m_NavMeshLayer: 172818434
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &8732704442822438293
@@ -39052,7 +39052,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b09b35263d8964160b655bb60f5d4b76, type: 2}
+  - {fileID: 2100000, guid: 7e00c7a0270db471ab74aa0266267609, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43927,7 +43927,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 91e3b81fd33bd4315912ca7f9c010585, type: 2}
+  - {fileID: 2100000, guid: dcd5c0de645bd42b38e5fcb85e982854, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43993,7 +43993,7 @@ GameObject:
   m_Name: Glow_ad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 35061804
+  m_NavMeshLayer: 537538592
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &180434640535923220
@@ -48802,7 +48802,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e3562ff4adf294af8900f3d6f62bd8b7, type: 2}
+  - {fileID: 2100000, guid: 7824f3726ad8e438ba276b3175afa1c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48868,7 +48868,7 @@ GameObject:
   m_Name: leaf_cycle_01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 4472704
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &3843854042006586162
@@ -53722,7 +53722,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bcd3ef784058f4e5c85375b264563663, type: 2}
+  - {fileID: 2100000, guid: 5e82490d9dc994d0d9c3d3d947ca9a17, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53788,7 +53788,7 @@ GameObject:
   m_Name: leaf_cycle_02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 167772160
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &9218867993889124421
@@ -58615,7 +58615,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b61c1986f1cf640218ee520acd7801d9, type: 2}
+  - {fileID: 2100000, guid: 6cf89905ee47649cea2fd90d5717468a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63427,7 +63427,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9e7b31d048ab4f8c95765e1d4feb259, type: 2}
+  - {fileID: 2100000, guid: 6041006996b7e498782150d1c9f7dc61, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63493,7 +63493,7 @@ GameObject:
   m_Name: leaf_cycle_02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1836008306
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &928797538122159507
@@ -68347,7 +68347,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c9da9b013af794ca9807252bac1b306c, type: 2}
+  - {fileID: 2100000, guid: b61c1986f1cf640218ee520acd7801d9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

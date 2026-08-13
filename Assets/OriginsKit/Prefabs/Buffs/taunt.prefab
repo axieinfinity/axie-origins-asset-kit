@@ -14,7 +14,7 @@ GameObject:
   m_Name: taunt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 65536
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4050270398689413513
@@ -4878,7 +4878,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c412efc0c6e9545ad869e08f33ed9fec, type: 2}
+  - {fileID: 2100000, guid: a297221615adb452b8ceaf39260f9856, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9764,7 +9764,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5c6eac59f033546869ac604b37a015be, type: 2}
+  - {fileID: 2100000, guid: f1d687f3e8ae04b5cbaa0b96f30564b0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14634,7 +14634,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4597421f8cf6442fc8b50495dd0087c5, type: 2}
+  - {fileID: 2100000, guid: ba22d57a8811b41aab1ccc1bb13c15d0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14700,7 +14700,7 @@ GameObject:
   m_Name: lock_02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 3
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8362247617503121020
@@ -19504,7 +19504,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 8922fa996e39f459ebd770c723ad24ee, type: 2}
+  - {fileID: 2100000, guid: c6b47410f23814beeb7875c0bb11eef5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24383,7 +24383,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ea032a3930f1e45cf8d0efc73a62e1b8, type: 2}
+  - {fileID: 2100000, guid: 6f9e5bf0e8ea747bcb2b2973523558d7, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29262,7 +29262,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6a5fe37e39b6d4d1e85e9d2389dea816, type: 2}
+  - {fileID: 2100000, guid: a3d6ba73dd8084c94abc7aae70cb2e02, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34075,7 +34075,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1e2f8d33e8fbd43958d3e31b1a618a3d, type: 2}
+  - {fileID: 2100000, guid: 3643caf5ae63b49b6a1ac31e6b05454d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -38887,7 +38887,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 80ca35dbbb90a443282a1294586bf1fe, type: 2}
+  - {fileID: 2100000, guid: dbf04426170124bd381a13619961adbe, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43757,7 +43757,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 86bf6df6b19b14a22a70f46c0e79eb35, type: 2}
+  - {fileID: 2100000, guid: 3abc38c8a9e86465abb06fa8fc7f5cd2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

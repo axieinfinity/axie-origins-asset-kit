@@ -15,7 +15,7 @@ GameObject:
   m_Name: Cure_impact_wave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 3960407304
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &2259383191859444593
@@ -4833,7 +4833,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4c8242d8f229f43fea1ee61d5f34b7ab, type: 2}
+  - {fileID: 2100000, guid: b5b0ec942fb164b0a9ab137af8c85a37, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4899,7 +4899,7 @@ GameObject:
   m_Name: Glow_ad (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 67112972
+  m_NavMeshLayer: 1065353969
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4764628399961294952
@@ -9717,7 +9717,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b01f0a3792a2b43de9d7c39b729bb732, type: 2}
+  - {fileID: 2100000, guid: cc32f28b0de284aa7ae8c11aaf82d30c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9783,7 +9783,7 @@ GameObject:
   m_Name: Light_pillar (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1866661888
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1079780632573211720
@@ -14614,7 +14614,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c8dcb54de554f4ecfa4695b60f1e9b73, type: 2}
+  - {fileID: 2100000, guid: 5ea15381a61d04477ac1cc7e5ab241a4, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19484,7 +19484,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 83a33d3b47fd940f68ab16b990538f02, type: 2}
+  - {fileID: 2100000, guid: 1b6fde8cb0fa44402bff4f7b62ad0fd5, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24377,7 +24377,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5af959e7d6d4b498e9a11fefbf8e8bf5, type: 2}
+  - {fileID: 2100000, guid: f579325272ed24fa68fc6433595bdee6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24443,7 +24443,7 @@ GameObject:
   m_Name: Glow_ab_onplane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 878851897
+  m_NavMeshLayer: 2685337796
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8925189683772259091
@@ -29274,7 +29274,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 667dbbf9e82b244a19115d56f971fc37, type: 2}
+  - {fileID: 2100000, guid: b99975358a0034584842d526ba58de2e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29340,7 +29340,7 @@ GameObject:
   m_Name: Heaven_Light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 33722626
+  m_NavMeshLayer: 4390912
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6754262424549368637
@@ -34091,7 +34091,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a57e79adb5453494a90f86237b4bb7e8, type: 2}
+  - {fileID: 2100000, guid: 916d789f0d2034e6dbc93af0a5af08c1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34155,7 +34155,7 @@ GameObject:
   m_Name: Impact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 151081999
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &8760502077799172839
@@ -39088,7 +39088,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: a3f6ed2cbeea740d6bad963f26caec49, type: 2}
+  - {fileID: 2100000, guid: 771e19ee649ad4564b28980f749555a2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39154,7 +39154,7 @@ GameObject:
   m_Name: Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 4472704
+  m_NavMeshLayer: 65536
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &8486982005849938306
@@ -43972,7 +43972,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6fac9ebdac61c468a9abbdb28a479475, type: 2}
+  - {fileID: 2100000, guid: 1d0bb43cee7644688ad1df66c1216e6b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48784,7 +48784,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: bf544309b04de4a32a6be6854daaffc0, type: 2}
+  - {fileID: 2100000, guid: 0c732b4463f9c42d79d1b8250b632223, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

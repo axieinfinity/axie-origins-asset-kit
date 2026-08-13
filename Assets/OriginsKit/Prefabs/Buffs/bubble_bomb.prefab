@@ -15,7 +15,7 @@ GameObject:
   m_Name: Damage_over (4)(Clone) (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1864963328
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &119311232275273437
@@ -4837,7 +4837,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e9dd56ea1567040ff81b43273a14d289, type: 2}
+  - {fileID: 2100000, guid: 8946a21c0a8f9420ab61e526082b4468, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4903,7 +4903,7 @@ GameObject:
   m_Name: Hit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 4294967295
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6720075757690778273
@@ -9665,7 +9665,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4e13be2a99a1b486d845d23836239e3b, type: 2}
+  - {fileID: 2100000, guid: e4ee6323edaf649e6a01f32b381f1652, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9730,7 +9730,7 @@ GameObject:
   m_Name: bubble_bomb
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1634563176
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &1732647639291490066
@@ -9790,7 +9790,7 @@ GameObject:
   m_Name: Bubble_Big
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 34541312
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &1068939705608400237
@@ -14630,7 +14630,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 1ba50a5e46ae343c0be647dacd1c8126, type: 2}
+  - {fileID: 2100000, guid: c48b6a8ca2e9b43268023fcc1965e02f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19518,7 +19518,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4fc57f5834bbf4b3dad089d753f72a73, type: 2}
+  - {fileID: 2100000, guid: 8d34887be509543b4a47a55714a9e901, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19584,7 +19584,7 @@ GameObject:
   m_Name: Glow_ad (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 7353
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5401677959453654007
@@ -24388,7 +24388,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc8b52c68bd8845369f26aa4d506e422, type: 2}
+  - {fileID: 2100000, guid: 017b1e446fc4c432fb9839c16be684d1, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24454,7 +24454,7 @@ GameObject:
   m_Name: Bubble_Explo
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 3436000513
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2158651790402112709
@@ -29258,7 +29258,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 288a7ac656c964930abda718de5699c3, type: 2}
+  - {fileID: 2100000, guid: f172daaa5297041a3b791301256ce0f9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29324,7 +29324,7 @@ GameObject:
   m_Name: Bubble_3@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 225576712
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &8480883731379450958
@@ -34128,7 +34128,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3e95aa88a41e64da8ac03639590e7d82, type: 2}
+  - {fileID: 2100000, guid: 97564cedf61a7469cb33e7560390d0ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34194,7 +34194,7 @@ GameObject:
   m_Name: Core
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 15669
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6431756963154264561
@@ -38998,7 +38998,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: d455e2f420ac64185b259d737073e1c7, type: 2}
+  - {fileID: 2100000, guid: 3448588d68fa146cd8189f2ecdfc732f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39064,7 +39064,7 @@ GameObject:
   m_Name: Shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 134320136
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2742878677099296842
@@ -43868,7 +43868,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b78d20c0217c44d59bbf4b21a353806, type: 2}
+  - {fileID: 2100000, guid: 3bc9fb756ae0140e0aba5e77abbae60f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43934,7 +43934,7 @@ GameObject:
   m_Name: Glow_ab (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 2856128085
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &886607797051459415
@@ -48756,7 +48756,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 18111657a0dd643a791c452253764de5, type: 2}
+  - {fileID: 2100000, guid: 144b43878d9e5423bb997e132a2974ca, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48822,7 +48822,7 @@ GameObject:
   m_Name: Glow_ad (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 69927352
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4736201937127222991
@@ -53635,7 +53635,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f0847315696f3465fa6532e47dd3bb3e, type: 2}
+  - {fileID: 2100000, guid: 796120ef566e24c4984357ad6f1d9f4d, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58505,7 +58505,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: ed4253fae416c4ce9930ad72674cb267, type: 2}
+  - {fileID: 2100000, guid: cb83bd0a5a67a4234a094673cb6b0107, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58571,7 +58571,7 @@ GameObject:
   m_Name: Glow_ad (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 2563619999
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &5422610980596163408
@@ -63375,7 +63375,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c5505581587e64f26a3b4c09e92483ae, type: 2}
+  - {fileID: 2100000, guid: 59d085fbd2dcb4bffbb89d195ea4a8b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63441,7 +63441,7 @@ GameObject:
   m_Name: Glow_ad (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1094604138
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3983047655436534778
@@ -68245,7 +68245,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: dfe16786cce334b78ad7cb03e5767bca, type: 2}
+  - {fileID: 2100000, guid: b0b54bd4f4b4f40a1b1a8dbc0502387f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73147,7 +73147,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 84226abcc579449fbbf2110574388626, type: 2}
+  - {fileID: 2100000, guid: f40719fbb37b749ae93f62b93cad6061, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -73213,7 +73213,7 @@ GameObject:
   m_Name: Glow_Explosion
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 33556484
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &2783339699732775860
@@ -78017,7 +78017,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 796120ef566e24c4984357ad6f1d9f4d, type: 2}
+  - {fileID: 2100000, guid: 16bf18862cb084fbf9958a92d690d857, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -78083,7 +78083,7 @@ GameObject:
   m_Name: bubble
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 264766208
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &198067501563032732
@@ -82829,7 +82829,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3bdbf14a85b974874b7566a8930a5aa4, type: 2}
+  - {fileID: 2100000, guid: c009f04d500d4433fb3ef0b80810bd13, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

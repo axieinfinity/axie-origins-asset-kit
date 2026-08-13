@@ -4842,7 +4842,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 0319a65c3a1c9409599ec26bc1ee6190, type: 2}
+  - {fileID: 2100000, guid: e38b46716d45349a6a36d1dac7aab99f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4908,7 +4908,7 @@ GameObject:
   m_Name: impact_break_glow_ab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 2215575554
+  m_NavMeshLayer: 1647796578
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &7415463603689685624
@@ -9726,7 +9726,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5e90c3bb56c9743f28ac5ae661563c41, type: 2}
+  - {fileID: 2100000, guid: f83326ca2ba2642d990aa2280c339b06, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9792,7 +9792,7 @@ GameObject:
   m_Name: Shield@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1111563568
+  m_NavMeshLayer: 1835102817
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &2502932686652611250
@@ -14601,7 +14601,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 758373b0b3dc5411294f3a6797d0fec7, type: 2}
+  - {fileID: 2100000, guid: 671949513dff349a5b8efa9234d6bf36, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14667,7 +14667,7 @@ GameObject:
   m_Name: Impact_shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 4294912589
+  m_NavMeshLayer: 8060928
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &4024131244136522507
@@ -19494,7 +19494,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 27195b17935a549ab8f998d9574686aa, type: 2}
+  - {fileID: 2100000, guid: 08b794ee8ce9d457d93b33b01b3c84e0, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24387,7 +24387,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 52b07d32823314023a92844962ea4808, type: 2}
+  - {fileID: 2100000, guid: 1de053ed6141a46c1a4ecf97f9c5a2e2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29280,7 +29280,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e4da290de241744c8aea7c010e61a335, type: 2}
+  - {fileID: 2100000, guid: bd30e0b737142410d8b62d9f1c2533df, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29413,7 +29413,7 @@ GameObject:
   m_Name: Flash@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1410270464
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &6761492135071110195
@@ -34222,7 +34222,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f494e18753cb64f4c809c90a45b25837, type: 2}
+  - {fileID: 2100000, guid: fc850808435cb4a45a5afebee03e0e9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39115,7 +39115,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f67e7938128ad4ca79f7fcfb62e3246d, type: 2}
+  - {fileID: 2100000, guid: 9ee200758f939447bbd5e32e3a060284, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39181,7 +39181,7 @@ GameObject:
   m_Name: Glass_explo@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 3086342571
+  m_NavMeshLayer: 8781824
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!224 &916891080859500921
@@ -43990,7 +43990,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: db9daa7410fb149eea8ac6922ad72f76, type: 2}
+  - {fileID: 2100000, guid: 168011740bffa49b0bd818cd03d70dff, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

@@ -27,7 +27,7 @@ Axie **bodies** are not included. Mix them with the official 2D mixer, then play
 ## Requirements
 
 - Unity **2021.3 LTS** (kit built with 2021.3.45f2). Personal is fine.
-- Built-in render pipeline (particles use `Legacy Shaders/Particles/Additive` and `Alpha Blended`).
+- **URP 12.1.15** (same as Origins). Particle materials use first-party `Sd_Origin2_ADD` / `Sd_Origin2_ADP` Shader Graphs, not Built-in Additive.
 - Optional: Spine 3.8 runtime if you play summoner / battle-UI skeletons.
 - Optional: `@axieinfinity/mixer` or `unity-axie-gtk2d` for Axie bodies.
 

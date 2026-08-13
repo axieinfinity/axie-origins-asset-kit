@@ -4819,7 +4819,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 92aa0390b03694c15b71b77403211717, type: 2}
+  - {fileID: 2100000, guid: 020b8087049434c09ae01ad8eae853c9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4885,7 +4885,7 @@ GameObject:
   m_Name: Burst_Smoke (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1900544
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3242251213443830657
@@ -9689,7 +9689,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7e3a3b444934149b1b659f9e9747fc95, type: 2}
+  - {fileID: 2100000, guid: bdf61edf83eaa4f2fa55c4108daccd9a, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9755,7 +9755,7 @@ GameObject:
   m_Name: Hit
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1065353216
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!4 &1104470666021222758
@@ -14569,7 +14569,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: e92a5934fddf94be1946265bb5650a08, type: 2}
+  - {fileID: 2100000, guid: b75b4882d937c48958d9d1ed54470423, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14635,7 +14635,7 @@ GameObject:
   m_Name: Damage_over (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1065353216
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7319511666934129465
@@ -19457,7 +19457,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 97dbe7e647d3f463ba212aa1fce94a9d, type: 2}
+  - {fileID: 2100000, guid: 053396add00e442d9a8c38f99a5e90ed, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19523,7 +19523,7 @@ GameObject:
   m_Name: Slash2@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1148347763
+  m_NavMeshLayer: 4294967295
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!4 &7826431350610168397
@@ -24327,7 +24327,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 7b67e0b502ad344d189ffed4ccdb2b21, type: 2}
+  - {fileID: 2100000, guid: 7c47d17c3c68946558d8a598a13d75fc, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24393,7 +24393,7 @@ GameObject:
   m_Name: Impact
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 2097152
+  m_NavMeshLayer: 1
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4624493967955650889
@@ -29206,7 +29206,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 10605558c3b9f486b893ec3d1e0d82c6, type: 2}
+  - {fileID: 2100000, guid: c361b5436dee44691adbedcd2c3f2768, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29329,7 +29329,7 @@ GameObject:
   m_Name: GroundAlpha
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 65536
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &3196532624736909577
@@ -34133,7 +34133,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3bac6ab77ef2c47edac5c13ae316c061, type: 2}
+  - {fileID: 2100000, guid: 949ac316d49314767bd2242b4d0c1a59, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34199,7 +34199,7 @@ GameObject:
   m_Name: Slash1@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 2885813756
+  m_NavMeshLayer: 1635412334
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!4 &3079442218390821126
@@ -39003,7 +39003,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 61751259a852d4011a5bbb50b5f2e366, type: 2}
+  - {fileID: 2100000, guid: c258045b10c17475696ce667a5ef0a64, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39069,7 +39069,7 @@ GameObject:
   m_Name: Slash3@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1936485473
   m_StaticEditorFlags: 0
   m_IsActive: 0
 --- !u!4 &345855506302869329
@@ -43873,7 +43873,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 206a9ddc97af44d27a3ec0b3795007bc, type: 2}
+  - {fileID: 2100000, guid: 105c35cdfaafb454d861596c3c3a5893, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43939,7 +43939,7 @@ GameObject:
   m_Name: Burst_Smoke (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1937050171
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4873109579849029503
@@ -48743,7 +48743,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 434144361bbae41d4af6fdc47c90c4ac, type: 2}
+  - {fileID: 2100000, guid: cbee17f7102a84e0983cdcd19ff9c287, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -48809,7 +48809,7 @@ GameObject:
   m_Name: Coreglow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1970234400
+  m_NavMeshLayer: 65536
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &9018695580725685294
@@ -53613,7 +53613,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 77edaaa2fba6942c19731b71b99b3b6f, type: 2}
+  - {fileID: 2100000, guid: e7959e4cc90bd4c25bb5fc55037e5f20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -53711,7 +53711,7 @@ GameObject:
   m_Name: CoreGlow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1148347763
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &6106827996701744613
@@ -58515,7 +58515,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 00cc6888032f744e4ba75aaf4175ea95, type: 2}
+  - {fileID: 2100000, guid: 6977cf41151c1488cbb9b87a73a8ab20, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -58581,7 +58581,7 @@ GameObject:
   m_Name: Burst_Smoke (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1275199490
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &4838690692387007181
@@ -63385,7 +63385,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 257
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: b2e5d677c57aa47188e67b1ef54d68c7, type: 2}
+  - {fileID: 2100000, guid: 7cd022aae6f424a77a019259f72decf2, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -63451,7 +63451,7 @@ GameObject:
   m_Name: Sparks
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 2621440
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!4 &7784173849145712569
@@ -68285,7 +68285,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 020b8087049434c09ae01ad8eae853c9, type: 2}
+  - {fileID: 2100000, guid: 94c2b4e11657b44cf835a606d70dd95c, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

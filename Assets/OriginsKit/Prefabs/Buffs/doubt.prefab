@@ -4824,7 +4824,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3edcb24f42c124067a797c887b737b94, type: 2}
+  - {fileID: 2100000, guid: 1789c3688566a4180bce4652a726b97b, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9700,7 +9700,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4d9db0b2c83c4479db13b655c346055e, type: 2}
+  - {fileID: 2100000, guid: 905c19e20b5634050ac14a0d13f047d6, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -14575,7 +14575,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 184d977c9e6674e3eaaf3c288e8e6ce8, type: 2}
+  - {fileID: 2100000, guid: 55aceea4b4f1f434b939980c6584ad2f, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19515,7 +19515,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fc6017514b75640ba9e550a14c692411, type: 2}
+  - {fileID: 2100000, guid: 2485aeef1a91d44999edf77b58111fba, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24399,7 +24399,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 3899c97905a9e4a00a90f57323fe85f8, type: 2}
+  - {fileID: 2100000, guid: 7afae90d5934e47939ad812339d5d460, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29274,7 +29274,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 74b4717b157e140daacc2ab5b9f9044c, type: 2}
+  - {fileID: 2100000, guid: e452307272f354a83825b9b17d1157bd, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34149,7 +34149,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 4cfde2a52fa1a492f91bd2dbd2acc9b3, type: 2}
+  - {fileID: 2100000, guid: 695c307ca4acf491e82301e50295c562, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -34215,7 +34215,7 @@ GameObject:
   m_Name: chamhoi
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 1332048745
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &5557796571629979618
@@ -39177,7 +39177,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 69e639d54ea3a4e019fbb4648ed0d775, type: 2}
+  - {fileID: 2100000, guid: 0ba0769359c63498bbb2a5a859369cce, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0

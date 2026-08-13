@@ -1,0 +1,226 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 8
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_Name: star_gradientmap 2_1
+  m_Shader: {fileID: -6465566751694194690, guid: 765e2d799b6b1704b86b90961e39bd1f, type: 3}
+  m_ValidKeywords: []
+  m_InvalidKeywords:
+  - _SURFACE_TYPE_TRANSPARENT
+  m_LightmapFlags: 4
+  m_EnableInstancingVariants: 1
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: 3000
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _DissolveTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskDTex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MaskUV:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _TextureSample0:
+        m_Texture: {fileID: 2800000, guid: d90a3e79feb4e4ea98735e3a23b1025f, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_Lightmaps:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_LightmapsInd:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - unity_ShadowMasks:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Ints: []
+    m_Floats:
+    - Boolean_a28e676c473641bf96a0d546aec70991: 0
+    - Boolean_e2ce8361cbec4499a8b5b5123f960a7a: 0
+    - Boolean_f40033dc86e94bb491e74fc31b9480a1: 0
+    - Gradient_Alpha_Flip_: 0
+    - Gradient_Alpha_Polar_: 0
+    - Gradient_Alpha_Rotion: 0
+    - Gradient_Alpha_Tilling: 0
+    - Gradient_Alpha__Follow_Offset_Main__: 0
+    - Gradient_Flip_: 0
+    - Gradient_Follow_Offset_Main__: 0
+    - Gradient_Polar_: 0
+    - Gradient_Rotion: 0
+    - Gradient_Row: 0
+    - Line: 0
+    - MaskDOpacity: 1
+    - NoiseOpacity: 1
+    - Power_Value_Gradient: 1
+    - Power_Value_Gradient_Alpha: 1
+    - Use_Fix_Value__: 0
+    - Use_Gradient_Alpha__: 0
+    - Use_Gradient_XY_: 0
+    - Use_Lerp_Color_: 1
+    - Vector1_00cfe555d3b741f2b77a65a9f5b434a3: 1
+    - Vector1_1: 0
+    - Vector1_135a745e87494bf1a5c15399381a2e6e: 0
+    - Vector1_2: 0
+    - Vector1_3: 0
+    - Vector1_4: 0
+    - Vector1_5: 0
+    - Vector1_6: 0
+    - Vector1_7: 0
+    - Vector1_e8f0fec419f84f60a85ea50adcf1bd41: 2
+    - _1_Centter_Pivot: 0
+    - _1_Clamp_X: 0
+    - _1_Clamp_Y: 0
+    - _1_Dissplament__: 1
+    - _1_Follow_Offset_Main__: 0
+    - _1_Panner: 0
+    - _1_Rotion: 0
+    - _1_Rotion_over_time: 0
+    - _1_SmoothStep: 1
+    - _1_Use_Polar: 0
+    - _2_Center_Pivot: 0
+    - _2_Dissplament__: 0
+    - _2_Follow_Offset_Main__: 0
+    - _2_Panner: 0
+    - _2_Rotion: 0
+    - _2_Rotion_over_time: 0
+    - _2_SmoothStep: 1
+    - _2_Use_Polar_: 0
+    - _3_Follow_Offset_Main__: 0
+    - _3_Panner: 0
+    - _3_Rotion: 0
+    - _3_Rotion_over_time: 0
+    - _3_Use_Polar: 0
+    - _4_Cennter_Pivot: 0
+    - _4_Follow_Offset_Main__: 0
+    - _4_Fraction__: 0
+    - _4_Panner: 0
+    - _4_Rotion: 0
+    - _4_Rotion_over_time: 0
+    - _4_Use_Polar_: 0
+    - _5_Gradient_Alpha_Opacity: 1
+    - _AlphaCutoff: 0.5
+    - _AlphaStrength: 4
+    - _BlackAmount: 1
+    - _BladeStretch: 1
+    - _Blend2: 1
+    - _BumpScale: 1
+    - _CullMode: 0
+    - _Cutoff: 0.5
+    - _DTSize: 30
+    - _Depthpower: 1
+    - _DetailNormalMapScale: 1
+    - _DissloveSmooth: 1
+    - _DissloveVlaue: 0.453
+    - _Dissolve_Value: 0
+    - _DstBlend: 0
+    - _EdgeWidth: 1.134
+    - _EmissFadeout: 1
+    - _EmissStrength: 6.5
+    - _Emission: 7.8
+    - _Float0: 1
+    - _FlowSpeed: 1
+    - _FlowStrength: 0.1
+    - _GlossMapScale: 1
+    - _Glossiness: 0.5
+    - _GlossyReflections: 1
+    - _Hard_Value: 1
+    - _High_Value: 1
+    - _InvFade: 1
+    - _KeepEdge_NonFlowmap: 1
+    - _Metallic: 0
+    - _Mode: 0
+    - _NoiseOpacityLerp: 0
+    - _OcclusionStrength: 1
+    - _Opacity: 1
+    - _Parallax: 0.02
+    - _QueueControl: 1
+    - _QueueOffset: 0
+    - _RGB_or_Alpha: 0
+    - _ReceiveShadows: 1
+    - _RefractionStrength: 0.5
+    - _SharpEdge: -0.03
+    - _SmoothnessTextureChannel: 0
+    - _SpecularHighlights: 1
+    - _SrcBlend: 1
+    - _UVSec: 0
+    - _U_StretchStrength: 10
+    - _Use_Alpha_to_Dissolve: 0
+    - _Use_Custom_1: 0
+    - _Use_High_Color: 0
+    - _Usecenterglow: 0
+    - _Usecustomrandom: 0
+    - _Usedepth: 0
+    - _Usetexturecolor: 1
+    - _Usetexturedissolve: 1
+    - _ZWrite: 1
+    - _Ztest: 2
+    - _dotsoft: 0.5
+    - _int0: 1
+    - _node_5097: 1
+    - _node_690: 0
+    - _node_9399: 0
+    m_Colors:
+    - Color_902aef6cfe83491d91b5e235263a1c50: {r: 1, g: 1, b: 1, a: 1}
+    - Color_A: {r: 0, g: 0, b: 0, a: 1}
+    - Color_B: {r: 1, g: 1, b: 1, a: 1}
+    - Color_back: {r: 0, g: 0, b: 0, a: 0}
+    - Color_face_font: {r: 1, g: 1, b: 1, a: 0}
+    - Dissplament_Value_RGBA: {r: 0, g: 0, b: 0, a: 0}
+    - _1_Tilling_Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _2_Tilling_Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _3_Tilling_Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _4_Tilling_Offset: {r: 1, g: 1, b: 0, a: 0}
+    - _Color: {r: 0.43788758, g: 0.23113209, b: 1, a: 1}
+    - _Color0: {r: 3.482202, g: 3.482202, b: 3.482202, a: 1}
+    - _Color1: {r: 2.270603, g: 2.270603, b: 2.270603, a: 1}
+    - _Dissolvecolor: {r: 0, g: 0, b: 0, a: 1}
+    - _DissolvespeedXY: {r: -0.5, g: 0.1, b: 0, a: 0}
+    - _DistortionSpeedXYPowerZ: {r: 0, g: 0, b: 0, a: 0.84}
+    - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}
+    - _High_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Main_Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Maincolor: {r: 1, g: 1, b: 1, a: 1}
+    - _NoiseSpeedXYPowerZ: {r: 0, g: 0, b: 2.43, a: 0}
+    - _Noisecolor: {r: 1, g: 0.21318129, b: 0, a: 1}
+    - _NoisespeedXYEmissonZPowerW: {r: 0.5, g: 0, b: 5, a: 1}
+    - _RGBA_Value: {r: 1, g: 0, b: 0, a: 0}
+    - _RGBA_Value_: {r: 1, g: 0, b: 0, a: 1}
+    - _SpeedMainTexUVNoiseZW: {r: 0, g: 0, b: 0, a: 0}
+    - _Sub_Color: {r: 0, g: 0, b: 0, a: 1}
+    - _TintColor: {r: 0.5, g: 0.5, b: 0.5, a: 0.5}
+    - _Vector0: {r: 2, g: 2, b: 0.2, a: 0.2}
+    - _node_8180: {r: 0, g: 0, b: 0, a: 0}
+  m_BuildTextureStacks: []
+--- !u!114 &5229844387422391154
+MonoBehaviour:
+  m_ObjectHideFlags: 11
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d0353a89b1f911e48b9e16bdc9f2e058, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  version: 5

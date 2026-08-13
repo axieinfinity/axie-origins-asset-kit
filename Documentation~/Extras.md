@@ -8,7 +8,16 @@ Use them on HP bars / tooltips. Status **gameplay** definitions (stack rules) ar
 
 ## Morph VFX
 
-Textures only (`Textures/Morph/`). Morph skill prefabs live in a separate Addressable (`morph-vfx`) that is OSX-only. For a jam, overlay these textures on a particle or UI image when an axie morphs.
+Prefabs (from `morph-vfx`, same playback as skills):
+
+| Prefab | Use |
+| --- | --- |
+| `Prefabs/Morph/morph_aura_burst` | Burst when a morph starts |
+| `Prefabs/Morph/morph_aura_loop_battle` | Looping aura while morphed |
+| `Prefabs/Morph/morph_card` | Card-side morph sting |
+| `Prefabs/Morph/MetamorphDrawerRT` | Offscreen RT drawer (advanced) |
+
+Textures remain in `Textures/Morph/`. Play burst/loop with `SkillPlayer` / `BuffPlayer` the same way as other effects.
 
 ## Summoners
 
@@ -38,4 +47,6 @@ Origins plays a small UI burst on the card when an attribute procs. Prefabs are 
 - HUD: `SleepAnimator`, `StunAnimator`, `Laser Beam`
 - Shield clips: `Animations/ShieldHud/shield-up-clip`, `shield-down-clip`, `shield-broken-clip`
 
-These prefabs still reference origin-client materials/scripts. If Unity shows a missing script, the ParticleSystem still plays; strip the missing MonoBehaviour or ignore it.
+These prefabs ship with first-party materials/textures. Origins host scripts are stubbed (`GameObjectBattleParticleEffect`, `CardAttributeVFXSource`) so Unity does not show missing-script errors. ParticleSystems still `playOnAwake`.
+
+Five extras originally pointed at Epic Toon FX materials (`LightningStrikeSharpRed`, `card-addition`, `WindlinesStormy`, `SmokeWhiteSoft`, `CardCursedAppear`). Those ETFX materials were **not** copied. `FixExtraPrefabs` remaps any leftover pink material to URP / Origins graphs.

@@ -8,7 +8,7 @@
 4. Add `SkillPlayer`, assign `Animations/beast_gore.anim` if it is not already.
 5. Enter Play Mode. You should see particles and clip events in the Console if you subscribe.
 
-The sample gallery scene (if present) loops six representative effects.
+The project is set up for **URP 12.1.15**. Opening it in Hub restores the Origins Shader Graphs.
 
 ## Existing Unity project
 
@@ -20,12 +20,14 @@ Do **not** install via Package Manager → Git URL. That path is for code packag
 
 ## Render pipeline
 
-Prefabs were remapped off Origins’ URP materials onto:
+This kit **is** URP 12.1.15, matching live Origins.
 
-- `Legacy Shaders/Particles/Additive` (names containing `additive`, `_ad`)
-- `Legacy Shaders/Particles/Alpha Blended` (everything else)
+Skill / buff materials use first-party Shader Graphs:
 
-That is intentional so a **Built-in** 2021.3 project works with Personal. On URP, particles still render with those built-in shaders if they are in Always Included Shaders. For a pixel-perfect URP look you can reassign URP/Particles Unlit and keep the extracted textures.
+- `Sd_Origin2_ADD` — additive (`_ad` / slash / sparks)
+- `Sd_Origin2_ADP` — alpha blend
+
+They live in `Assets/OriginsKit/Shaders/Optimize_Shader/`. Do not switch the project back to Built-in or those graphs will pink.
 
 ## Minimal battle loop
 

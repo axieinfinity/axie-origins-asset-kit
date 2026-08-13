@@ -1,6 +1,6 @@
 {
   "name": "com.skymavis.origins-kit",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "displayName": "Axie Origins Battle Kit",
   "description": "First-party Axie Infinity: Origins battle VFX, mixer animations, status icons, and SFX for Unity 2021.3. Vibeathon builder resource.",
   "unity": "2021.3",

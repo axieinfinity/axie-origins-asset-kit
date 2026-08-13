@@ -4833,7 +4833,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 6f4a17026db434b3693b3377e50d446f, type: 2}
+  - {fileID: 2100000, guid: 4a0d3f33137a64c449858039ce2fdec8, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -4899,7 +4899,7 @@ GameObject:
   m_Name: Shield@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 4
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &6337842751360800897
@@ -9708,7 +9708,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: fa8c4924709914e2bb5d4d37f45b9d4d, type: 2}
+  - {fileID: 2100000, guid: fabd6f3f72c56490e92c315119551118, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -9774,7 +9774,7 @@ GameObject:
   m_Name: Shield_2_2@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 253558800
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4913480880504780924
@@ -14601,7 +14601,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 59ef1b675b35f424aafe38544e3f2ff1, type: 2}
+  - {fileID: 2100000, guid: 8f5e390645afd40f49dbd0333802d8b9, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19494,7 +19494,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 98aa42a8f3ea94cc9bccf567e50cea5c, type: 2}
+  - {fileID: 2100000, guid: 07a98b4c0226b4a75a225ffd084bd041, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -19560,7 +19560,7 @@ GameObject:
   m_Name: Glass_explo@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 36372580
+  m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &8632017351293164649
@@ -24369,7 +24369,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 65dd1abf7ac404bc7a39792f02dad4c6, type: 2}
+  - {fileID: 2100000, guid: 9ed2e758f637b4459895a23581cb4e56, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -24433,7 +24433,7 @@ GameObject:
   m_Name: shield_break-origin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 103096160
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &2638057468079799227
@@ -24480,7 +24480,7 @@ GameObject:
   m_Name: Impact_shockwave
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
+  m_NavMeshLayer: 73996652
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &4879363008108860039
@@ -29307,7 +29307,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 5d1a236c7251844e58af2a6abdf35361, type: 2}
+  - {fileID: 2100000, guid: 9521cdf9876324decaeb3b947545e636, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -29373,7 +29373,7 @@ GameObject:
   m_Name: Flash@scaleX
   m_TagString: Untagged
   m_Icon: {fileID: 0}
-  m_NavMeshLayer: 4294912589
+  m_NavMeshLayer: 32523
   m_StaticEditorFlags: 0
   m_IsActive: 1
 --- !u!224 &9025226232342817592
@@ -34182,7 +34182,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: c2f3a8eed8d5c437cb6a92e0f530c8b2, type: 2}
+  - {fileID: 2100000, guid: 37b2cb9dbbad0474881959d29abd08a3, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -39075,7 +39075,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: 09f4a96052a954adc95de8da92f6e259, type: 2}
+  - {fileID: 2100000, guid: a61af2a38fcb7456da1ccc580261c63e, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -43968,7 +43968,7 @@ ParticleSystemRenderer:
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
-  - {fileID: 2100000, guid: f60e3ea6555034b508acc451eecc0d4d, type: 2}
+  - {fileID: 2100000, guid: abdd5b4bb5c5c41219731228dc634637, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
