@@ -1,0 +1,1932 @@
+{
+  "chimeras": [
+    {
+      "chimeraId": "Treant",
+      "asset": "chimera/treant",
+      "avatar": "chimera-avatar/treant",
+      "scale": 1.0,
+      "Id": "Treant"
+    },
+    {
+      "chimeraId": "Slime",
+      "asset": "chimera/slime",
+      "avatar": "chimera-avatar/slime",
+      "scale": 1.0,
+      "Id": "Slime"
+    },
+    {
+      "chimeraId": "Wolf",
+      "asset": "chimera/gray-wolf",
+      "avatar": "chimera-avatar/gray-wolf",
+      "scale": 1.0,
+      "Id": "Wolf"
+    },
+    {
+      "chimeraId": "AquaticWolf",
+      "asset": "chimera/aqua-wolf",
+      "avatar": "chimera-avatar/aqua-wolf",
+      "scale": 1.0,
+      "Id": "AquaticWolf"
+    },
+    {
+      "chimeraId": "FloweringTreant",
+      "asset": "chimera/flowering-treant",
+      "avatar": "chimera-avatar/flowering-treant",
+      "scale": 1.2,
+      "Id": "FloweringTreant"
+    },
+    {
+      "chimeraId": "TreantFighter",
+      "asset": "chimera/treant-fighter",
+      "avatar": "chimera-avatar/treant-fighter",
+      "scale": 1.1,
+      "hpBarOffset": "@hp-bar: -12, -46",
+      "Id": "TreantFighter"
+    },
+    {
+      "chimeraId": "DryadFighter",
+      "asset": "chimera/dryad-fighter",
+      "avatar": "chimera-avatar/dryad-fighter",
+      "scale": 0.9,
+      "hpBarOffset": "@hp-bar: -30, -40",
+      "passiveIcon": "status/chimera_passive_nature_protection",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_natureprotection",
+      "Id": "DryadFighter"
+    },
+    {
+      "chimeraId": "DryadRanger",
+      "asset": "chimera/dryad-ranger",
+      "avatar": "chimera-avatar/dryad-ranger",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -44",
+      "passiveIcon": "status/chimera_passive_ancient_dryad",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ancientdryad",
+      "Id": "DryadRanger"
+    },
+    {
+      "chimeraId": "DryadMage",
+      "asset": "chimera/dryad-mage",
+      "avatar": "chimera-avatar/dryad-mage",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-back: -30, -130",
+      "passiveIcon": "status/chimera_passive_riddler",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_riddler",
+      "Id": "DryadMage"
+    },
+    {
+      "chimeraId": "ForestSlimeFighter",
+      "asset": "chimera/forest-slime-fighter",
+      "avatar": "chimera-avatar/forest-slime-fighter",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -40",
+      "passiveIcon": "status/chimera_passive_goo_explosion",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_gooexplosion",
+      "Id": "ForestSlimeFighter"
+    },
+    {
+      "chimeraId": "FloweringForestSlime",
+      "asset": "chimera/forest-slime-flower",
+      "avatar": "chimera-avatar/forest-slime-flower",
+      "scale": 1.2,
+      "hpBarOffset": "@hp-bar: -12, -36",
+      "passiveIcon": "status/chimera_passive_healing_spore",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_healingspore",
+      "Id": "FloweringForestSlime"
+    },
+    {
+      "chimeraId": "AquaticSlime",
+      "asset": "chimera/aqua-slime-atk",
+      "avatar": "chimera-avatar/aqua-slime-atk",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_slimey_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_slimeyscoundrel",
+      "Id": "AquaticSlime"
+    },
+    {
+      "chimeraId": "OldSlime",
+      "asset": "chimera/aqua-slime-def",
+      "avatar": "chimera-avatar/aqua-slime-def",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_greasy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_greasyscoundrel",
+      "Id": "OldSlime"
+    },
+    {
+      "chimeraId": "AquaticFloweringSlime",
+      "asset": "chimera/aqua-slime-sup",
+      "avatar": "chimera-avatar/aqua-slime-sup",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_sloppy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_sloppyscoundrel",
+      "Id": "AquaticFloweringSlime"
+    },
+    {
+      "chimeraId": "AlphaWolf",
+      "asset": "chimera/alpha-wolf",
+      "avatar": "chimera-avatar/alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -50, -40",
+      "passiveIcon": "status/chimera_passive_ravenous_predator",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ravenouspredator",
+      "Id": "AlphaWolf"
+    },
+    {
+      "chimeraId": "ElderAquaticWolf",
+      "asset": "chimera/aqua-alpha-wolf",
+      "avatar": "chimera-avatar/aqua-alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-main: -40, 64",
+      "passiveIcon": "status/chimera_passive_master_of_the_pond",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_masterofthepond",
+      "Id": "ElderAquaticWolf"
+    },
+    {
+      "chimeraId": "Werewolf",
+      "asset": "chimera/werewolf",
+      "avatar": "chimera-avatar/werewolf",
+      "scale": 0.9,
+      "hpBarOffset": "@hp-bar: -26, -64",
+      "passiveIcon": "status/chimera_passive_unstable_experiment",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_unstableexperiment",
+      "Id": "Werewolf"
+    },
+    {
+      "chimeraId": "MothershipSlime",
+      "asset": "chimera/aqua-slime-boss",
+      "avatar": "chimera-avatar/aqua-slime-boss",
+      "scale": 1.4,
+      "hpBarOffset": "eyes: 0, -10",
+      "passiveIcon": "status/chimera_passive_alien_intervention",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_alienintervention",
+      "Id": "MothershipSlime"
+    },
+    {
+      "chimeraId": "MamaBear",
+      "asset": "chimera/mommy-bear",
+      "avatar": "chimera-avatar/mommy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -20, -50",
+      "passiveIcon": "status/chimera_passive_bear_calm",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_themother",
+      "Id": "MamaBear"
+    },
+    {
+      "chimeraId": "PapaBear",
+      "asset": "chimera/daddy-bear",
+      "avatar": "chimera-avatar/daddy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-center: 0, 100",
+      "passiveIcon": "status/chimera_passive_bear_angry",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_thefather",
+      "Id": "PapaBear"
+    },
+    {
+      "chimeraId": "Treant_lv_1",
+      "asset": "chimera/treant",
+      "avatar": "chimera-avatar/treant",
+      "scale": 1.0,
+      "Id": "Treant_lv_1"
+    },
+    {
+      "chimeraId": "Wolf_lv_1",
+      "asset": "chimera/gray-wolf",
+      "avatar": "chimera-avatar/gray-wolf",
+      "scale": 1.0,
+      "Id": "Wolf_lv_1"
+    },
+    {
+      "chimeraId": "Aquatic_Wolf_lv_1",
+      "asset": "chimera/aqua-wolf",
+      "avatar": "chimera-avatar/aqua-wolf",
+      "scale": 1.0,
+      "Id": "Aquatic_Wolf_lv_1"
+    },
+    {
+      "chimeraId": "ElderAquaticWolf_lv_1",
+      "asset": "chimera/aqua-alpha-wolf",
+      "avatar": "chimera-avatar/aqua-alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-main: -40, 64",
+      "passiveIcon": "status/chimera_passive_master_of_the_pond",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_masterofthepond_2",
+      "Id": "ElderAquaticWolf_lv_1"
+    },
+    {
+      "chimeraId": "DryadFighter_lv_1",
+      "asset": "chimera/dryad-fighter",
+      "avatar": "chimera-avatar/dryad-fighter",
+      "scale": 0.9,
+      "hpBarOffset": "@hp-bar: -30, -40",
+      "passiveIcon": "status/chimera_passive_nature_protection",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_natureprotection_800",
+      "Id": "DryadFighter_lv_1"
+    },
+    {
+      "chimeraId": "ForestSlimeFighter_lv_1",
+      "asset": "chimera/forest-slime-fighter",
+      "avatar": "chimera-avatar/forest-slime-fighter",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -40",
+      "passiveIcon": "status/chimera_passive_goo_explosion",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_gooexplosion",
+      "Id": "ForestSlimeFighter_lv_1"
+    },
+    {
+      "chimeraId": "FloweringForestSlime_lv_1",
+      "asset": "chimera/forest-slime-flower",
+      "avatar": "chimera-avatar/forest-slime-flower",
+      "scale": 1.2,
+      "hpBarOffset": "@hp-bar: -12, -36",
+      "passiveIcon": "status/chimera_passive_healing_spore",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_healingspore",
+      "Id": "FloweringForestSlime_lv_1"
+    },
+    {
+      "chimeraId": "AquaticSlime_lv_1",
+      "asset": "chimera/aqua-slime-atk",
+      "avatar": "chimera-avatar/aqua-slime-atk",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_slimey_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_slimeyscoundrel",
+      "Id": "AquaticSlime_lv_1"
+    },
+    {
+      "chimeraId": "OldSlime_lv_1",
+      "asset": "chimera/aqua-slime-def",
+      "avatar": "chimera-avatar/aqua-slime-def",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_greasy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_greasyscoundrel",
+      "Id": "OldSlime_lv_1"
+    },
+    {
+      "chimeraId": "AquaticFloweringSlime_lv_1",
+      "asset": "chimera/aqua-slime-sup",
+      "avatar": "chimera-avatar/aqua-slime-sup",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_sloppy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_sloppyscoundrel",
+      "Id": "AquaticFloweringSlime_lv_1"
+    },
+    {
+      "chimeraId": "MamaBear_lv_1",
+      "asset": "chimera/mommy-bear",
+      "avatar": "chimera-avatar/mommy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -20, -50",
+      "passiveIcon": "status/chimera_passive_bear_calm",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_themother",
+      "Id": "MamaBear_lv_1"
+    },
+    {
+      "chimeraId": "PapaBear_lv_1",
+      "asset": "chimera/daddy-bear",
+      "avatar": "chimera-avatar/daddy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-center: 0, 100",
+      "passiveIcon": "status/chimera_passive_bear_angry",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_thefather",
+      "Id": "PapaBear_lv_1"
+    },
+    {
+      "chimeraId": "Treant_lv_2",
+      "asset": "chimera/treant",
+      "avatar": "chimera-avatar/treant",
+      "scale": 1.0,
+      "Id": "Treant_lv_2"
+    },
+    {
+      "chimeraId": "Wolf_lv_2",
+      "asset": "chimera/gray-wolf",
+      "avatar": "chimera-avatar/gray-wolf",
+      "scale": 1.0,
+      "Id": "Wolf_lv_2"
+    },
+    {
+      "chimeraId": "Slime_lv_2",
+      "asset": "chimera/slime",
+      "avatar": "chimera-avatar/slime",
+      "scale": 1.0,
+      "Id": "Slime_lv_2"
+    },
+    {
+      "chimeraId": "Aquatic_Wolf_lv_2",
+      "asset": "chimera/aqua-wolf",
+      "avatar": "chimera-avatar/aqua-wolf",
+      "scale": 1.0,
+      "Id": "Aquatic_Wolf_lv_2"
+    },
+    {
+      "chimeraId": "TreantFighter_lv_2",
+      "asset": "chimera/treant-fighter",
+      "avatar": "chimera-avatar/treant-fighter",
+      "scale": 1.1,
+      "hpBarOffset": "@hp-bar: -12, -46",
+      "Id": "TreantFighter_lv_2"
+    },
+    {
+      "chimeraId": "FloweringTreant_lv_2",
+      "asset": "chimera/flowering-treant",
+      "avatar": "chimera-avatar/flowering-treant",
+      "scale": 1.2,
+      "Id": "FloweringTreant_lv_2"
+    },
+    {
+      "chimeraId": "FloweringForestSlime_lv_2",
+      "asset": "chimera/forest-slime-flower",
+      "avatar": "chimera-avatar/forest-slime-flower",
+      "scale": 1.2,
+      "hpBarOffset": "@hp-bar: -12, -36",
+      "passiveIcon": "status/chimera_passive_healing_spore",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_healingspore",
+      "Id": "FloweringForestSlime_lv_2"
+    },
+    {
+      "chimeraId": "ForestSlimeFighter_lv_2",
+      "asset": "chimera/forest-slime-fighter",
+      "avatar": "chimera-avatar/forest-slime-fighter",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -40",
+      "passiveIcon": "status/chimera_passive_goo_explosion",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_gooexplosion",
+      "Id": "ForestSlimeFighter_lv_2"
+    },
+    {
+      "chimeraId": "DryadRanger_lv_2",
+      "asset": "chimera/dryad-ranger",
+      "avatar": "chimera-avatar/dryad-ranger",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -44",
+      "passiveIcon": "status/chimera_passive_ancient_dryad",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ancientdryad",
+      "Id": "DryadRanger_lv_2"
+    },
+    {
+      "chimeraId": "DryadMage_lv_2",
+      "asset": "chimera/dryad-mage",
+      "avatar": "chimera-avatar/dryad-mage",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-back: -30, -130",
+      "passiveIcon": "status/chimera_passive_riddler",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_riddler",
+      "Id": "DryadMage_lv_2"
+    },
+    {
+      "chimeraId": "DryadFighter_lv_2",
+      "asset": "chimera/dryad-fighter",
+      "avatar": "chimera-avatar/dryad-fighter",
+      "scale": 0.9,
+      "hpBarOffset": "@hp-bar: -30, -40",
+      "passiveIcon": "status/chimera_passive_nature_protection",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_natureprotection",
+      "Id": "DryadFighter_lv_2"
+    },
+    {
+      "chimeraId": "AquaticSlime_lv_2",
+      "asset": "chimera/aqua-slime-atk",
+      "avatar": "chimera-avatar/aqua-slime-atk",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_slimey_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_slimeyscoundrel",
+      "Id": "AquaticSlime_lv_2"
+    },
+    {
+      "chimeraId": "OldSlime_lv_2",
+      "asset": "chimera/aqua-slime-def",
+      "avatar": "chimera-avatar/aqua-slime-def",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_greasy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_greasyscoundrel",
+      "Id": "OldSlime_lv_2"
+    },
+    {
+      "chimeraId": "AquaticFloweringSlime_lv_2",
+      "asset": "chimera/aqua-slime-sup",
+      "avatar": "chimera-avatar/aqua-slime-sup",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_sloppy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_sloppyscoundrel",
+      "Id": "AquaticFloweringSlime_lv_2"
+    },
+    {
+      "chimeraId": "AlphaWolf_lv_2",
+      "asset": "chimera/alpha-wolf",
+      "avatar": "chimera-avatar/alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -50, -40",
+      "passiveIcon": "status/chimera_passive_ravenous_predator",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ravenouspredator",
+      "Id": "AlphaWolf_lv_2"
+    },
+    {
+      "chimeraId": "ElderAquaticWolf_lv_2",
+      "asset": "chimera/aqua-alpha-wolf",
+      "avatar": "chimera-avatar/aqua-alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-main: -40, 64",
+      "passiveIcon": "status/chimera_passive_master_of_the_pond",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_masterofthepond",
+      "Id": "ElderAquaticWolf_lv_2"
+    },
+    {
+      "chimeraId": "MamaBear_lv_2",
+      "asset": "chimera/mommy-bear",
+      "avatar": "chimera-avatar/mommy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -20, -50",
+      "passiveIcon": "status/chimera_passive_bear_calm",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_themother",
+      "Id": "MamaBear_lv_2"
+    },
+    {
+      "chimeraId": "PapaBear_lv_2",
+      "asset": "chimera/daddy-bear",
+      "avatar": "chimera-avatar/daddy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-center: 0, 100",
+      "passiveIcon": "status/chimera_passive_bear_angry",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_thefather",
+      "Id": "PapaBear_lv_2"
+    },
+    {
+      "chimeraId": "MothershipSlime_lv_2",
+      "asset": "chimera/aqua-slime-boss",
+      "avatar": "chimera-avatar/aqua-slime-boss",
+      "scale": 1.4,
+      "hpBarOffset": "eyes: 0, -10",
+      "Id": "MothershipSlime_lv_2"
+    },
+    {
+      "chimeraId": "Treant_lv_3",
+      "asset": "chimera/treant",
+      "avatar": "chimera-avatar/treant",
+      "scale": 1.0,
+      "Id": "Treant_lv_3"
+    },
+    {
+      "chimeraId": "Slime_lv_3",
+      "asset": "chimera/slime",
+      "avatar": "chimera-avatar/slime",
+      "scale": 1.0,
+      "Id": "Slime_lv_3"
+    },
+    {
+      "chimeraId": "Wolf_lv_3",
+      "asset": "chimera/gray-wolf",
+      "avatar": "chimera-avatar/gray-wolf",
+      "scale": 1.0,
+      "Id": "Wolf_lv_3"
+    },
+    {
+      "chimeraId": "AquaticWolf_lv_3",
+      "asset": "chimera/aqua-wolf",
+      "avatar": "chimera-avatar/aqua-wolf",
+      "scale": 1.0,
+      "Id": "AquaticWolf_lv_3"
+    },
+    {
+      "chimeraId": "FloweringTreant_lv_3",
+      "asset": "chimera/flowering-treant",
+      "avatar": "chimera-avatar/flowering-treant",
+      "scale": 1.2,
+      "Id": "FloweringTreant_lv_3"
+    },
+    {
+      "chimeraId": "TreantFighter_lv_3",
+      "asset": "chimera/treant-fighter",
+      "avatar": "chimera-avatar/treant-fighter",
+      "scale": 1.1,
+      "hpBarOffset": "@hp-bar: -12, -46",
+      "Id": "TreantFighter_lv_3"
+    },
+    {
+      "chimeraId": "DryadFighter_lv_3",
+      "asset": "chimera/dryad-fighter",
+      "avatar": "chimera-avatar/dryad-fighter",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -30, -40",
+      "passiveIcon": "status/chimera_passive_nature_protection",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_natureprotection",
+      "Id": "DryadFighter_lv_3"
+    },
+    {
+      "chimeraId": "DryadRanger_lv_3",
+      "asset": "chimera/dryad-ranger",
+      "avatar": "chimera-avatar/dryad-ranger",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -44",
+      "passiveIcon": "status/chimera_passive_ancient_dryad",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ancientdryad",
+      "Id": "DryadRanger_lv_3"
+    },
+    {
+      "chimeraId": "DryadMage_lv_3",
+      "asset": "chimera/dryad-mage",
+      "avatar": "chimera-avatar/dryad-mage",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-back: -30, -130",
+      "passiveIcon": "status/chimera_passive_riddler",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_riddler",
+      "Id": "DryadMage_lv_3"
+    },
+    {
+      "chimeraId": "ForestSlimeFighter_lv_3",
+      "asset": "chimera/forest-slime-fighter",
+      "avatar": "chimera-avatar/forest-slime-fighter",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -12, -40",
+      "passiveIcon": "status/chimera_passive_goo_explosion",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_gooexplosion",
+      "Id": "ForestSlimeFighter_lv_3"
+    },
+    {
+      "chimeraId": "FloweringForestSlime_lv_3",
+      "asset": "chimera/forest-slime-flower",
+      "avatar": "chimera-avatar/forest-slime-flower",
+      "scale": 1.2,
+      "hpBarOffset": "@hp-bar: -12, -36",
+      "passiveIcon": "status/chimera_passive_healing_spore",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_healingspore",
+      "Id": "FloweringForestSlime_lv_3"
+    },
+    {
+      "chimeraId": "AquaticSlime_lv_3",
+      "asset": "chimera/aqua-slime-atk",
+      "avatar": "chimera-avatar/aqua-slime-atk",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_slimey_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_slimeyscoundrel",
+      "Id": "AquaticSlime_lv_3"
+    },
+    {
+      "chimeraId": "OldSlime_lv_3",
+      "asset": "chimera/aqua-slime-def",
+      "avatar": "chimera-avatar/aqua-slime-def",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_greasy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_greasyscoundrel",
+      "Id": "OldSlime_lv_3"
+    },
+    {
+      "chimeraId": "AquaticFloweringSlime_lv_3",
+      "asset": "chimera/aqua-slime-sup",
+      "avatar": "chimera-avatar/aqua-slime-sup",
+      "scale": 1.2,
+      "passiveIcon": "status/chimera_passive_sloppy_scoundrel",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_sloppyscoundrel",
+      "Id": "AquaticFloweringSlime_lv_3"
+    },
+    {
+      "chimeraId": "AlphaWolf_lv_3",
+      "asset": "chimera/alpha-wolf",
+      "avatar": "chimera-avatar/alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -50, -40",
+      "passiveIcon": "status/chimera_passive_ravenous_predator",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_ravenouspredator",
+      "Id": "AlphaWolf_lv_3"
+    },
+    {
+      "chimeraId": "ElderAquaticWolf_lv_3",
+      "asset": "chimera/aqua-alpha-wolf",
+      "avatar": "chimera-avatar/aqua-alpha-wolf",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-main: -40, 64",
+      "passiveIcon": "status/chimera_passive_master_of_the_pond",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_masterofthepond",
+      "Id": "ElderAquaticWolf_lv_3"
+    },
+    {
+      "chimeraId": "Werewolf_lv_3",
+      "asset": "chimera/werewolf",
+      "avatar": "chimera-avatar/werewolf",
+      "scale": 0.9,
+      "hpBarOffset": "@hp-bar: -26, -64",
+      "passiveIcon": "status/chimera_passive_unstable_experiment",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_unstableexperiment",
+      "Id": "Werewolf_lv_3"
+    },
+    {
+      "chimeraId": "MothershipSlime_lv_3",
+      "asset": "chimera/aqua-slime-boss",
+      "avatar": "chimera-avatar/aqua-slime-boss",
+      "scale": 1.4,
+      "hpBarOffset": "eyes: 0, -10",
+      "passiveIcon": "status/chimera_passive_alien_intervention",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_alienintervention",
+      "Id": "MothershipSlime_lv_3"
+    },
+    {
+      "chimeraId": "MamaBear_lv_3",
+      "asset": "chimera/mommy-bear",
+      "avatar": "chimera-avatar/mommy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@hp-bar: -20, -50",
+      "passiveIcon": "status/chimera_passive_bear_calm",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_themother",
+      "Id": "MamaBear_lv_3"
+    },
+    {
+      "chimeraId": "PapaBear_lv_3",
+      "asset": "chimera/daddy-bear",
+      "avatar": "chimera-avatar/daddy-bear",
+      "scale": 1.0,
+      "hpBarOffset": "@pivot-center: 0, 100",
+      "passiveIcon": "status/chimera_passive_bear_angry",
+      "passiveDesc": "Status/status.whole.pve_chimera_passive_thefather",
+      "Id": "PapaBear_lv_3"
+    },
+    {
+      "chimeraId": "Slime_2_lv_3",
+      "asset": "chimera/slime",
+      "avatar": "chimera-avatar/slime",
+      "scale": 1.0,
+      "Id": "Slime_2_lv_3"
+    },
+    {
+      "chimeraId": "TreantFighter_2_lv_3",
+      "asset": "chimera/treant-fighter",
+      "avatar": "chimera-avatar/treant-fighter",
+      "scale": 1.1,
+      "hpBarOffset": "@hp-bar: -12, -46",
+      "Id": "TreantFighter_2_lv_3"
+    }
+  ],
+  "uniqueAssets": [
+    "chimera/alpha-wolf",
+    "chimera/aqua-alpha-wolf",
+    "chimera/aqua-slime-atk",
+    "chimera/aqua-slime-boss",
+    "chimera/aqua-slime-def",
+    "chimera/aqua-slime-sup",
+    "chimera/aqua-wolf",
+    "chimera/daddy-bear",
+    "chimera/dryad-fighter",
+    "chimera/dryad-mage",
+    "chimera/dryad-ranger",
+    "chimera/flowering-treant",
+    "chimera/forest-slime-fighter",
+    "chimera/forest-slime-flower",
+    "chimera/gray-wolf",
+    "chimera/mommy-bear",
+    "chimera/slime",
+    "chimera/treant",
+    "chimera/treant-fighter",
+    "chimera/werewolf"
+  ],
+  "nodes": [
+    {
+      "id": 1,
+      "nodeId": 1,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 2,
+      "nodeId": 2,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/crossroad",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 3,
+      "nodeId": 3,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/river",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 4,
+      "nodeId": 4,
+      "level": 1,
+      "tags": 1,
+      "background": "battle-bg/deep-forest",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 5,
+      "nodeId": 5,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/temple",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 6,
+      "nodeId": 6,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 7,
+      "nodeId": 7,
+      "level": 1,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 8,
+      "nodeId": 8,
+      "level": 1,
+      "tags": 2,
+      "background": "battle-bg/rocky-mountain-2",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 9,
+      "nodeId": 1,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 10,
+      "nodeId": 2,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/crossroad",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 11,
+      "nodeId": 3,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/river",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 12,
+      "nodeId": 4,
+      "level": 2,
+      "tags": 1,
+      "background": "battle-bg/deep-forest",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 13,
+      "nodeId": 5,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/temple",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 14,
+      "nodeId": 6,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 15,
+      "nodeId": 7,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 16,
+      "nodeId": 8,
+      "level": 2,
+      "tags": 1,
+      "background": "battle-bg/rocky-mountain-2",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 17,
+      "nodeId": 9,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 18,
+      "nodeId": 10,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 19,
+      "nodeId": 11,
+      "level": 2,
+      "tags": null,
+      "background": "battle-bg/river",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 20,
+      "nodeId": 12,
+      "level": 2,
+      "tags": 2,
+      "background": "battle-bg/deep-forest",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 21,
+      "nodeId": 1,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 22,
+      "nodeId": 2,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/crossroad",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 23,
+      "nodeId": 3,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/river",
+      "music": "music/pve_1",
+      "isfinalNode": null
+    },
+    {
+      "id": 24,
+      "nodeId": 4,
+      "level": 3,
+      "tags": 1,
+      "background": "battle-bg/deep-forest",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 25,
+      "nodeId": 5,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/temple",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 26,
+      "nodeId": 6,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 27,
+      "nodeId": 7,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_2",
+      "isfinalNode": null
+    },
+    {
+      "id": 28,
+      "nodeId": 8,
+      "level": 3,
+      "tags": 1,
+      "background": "battle-bg/rocky-mountain-2",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 29,
+      "nodeId": 9,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 30,
+      "nodeId": 10,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/entrance",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 31,
+      "nodeId": 11,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/river",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 32,
+      "nodeId": 12,
+      "level": 3,
+      "tags": 1,
+      "background": "battle-bg/deep-forest",
+      "music": "music/boss",
+      "isfinalNode": null
+    },
+    {
+      "id": 33,
+      "nodeId": 13,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 34,
+      "nodeId": 14,
+      "level": 3,
+      "tags": null,
+      "background": "battle-bg/rocky-mountain-1",
+      "music": "music/pve_3",
+      "isfinalNode": null
+    },
+    {
+      "id": 35,
+      "nodeId": 15,
+      "level": 3,
+      "tags": 2,
+      "background": "battle-bg/rocky-mountain-2",
+      "music": "music/boss",
+      "isfinalNode": null
+    }
+  ],
+  "teams": [
+    {
+      "id": 1,
+      "name": "lv_1_easy_1",
+      "members": "Treant_lv_1,Treant_lv_1",
+      "memberPositions": "0,2",
+      "Id": "1"
+    },
+    {
+      "id": 2,
+      "name": "lv_1_easy_2",
+      "members": "Wolf_lv_1,Wolf_lv_1",
+      "memberPositions": "0,2",
+      "Id": "2"
+    },
+    {
+      "id": 3,
+      "name": "lv_1_easy_3",
+      "members": "Aquatic_Wolf_lv_1,Aquatic_Wolf_lv_1",
+      "memberPositions": "0,2",
+      "Id": "3"
+    },
+    {
+      "id": 4,
+      "name": "lv_1_medium_1",
+      "members": "ForestSlimeFighter_lv_1,FloweringForestSlime_lv_1",
+      "memberPositions": "0,4",
+      "Id": "4"
+    },
+    {
+      "id": 5,
+      "name": "lv_1_medium_2",
+      "members": "ElderAquaticWolf_lv_1",
+      "memberPositions": "2",
+      "Id": "5"
+    },
+    {
+      "id": 6,
+      "name": "lv_1_medium_3",
+      "members": "DryadFighter_lv_1",
+      "memberPositions": "2",
+      "Id": "6"
+    },
+    {
+      "id": 7,
+      "name": "lv_1_elite_1",
+      "members": "OldSlime_lv_1,AquaticFloweringSlime_lv_1,AquaticSlime_lv_1",
+      "memberPositions": "0,2,4",
+      "Id": "7"
+    },
+    {
+      "id": 8,
+      "name": "lv_1_boss_1",
+      "members": "PapaBear_lv_1,MamaBear_lv_1",
+      "memberPositions": "0,4",
+      "Id": "8"
+    },
+    {
+      "id": 9,
+      "name": "lv_2_easy_1",
+      "members": "Treant_lv_2,Treant_lv_2",
+      "memberPositions": "0,2",
+      "Id": "9"
+    },
+    {
+      "id": 10,
+      "name": "lv_2_easy_2",
+      "members": "Wolf_lv_2,Wolf_lv_2",
+      "memberPositions": "0,2",
+      "Id": "10"
+    },
+    {
+      "id": 11,
+      "name": "lv_2_easy_3",
+      "members": "Slime_lv_2,Slime_lv_2,Slime_lv_2,Slime_lv_2",
+      "memberPositions": "0,1,4,5",
+      "Id": "11"
+    },
+    {
+      "id": 12,
+      "name": "lv_2_easy_4",
+      "members": "Aquatic_Wolf_lv_2,Aquatic_Wolf_lv_2",
+      "memberPositions": "0,2",
+      "Id": "12"
+    },
+    {
+      "id": 13,
+      "name": "lv_2_medium_1",
+      "members": "ForestSlimeFighter_lv_2,FloweringForestSlime_lv_2",
+      "memberPositions": "0,4",
+      "Id": "13"
+    },
+    {
+      "id": 14,
+      "name": "lv_2_medium_2",
+      "members": "DryadMage",
+      "memberPositions": "2",
+      "Id": "14"
+    },
+    {
+      "id": 15,
+      "name": "lv_2_medium_3",
+      "members": "DryadRanger_lv_2",
+      "memberPositions": "3",
+      "Id": "15"
+    },
+    {
+      "id": 16,
+      "name": "lv_2_medium_4",
+      "members": "TreantFighter_lv_2,FloweringTreant_lv_2",
+      "memberPositions": "0,2",
+      "Id": "16"
+    },
+    {
+      "id": 17,
+      "name": "lv_2_medium_5",
+      "members": "OldSlime_lv_2,AquaticFloweringSlime_lv_2,AquaticSlime_lv_2",
+      "memberPositions": "0,2,4",
+      "Id": "17"
+    },
+    {
+      "id": 18,
+      "name": "lv_2_medium_6",
+      "members": "DryadFighter_lv_2",
+      "memberPositions": "2",
+      "Id": "18"
+    },
+    {
+      "id": 19,
+      "name": "lv_2_elite_1",
+      "members": "Wolf_lv_2,AlphaWolf_lv_2,Wolf_lv_2",
+      "memberPositions": "0,3,4",
+      "Id": "19"
+    },
+    {
+      "id": 20,
+      "name": "lv_2_elite_2",
+      "members": "Aquatic_Wolf_lv_2,ElderAquaticWolf_lv_2,Aquatic_Wolf_lv_2",
+      "memberPositions": "0,3,4",
+      "Id": "20"
+    },
+    {
+      "id": 21,
+      "name": "lv_2_boss_1",
+      "members": "PapaBear_lv_2,MamaBear_lv_2",
+      "memberPositions": "0,4",
+      "Id": "21"
+    },
+    {
+      "id": 22,
+      "name": "lv_2_boss_2",
+      "members": "MothershipSlime_lv_2",
+      "memberPositions": "3",
+      "Id": "22"
+    },
+    {
+      "id": 23,
+      "name": "lv_3_easy_1",
+      "members": "Treant_lv_3,Treant_lv_3",
+      "memberPositions": "0,2",
+      "Id": "23"
+    },
+    {
+      "id": 24,
+      "name": "lv_3_easy_2",
+      "members": "Wolf_lv_3,Wolf_lv_3",
+      "memberPositions": "0,2",
+      "Id": "24"
+    },
+    {
+      "id": 25,
+      "name": "lv_3_easy_3",
+      "members": "Slime_lv_3,Slime_lv_3,Slime_lv_3,Slime_lv_3",
+      "memberPositions": "0,1,4,5",
+      "Id": "25"
+    },
+    {
+      "id": 26,
+      "name": "lv_3_easy_4",
+      "members": "AquaticWolf_lv_3,AquaticWolf_lv_3",
+      "memberPositions": "0,2",
+      "Id": "26"
+    },
+    {
+      "id": 27,
+      "name": "lv_3_medium_1",
+      "members": "ForestSlimeFighter_lv_3,FloweringForestSlime_lv_3",
+      "memberPositions": "0,4",
+      "Id": "27"
+    },
+    {
+      "id": 28,
+      "name": "lv_3_medium_2",
+      "members": "ElderAquaticWolf_lv_3",
+      "memberPositions": "2",
+      "Id": "28"
+    },
+    {
+      "id": 29,
+      "name": "lv_3_medium_3",
+      "members": "DryadFighter_lv_3",
+      "memberPositions": "2",
+      "Id": "29"
+    },
+    {
+      "id": 30,
+      "name": "lv_3_medium_4",
+      "members": "TreantFighter_lv_3,FloweringTreant_lv_3",
+      "memberPositions": "0,2",
+      "Id": "30"
+    },
+    {
+      "id": 31,
+      "name": "lv_3_medium_5",
+      "members": "DryadMage",
+      "memberPositions": "2",
+      "Id": "31"
+    },
+    {
+      "id": 32,
+      "name": "lv_3_medium_6",
+      "members": "DryadRanger_lv_3",
+      "memberPositions": "3",
+      "Id": "32"
+    },
+    {
+      "id": 33,
+      "name": "lv_3_medium_7",
+      "members": "OldSlime_lv_3,AquaticFloweringSlime_lv_3,AquaticSlime_lv_3",
+      "memberPositions": "0,2,4",
+      "Id": "33"
+    },
+    {
+      "id": 34,
+      "name": "lv_3_medium_8",
+      "members": "AlphaWolf_lv_3",
+      "memberPositions": "2",
+      "Id": "34"
+    },
+    {
+      "id": 35,
+      "name": "lv_3_elite_1",
+      "members": "Wolf_lv_3,AlphaWolf_lv_3,Wolf_lv_3",
+      "memberPositions": "0,3,4",
+      "Id": "35"
+    },
+    {
+      "id": 36,
+      "name": "lv_3_elite_2",
+      "members": "AquaticWolf_lv_3,ElderAquaticWolf_lv_3,AquaticWolf_lv_3",
+      "memberPositions": "0,3,4",
+      "Id": "36"
+    },
+    {
+      "id": 37,
+      "name": "lv_3_elite_3",
+      "members": "TreantFighter_2_lv_3,DryadRanger_lv_3",
+      "memberPositions": "0,3",
+      "Id": "37"
+    },
+    {
+      "id": 38,
+      "name": "lv_3_elite_4",
+      "members": "Slime_2_lv_3,Slime_2_lv_3,OldSlime_lv_3,AquaticSlime_lv_3,AquaticFloweringSlime_lv_3,Slime_2_lv_3",
+      "memberPositions": "0,1,2,3,4,5",
+      "Id": "38"
+    },
+    {
+      "id": 39,
+      "name": "lv_3_boss_1",
+      "members": "PapaBear_lv_3,MamaBear_lv_3",
+      "memberPositions": "0,4",
+      "Id": "39"
+    },
+    {
+      "id": 40,
+      "name": "lv_3_boss_2",
+      "members": "MothershipSlime_lv_3",
+      "memberPositions": "3",
+      "Id": "40"
+    },
+    {
+      "id": 41,
+      "name": "lv_3_boss_3",
+      "members": "Werewolf_lv_3",
+      "memberPositions": "2",
+      "Id": "41"
+    }
+  ],
+  "extractedSkeletons": [
+    {
+      "id": "alpha-wolf",
+      "sourceBundle": "chimera_assets_alpha-wolf_skeletondata_84222ff99091b52a202813804afda2f8.bundle",
+      "files": [
+        "alpha-wolf.atlas",
+        "alpha-wolf.png",
+        "alpha-wolf.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/Jump-scratch-attack",
+        "attack/melee/normal-attack",
+        "attack/melee/scratch-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-alpha-wolf",
+      "sourceBundle": "chimera_assets_aqua-alpha-wolf_skeletondata_ebf1fc00a7d2f7aed9f9d4ba4e5c91e1.bundle",
+      "files": [
+        "aqua-alpha-wolf.atlas",
+        "aqua-alpha-wolf.png",
+        "aqua-alpha-wolf.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/high-cast",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-slime-atk",
+      "sourceBundle": "chimera_assets_aqua-slime-atk_skeletondata_9ae9e714cf390f1260b7b62070138897.bundle",
+      "files": [
+        "aqua-slime-atk.atlas",
+        "aqua-slime-atk.png",
+        "aqua-slime-atk.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/bounce",
+        "attack/melee/goo-split",
+        "attack/melee/normal",
+        "attack/melee/normal-attack-01",
+        "attack/ranged/cast",
+        "attack/ranged/eye-ball-shot",
+        "attack/ranged/goo-destruct",
+        "attack/ranged/laser-beam",
+        "attack/ranged/throw-slime",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-slime-boss",
+      "sourceBundle": "chimera_assets_aqua-slime-boss_skeletondata_23902239656b91f11848b9fcf174c451.bundle",
+      "files": [
+        "aqua-slime-boss.atlas",
+        "aqua-slime-boss.png",
+        "aqua-slime-boss.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-slime-def",
+      "sourceBundle": "chimera_assets_aqua-slime-def_skeletondata_8ea4bd3e86cd4a82460fef89b6a11e1e.bundle",
+      "files": [
+        "aqua-slime-def.atlas",
+        "aqua-slime-def.png",
+        "aqua-slime-def.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/bounce",
+        "attack/melee/goo-split",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast",
+        "attack/ranged/eye-ball-shot",
+        "attack/ranged/goo-destruct",
+        "attack/ranged/laser-beam",
+        "attack/ranged/throw-slime",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-crit",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-slime-sup",
+      "sourceBundle": "chimera_assets_aqua-slime-sup_skeletondata_bca329215ad1f9926969d655edc2fad8.bundle",
+      "files": [
+        "aqua-slime-sup.atlas",
+        "aqua-slime-sup.png",
+        "aqua-slime-sup.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "aqua-wolf",
+      "sourceBundle": "chimera_assets_aqua-wolf_skeletondata_f22d960d50759476d83156d8d11c4d09.bundle",
+      "files": [
+        "aqua-wolf.atlas",
+        "aqua-wolf.png",
+        "aqua-wolf.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "action/random-01",
+        "action/random-02",
+        "action/random-03",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "daddy-bear",
+      "sourceBundle": "chimera_assets_daddy-bear_skeletondata_f44085e4224e61a00a2f442555fb886e.bundle",
+      "files": [
+        "daddy-bear.atlas",
+        "daddy-bear.png",
+        "daddy-bear.skel"
+      ],
+      "unityClips": [
+        "action/idle/counter-state",
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal42",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "dryad-fighter",
+      "sourceBundle": "chimera_assets_dryad-fighter_skeletondata_7c1beced70b9b04d2025a1f5f60d4040.bundle",
+      "files": [
+        "dryad-fighter.atlas",
+        "dryad-fighter.png",
+        "dryad-fighter.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "action/random-01",
+        "action/random-02",
+        "action/random-2",
+        "action/random-3",
+        "action/random-4",
+        "action/random-5",
+        "action/random-6",
+        "action/random-7",
+        "action/random-8",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "dryad-mage",
+      "sourceBundle": "chimera_assets_dryad-mage_skeletondata_3642a20611296a38f6194ac8416c0eb6.bundle",
+      "files": [
+        "dryad-mage.atlas",
+        "dryad-mage.png",
+        "dryad-mage.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "action/random-01",
+        "action/random-02",
+        "action/random-03",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high-7",
+        "attack/ranged/cast-low",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normalJ7",
+        "defense/hit-dieN7"
+      ]
+    },
+    {
+      "id": "dryad-ranger",
+      "sourceBundle": "chimera_assets_dryad-ranger_skeletondata_9289382218daeedade876c7fa08dbe41.bundle",
+      "files": [
+        "dryad-ranger.atlas",
+        "dryad-ranger.png",
+        "dryad-ranger.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/idle/random-03",
+        "action/idle/random-04",
+        "attack/ranged/cast",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die/"
+      ]
+    },
+    {
+      "id": "flowering-treant",
+      "sourceBundle": "chimera_assets_flowering-treant_skeletondata_74f2bb5de5aaf2d5759d6c438fd29821.bundle",
+      "files": [
+        "flowering-treant.atlas",
+        "flowering-treant.png",
+        "flowering-treant.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "forest-slime-fighter",
+      "sourceBundle": "chimera_assets_forest-slime-fighter_skeletondata_04fb83188581ccdcf82ecbd54b604a6a.bundle",
+      "files": [
+        "forest-slime-fighter.atlas",
+        "forest-slime-fighter.png",
+        "forest-slime-fighter.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "attack/ranged/goo-destruct",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "forest-slime-flower",
+      "sourceBundle": "chimera_assets_forest-slime-flower_skeletondata_33c9a3ce7b54f062504fe3b2674b69ac.bundle",
+      "files": [
+        "forest-slime-flower.atlas",
+        "forest-slime-flower.png",
+        "forest-slime-flower.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/bounce",
+        "attack/melee/goo-split",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast",
+        "attack/ranged/eye-ball-shot",
+        "attack/ranged/goo-destruct",
+        "attack/ranged/laser-beam",
+        "attack/ranged/throw-slime",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "gray-wolf",
+      "sourceBundle": "chimera_assets_gray-wolf_skeletondata_2f8e4b2cc20fec6b5426d52e3751c408.bundle",
+      "files": [
+        "gray-wolf.atlas",
+        "gray-wolf.png",
+        "gray-wolf.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "machito",
+      "sourceBundle": "chimera_assets_machito_skeletondata_acdc6c91263799e3b4dc3be200d115a2.bundle",
+      "files": [
+        "machito.atlas",
+        "machito.png",
+        "machito.json"
+      ],
+      "unityClips": []
+    },
+    {
+      "id": "mommy-bear",
+      "sourceBundle": "chimera_assets_mommy-bear_skeletondata_6729dbeb78c8648d1c86c9059d3de152.bundle",
+      "files": [
+        "mommy-bear.atlas",
+        "mommy-bear.png",
+        "mommy-bear.skel"
+      ],
+      "unityClips": [
+        "action/idle/counter-state",
+        "action/idle/dfgfg",
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "action/random-01",
+        "action/random-02",
+        "action/random-03",
+        "action/random-3",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "attack/ranged/cast-low",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "shilin",
+      "sourceBundle": "chimera_assets_shilin_skeletondata_8e2092e789e383516690473040845c75.bundle",
+      "files": [
+        "shilin.atlas",
+        "shilin.png",
+        "shilin.json"
+      ],
+      "unityClips": []
+    },
+    {
+      "id": "slime",
+      "sourceBundle": "chimera_assets_slime_skeletondata_f671ea4067603140f8243cd1091322ec.bundle",
+      "files": [
+        "slime.atlas",
+        "slime.png",
+        "slime.skel"
+      ],
+      "unityClips": [
+        "action/die",
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/bounce",
+        "attack/melee/goo-split",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast",
+        "attack/ranged/eye-ball-shot",
+        "attack/ranged/goo-destruct",
+        "attack/ranged/laser-beam",
+        "attack/ranged/throw-slime",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "treant-fighter",
+      "sourceBundle": "chimera_assets_treant-fighter_skeletondata_acddf41d1aff0bce6eb704a5450ebb80.bundle",
+      "files": [
+        "treant-fighter.atlas",
+        "treant-fighter.png",
+        "treant-fighter.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/idle/random-01",
+        "action/idle/random-02",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/horn-attack",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-multi",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "treant",
+      "sourceBundle": "chimera_assets_treant_skeletondata_bc29e54b63f2796b324243932565ec28.bundle",
+      "files": [
+        "treant.atlas",
+        "treant.png",
+        "treant.skel"
+      ],
+      "unityClips": [
+        "action/idle/normal",
+        "action/move-back",
+        "action/move-forward",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal",
+        "defense/hit-die"
+      ]
+    },
+    {
+      "id": "werewolf",
+      "sourceBundle": "chimera_assets_werewolf_skeletondata_31330402bcbdf42666ca4639ac8a2f93.bundle",
+      "files": [
+        "werewolf.atlas",
+        "werewolf.png",
+        "werewolf.skel"
+      ],
+      "unityClips": [
+        "action/idle/die8",
+        "action/idle/normal8",
+        "action/move-back",
+        "action/move-forward",
+        "action/random-01",
+        "action/random-02",
+        "action/random-03",
+        "attack/melee/bite-attack",
+        "attack/melee/normal-attack",
+        "attack/ranged/cast-high",
+        "battle/get-buff",
+        "battle/get-debuff",
+        "defense/hit-by-normal8",
+        "defense/hit-die8"
+      ]
+    }
+  ],
+  "backgrounds": [
+    {
+      "id": "10-rocky-mountain-2",
+      "sourceBundle": "battle-bg_assets_10-rocky-mountain-2_a3cb9c1b527f4c56953cbf9addc1300f.bundle",
+      "files": [
+        "sactx-0-1024x2048-Crunch-rocky-mountain-2-3127de7b.png",
+        "10_FOG-3.png",
+        "10_RIVER.png",
+        "10_ROCK.png",
+        "10_TREE2.png",
+        "10_TREE1.png"
+      ]
+    },
+    {
+      "id": "4-entrance",
+      "sourceBundle": "battle-bg_assets_4-entrance_2f4019ccdcda8b989875311d19b7a0ae.bundle",
+      "files": [
+        "4_Ground.png",
+        "4_FOREST1.png",
+        "4_BG.png",
+        "sactx-1-1024x1024-Crunch-entrance-f83c6d36.png",
+        "4_BUSH - BLUR.png",
+        "sactx-0-2048x2048-Crunch-entrance-f83c6d36.png",
+        "4_FOREST3.png",
+        "4_TREES.png"
+      ]
+    },
+    {
+      "id": "5-crossroad",
+      "sourceBundle": "battle-bg_assets_5-crossroad_7772ffbad50cef15380882d607256a89.bundle",
+      "files": [
+        "5_FOREST2.png",
+        "5_TREE3.png",
+        "5_Ground.png",
+        "5_TREE1.png",
+        "sactx-0-1024x2048-Crunch-crossroad-e2147c59.png",
+        "5_TREE2.png",
+        "5_FRONT.png"
+      ]
+    },
+    {
+      "id": "6-river",
+      "sourceBundle": "battle-bg_assets_6-river_51741b5b169125a531f146612f711c91.bundle",
+      "files": [
+        "sactx-0-1024x1024-Crunch-river-46ef355a.png",
+        "6_Ground.png",
+        "6_TREES.png",
+        "6_WATER.png"
+      ]
+    },
+    {
+      "id": "7-deep-forest",
+      "sourceBundle": "battle-bg_assets_7-deep-forest_bd3db17450f63b2596de6c10df63bea8.bundle",
+      "files": [
+        "7_FRONT-TOP.png",
+        "7_MANY-TREES.png",
+        "7_ROCK.png",
+        "sactx-0-2048x2048-Crunch-deep-forest-f6b36757.png",
+        "7_FRONT-BOT.png",
+        "7_BG-FOREST.png",
+        "7_Ground.png"
+      ]
+    },
+    {
+      "id": "8-temple",
+      "sourceBundle": "battle-bg_assets_8-temple_3707399e2ce05ca5e81c0d0c7f06164f.bundle",
+      "files": [
+        "sactx-0-1024x2048-Crunch-temple-96fb7f79.png",
+        "8_TEMPLE.png",
+        "8_Ground.png",
+        "8_ROCK.png"
+      ]
+    },
+    {
+      "id": "9-rocky-mountain-1",
+      "sourceBundle": "battle-bg_assets_9-rocky-mountain-1_cce63ea4cfa4a3422c6ac170733b4931.bundle",
+      "files": [
+        "9_FOG.png",
+        "9_Ground.png",
+        "sactx-0-2048x2048-Crunch-rocky-mountain-1-c3daa721.png",
+        "sactx-1-1024x2048-Crunch-rocky-mountain-1-c3daa721.png",
+        "9_FRONT-1.png",
+        "9_CLOUD-3.png",
+        "9_CLOUD-1.png",
+        "9_FRONT-2.png",
+        "9_ROCK.png",
+        "9_MOUNTAIN.png",
+        "9_BG.png",
+        "9_CLOUD-2.png"
+      ]
+    },
+    {
+      "id": "crossroad",
+      "sourceBundle": "battle-bg_assets_crossroad_08e5ca77a8d2d5f960f4a3b119881931.bundle",
+      "files": []
+    },
+    {
+      "id": "deep-forest",
+      "sourceBundle": "battle-bg_assets_deep-forest_b578a83c5a22c6a89d1db3e2107a3dc2.bundle",
+      "files": []
+    },
+    {
+      "id": "entrance",
+      "sourceBundle": "battle-bg_assets_entrance_f14a35cf2e49ecc3aa540cd462eb1bc7.bundle",
+      "files": []
+    },
+    {
+      "id": "river",
+      "sourceBundle": "battle-bg_assets_river_f60fed13323a82b8edb53465f2e9c1b7.bundle",
+      "files": []
+    },
+    {
+      "id": "rocky-mountain-1",
+      "sourceBundle": "battle-bg_assets_rocky-mountain-1_4bbeb932c22b1cacf64850a0f477d003.bundle",
+      "files": []
+    },
+    {
+      "id": "rocky-mountain-2",
+      "sourceBundle": "battle-bg_assets_rocky-mountain-2_ca56d30b89bd96bd4a55558a62787faa.bundle",
+      "files": []
+    },
+    {
+      "id": "spawnpoints",
+      "sourceBundle": "battle-bg_assets_spawnpoints_27dd5114f218436a4bad0b218a2dd6af.bundle",
+      "files": []
+    },
+    {
+      "id": "temple",
+      "sourceBundle": "battle-bg_assets_temple_c2880b317982a2240d9b1305463f7fa9.bundle",
+      "files": []
+    }
+  ],
+  "avatars": [
+    "sactx-0-2048x2048-Crunch-avatar-52aabb69.png",
+    "sactx-1-1024x1024-Crunch-avatar-52aabb69.png"
+  ],
+  "music": [
+    "pve_1.wav",
+    "pve_2.wav",
+    "pve_3.wav",
+    "boss.wav"
+  ],
+  "playback": {
+    "idle": "action/idle/normal",
+    "hit": "defense/hit-by-normal",
+    "moveForward": "action/move-forward",
+    "moveBack": "action/move-back",
+    "note": "Chimeras use the same mixer animation names as Axies. Attack clips come from the card's attackAnimation in skill-vfx.json. VFX are the same battle-vfx prefabs."
+  }
+}

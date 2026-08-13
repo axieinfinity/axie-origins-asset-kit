@@ -1,0 +1,111 @@
+
+slime.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 4, 15
+  size: 234, 216
+  orig: 235, 216
+  offset: 1, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 411, 46
+  size: 203, 46
+  orig: 203, 46
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: true
+  xy: 351, 33
+  size: 216, 56
+  orig: 217, 58
+  offset: 0, 1
+  index: -1
+eyes-shut-02
+  rotate: true
+  xy: 288, 28
+  size: 221, 59
+  orig: 222, 60
+  offset: 0, 1
+  index: -1
+eyes-shut-03
+  rotate: true
+  xy: 224, 27
+  size: 222, 60
+  orig: 222, 60
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 461, 56
+  size: 193, 43
+  orig: 193, 44
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: true
+  xy: 508, 72
+  size: 177, 134
+  orig: 177, 134
+  offset: 0, 0
+  index: -1
+part-1
+  rotate: true
+  xy: 461, 4
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+part-2
+  rotate: false
+  xy: 914, 179
+  size: 74, 70
+  orig: 93, 74
+  offset: 0, 3
+  index: -1
+part-3
+  rotate: true
+  xy: 752, 123
+  size: 126, 99
+  orig: 126, 99
+  offset: 0, 0
+  index: -1
+part-4
+  rotate: true
+  xy: 646, 114
+  size: 135, 102
+  orig: 135, 105
+  offset: 0, 3
+  index: -1
+part-5
+  rotate: true
+  xy: 832, 19
+  size: 100, 78
+  orig: 100, 78
+  offset: 0, 0
+  index: -1
+part-6
+  rotate: true
+  xy: 914, 112
+  size: 63, 72
+  orig: 63, 72
+  offset: 0, 0
+  index: -1
+part-7
+  rotate: false
+  xy: 752, 73
+  size: 48, 46
+  orig: 48, 46
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 511, 4
+  size: 317, 64
+  orig: 355, 72
+  offset: 19, 4
+  index: -1

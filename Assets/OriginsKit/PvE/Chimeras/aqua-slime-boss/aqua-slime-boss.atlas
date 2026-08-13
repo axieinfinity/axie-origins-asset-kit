@@ -1,0 +1,118 @@
+
+aqua-slime-boss.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+eyes
+  rotate: false
+  xy: 574, 86
+  size: 108, 42
+  orig: 108, 42
+  offset: 0, 0
+  index: -1
+head
+  rotate: true
+  xy: 873, 63
+  size: 189, 138
+  orig: 189, 138
+  offset: 0, 0
+  index: -1
+holo-01
+  rotate: true
+  xy: 923, 14
+  size: 45, 78
+  orig: 45, 78
+  offset: 0, 0
+  index: -1
+holo-02
+  rotate: true
+  xy: 772, 59
+  size: 69, 74
+  orig: 69, 74
+  offset: 0, 0
+  index: -1
+holo-03
+  rotate: false
+  xy: 218, 34
+  size: 79, 62
+  orig: 79, 62
+  offset: 0, 0
+  index: -1
+holo-04
+  rotate: false
+  xy: 301, 15
+  size: 72, 57
+  orig: 72, 58
+  offset: 0, 0
+  index: -1
+light
+  rotate: true
+  xy: 303, 76
+  size: 176, 267
+  orig: 189, 268
+  offset: 11, 1
+  index: -1
+lotus
+  rotate: false
+  xy: 4, 100
+  size: 295, 152
+  orig: 295, 152
+  offset: 0, 0
+  index: -1
+lotus-upper
+  rotate: false
+  xy: 574, 132
+  size: 295, 120
+  orig: 295, 120
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 121, 45
+  size: 51, 93
+  orig: 51, 93
+  offset: 0, 0
+  index: -1
+mouth-bite
+  rotate: true
+  xy: 686, 77
+  size: 51, 82
+  orig: 51, 82
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: true
+  xy: 4, 45
+  size: 51, 113
+  orig: 51, 113
+  offset: 0, 0
+  index: -1
+shell-01
+  rotate: true
+  xy: 517, 33
+  size: 39, 72
+  orig: 39, 72
+  offset: 0, 0
+  index: -1
+shell-02
+  rotate: true
+  xy: 377, 10
+  size: 62, 67
+  orig: 62, 67
+  offset: 0, 0
+  index: -1
+shell-03
+  rotate: false
+  xy: 850, 4
+  size: 69, 55
+  orig: 69, 55
+  offset: 0, 0
+  index: -1
+shell-04
+  rotate: false
+  xy: 448, 21
+  size: 65, 51
+  orig: 65, 51
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,167 @@
+
+treant-fighter.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Slash-fx/2
+  rotate: true
+  xy: 719, 298
+  size: 208, 183
+  orig: 235, 200
+  offset: 1, 13
+  index: -1
+Slash-fx/3
+  rotate: false
+  xy: 780, 33
+  size: 116, 185
+  orig: 131, 201
+  offset: 3, 9
+  index: -1
+Slash-fx/4
+  rotate: false
+  xy: 926, 128
+  size: 91, 175
+  orig: 145, 207
+  offset: 7, 8
+  index: -1
+Slash-fx/5
+  rotate: true
+  xy: 501, 89
+  size: 88, 124
+  orig: 108, 155
+  offset: 13, 24
+  index: -1
+arm-left
+  rotate: false
+  xy: 4, 4
+  size: 97, 66
+  orig: 97, 66
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 906, 336
+  size: 111, 170
+  orig: 111, 170
+  offset: 0, 0
+  index: -1
+back
+  rotate: true
+  xy: 258, 66
+  size: 236, 85
+  orig: 236, 86
+  offset: 0, 1
+  index: -1
+body
+  rotate: true
+  xy: 347, 133
+  size: 169, 150
+  orig: 169, 150
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: false
+  xy: 204, 158
+  size: 32, 63
+  orig: 32, 63
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: true
+  xy: 719, 32
+  size: 186, 57
+  orig: 186, 57
+  offset: 0, 0
+  index: -1
+fxa
+  rotate: false
+  xy: 4, 74
+  size: 196, 197
+  orig: 220, 220
+  offset: 12, 11
+  index: -1
+fxb
+  rotate: false
+  xy: 900, 8
+  size: 116, 116
+  orig: 116, 116
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: true
+  xy: 523, 181
+  size: 325, 192
+  orig: 325, 193
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 4, 275
+  size: 250, 231
+  orig: 250, 231
+  offset: 0, 0
+  index: -1
+index-left
+  rotate: true
+  xy: 204, 94
+  size: 27, 38
+  orig: 27, 38
+  offset: 0, 0
+  index: -1
+leg-back
+  rotate: false
+  xy: 347, 74
+  size: 92, 55
+  orig: 92, 55
+  offset: 0, 0
+  index: -1
+leg-front
+  rotate: true
+  xy: 105, 14
+  size: 56, 59
+  orig: 56, 59
+  offset: 0, 0
+  index: -1
+leg-side
+  rotate: false
+  xy: 168, 25
+  size: 74, 45
+  orig: 74, 45
+  offset: 0, 0
+  index: -1
+little-left
+  rotate: false
+  xy: 204, 125
+  size: 29, 29
+  orig: 29, 29
+  offset: 0, 0
+  index: -1
+middle-left
+  rotate: false
+  xy: 906, 307
+  size: 28, 25
+  orig: 28, 25
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 258, 306
+  size: 261, 200
+  orig: 264, 202
+  offset: 3, 2
+  index: -1
+shadow
+  rotate: false
+  xy: 719, 222
+  size: 203, 72
+  orig: 239, 84
+  offset: 18, 6
+  index: -1
+thumb-left
+  rotate: true
+  xy: 204, 225
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1

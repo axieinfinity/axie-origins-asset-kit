@@ -1,0 +1,188 @@
+
+gray-wolf.png
+size: 512,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+back
+  rotate: true
+  xy: 327, 539
+  size: 182, 164
+  orig: 182, 164
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 4, 538
+  size: 319, 194
+  orig: 319, 196
+  offset: 0, 2
+  index: -1
+ear-left
+  rotate: false
+  xy: 397, 97
+  size: 53, 105
+  orig: 53, 105
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: false
+  xy: 334, 97
+  size: 59, 105
+  orig: 59, 105
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: true
+  xy: 447, 786
+  size: 135, 60
+  orig: 137, 62
+  offset: 1, 1
+  index: -1
+eyes-angry
+  rotate: false
+  xy: 192, 4
+  size: 131, 54
+  orig: 133, 56
+  offset: 1, 1
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 4, 8
+  size: 115, 26
+  orig: 115, 26
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 4, 206
+  size: 218, 159
+  orig: 218, 160
+  offset: 0, 1
+  index: -1
+jaw-under
+  rotate: true
+  xy: 237, 345
+  size: 189, 79
+  orig: 189, 79
+  offset: 0, 0
+  index: -1
+jaw-upper
+  rotate: true
+  xy: 346, 725
+  size: 196, 97
+  orig: 196, 98
+  offset: 0, 1
+  index: -1
+leg-back-left
+  rotate: false
+  xy: 326, 283
+  size: 73, 110
+  orig: 73, 110
+  offset: 0, 0
+  index: -1
+leg-back-right
+  rotate: true
+  xy: 326, 206
+  size: 73, 110
+  orig: 73, 110
+  offset: 0, 0
+  index: -1
+leg-fronr-right
+  rotate: false
+  xy: 226, 204
+  size: 96, 137
+  orig: 96, 137
+  offset: 0, 0
+  index: -1
+leg-front-left
+  rotate: false
+  xy: 320, 397
+  size: 96, 137
+  orig: 96, 137
+  offset: 0, 0
+  index: -1
+mouth-under
+  rotate: false
+  xy: 4, 736
+  size: 338, 185
+  orig: 338, 185
+  offset: 0, 0
+  index: -1
+mouth-upper
+  rotate: false
+  xy: 4, 369
+  size: 229, 165
+  orig: 230, 165
+  offset: 1, 0
+  index: -1
+nose
+  rotate: true
+  xy: 420, 419
+  size: 116, 85
+  orig: 116, 85
+  offset: 0, 0
+  index: -1
+oral-cavity
+  rotate: false
+  xy: 4, 38
+  size: 184, 164
+  orig: 184, 166
+  offset: 0, 1
+  index: -1
+paw-back-left
+  rotate: true
+  xy: 454, 141
+  size: 69, 41
+  orig: 69, 41
+  offset: 0, 0
+  index: -1
+paw-back-right
+  rotate: true
+  xy: 454, 68
+  size: 69, 41
+  orig: 69, 41
+  offset: 0, 0
+  index: -1
+paw-front-left
+  rotate: false
+  xy: 403, 298
+  size: 80, 47
+  orig: 81, 48
+  offset: 1, 0
+  index: -1
+paw-front-right
+  rotate: true
+  xy: 440, 214
+  size: 80, 47
+  orig: 81, 48
+  offset: 1, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 925
+  size: 476, 95
+  orig: 516, 104
+  offset: 20, 4
+  index: -1
+tail
+  rotate: false
+  xy: 192, 62
+  size: 138, 138
+  orig: 138, 138
+  offset: 0, 0
+  index: -1
+tongue-in
+  rotate: false
+  xy: 327, 4
+  size: 84, 54
+  orig: 87, 54
+  offset: 0, 0
+  index: -1
+tongue-out
+  rotate: false
+  xy: 420, 349
+  size: 84, 66
+  orig: 84, 66
+  offset: 0, 0
+  index: -1

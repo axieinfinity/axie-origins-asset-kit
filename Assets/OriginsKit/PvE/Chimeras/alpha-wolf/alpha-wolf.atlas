@@ -1,0 +1,265 @@
+
+alpha-wolf.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+0
+  rotate: false
+  xy: 950, 27
+  size: 40, 22
+  orig: 40, 22
+  offset: 0, 0
+  index: -1
+1
+  rotate: false
+  xy: 803, 80
+  size: 68, 84
+  orig: 68, 84
+  offset: 0, 0
+  index: -1
+2
+  rotate: false
+  xy: 950, 53
+  size: 68, 75
+  orig: 68, 75
+  offset: 0, 0
+  index: -1
+Skull-01
+  rotate: false
+  xy: 545, 300
+  size: 179, 101
+  orig: 179, 101
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 267, 304
+  size: 274, 198
+  orig: 274, 198
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: false
+  xy: 512, 144
+  size: 44, 94
+  orig: 44, 94
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: true
+  xy: 950, 132
+  size: 48, 70
+  orig: 48, 70
+  offset: 0, 0
+  index: -1
+eye
+  rotate: false
+  xy: 510, 111
+  size: 30, 29
+  orig: 30, 29
+  offset: 0, 0
+  index: -1
+fur-01
+  rotate: false
+  xy: 875, 94
+  size: 71, 86
+  orig: 71, 86
+  offset: 0, 0
+  index: -1
+fur-02
+  rotate: true
+  xy: 727, 100
+  size: 81, 72
+  orig: 81, 72
+  offset: 0, 0
+  index: -1
+fur-03
+  rotate: true
+  xy: 858, 284
+  size: 85, 98
+  orig: 85, 98
+  offset: 0, 0
+  index: -1
+fur-04
+  rotate: false
+  xy: 560, 153
+  size: 82, 89
+  orig: 82, 89
+  offset: 0, 0
+  index: -1
+fur-05
+  rotate: false
+  xy: 233, 10
+  size: 106, 103
+  orig: 106, 103
+  offset: 0, 0
+  index: -1
+fur-06
+  rotate: false
+  xy: 425, 146
+  size: 83, 92
+  orig: 83, 92
+  offset: 0, 0
+  index: -1
+fur-07
+  rotate: true
+  xy: 353, 129
+  size: 97, 68
+  orig: 97, 68
+  offset: 0, 0
+  index: -1
+fur-08
+  rotate: false
+  xy: 233, 117
+  size: 116, 109
+  orig: 116, 109
+  offset: 0, 0
+  index: -1
+fur-back
+  rotate: false
+  xy: 4, 252
+  size: 259, 250
+  orig: 259, 250
+  offset: 0, 0
+  index: -1
+fur-front
+  rotate: false
+  xy: 4, 20
+  size: 225, 228
+  orig: 225, 228
+  offset: 0, 0
+  index: -1
+hair
+  rotate: true
+  xy: 881, 373
+  size: 129, 130
+  orig: 129, 130
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 267, 230
+  size: 147, 70
+  orig: 147, 70
+  offset: 0, 0
+  index: -1
+horn-01
+  rotate: false
+  xy: 646, 152
+  size: 77, 90
+  orig: 77, 90
+  offset: 0, 0
+  index: -1
+horn-02
+  rotate: false
+  xy: 682, 252
+  size: 41, 44
+  orig: 41, 46
+  offset: 0, 2
+  index: -1
+jaw-under
+  rotate: true
+  xy: 803, 168
+  size: 113, 47
+  orig: 113, 47
+  offset: 0, 0
+  index: -1
+jaw-upper
+  rotate: false
+  xy: 418, 242
+  size: 118, 58
+  orig: 118, 58
+  offset: 0, 0
+  index: -1
+leg-back-left-under
+  rotate: false
+  xy: 960, 282
+  size: 49, 87
+  orig: 49, 87
+  offset: 0, 0
+  index: -1
+leg-back-left-upper
+  rotate: false
+  xy: 930, 184
+  size: 66, 94
+  orig: 66, 94
+  offset: 0, 0
+  index: -1
+leg-front-left-under
+  rotate: false
+  xy: 875, 4
+  size: 71, 86
+  orig: 71, 86
+  offset: 0, 0
+  index: -1
+leg-front-left-upper
+  rotate: false
+  xy: 727, 185
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: -1
+leg-front-right-under
+  rotate: false
+  xy: 343, 27
+  size: 71, 86
+  orig: 71, 86
+  offset: 0, 0
+  index: -1
+leg-front-right-upper
+  rotate: false
+  xy: 854, 184
+  size: 72, 96
+  orig: 72, 96
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 545, 405
+  size: 194, 97
+  orig: 194, 97
+  offset: 0, 0
+  index: -1
+oral-cavity
+  rotate: false
+  xy: 728, 285
+  size: 126, 114
+  orig: 126, 114
+  offset: 0, 0
+  index: -1
+paw-back-left
+  rotate: false
+  xy: 418, 5
+  size: 76, 41
+  orig: 76, 44
+  offset: 0, 3
+  index: -1
+paw-front-left
+  rotate: false
+  xy: 425, 98
+  size: 81, 44
+  orig: 81, 47
+  offset: 0, 3
+  index: -1
+paw-front-right
+  rotate: false
+  xy: 418, 50
+  size: 81, 44
+  orig: 81, 47
+  offset: 0, 3
+  index: -1
+shadow
+  rotate: false
+  xy: 540, 246
+  size: 138, 50
+  orig: 164, 58
+  offset: 13, 4
+  index: -1
+tail
+  rotate: false
+  xy: 743, 403
+  size: 134, 99
+  orig: 134, 99
+  offset: 0, 0
+  index: -1

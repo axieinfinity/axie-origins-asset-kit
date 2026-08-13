@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.2.0 — 2026-08-13
+
+- PvE: 22 chimera Spine skeletons (atlas + png + skel) and 73 catalog rows.
+- PvE node backgrounds (7 story arenas) and music (`pve_1`–`3`, `boss`).
+- Chimera portrait atlas. See `Documentation~/PvE.md`.
+
 ## 1.1.0 — 2026-08-13
 
 - Skill/buff materials now use Origins URP Shader Graphs (`Sd_Origin2_ADD` / `Sd_Origin2_ADP`), not Built-in Additive.

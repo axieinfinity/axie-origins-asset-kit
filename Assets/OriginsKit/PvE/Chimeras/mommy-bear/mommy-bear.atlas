@@ -1,0 +1,272 @@
+
+mommy-bear.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left
+  rotate: true
+  xy: 1322, 170
+  size: 82, 131
+  orig: 82, 131
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: true
+  xy: 1186, 170
+  size: 82, 132
+  orig: 82, 132
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 314, 16
+  size: 236, 256
+  orig: 236, 256
+  offset: 0, 0
+  index: -1
+body-lower
+  rotate: false
+  xy: 769, 85
+  size: 236, 81
+  orig: 236, 81
+  offset: 0, 0
+  index: -1
+cockroach
+  rotate: false
+  xy: 857, 53
+  size: 54, 28
+  orig: 54, 28
+  offset: 0, 0
+  index: -1
+cuff-left
+  rotate: true
+  xy: 1009, 87
+  size: 79, 99
+  orig: 79, 99
+  offset: 0, 0
+  index: -1
+cuff-right
+  rotate: true
+  xy: 1112, 87
+  size: 79, 99
+  orig: 79, 99
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: false
+  xy: 1841, 180
+  size: 69, 72
+  orig: 69, 72
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: true
+  xy: 1882, 116
+  size: 60, 73
+  orig: 60, 73
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1546, 115
+  size: 101, 59
+  orig: 101, 59
+  offset: 0, 0
+  index: -1
+eyes-angry
+  rotate: false
+  xy: 1550, 196
+  size: 102, 56
+  orig: 102, 56
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 1439, 108
+  size: 103, 58
+  orig: 103, 58
+  offset: 0, 0
+  index: -1
+foot-left
+  rotate: false
+  xy: 769, 45
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+foot-right
+  rotate: false
+  xy: 769, 45
+  size: 84, 36
+  orig: 84, 36
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: true
+  xy: 1215, 95
+  size: 71, 108
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: true
+  xy: 1327, 95
+  size: 71, 108
+  orig: 71, 108
+  offset: 0, 0
+  index: -1
+fur-face-left
+  rotate: true
+  xy: 946, 7
+  size: 47, 54
+  orig: 47, 54
+  offset: 0, 0
+  index: -1
+fur-face-right
+  rotate: true
+  xy: 911, 14
+  size: 35, 31
+  orig: 35, 31
+  offset: 0, 0
+  index: -1
+fx/smoke
+  rotate: false
+  xy: 1914, 187
+  size: 60, 65
+  orig: 67, 67
+  offset: 3, 0
+  index: -1
+fx/tear
+  rotate: true
+  xy: 915, 55
+  size: 26, 18
+  orig: 26, 18
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 1457, 178
+  size: 89, 74
+  orig: 89, 74
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: true
+  xy: 1651, 116
+  size: 76, 74
+  orig: 76, 74
+  offset: 0, 0
+  index: -1
+hand-right-back
+  rotate: true
+  xy: 1576, 34
+  size: 77, 74
+  orig: 77, 74
+  offset: 0, 0
+  index: -1
+head
+  rotate: false
+  xy: 4, 10
+  size: 306, 242
+  orig: 306, 243
+  offset: 0, 1
+  index: -1
+horn
+  rotate: false
+  xy: 1481, 8
+  size: 91, 96
+  orig: 91, 96
+  offset: 0, 0
+  index: -1
+horn-shadow
+  rotate: false
+  xy: 816, 10
+  size: 91, 31
+  orig: 92, 31
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: true
+  xy: 1369, 6
+  size: 85, 108
+  orig: 85, 109
+  offset: 0, 1
+  index: -1
+leg-right
+  rotate: true
+  xy: 1256, 6
+  size: 85, 109
+  orig: 85, 109
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 1654, 4
+  size: 108, 112
+  orig: 108, 112
+  offset: 0, 0
+  index: -1
+mouth-bite
+  rotate: false
+  xy: 1729, 140
+  size: 108, 112
+  orig: 108, 112
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 1770, 24
+  size: 108, 112
+  orig: 108, 112
+  offset: 0, 0
+  index: -1
+paper-face
+  rotate: false
+  xy: 937, 58
+  size: 20, 23
+  orig: 20, 23
+  offset: 0, 0
+  index: -1
+rope-back
+  rotate: false
+  xy: 574, 14
+  size: 238, 26
+  orig: 238, 26
+  offset: 0, 0
+  index: -1
+rope-front
+  rotate: false
+  xy: 1656, 196
+  size: 67, 56
+  orig: 67, 56
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 769, 170
+  size: 413, 82
+  orig: 453, 90
+  offset: 20, 4
+  index: -1
+shield
+  rotate: false
+  xy: 574, 44
+  size: 191, 208
+  orig: 191, 208
+  offset: 0, 0
+  index: -1
+tear
+  rotate: false
+  xy: 961, 69
+  size: 10, 12
+  orig: 10, 12
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: false
+  xy: 1004, 11
+  size: 248, 70
+  orig: 248, 70
+  offset: 0, 0
+  index: -1

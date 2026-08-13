@@ -1,0 +1,132 @@
+
+forest-slime-flower.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 4, 71
+  size: 298, 180
+  orig: 298, 181
+  offset: 0, 1
+  index: -1
+body-line
+  rotate: true
+  xy: 972, 119
+  size: 132, 47
+  orig: 132, 47
+  offset: 0, 0
+  index: -1
+branch
+  rotate: false
+  xy: 890, 46
+  size: 15, 126
+  orig: 15, 126
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 4, 26
+  size: 235, 41
+  orig: 235, 41
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: false
+  xy: 644, 69
+  size: 241, 49
+  orig: 242, 49
+  offset: 0, 0
+  index: -1
+eyes-shut-02
+  rotate: false
+  xy: 644, 122
+  size: 242, 50
+  orig: 245, 50
+  offset: 0, 0
+  index: -1
+eyes-shut-03
+  rotate: true
+  xy: 917, 8
+  size: 243, 51
+  orig: 246, 51
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 538, 91
+  size: 102, 81
+  orig: 102, 81
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: false
+  xy: 306, 36
+  size: 214, 45
+  orig: 215, 45
+  offset: 1, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 306, 85
+  size: 216, 75
+  orig: 216, 75
+  offset: 0, 0
+  index: -1
+part-1
+  rotate: true
+  xy: 972, 74
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+part-2
+  rotate: false
+  xy: 616, 4
+  size: 64, 61
+  orig: 80, 63
+  offset: 0, 2
+  index: -1
+part-3
+  rotate: false
+  xy: 426, 166
+  size: 108, 85
+  orig: 108, 85
+  offset: 0, 0
+  index: -1
+part-4
+  rotate: false
+  xy: 306, 164
+  size: 116, 87
+  orig: 116, 90
+  offset: 0, 3
+  index: -1
+part-5
+  rotate: false
+  xy: 526, 20
+  size: 86, 67
+  orig: 86, 67
+  offset: 0, 0
+  index: -1
+part-6
+  rotate: true
+  xy: 684, 11
+  size: 54, 62
+  orig: 54, 62
+  offset: 0, 0
+  index: -1
+part-7
+  rotate: true
+  xy: 972, 29
+  size: 41, 39
+  orig: 41, 39
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 538, 176
+  size: 375, 75
+  orig: 409, 83
+  offset: 17, 4
+  index: -1

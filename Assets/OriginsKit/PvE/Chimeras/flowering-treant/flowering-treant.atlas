@@ -1,0 +1,62 @@
+
+flowering-treant.png
+size: 512,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 268, 4
+  size: 253, 238
+  orig: 253, 240
+  offset: 0, 1
+  index: -1
+branch
+  rotate: true
+  xy: 109, 81
+  size: 29, 75
+  orig: 29, 75
+  offset: 0, 0
+  index: -1
+flower
+  rotate: false
+  xy: 268, 285
+  size: 122, 101
+  orig: 122, 101
+  offset: 0, 0
+  index: -1
+leg-back
+  rotate: true
+  xy: 421, 261
+  size: 126, 75
+  orig: 126, 75
+  offset: 0, 0
+  index: -1
+leg-front
+  rotate: false
+  xy: 421, 391
+  size: 76, 81
+  orig: 76, 81
+  offset: 0, 0
+  index: -1
+leg-side
+  rotate: false
+  xy: 4, 49
+  size: 101, 61
+  orig: 101, 61
+  offset: 0, 0
+  index: -1
+moss
+  rotate: false
+  xy: 4, 114
+  size: 260, 272
+  orig: 287, 295
+  offset: 1, 23
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 390
+  size: 413, 82
+  orig: 453, 92
+  offset: 20, 5
+  index: -1

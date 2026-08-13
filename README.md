@@ -19,7 +19,9 @@ This is not a browser pack. Prefabs, clips, textures, and audio are Unity 2021.3
 | 131 | Status icons | `Assets/OriginsKit/Textures/StatusIcons/` |
 | 8 | Summoner Spine sets | `Assets/OriginsKit/Summoners/` |
 | 4 | Battle UI Spine (win / lose / draw / flag) | `Assets/OriginsKit/BattleUI/` |
-| 62 | Morph VFX textures | `Assets/OriginsKit/Textures/Morph/` |
+| 22 | PvE chimera Spine bodies + animations | `Assets/OriginsKit/PvE/Chimeras/` |
+| 7 | PvE battle backgrounds | `Assets/OriginsKit/PvE/Backgrounds/` |
+| 4 | PvE / boss music | `Assets/OriginsKit/PvE/Music/` |
 | 46 | Mixer Spine animation names Origins actually uses | `Assets/OriginsKit/Catalogs/mixer-animations.json` |
 
 Axie **bodies** are not included. Mix them with the official 2D mixer, then play the animation names in the catalog.
@@ -113,6 +115,7 @@ Buffs (`heal`, `shield`, `sleep`, …) skip `OnAttack` / `OnThrow` / `OnHit`. Th
 - [Audio](Documentation~/Audio.md) — SFX naming
 - [Status icons, morph, summoners, extras](Documentation~/Extras.md)
 - [Packaging research](Documentation~/Research.md) — why Assets tree, not UPM Git or OSX bundles
+- [PvE chimeras](Documentation~/PvE.md) — enemy Spine, nodes, backgrounds, music
 
 ## What we deliberately left out
 

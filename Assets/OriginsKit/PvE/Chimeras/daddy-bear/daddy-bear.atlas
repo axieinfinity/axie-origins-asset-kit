@@ -1,0 +1,377 @@
+
+daddy-bear.png
+size: 2048,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Slash-fx/2
+  rotate: true
+  xy: 1635, 117
+  size: 135, 120
+  orig: 155, 132
+  offset: 0, 9
+  index: -1
+Slash-fx/3
+  rotate: true
+  xy: 1300, 19
+  size: 76, 122
+  orig: 86, 133
+  offset: 2, 6
+  index: -1
+Slash-fx/4
+  rotate: true
+  xy: 742, 4
+  size: 61, 110
+  orig: 96, 136
+  offset: 4, 10
+  index: -1
+Slash-fx/5
+  rotate: false
+  xy: 1082, 8
+  size: 58, 82
+  orig: 71, 102
+  offset: 8, 16
+  index: -1
+arm-left
+  rotate: true
+  xy: 1426, 26
+  size: 74, 112
+  orig: 74, 112
+  offset: 0, 0
+  index: -1
+arm-right
+  rotate: true
+  xy: 1613, 38
+  size: 74, 112
+  orig: 74, 112
+  offset: 0, 0
+  index: -1
+back
+  rotate: true
+  xy: 546, 58
+  size: 194, 155
+  orig: 194, 155
+  offset: 0, 0
+  index: -1
+body
+  rotate: true
+  xy: 4, 6
+  size: 246, 250
+  orig: 246, 250
+  offset: 0, 0
+  index: -1
+brace
+  rotate: false
+  xy: 431, 6
+  size: 87, 38
+  orig: 87, 38
+  offset: 0, 0
+  index: -1
+ear-left
+  rotate: true
+  xy: 1676, 6
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+ear-right
+  rotate: true
+  xy: 1711, 6
+  size: 28, 31
+  orig: 28, 31
+  offset: 0, 0
+  index: -1
+eye-left
+  rotate: true
+  xy: 308, 4
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+eye-right
+  rotate: true
+  xy: 318, 4
+  size: 7, 6
+  orig: 7, 6
+  offset: 0, 0
+  index: -1
+eyebrow-left
+  rotate: false
+  xy: 1844, 11
+  size: 35, 26
+  orig: 35, 26
+  offset: 0, 0
+  index: -1
+eyebrow-right
+  rotate: false
+  xy: 1804, 11
+  size: 36, 26
+  orig: 36, 26
+  offset: 0, 0
+  index: -1
+foot-left
+  rotate: false
+  xy: 1613, 5
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+foot-right
+  rotate: false
+  xy: 1613, 5
+  size: 59, 29
+  orig: 59, 29
+  offset: 0, 0
+  index: -1
+forearm-left
+  rotate: false
+  xy: 705, 69
+  size: 109, 183
+  orig: 109, 183
+  offset: 0, 0
+  index: -1
+forearm-right
+  rotate: false
+  xy: 818, 71
+  size: 115, 181
+  orig: 115, 181
+  offset: 0, 0
+  index: -1
+greb
+  rotate: false
+  xy: 1883, 18
+  size: 50, 50
+  orig: 50, 50
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 1005, 4
+  size: 73, 66
+  orig: 73, 67
+  offset: 0, 0
+  index: -1
+hand-right-under
+  rotate: false
+  xy: 856, 6
+  size: 74, 61
+  orig: 74, 68
+  offset: 0, 0
+  index: -1
+hand-right-upper
+  rotate: true
+  xy: 934, 6
+  size: 61, 67
+  orig: 62, 67
+  offset: 1, 0
+  index: -1
+handler
+  rotate: true
+  xy: 1313, 102
+  size: 150, 36
+  orig: 152, 36
+  offset: 2, 0
+  index: -1
+head
+  rotate: true
+  xy: 1496, 116
+  size: 136, 135
+  orig: 136, 138
+  offset: 0, 3
+  index: -1
+head-shadow
+  rotate: false
+  xy: 1729, 41
+  size: 125, 72
+  orig: 125, 72
+  offset: 0, 0
+  index: -1
+lace
+  rotate: false
+  xy: 361, 42
+  size: 46, 210
+  orig: 46, 210
+  offset: 0, 0
+  index: -1
+lace-left
+  rotate: false
+  xy: 1759, 120
+  size: 53, 132
+  orig: 53, 132
+  offset: 0, 0
+  index: -1
+lace-right
+  rotate: false
+  xy: 1578, 12
+  size: 31, 100
+  orig: 31, 103
+  offset: 0, 3
+  index: -1
+leg-left
+  rotate: false
+  xy: 1863, 196
+  size: 54, 56
+  orig: 54, 56
+  offset: 0, 0
+  index: -1
+leg-right
+  rotate: false
+  xy: 1816, 127
+  size: 54, 57
+  orig: 54, 57
+  offset: 0, 0
+  index: -1
+mangosteen
+  rotate: false
+  xy: 1874, 143
+  size: 48, 49
+  orig: 48, 49
+  offset: 0, 0
+  index: -1
+moustache
+  rotate: false
+  xy: 649, 4
+  size: 89, 50
+  orig: 89, 50
+  offset: 0, 0
+  index: -1
+moustache2
+  rotate: false
+  xy: 328, 6
+  size: 15, 5
+  orig: 15, 5
+  offset: 0, 0
+  index: -1
+mouth-bite
+  rotate: true
+  xy: 1542, 10
+  size: 102, 32
+  orig: 102, 32
+  offset: 0, 0
+  index: -1
+mouth-open1
+  rotate: false
+  xy: 1746, 11
+  size: 54, 26
+  orig: 54, 26
+  offset: 0, 0
+  index: -1
+mouth-open2
+  rotate: true
+  xy: 1816, 188
+  size: 64, 43
+  orig: 64, 46
+  offset: 0, 3
+  index: -1
+necklace
+  rotate: true
+  xy: 1079, 94
+  size: 158, 155
+  orig: 158, 173
+  offset: 0, 18
+  index: -1
+nose
+  rotate: false
+  xy: 380, 5
+  size: 47, 33
+  orig: 47, 33
+  offset: 0, 0
+  index: -1
+pant
+  rotate: true
+  xy: 411, 48
+  size: 204, 98
+  orig: 204, 102
+  offset: 0, 0
+  index: -1
+pant-left
+  rotate: true
+  xy: 1144, 11
+  size: 79, 74
+  orig: 79, 74
+  offset: 0, 0
+  index: -1
+pant-right
+  rotate: true
+  xy: 1222, 12
+  size: 78, 74
+  orig: 78, 74
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 522, 6
+  size: 123, 43
+  orig: 145, 51
+  offset: 11, 4
+  index: -1
+shield
+  rotate: false
+  xy: 1353, 104
+  size: 139, 148
+  orig: 139, 148
+  offset: 0, 0
+  index: -1
+shield-left
+  rotate: false
+  xy: 1238, 99
+  size: 71, 153
+  orig: 72, 153
+  offset: 0, 0
+  index: -1
+shuriken
+  rotate: false
+  xy: 361, 4
+  size: 15, 34
+  orig: 15, 34
+  offset: 0, 0
+  index: -1
+tomato
+  rotate: false
+  xy: 1858, 72
+  size: 47, 51
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+trunk-01
+  rotate: true
+  xy: 1023, 84
+  size: 168, 52
+  orig: 168, 52
+  offset: 0, 0
+  index: -1
+trunk-02
+  rotate: true
+  xy: 513, 53
+  size: 199, 29
+  orig: 199, 29
+  offset: 0, 0
+  index: -1
+trunk-03
+  rotate: true
+  xy: 258, 8
+  size: 244, 46
+  orig: 244, 46
+  offset: 0, 0
+  index: -1
+trunk-04
+  rotate: true
+  xy: 308, 15
+  size: 237, 49
+  orig: 237, 49
+  offset: 0, 0
+  index: -1
+water-drop
+  rotate: false
+  xy: 1300, 7
+  size: 17, 8
+  orig: 17, 8
+  offset: 0, 0
+  index: -1
+weapon
+  rotate: true
+  xy: 937, 74
+  size: 178, 82
+  orig: 178, 82
+  offset: 0, 0
+  index: -1

@@ -1,0 +1,118 @@
+
+aqua-slime-def.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 4, 29
+  size: 225, 207
+  orig: 225, 207
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 582, 84
+  size: 195, 44
+  orig: 195, 44
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: true
+  xy: 913, 29
+  size: 207, 55
+  orig: 208, 56
+  offset: 0, 0
+  index: -1
+eyes-shut-02
+  rotate: true
+  xy: 791, 23
+  size: 213, 57
+  orig: 213, 57
+  offset: 0, 0
+  index: -1
+eyes-shut-03
+  rotate: true
+  xy: 852, 23
+  size: 213, 57
+  orig: 213, 57
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 972, 51
+  size: 185, 42
+  orig: 185, 42
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 409, 107
+  size: 169, 129
+  orig: 169, 129
+  offset: 0, 0
+  index: -1
+part-1
+  rotate: true
+  xy: 357, 54
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+part-2
+  rotate: false
+  xy: 642, 11
+  size: 71, 69
+  orig: 89, 71
+  offset: 0, 2
+  index: -1
+part-3
+  rotate: false
+  xy: 233, 5
+  size: 120, 95
+  orig: 120, 95
+  offset: 0, 0
+  index: -1
+part-4
+  rotate: false
+  xy: 409, 6
+  size: 129, 97
+  orig: 129, 100
+  offset: 0, 3
+  index: -1
+part-5
+  rotate: false
+  xy: 542, 5
+  size: 96, 75
+  orig: 96, 75
+  offset: 0, 0
+  index: -1
+part-6
+  rotate: false
+  xy: 717, 11
+  size: 60, 69
+  orig: 60, 69
+  offset: 0, 0
+  index: -1
+part-7
+  rotate: true
+  xy: 357, 4
+  size: 46, 44
+  orig: 46, 44
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 582, 132
+  size: 205, 104
+  orig: 221, 119
+  offset: 8, 7
+  index: -1
+shell
+  rotate: false
+  xy: 233, 104
+  size: 172, 132
+  orig: 172, 132
+  offset: 0, 0
+  index: -1

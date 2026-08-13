@@ -1,0 +1,41 @@
+
+treant.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 324, 4
+  size: 195, 184
+  orig: 195, 184
+  offset: 0, 0
+  index: -1
+leg-back
+  rotate: false
+  xy: 86, 141
+  size: 97, 58
+  orig: 97, 58
+  offset: 0, 0
+  index: -1
+leg-front
+  rotate: true
+  xy: 187, 140
+  size: 59, 62
+  orig: 59, 62
+  offset: 0, 0
+  index: -1
+leg-side
+  rotate: false
+  xy: 4, 152
+  size: 78, 47
+  orig: 78, 47
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 74
+  size: 316, 62
+  orig: 348, 70
+  offset: 16, 4
+  index: -1

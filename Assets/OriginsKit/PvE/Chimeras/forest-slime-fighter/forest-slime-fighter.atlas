@@ -1,0 +1,83 @@
+
+forest-slime-fighter.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 978, 24
+  size: 478, 480
+  orig: 481, 481
+  offset: 3, 0
+  index: -1
+body-line-thick
+  rotate: false
+  xy: 4, 17
+  size: 483, 487
+  orig: 485, 487
+  offset: 1, 0
+  index: -1
+body-line-thin
+  rotate: false
+  xy: 491, 17
+  size: 483, 487
+  orig: 485, 487
+  offset: 1, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 1460, 4
+  size: 135, 40
+  orig: 135, 40
+  offset: 0, 0
+  index: -1
+eyes-shut-01
+  rotate: false
+  xy: 1577, 71
+  size: 145, 51
+  orig: 147, 51
+  offset: 1, 0
+  index: -1
+eyes-shut-02
+  rotate: false
+  xy: 1599, 17
+  size: 139, 50
+  orig: 149, 51
+  offset: 5, 0
+  index: -1
+eyes-shut-03
+  rotate: false
+  xy: 1577, 126
+  size: 144, 52
+  orig: 152, 52
+  offset: 4, 0
+  index: -1
+foot
+  rotate: true
+  xy: 1577, 322
+  size: 182, 179
+  orig: 183, 179
+  offset: 1, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 1643, 254
+  size: 64, 42
+  orig: 65, 42
+  offset: 0, 0
+  index: -1
+mouth-open
+  rotate: false
+  xy: 1577, 182
+  size: 62, 136
+  orig: 65, 136
+  offset: 1, 0
+  index: -1
+shadow
+  rotate: true
+  xy: 1460, 48
+  size: 456, 113
+  orig: 482, 121
+  offset: 13, 4
+  index: -1
