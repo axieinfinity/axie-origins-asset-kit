@@ -1,0 +1,27 @@
+
+draw.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+clouth
+  rotate: false
+  xy: 4, 268
+  size: 660, 199
+  orig: 698, 199
+  offset: 19, 0
+  index: -1
+draw
+  rotate: false
+  xy: 4, 65
+  size: 660, 199
+  orig: 698, 199
+  offset: 19, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 668, 4
+  size: 463, 222
+  orig: 463, 222
+  offset: 0, 0
+  index: -1

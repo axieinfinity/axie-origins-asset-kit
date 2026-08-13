@@ -1,0 +1,97 @@
+
+LittleRobin.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 4, 91
+  size: 158, 133
+  orig: 159, 135
+  offset: 0, 1
+  index: -1
+eyes
+  rotate: false
+  xy: 108, 24
+  size: 45, 11
+  orig: 46, 11
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 108, 12
+  size: 44, 8
+  orig: 44, 8
+  offset: 0, 0
+  index: -1
+flap-left
+  rotate: false
+  xy: 141, 106
+  size: 71, 143
+  orig: 72, 144
+  offset: 1, 0
+  index: -1
+flap-right
+  rotate: true
+  xy: 260, 38
+  size: 50, 143
+  orig: 51, 144
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 77, 5
+  size: 27, 30
+  orig: 29, 31
+  offset: 1, 0
+  index: -1
+leg-right
+  rotate: true
+  xy: 46, 4
+  size: 31, 27
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 39
+  size: 252, 48
+  orig: 252, 48
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 4, 11
+  size: 38, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+wing-left-down
+  rotate: false
+  xy: 296, 160
+  size: 66, 89
+  orig: 67, 90
+  offset: 1, 0
+  index: -1
+wing-left-up
+  rotate: false
+  xy: 216, 142
+  size: 76, 107
+  orig: 76, 108
+  offset: 0, 0
+  index: -1
+wing-right-down
+  rotate: false
+  xy: 366, 160
+  size: 66, 89
+  orig: 67, 90
+  offset: 1, 0
+  index: -1
+wing-right-up
+  rotate: true
+  xy: 216, 92
+  size: 46, 102
+  orig: 46, 102
+  offset: 0, 0
+  index: -1

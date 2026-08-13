@@ -1,0 +1,97 @@
+
+Sparrow.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 4, 96
+  size: 156, 133
+  orig: 158, 135
+  offset: 1, 1
+  index: -1
+eyes
+  rotate: false
+  xy: 46, 29
+  size: 45, 11
+  orig: 46, 11
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 4, 4
+  size: 44, 8
+  orig: 44, 8
+  offset: 0, 0
+  index: -1
+flap-left
+  rotate: false
+  xy: 141, 109
+  size: 71, 143
+  orig: 72, 144
+  offset: 1, 0
+  index: -1
+flap-right
+  rotate: true
+  xy: 260, 42
+  size: 50, 143
+  orig: 51, 144
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 95, 10
+  size: 27, 30
+  orig: 29, 31
+  offset: 1, 0
+  index: -1
+leg-right
+  rotate: true
+  xy: 126, 9
+  size: 31, 26
+  orig: 32, 27
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 44
+  size: 252, 48
+  orig: 252, 48
+  offset: 0, 0
+  index: -1
+tail
+  rotate: false
+  xy: 4, 16
+  size: 38, 24
+  orig: 39, 24
+  offset: 0, 0
+  index: -1
+wing-left-down
+  rotate: false
+  xy: 296, 163
+  size: 66, 89
+  orig: 67, 90
+  offset: 1, 0
+  index: -1
+wing-left-up
+  rotate: false
+  xy: 216, 145
+  size: 76, 107
+  orig: 76, 108
+  offset: 0, 0
+  index: -1
+wing-right-down
+  rotate: false
+  xy: 366, 163
+  size: 66, 89
+  orig: 67, 90
+  offset: 1, 0
+  index: -1
+wing-right-up
+  rotate: true
+  xy: 216, 96
+  size: 45, 102
+  orig: 46, 102
+  offset: 0, 0
+  index: -1

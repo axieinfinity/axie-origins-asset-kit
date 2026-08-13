@@ -1,0 +1,352 @@
+{
+  "source": "origin-client AxieMixerUnity axie-2d-v3-stuff-animations.json",
+  "count": 46,
+  "battleUsage": {
+    "action/idle/normal": "Default in-battle idle loop.",
+    "action/idle/random-01": "Random idle variation.",
+    "action/idle/random-02": "Random idle variation.",
+    "action/idle/random-03": "Random idle variation.",
+    "action/idle/random-04": "Random idle variation.",
+    "action/idle/random-05": "Random idle variation.",
+    "action/run": "Movement / approach.",
+    "action/move-forward": "Step toward the target (melee close-in).",
+    "action/move-back": "Return to lane after a melee skill.",
+    "action/idle/mix/normal-mix": "Starter overlay mix (idle body).",
+    "action/idle/mix/awaken-mix": "Awakened starter overlay mix.",
+    "action/idle/mix/assets": "Starter overlay mix (props).",
+    "action/mix/body-animation": "Body overlay mix channel.",
+    "action/mix/ear-animation": "Ear overlay mix channel.",
+    "action/mix/eyes-animation": "Eye overlay mix channel.",
+    "action/mix/normal-mouth-animation": "Mouth overlay mix channel.",
+    "action/mix/mystic-light-battle": "Mystic glow overlay in battle.",
+    "attack/melee/normal-attack": "Generic melee fallback.",
+    "attack/melee/horn-gore": "Horn melee (gore / smash family).",
+    "attack/melee/mouth-bite": "Mouth melee (bite family).",
+    "attack/melee/shrimp": "Special melee (shrimp).",
+    "attack/melee/tail-smash": "Tail smash / slash family.",
+    "attack/melee/tail-thrash": "Tail thrash / slash family.",
+    "attack/melee/tail-roll": "Tail roll melee.",
+    "attack/melee/tail-multi-slap": "Multi-hit tail melee.",
+    "attack/melee/multi-attack": "Generic multi-hit melee.",
+    "attack/ranged/cast-fly": "Default ranged cast (most projectiles).",
+    "attack/ranged/cast-high": "High-aim ranged cast.",
+    "attack/ranged/cast-low": "Low-aim ranged cast.",
+    "attack/ranged/cast-tail": "Tail-based ranged cast.",
+    "attack/ranged/cast-multi": "Multi-projectile ranged cast.",
+    "defense/hit-by-normal": "Default melee hit react.",
+    "defense/hit-by-normal-crit": "Critical melee hit react.",
+    "defense/hit-by-normal-dramatic": "Heavy melee hit react.",
+    "defense/hit-by-ranged-attack": "Ranged hit react.",
+    "defense/hit-with-shield": "Blocked / shielded hit.",
+    "defense/evade": "Dodge / miss.",
+    "battle/get-buff": "Positive status applied.",
+    "battle/get-debuff": "Negative status applied.",
+    "activity/prepare": "Pre-battle ready pose.",
+    "activity/appear": "Spawn / enter.",
+    "activity/entrance": "Dramatic entrance.",
+    "activity/victory-pose-back-flip": "Victory.",
+    "activity/sleep": "Sleep status / downed flavour.",
+    "draft/run-origin": "Alternate run cycle used in some Origins scenes."
+  },
+  "fallbackMelee": [
+    "attack/melee/normal-attack",
+    "attack/melee/horn-gore",
+    "attack/melee/mouth-bite",
+    "attack/melee/shrimp",
+    "attack/melee/tail-smash",
+    "attack/melee/tail-thrash",
+    "attack/melee/tail-roll"
+  ],
+  "fallbackRanged": [
+    "attack/ranged/cast-fly",
+    "attack/ranged/cast-high",
+    "attack/ranged/cast-low",
+    "attack/ranged/cast-tail",
+    "attack/ranged/cast-multi"
+  ],
+  "fallbackHit": [
+    "defense/hit-by-normal",
+    "defense/hit-by-normal-crit",
+    "defense/hit-by-normal-dramatic",
+    "defense/hit-by-ranged-attack",
+    "defense/hit-with-shield"
+  ],
+  "items": [
+    {
+      "name": "activity/appear",
+      "usedInOriginsBattle": true,
+      "usage": "Spawn / enter.",
+      "defaultKey": "1023093953"
+    },
+    {
+      "name": "activity/bath",
+      "usedInOriginsBattle": false,
+      "usage": null,
+      "defaultKey": "3305387968"
+    },
+    {
+      "name": "attack/ranged/cast-fly",
+      "usedInOriginsBattle": true,
+      "usage": "Default ranged cast (most projectiles).",
+      "defaultKey": "4180526371"
+    },
+    {
+      "name": "attack/ranged/cast-high",
+      "usedInOriginsBattle": true,
+      "usage": "High-aim ranged cast.",
+      "defaultKey": "164191126"
+    },
+    {
+      "name": "attack/ranged/cast-low",
+      "usedInOriginsBattle": true,
+      "usage": "Low-aim ranged cast.",
+      "defaultKey": "198813017"
+    },
+    {
+      "name": "attack/ranged/cast-multi",
+      "usedInOriginsBattle": true,
+      "usage": "Multi-projectile ranged cast.",
+      "defaultKey": "151119"
+    },
+    {
+      "name": "attack/ranged/cast-tail",
+      "usedInOriginsBattle": true,
+      "usage": "Tail-based ranged cast.",
+      "defaultKey": "1843465463"
+    },
+    {
+      "name": "activity/eat-bite",
+      "usedInOriginsBattle": false,
+      "usage": null,
+      "defaultKey": "1137807767"
+    },
+    {
+      "name": "activity/eat-chew",
+      "usedInOriginsBattle": false,
+      "usage": null,
+      "defaultKey": "1988236421"
+    },
+    {
+      "name": "activity/entrance",
+      "usedInOriginsBattle": true,
+      "usage": "Dramatic entrance.",
+      "defaultKey": "3768378365"
+    },
+    {
+      "name": "defense/evade",
+      "usedInOriginsBattle": true,
+      "usage": "Dodge / miss.",
+      "defaultKey": "1735454995"
+    },
+    {
+      "name": "activity/evolve",
+      "usedInOriginsBattle": false,
+      "usage": null,
+      "defaultKey": "649307630"
+    },
+    {
+      "name": "battle/get-buff",
+      "usedInOriginsBattle": true,
+      "usage": "Positive status applied.",
+      "defaultKey": "1455190363"
+    },
+    {
+      "name": "battle/get-debuff",
+      "usedInOriginsBattle": true,
+      "usage": "Negative status applied.",
+      "defaultKey": "606904312"
+    },
+    {
+      "name": "defense/hit-by-normal",
+      "usedInOriginsBattle": true,
+      "usage": "Default melee hit react.",
+      "defaultKey": "2045974966"
+    },
+    {
+      "name": "defense/hit-by-normal-crit",
+      "usedInOriginsBattle": true,
+      "usage": "Critical melee hit react.",
+      "defaultKey": "2130010601"
+    },
+    {
+      "name": "defense/hit-by-normal-dramatic",
+      "usedInOriginsBattle": true,
+      "usage": "Heavy melee hit react.",
+      "defaultKey": "3823092125"
+    },
+    {
+      "name": "defense/hit-by-ranged-attack",
+      "usedInOriginsBattle": true,
+      "usage": "Ranged hit react.",
+      "defaultKey": "2224561612"
+    },
+    {
+      "name": "defense/hit-with-shield",
+      "usedInOriginsBattle": true,
+      "usage": "Blocked / shielded hit.",
+      "defaultKey": "390714790"
+    },
+    {
+      "name": "attack/melee/horn-gore",
+      "usedInOriginsBattle": true,
+      "usage": "Horn melee (gore / smash family).",
+      "defaultKey": "1327954218"
+    },
+    {
+      "name": "action/mix/body-animation",
+      "usedInOriginsBattle": true,
+      "usage": "Body overlay mix channel.",
+      "defaultKey": "1995346600"
+    },
+    {
+      "name": "attack/melee/mouth-bite",
+      "usedInOriginsBattle": true,
+      "usage": "Mouth melee (bite family).",
+      "defaultKey": "2237748264"
+    },
+    {
+      "name": "action/move-back",
+      "usedInOriginsBattle": true,
+      "usage": "Return to lane after a melee skill.",
+      "defaultKey": "3766271173"
+    },
+    {
+      "name": "action/move-forward",
+      "usedInOriginsBattle": true,
+      "usage": "Step toward the target (melee close-in).",
+      "defaultKey": "2945160014"
+    },
+    {
+      "name": "attack/melee/multi-attack",
+      "usedInOriginsBattle": true,
+      "usage": "Generic multi-hit melee.",
+      "defaultKey": "905926802"
+    },
+    {
+      "name": "action/idle/normal",
+      "usedInOriginsBattle": true,
+      "usage": "Default in-battle idle loop.",
+      "defaultKey": "1659336865"
+    },
+    {
+      "name": "attack/melee/normal-attack",
+      "usedInOriginsBattle": true,
+      "usage": "Generic melee fallback.",
+      "defaultKey": "3305373483"
+    },
+    {
+      "name": "activity/prepare",
+      "usedInOriginsBattle": true,
+      "usage": "Pre-battle ready pose.",
+      "defaultKey": "405864717"
+    },
+    {
+      "name": "action/idle/random-01",
+      "usedInOriginsBattle": true,
+      "usage": "Random idle variation.",
+      "defaultKey": "554401889"
+    },
+    {
+      "name": "action/idle/random-02",
+      "usedInOriginsBattle": true,
+      "usage": "Random idle variation.",
+      "defaultKey": "1001093024"
+    },
+    {
+      "name": "action/idle/random-03",
+      "usedInOriginsBattle": true,
+      "usage": "Random idle variation.",
+      "defaultKey": "2021333900"
+    },
+    {
+      "name": "action/idle/random-04",
+      "usedInOriginsBattle": true,
+      "usage": "Random idle variation.",
+      "defaultKey": "1003789695"
+    },
+    {
+      "name": "action/idle/random-05",
+      "usedInOriginsBattle": true,
+      "usage": "Random idle variation.",
+      "defaultKey": "2745614147"
+    },
+    {
+      "name": "action/run",
+      "usedInOriginsBattle": true,
+      "usage": "Movement / approach.",
+      "defaultKey": "1438840721"
+    },
+    {
+      "name": "draft/run-origin",
+      "usedInOriginsBattle": true,
+      "usage": "Alternate run cycle used in some Origins scenes.",
+      "defaultKey": "3577885069"
+    },
+    {
+      "name": "attack/melee/shrimp",
+      "usedInOriginsBattle": true,
+      "usage": "Special melee (shrimp).",
+      "defaultKey": "3833448733"
+    },
+    {
+      "name": "activity/sleep",
+      "usedInOriginsBattle": true,
+      "usage": "Sleep status / downed flavour.",
+      "defaultKey": "100562494"
+    },
+    {
+      "name": "attack/melee/tail-multi-slap",
+      "usedInOriginsBattle": true,
+      "usage": "Multi-hit tail melee.",
+      "defaultKey": "3317139533"
+    },
+    {
+      "name": "attack/melee/tail-roll",
+      "usedInOriginsBattle": true,
+      "usage": "Tail roll melee.",
+      "defaultKey": "3108617565"
+    },
+    {
+      "name": "attack/melee/tail-smash",
+      "usedInOriginsBattle": true,
+      "usage": "Tail smash / slash family.",
+      "defaultKey": "519942130"
+    },
+    {
+      "name": "attack/melee/tail-thrash",
+      "usedInOriginsBattle": true,
+      "usage": "Tail thrash / slash family.",
+      "defaultKey": "628713175"
+    },
+    {
+      "name": "activity/victory-pose-back-flip",
+      "usedInOriginsBattle": true,
+      "usage": "Victory.",
+      "defaultKey": "2227634241"
+    },
+    {
+      "name": "action/mix/mystic-light-battle",
+      "usedInOriginsBattle": true,
+      "usage": "Mystic glow overlay in battle.",
+      "defaultKey": "3979179032"
+    },
+    {
+      "name": "action/mix/ear-animation",
+      "usedInOriginsBattle": true,
+      "usage": "Ear overlay mix channel.",
+      "defaultKey": "4086061935"
+    },
+    {
+      "name": "action/mix/eyes-animation",
+      "usedInOriginsBattle": true,
+      "usage": "Eye overlay mix channel.",
+      "defaultKey": "3799301307"
+    },
+    {
+      "name": "action/mix/normal-mouth-animation",
+      "usedInOriginsBattle": true,
+      "usage": "Mouth overlay mix channel.",
+      "defaultKey": "1178295570"
+    }
+  ]
+}

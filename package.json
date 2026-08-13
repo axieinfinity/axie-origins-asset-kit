@@ -1,0 +1,21 @@
+{
+  "name": "com.skymavis.origins-kit",
+  "version": "1.0.0",
+  "displayName": "Axie Origins Battle Kit",
+  "description": "First-party Axie Infinity: Origins battle VFX, mixer animations, status icons, and SFX for Unity 2021.3. Vibeathon builder resource.",
+  "unity": "2021.3",
+  "documentationUrl": "https://github.com/jaatster/axie-origins-unity-kit#readme",
+  "licensesUrl": "LICENSE.md",
+  "keywords": ["axie", "origins", "vfx", "vibeathon", "2d"],
+  "author": {
+    "name": "Sky Mavis / Axie Vibeathon",
+    "url": "https://axieinfinity.com"
+  },
+  "samples": [
+    {
+      "displayName": "VFX Gallery",
+      "description": "Plays a few skill and buff prefabs the same way Origins does.",
+      "path": "Samples~/Gallery"
+    }
+  ]
+}

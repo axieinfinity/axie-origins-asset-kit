@@ -1,0 +1,3133 @@
+{
+  "count": 188,
+  "items": [
+    {
+      "abilityId": "aquatic-back-04",
+      "cardNames": [
+        "Blue Moon",
+        "Blue Moon+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Back",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.0
+    },
+    {
+      "abilityId": "aquatic-back-06",
+      "cardNames": [
+        "Goldfish",
+        "Goldfish+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Back",
+      "partValue": 6,
+      "attackType": "Melee",
+      "vfxId": "aquatic_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8833333253860474
+    },
+    {
+      "abilityId": "aquatic-back-10",
+      "cardNames": [
+        "Anemone",
+        "Anemone+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Back",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0333333015441895
+    },
+    {
+      "abilityId": "aquatic-back-12",
+      "cardNames": [
+        "Perch",
+        "Perch+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Back",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0333333015441895
+    },
+    {
+      "abilityId": "aquatic-ears-01",
+      "cardNames": [
+        "Little Crab α",
+        "Little Crab"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Ears",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.0
+    },
+    {
+      "abilityId": "aquatic-ears-08",
+      "cardNames": [
+        "Inkling",
+        "Inkling+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Ears",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-ears-10",
+      "cardNames": [
+        "Gill α",
+        "Gill",
+        "Gill+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Ears",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.0
+    },
+    {
+      "abilityId": "aquatic-ears-12",
+      "cardNames": [
+        "Seaslug",
+        "Seaslug+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Ears",
+      "partValue": 12,
+      "attackType": "Melee",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-eyes-02",
+      "cardNames": [
+        "Sleepless",
+        "Sleepless+"
+      ],
+      "partClass": "Aquatic",
+      "partType": null,
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 1.850000023841858
+    },
+    {
+      "abilityId": "aquatic-eyes-08",
+      "cardNames": [
+        "Gero",
+        "Gero+"
+      ],
+      "partClass": "Aquatic",
+      "partType": null,
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 1.850000023841858
+    },
+    {
+      "abilityId": "aquatic-horn-01",
+      "cardNames": [
+        "Jellytacle α",
+        "Jellytacle"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "aquatic_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "aquatic-horn-02",
+      "cardNames": [
+        "Babylonia",
+        "Babylonia+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "aquatic_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "aquatic-horn-06",
+      "cardNames": [
+        "Clamshell",
+        "Clamshell+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 6,
+      "attackType": "Melee",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-horn-08",
+      "cardNames": [
+        "Anemone",
+        "Anemone+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "aquatic_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8833333253860474
+    },
+    {
+      "abilityId": "aquatic-horn-10",
+      "cardNames": [
+        "Oranda",
+        "Oranda+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0333333015441895
+    },
+    {
+      "abilityId": "aquatic-horn-12",
+      "cardNames": [
+        "Shoal Star",
+        "Shoal Star+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Horn",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.0
+    },
+    {
+      "abilityId": "aquatic-mouth-02",
+      "cardNames": [
+        "Lam",
+        "Lam+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "aquatic_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0166666507720947
+    },
+    {
+      "abilityId": "aquatic-mouth-04",
+      "cardNames": [
+        "Catfish",
+        "Catfish+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "aquatic_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0166666507720947
+    },
+    {
+      "abilityId": "aquatic-mouth-08",
+      "cardNames": [
+        "Risky Fish",
+        "Risky Fish+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "aquatic_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0166666507720947
+    },
+    {
+      "abilityId": "aquatic-mouth-10",
+      "cardNames": [
+        "Piranha",
+        "Piranha+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Mouth",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "aquatic_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0166666507720947
+    },
+    {
+      "abilityId": "aquatic-tail-01",
+      "cardNames": [
+        "Puff α",
+        "Puff"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0333333015441895
+    },
+    {
+      "abilityId": "aquatic-tail-02",
+      "cardNames": [
+        "Koi",
+        "Koi+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "aquatic_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8833333253860474
+    },
+    {
+      "abilityId": "aquatic-tail-06",
+      "cardNames": [
+        "Tadpole",
+        "Tadpole+",
+        "Tadpole α"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-tail-08",
+      "cardNames": [
+        "Ranchu",
+        "Ranchu+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-tail-10",
+      "cardNames": [
+        "Navaga",
+        "Navaga+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "aquatic-tail-12",
+      "cardNames": [
+        "Shrimp",
+        "Shrimp+"
+      ],
+      "partClass": "Aquatic",
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Melee",
+      "vfxId": "aquatic_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8833333253860474
+    },
+    {
+      "abilityId": "beast-back-01",
+      "cardNames": [
+        "Pangolin Slayer α",
+        "Pangolin Slayer"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "beast-back-02",
+      "cardNames": [
+        "Ronin",
+        "Ronin+"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-back-04",
+      "cardNames": [
+        "Hero",
+        "Hero+"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-back-06",
+      "cardNames": [
+        "Jaguar",
+        "Jaguar+"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 6,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-back-08",
+      "cardNames": [
+        "Risky Beast",
+        "Risky Beast+"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "beast_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "beast-back-12",
+      "cardNames": [
+        "Furball",
+        "Furball+"
+      ],
+      "partClass": null,
+      "partType": "Back",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "beast-ears-02",
+      "cardNames": [
+        "Nyan",
+        "Nyan+"
+      ],
+      "partClass": null,
+      "partType": "Ears",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-ears-03",
+      "cardNames": [
+        "Foxy α",
+        "Foxy"
+      ],
+      "partClass": null,
+      "partType": "Ears",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-ears-04",
+      "cardNames": [
+        "Nut Cracker α",
+        "Nut Cracker",
+        "Nut Cracker+"
+      ],
+      "partClass": null,
+      "partType": "Ears",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "beast-ears-08",
+      "cardNames": [
+        "Zen",
+        "Zen+"
+      ],
+      "partClass": null,
+      "partType": "Ears",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-ears-12",
+      "cardNames": [
+        "Belieber α",
+        "Belieber",
+        "Belieber+"
+      ],
+      "partClass": null,
+      "partType": "Ears",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "beast-eyes-04",
+      "cardNames": [
+        "Little Peas",
+        "Little Peas+"
+      ],
+      "partClass": null,
+      "partType": null,
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-eyes-05",
+      "cardNames": [
+        "Sobby α",
+        "Sobby"
+      ],
+      "partClass": null,
+      "partType": null,
+      "partValue": 5,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-eyes-10",
+      "cardNames": [
+        "Chubby",
+        "Chubby+"
+      ],
+      "partClass": null,
+      "partType": null,
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-horn-01",
+      "cardNames": [
+        "Rocky Skull α",
+        "Rocky Skull"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-horn-02",
+      "cardNames": [
+        "Little Branch",
+        "Little Branch+"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-horn-04",
+      "cardNames": [
+        "Imp",
+        "Imp+"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-horn-07",
+      "cardNames": [
+        "Toy Ball α",
+        "Toy Ball"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 7,
+      "attackType": "Ranged",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-horn-08",
+      "cardNames": [
+        "Pocky",
+        "Pocky+"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-horn-10",
+      "cardNames": [
+        "Dual Blade",
+        "Dual Blade+"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-horn-12",
+      "cardNames": [
+        "Arco",
+        "Arco+"
+      ],
+      "partClass": null,
+      "partType": "Horn",
+      "partValue": 12,
+      "attackType": "Melee",
+      "vfxId": "beast_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "beast-mouth-01",
+      "cardNames": [
+        "Foxy α",
+        "Foxy"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-mouth-02",
+      "cardNames": [
+        "Nut Cracker α",
+        "Nut Cracker",
+        "Nut Cracker+"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "beast-mouth-03",
+      "cardNames": [
+        "Puff α",
+        "Puff"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "aquatic_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8666666746139526
+    },
+    {
+      "abilityId": "beast-mouth-04",
+      "cardNames": [
+        "Goda",
+        "Goda+"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "beast_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "beast-mouth-05",
+      "cardNames": [
+        "Cub α",
+        "Cub"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 5,
+      "attackType": "Melee",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "beast-mouth-08",
+      "cardNames": [
+        "Axie Kiss",
+        "Axie Kiss+"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "beast-mouth-08",
+      "cardNames": [
+        "Axie Kiss",
+        "Axie Kiss+"
+      ],
+      "partClass": null,
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-tail-03",
+      "cardNames": [
+        "Buba Brush α",
+        "Buba Brush"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "beast-tail-04",
+      "cardNames": [
+        "Rice",
+        "Rice+"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-tail-05",
+      "cardNames": [
+        "Pangolin α",
+        "Pangolin"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 5,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "beast-tail-06",
+      "cardNames": [
+        "Shiba α",
+        "Shiba",
+        "Shiba+"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 6,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-tail-08",
+      "cardNames": [
+        "Hare",
+        "Hare+"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "beast_smash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "beast-tail-10",
+      "cardNames": [
+        "Nut Cracker α",
+        "Nut Cracker",
+        "Nut Cracker+"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "beast-tail-12",
+      "cardNames": [
+        "Gerbil",
+        "Gerbil+"
+      ],
+      "partClass": null,
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-back-01",
+      "cardNames": [
+        "Lil Bro α",
+        "Lil Bro"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-back-02",
+      "cardNames": [
+        "Balloon",
+        "Balloon+"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-back-03",
+      "cardNames": [
+        "Paper Wing α",
+        "Paper Wing"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "bird_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "bird-back-04",
+      "cardNames": [
+        "Cupid",
+        "Cupid+"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-back-06",
+      "cardNames": [
+        "Raven",
+        "Raven+"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-back-08",
+      "cardNames": [
+        "Pigeon Post",
+        "Pigeon Post+"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.116666555404663
+    },
+    {
+      "abilityId": "bird-back-12",
+      "cardNames": [
+        "Tri Feather",
+        "Tri Feather+"
+      ],
+      "partClass": "Bird",
+      "partType": "Back",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-ears-04",
+      "cardNames": [
+        "Early Bird",
+        "Early Bird+"
+      ],
+      "partClass": "Bird",
+      "partType": "Ears",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-ears-06",
+      "cardNames": [
+        "Little Owl",
+        "Little Owl+"
+      ],
+      "partClass": "Bird",
+      "partType": "Ears",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-ears-08",
+      "cardNames": [
+        "Peace Maker",
+        "Peace Maker+"
+      ],
+      "partClass": "Bird",
+      "partType": "Ears",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-ears-10",
+      "cardNames": [
+        "Curly",
+        "Curly+"
+      ],
+      "partClass": "Bird",
+      "partType": "Ears",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bird_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.116666555404663
+    },
+    {
+      "abilityId": "bird-ears-12",
+      "cardNames": [
+        "Risky Bird",
+        "Risky Bird+"
+      ],
+      "partClass": "Bird",
+      "partType": "Ears",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-eyes-08",
+      "cardNames": [
+        "Little Owl",
+        "Little Owl+"
+      ],
+      "partClass": "Bird",
+      "partType": null,
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-horn-02",
+      "cardNames": [
+        "Eggshell",
+        "Eggshell+"
+      ],
+      "partClass": "Bird",
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bird_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.116666555404663
+    },
+    {
+      "abilityId": "bird-horn-06",
+      "cardNames": [
+        "Trump",
+        "Trump+"
+      ],
+      "partClass": "Bird",
+      "partType": "Horn",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-horn-08",
+      "cardNames": [
+        "Kestrel",
+        "Kestrel+"
+      ],
+      "partClass": "Bird",
+      "partType": "Horn",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-horn-10",
+      "cardNames": [
+        "Wing Horn",
+        "Wing Horn+"
+      ],
+      "partClass": "Bird",
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-horn-12",
+      "cardNames": [
+        "Feather Spear",
+        "Feather Spear+"
+      ],
+      "partClass": "Bird",
+      "partType": "Horn",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-mouth-01",
+      "cardNames": [
+        "Feathery Dart α",
+        "Feathery Dart"
+      ],
+      "partClass": "Bird",
+      "partType": "Mouth",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-mouth-02",
+      "cardNames": [
+        "Doubletalk",
+        "Doubletalk+"
+      ],
+      "partClass": "Bird",
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "bird-mouth-04",
+      "cardNames": [
+        "Peace Maker",
+        "Peace Maker+"
+      ],
+      "partClass": "Bird",
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "bird_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1333333253860474
+    },
+    {
+      "abilityId": "bird-mouth-08",
+      "cardNames": [
+        "Hungry Bird",
+        "Hungry Bird+"
+      ],
+      "partClass": "Bird",
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1333333253860474
+    },
+    {
+      "abilityId": "bird-mouth-10",
+      "cardNames": [
+        "Little Owl",
+        "Little Owl+"
+      ],
+      "partClass": "Bird",
+      "partType": "Mouth",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "bird_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1333333253860474
+    },
+    {
+      "abilityId": "bird-tail-01",
+      "cardNames": [
+        "Death Shower α",
+        "Death Shower"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-tail-02",
+      "cardNames": [
+        "Swallow",
+        "Swallow+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-tail-04",
+      "cardNames": [
+        "Feather Fan",
+        "Feather Fan+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bird_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.116666555404663
+    },
+    {
+      "abilityId": "bird-tail-06",
+      "cardNames": [
+        "The Last One",
+        "The Last One+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bird-tail-08",
+      "cardNames": [
+        "Cloud",
+        "Cloud+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "bird_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "bird-tail-10",
+      "cardNames": [
+        "Granma's Fan",
+        "Granma's Fan+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bird_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.116666555404663
+    },
+    {
+      "abilityId": "bird-tail-12",
+      "cardNames": [
+        "Post Fight",
+        "Post Fight+"
+      ],
+      "partClass": "Bird",
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bird_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "duration": 1.8333333730697632
+    },
+    {
+      "abilityId": "bug-back-04",
+      "cardNames": [
+        "Garish Worm",
+        "Garish Worm+"
+      ],
+      "partClass": "Bug",
+      "partType": "Back",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bug_slash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "bug-back-06",
+      "cardNames": [
+        "Buzz Buzz",
+        "Buzz Buzz+"
+      ],
+      "partClass": "Bug",
+      "partType": "Back",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bug_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "bug-back-08",
+      "cardNames": [
+        "Sandal",
+        "Sandal+"
+      ],
+      "partClass": "Bug",
+      "partType": "Back",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "bug_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "bug-back-10",
+      "cardNames": [
+        "Scarab",
+        "Scarab+"
+      ],
+      "partClass": "Bug",
+      "partType": "Back",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bug_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "bug-back-12",
+      "cardNames": [
+        "Spiky Wing",
+        "Spiky Wing+"
+      ],
+      "partClass": "Bug",
+      "partType": "Back",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bug_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "bug-ears-04",
+      "cardNames": [
+        "Beetle Spike",
+        "Beetle Spike+"
+      ],
+      "partClass": "Bug",
+      "partType": "Ears",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "bug_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0499999523162842
+    },
+    {
+      "abilityId": "bug-ears-06",
+      "cardNames": [
+        "Ear Breathing",
+        "Ear Breathing+"
+      ],
+      "partClass": "Bug",
+      "partType": "Ears",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bug_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0999999046325684
+    },
+    {
+      "abilityId": "bug-ears-12",
+      "cardNames": [
+        "Earwing",
+        "Earwing+"
+      ],
+      "partClass": "Bug",
+      "partType": "Ears",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "bug_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "bug-eyes-10",
+      "cardNames": [
+        "Kotaro?",
+        "Kotaro?+"
+      ],
+      "partClass": "Bug",
+      "partType": null,
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bug_slash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "bug-horn-02",
+      "cardNames": [
+        "Lagging",
+        "Lagging+"
+      ],
+      "partClass": "Bug",
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bug_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "bug-horn-06",
+      "cardNames": [
+        "Caterpillars",
+        "Caterpillars+"
+      ],
+      "partClass": "Bug",
+      "partType": "Horn",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "bug_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0999999046325684
+    },
+    {
+      "abilityId": "bug-horn-08",
+      "cardNames": [
+        "Pliers",
+        "Pliers+"
+      ],
+      "partClass": "Bug",
+      "partType": "Horn",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "bug_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0499999523162842
+    },
+    {
+      "abilityId": "bug-horn-10",
+      "cardNames": [
+        "Parasite",
+        "Parasite+"
+      ],
+      "partClass": "Bug",
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "bug_slash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "bug-mouth-02",
+      "cardNames": [
+        "Mosquito",
+        "Mosquito+"
+      ],
+      "partClass": "Bug",
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "bug_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.25
+    },
+    {
+      "abilityId": "bug-mouth-04",
+      "cardNames": [
+        "Pincer",
+        "Pincer+"
+      ],
+      "partClass": "Bug",
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bug_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.25
+    },
+    {
+      "abilityId": "bug-mouth-08",
+      "cardNames": [
+        "Cute Bunny",
+        "Cute Bunny+"
+      ],
+      "partClass": "Bug",
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "bug_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.25
+    },
+    {
+      "abilityId": "bug-mouth-10",
+      "cardNames": [
+        "Square Teeth",
+        "Square Teeth+"
+      ],
+      "partClass": "Bug",
+      "partType": "Mouth",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "bug_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.25
+    },
+    {
+      "abilityId": "bug-tail-03",
+      "cardNames": [
+        "Shield Shattering α",
+        "Shield Shattering"
+      ],
+      "partClass": "Bug",
+      "partType": "Tail",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "bug_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "bug-tail-04",
+      "cardNames": [
+        "Twin Tail",
+        "Twin Tail+"
+      ],
+      "partClass": "Bug",
+      "partType": "Tail",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "bug_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 2.0999999046325684
+    },
+    {
+      "abilityId": "bug-tail-12",
+      "cardNames": [
+        "Thorny Caterpillar",
+        "Thorny Caterpillar+"
+      ],
+      "partClass": "Bug",
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Melee",
+      "vfxId": "bug_slash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9166666865348816
+    },
+    {
+      "abilityId": "dawn-mouth-03",
+      "cardNames": [
+        "Buddy Chorus α",
+        "Buddy Chorus"
+      ],
+      "partClass": "Dawn",
+      "partType": "Mouth",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "dawn_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.4666666984558105
+    },
+    {
+      "abilityId": "dusk-eyes-05",
+      "cardNames": [
+        "Grand Finale α",
+        "Grand Finale"
+      ],
+      "partClass": "Dusk",
+      "partType": null,
+      "partValue": 5,
+      "attackType": "Ranged",
+      "vfxId": "dusk_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.5833332538604736
+    },
+    {
+      "abilityId": "mech-back-03",
+      "cardNames": [
+        "Village Hero α",
+        "Village Hero"
+      ],
+      "partClass": "Mech",
+      "partType": "Back",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "mech_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0833333730697632
+    },
+    {
+      "abilityId": "mech-horn-01",
+      "cardNames": [
+        "Shocker α",
+        "Shocker"
+      ],
+      "partClass": "Mech",
+      "partType": "Horn",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "mech_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.949999988079071
+    },
+    {
+      "abilityId": "mech-horn-03",
+      "cardNames": [
+        "Rusty Helm α",
+        "Rusty Helm"
+      ],
+      "partClass": "Mech",
+      "partType": "Horn",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "plant_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "mech-mouth-01",
+      "cardNames": [],
+      "partClass": "Mech",
+      "partType": "Mouth",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "mech_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9666666388511658
+    },
+    {
+      "abilityId": "mech-tail-03",
+      "cardNames": [
+        "Mainspring α",
+        "Mainspring"
+      ],
+      "partClass": "Mech",
+      "partType": "Tail",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "mech_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.949999988079071
+    },
+    {
+      "abilityId": "plant-back-02",
+      "cardNames": [
+        "Turnip",
+        "Turnip+"
+      ],
+      "partClass": "Plant",
+      "partType": "Back",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "plant_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "plant-back-03",
+      "cardNames": [
+        "Forest Hero α",
+        "Forest Hero"
+      ],
+      "partClass": "Plant",
+      "partType": "Back",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "plant-ears-02",
+      "cardNames": [
+        "Leafy",
+        "Leafy+"
+      ],
+      "partClass": "Plant",
+      "partType": "Ears",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "plant_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.433333396911621
+    },
+    {
+      "abilityId": "plant-eyes-04",
+      "cardNames": [
+        "Confusion",
+        "Confusion+"
+      ],
+      "partClass": "Plant",
+      "partType": null,
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "plant_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.433333396911621
+    },
+    {
+      "abilityId": "plant-horn-01",
+      "cardNames": [
+        "Persimmon α",
+        "Persimmon"
+      ],
+      "partClass": "Plant",
+      "partType": "Horn",
+      "partValue": 1,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "plant-horn-02",
+      "cardNames": [
+        "Bamboo Spear",
+        "Bamboo Spear+"
+      ],
+      "partClass": "Plant",
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "plant-horn-04",
+      "cardNames": [
+        "Beech",
+        "Beech+"
+      ],
+      "partClass": "Plant",
+      "partType": "Horn",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "plant-horn-10",
+      "cardNames": [
+        "Cactus",
+        "Cactus+"
+      ],
+      "partClass": "Plant",
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "plant-horn-12",
+      "cardNames": [
+        "Watermelon",
+        "Watermelon+"
+      ],
+      "partClass": "Plant",
+      "partType": "Horn",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "plant_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.7666666507720947
+    },
+    {
+      "abilityId": "plant-mouth-01",
+      "cardNames": [
+        "Beetroot α",
+        "Beetroot"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "plant-mouth-02",
+      "cardNames": [
+        "Serious",
+        "Serious+"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "plant_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.800000011920929
+    },
+    {
+      "abilityId": "plant-mouth-04",
+      "cardNames": [
+        "Zigzag",
+        "Zigzag+"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "plant_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.800000011920929
+    },
+    {
+      "abilityId": "plant-mouth-08",
+      "cardNames": [
+        "Herbivore",
+        "Herbivore+"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "plant_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.800000011920929
+    },
+    {
+      "abilityId": "plant-tail-02",
+      "cardNames": [
+        "Carrot",
+        "Carrot+"
+      ],
+      "partClass": "Plant",
+      "partType": "Tail",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "plant-tail-04",
+      "cardNames": [
+        "Cattail",
+        "Cattail+"
+      ],
+      "partClass": "Plant",
+      "partType": "Tail",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "plant_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "plant-tail-08",
+      "cardNames": [
+        "Yam",
+        "Yam+"
+      ],
+      "partClass": "Plant",
+      "partType": "Tail",
+      "partValue": 8,
+      "attackType": "Ranged",
+      "vfxId": "plant_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.433333396911621
+    },
+    {
+      "abilityId": "plant-tail-10",
+      "cardNames": [
+        "Potato Leaf",
+        "Potato Leaf+"
+      ],
+      "partClass": "Plant",
+      "partType": "Tail",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "plant-tail-12",
+      "cardNames": [
+        "Hot Butt",
+        "Hot Butt+"
+      ],
+      "partClass": "Plant",
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "plant_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.433333396911621
+    },
+    {
+      "abilityId": "reptile-back-03",
+      "cardNames": [
+        "Tiny Dino α",
+        "Tiny Dino"
+      ],
+      "partClass": "Reptile",
+      "partType": "Back",
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "aquatic_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8833333253860474
+    },
+    {
+      "abilityId": "reptile-back-04",
+      "cardNames": [
+        "Tri Spikes",
+        "Tri Spikes+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Back",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "reptile_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "reptile-ears-02",
+      "cardNames": [
+        "Pogona",
+        "Pogona+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Ears",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "reptile_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "reptile-ears-12",
+      "cardNames": [
+        "Sidebarb",
+        "Sidebarb+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Ears",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "reptile_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6800000071525574,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "reptile-eyes-03",
+      "cardNames": [
+        "Hard-boiled α",
+        "Hard-boiled"
+      ],
+      "partClass": "Reptile",
+      "partType": null,
+      "partValue": 3,
+      "attackType": "Melee",
+      "vfxId": "reptile_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.4166666269302368
+    },
+    {
+      "abilityId": "reptile-eyes-10",
+      "cardNames": [
+        "Topaz",
+        "Topaz+"
+      ],
+      "partClass": "Reptile",
+      "partType": null,
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "reptile_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-horn-01",
+      "cardNames": [
+        "Poison Tube α",
+        "Poison Tube"
+      ],
+      "partClass": "Reptile",
+      "partType": "Horn",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "reptile_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "reptile-horn-02",
+      "cardNames": [
+        "Unko",
+        "Unko+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Horn",
+      "partValue": 2,
+      "attackType": "Ranged",
+      "vfxId": "reptile_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "reptile-horn-04",
+      "cardNames": [
+        "Scaly Spear",
+        "Scaly Spear+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Horn",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "reptile_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    },
+    {
+      "abilityId": "reptile-horn-06",
+      "cardNames": [
+        "Cerastes",
+        "Cerastes+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Horn",
+      "partValue": 6,
+      "attackType": "Ranged",
+      "vfxId": "reptile_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.366666555404663
+    },
+    {
+      "abilityId": "reptile-horn-10",
+      "cardNames": [
+        "Incisor",
+        "Incisor+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Horn",
+      "partValue": 10,
+      "attackType": "Ranged",
+      "vfxId": "reptile_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-mouth-01",
+      "cardNames": [
+        "Chemical Fang α",
+        "Chemical Fang"
+      ],
+      "partClass": "Reptile",
+      "partType": "Mouth",
+      "partValue": 1,
+      "attackType": "Melee",
+      "vfxId": "reptile_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-mouth-02",
+      "cardNames": [
+        "Toothless Bite",
+        "Toothless Bite+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Mouth",
+      "partValue": 2,
+      "attackType": "Melee",
+      "vfxId": "reptile_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-mouth-04",
+      "cardNames": [
+        "Kotaro",
+        "Kotaro+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Mouth",
+      "partValue": 4,
+      "attackType": "Ranged",
+      "vfxId": "reptile_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "reptile-mouth-08",
+      "cardNames": [
+        "Razor Bite",
+        "Razor Bite+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Mouth",
+      "partValue": 8,
+      "attackType": "Melee",
+      "vfxId": "reptile_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-mouth-10",
+      "cardNames": [
+        "Tiny Turtle",
+        "Tiny Turtle+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Mouth",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "reptile_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-tail-04",
+      "cardNames": [
+        "Iguana",
+        "Iguana+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Tail",
+      "partValue": 4,
+      "attackType": "Melee",
+      "vfxId": "reptile_slash",
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "reptile-tail-06",
+      "cardNames": [
+        "Tiny Dino",
+        "Tiny Dino+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Tail",
+      "partValue": 6,
+      "attackType": "Melee",
+      "vfxId": "reptile_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.4166666269302368
+    },
+    {
+      "abilityId": "reptile-tail-10",
+      "cardNames": [
+        "Gila",
+        "Gila+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Tail",
+      "partValue": 10,
+      "attackType": "Melee",
+      "vfxId": "reptile_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.4166666269302368
+    },
+    {
+      "abilityId": "reptile-tail-12",
+      "cardNames": [
+        "Grass Snake",
+        "Grass Snake+"
+      ],
+      "partClass": "Reptile",
+      "partType": "Tail",
+      "partValue": 12,
+      "attackType": "Ranged",
+      "vfxId": "reptile_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.366666555404663
+    },
+    {
+      "abilityId": "beast-eyes-09",
+      "cardNames": [
+        "Daydreaming α",
+        "Daydreaming"
+      ],
+      "partClass": null,
+      "partType": null,
+      "partValue": 9,
+      "attackType": "Ranged",
+      "vfxId": "plant_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.7666666507720947
+    },
+    {
+      "abilityId": "beast-eyes-09",
+      "cardNames": [
+        "Daydreaming α",
+        "Daydreaming"
+      ],
+      "partClass": null,
+      "partType": null,
+      "partValue": 9,
+      "attackType": "Ranged",
+      "vfxId": "plant_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.7666666507720947
+    },
+    {
+      "abilityId": "plant-ears-03",
+      "cardNames": [
+        "Turnip α",
+        "Turnip"
+      ],
+      "partClass": "Plant",
+      "partType": "Ears",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "plant_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "plant-ears-03",
+      "cardNames": [
+        "Turnip α",
+        "Turnip"
+      ],
+      "partClass": "Plant",
+      "partType": "Ears",
+      "partValue": 3,
+      "attackType": "Ranged",
+      "vfxId": "plant_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "plant-mouth-05",
+      "cardNames": [
+        "Kidney Bean α",
+        "Kidney Bean"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 5,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "plant-mouth-05",
+      "cardNames": [
+        "Kidney Bean α",
+        "Kidney Bean"
+      ],
+      "partClass": "Plant",
+      "partType": "Mouth",
+      "partValue": 5,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "plant-back-09",
+      "cardNames": [
+        "Meadow Blanket α",
+        "Meadow Blanket"
+      ],
+      "partClass": "Plant",
+      "partType": "Back",
+      "partValue": 9,
+      "attackType": "Melee",
+      "vfxId": "plant_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.800000011920929
+    },
+    {
+      "abilityId": "plant-back-09",
+      "cardNames": [
+        "Meadow Blanket α",
+        "Meadow Blanket"
+      ],
+      "partClass": "Plant",
+      "partType": "Back",
+      "partValue": 9,
+      "attackType": "Melee",
+      "vfxId": "plant_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.800000011920929
+    },
+    {
+      "abilityId": "tool-featherdagger-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "bird_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "tool-chimeranormalattack-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "tool-chimeraapplyweak-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "plant_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.7666666507720947
+    },
+    {
+      "abilityId": "tool-chimerabite-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "tool-chimerachomp-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "aquatic_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.8500000238418579
+    },
+    {
+      "abilityId": "tool-chimeraapplysleep-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "plant_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "tool-chimerasleeptight-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "tool-chimerathornyattack-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "plant_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7333333492279053
+    },
+    {
+      "abilityId": "tool-chimeraapplygoo-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "bug_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.3333332538604736
+    },
+    {
+      "abilityId": "tool-chimeragooattack-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "bug_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0499999523162842
+    },
+    {
+      "abilityId": "tool-chimeragainbubble-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "plant_smash",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.1666666269302368
+    },
+    {
+      "abilityId": "tool-chimeraapplyweaknvulnerable-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "plant_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.9166666269302368
+    },
+    {
+      "abilityId": "tool-chimeraapplyweaknfragile-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "plant_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.433333396911621
+    },
+    {
+      "abilityId": "tool-chimeraapplyweakndoubt-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "plant_projectile",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 1.7666666507720947
+    },
+    {
+      "abilityId": "tool-chimerabloodybite-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "tool-chimeragrievousbite-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "beast_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.7166666388511658
+    },
+    {
+      "abilityId": "tool-chimeratailstrike-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "mech_bite",
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 0.9666666388511658
+    },
+    {
+      "abilityId": "tool-chimeraunpredictableattack-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "dusk_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "duration": 1.649999976158142
+    },
+    {
+      "abilityId": "tool-chimeraexterminate-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "beast_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "duration": 2.0833332538604736
+    },
+    {
+      "abilityId": "tool-chimeraalienbeam-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "mech_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 2.1666667461395264
+    },
+    {
+      "abilityId": "tool-chimeraladdlestrike-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "beast_throw",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "duration": 1.8833333253860474
+    },
+    {
+      "abilityId": "tool-chimeraaxe-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "beast_slash",
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.0
+    },
+    {
+      "abilityId": "tool-chimerasplash-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Ranged",
+      "vfxId": "aquatic_cast",
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "duration": 1.850000023841858
+    },
+    {
+      "abilityId": "tool-pacu-02",
+      "cardNames": [],
+      "partClass": null,
+      "partType": null,
+      "partValue": null,
+      "attackType": "Melee",
+      "vfxId": "reptile_gore",
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "duration": 1.100000023841858
+    }
+  ]
+}

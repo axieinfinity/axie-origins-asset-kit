@@ -1,0 +1,104 @@
+
+TrueFanHermitCrab.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left
+  rotate: true
+  xy: 391, 153
+  size: 17, 31
+  orig: 18, 31
+  offset: 1, 0
+  index: -1
+arm-right
+  rotate: false
+  xy: 370, 48
+  size: 27, 22
+  orig: 27, 23
+  offset: 0, 0
+  index: -1
+bandage
+  rotate: true
+  xy: 355, 174
+  size: 78, 72
+  orig: 106, 73
+  offset: 10, 1
+  index: -1
+body
+  rotate: false
+  xy: 4, 20
+  size: 279, 232
+  orig: 293, 232
+  offset: 0, 0
+  index: -1
+eyes
+  rotate: false
+  xy: 355, 152
+  size: 32, 18
+  orig: 32, 18
+  offset: 0, 0
+  index: -1
+eyes-shut
+  rotate: false
+  xy: 4, 10
+  size: 41, 6
+  orig: 41, 6
+  offset: 0, 0
+  index: -1
+hand-left
+  rotate: false
+  xy: 366, 4
+  size: 31, 39
+  orig: 31, 39
+  offset: 0, 0
+  index: -1
+hand-right
+  rotate: true
+  xy: 431, 218
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+leg-back-left
+  rotate: false
+  xy: 401, 7
+  size: 60, 63
+  orig: 60, 63
+  offset: 0, 0
+  index: -1
+leg-back-right
+  rotate: false
+  xy: 415, 80
+  size: 35, 69
+  orig: 35, 69
+  offset: 0, 0
+  index: -1
+leg-front-left
+  rotate: true
+  xy: 287, 4
+  size: 39, 75
+  orig: 39, 75
+  offset: 0, 0
+  index: -1
+leg-front-right
+  rotate: false
+  xy: 370, 74
+  size: 41, 74
+  orig: 41, 74
+  offset: 0, 0
+  index: -1
+saber-left
+  rotate: false
+  xy: 287, 150
+  size: 64, 102
+  orig: 71, 104
+  offset: 3, 0
+  index: -1
+saber-right
+  rotate: false
+  xy: 287, 47
+  size: 79, 99
+  orig: 82, 103
+  offset: 1, 0
+  index: -1

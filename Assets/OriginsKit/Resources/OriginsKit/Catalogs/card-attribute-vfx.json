@@ -1,0 +1,86 @@
+{
+  "count": 13,
+  "items": [
+    {
+      "attribute": "Initial",
+      "vfx": "blue",
+      "hand": true,
+      "hover": true,
+      "priority": 3
+    },
+    {
+      "attribute": "Retain",
+      "vfx": "green",
+      "hand": true,
+      "hover": true,
+      "priority": 1
+    },
+    {
+      "attribute": "Degrade",
+      "vfx": "yellow",
+      "hand": true,
+      "hover": true,
+      "priority": 2
+    },
+    {
+      "attribute": "Ethereal",
+      "vfx": "yellow",
+      "hand": true,
+      "hover": true,
+      "priority": 2
+    },
+    {
+      "attribute": "Banish",
+      "vfx": "yellow",
+      "hand": true,
+      "hover": true,
+      "priority": 2
+    },
+    {
+      "attribute": "Unstable",
+      "vfx": "yellow",
+      "hand": true,
+      "hover": true,
+      "priority": 2
+    },
+    {
+      "attribute": "Limit",
+      "vfx": "none"
+    },
+    {
+      "attribute": "Innate",
+      "vfx": "blue",
+      "hand": true,
+      "hover": true,
+      "priority": 3
+    },
+    {
+      "attribute": "Halt",
+      "vfx": "none"
+    },
+    {
+      "attribute": "Unplayable",
+      "vfx": "none"
+    },
+    {
+      "attribute": "Return",
+      "vfx": "green",
+      "hand": true,
+      "hover": true,
+      "priority": 1
+    },
+    {
+      "attribute": "Exile",
+      "vfx": "yellow",
+      "hand": true,
+      "hover": true
+    },
+    {
+      "attribute": "Sleep",
+      "vfx": "red",
+      "hand": true,
+      "hover": true,
+      "priority": 4
+    }
+  ]
+}

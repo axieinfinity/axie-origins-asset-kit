@@ -1,0 +1,3258 @@
+{
+  "count": 107,
+  "items": [
+    {
+      "id": "bleed_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "bubble",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "bubble_bomb",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "buff_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "cleanse",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "cleanser",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "cure",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "death_mark_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "debuff_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "disarmed",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "dispel",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "dmg_boost",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "doubt",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "drain",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "fear",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "feather",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "fragile",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "fury_form",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "fury_on_transfrom",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "heal",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "heal_block",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "healing_boost",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "hex",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "leaf",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "poison_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "power_awaken",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "power_gain",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "rage",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "reflect_damage",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "secret_apply",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "shield",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "shield_boost",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "shield_break",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "silence",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "sleep",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "stealth",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "stunned",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "summon_on_cast",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "summon_on_death",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "taunt",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "vulnerable",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "weak",
+      "kind": "buff",
+      "duration": null,
+      "attackAnimation": null,
+      "hitAnimation": null,
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": []
+    },
+    {
+      "id": "aquatic_bite",
+      "kind": "skill",
+      "duration": 1.0166666507720947,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.0166666507720947,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_cast",
+      "kind": "skill",
+      "duration": 1.850000023841858,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.7833333015441895,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.850000023841858,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_gore",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.3333333432674408,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_projectile",
+      "kind": "skill",
+      "duration": 2.0,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.550000011920929
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.9666666984558105,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.0,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_slash",
+      "kind": "skill",
+      "duration": 0.8666666746139526,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8666666746139526,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_smash",
+      "kind": "skill",
+      "duration": 0.8833333253860474,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.21666666865348816,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8833333253860474,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "aquatic_throw",
+      "kind": "skill",
+      "duration": 2.0333333015441895,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.7166666388511658,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.4166666269302368,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.0,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.0333333015441895,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_bite",
+      "kind": "skill",
+      "duration": 0.7166666388511658,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.6833333373069763,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.7166666388511658,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_cast",
+      "kind": "skill",
+      "duration": 2.0833332538604736,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6499999761581421
+        },
+        {
+          "time": 1.3666666746139526,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.0166666507720947,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.0833332538604736,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_gore",
+      "kind": "skill",
+      "duration": 0.9166666865348816,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_projectile",
+      "kind": "skill",
+      "duration": 2.3333332538604736,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.550000011920929
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.6666666269302368,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.3333332538604736,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_slash",
+      "kind": "skill",
+      "duration": 1.0,
+      "attackAnimation": "attack/melee/tail-thrash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-thrash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.9833333492279053,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.0,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_smash",
+      "kind": "skill",
+      "duration": 1.100000023841858,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.100000023841858,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "beast_throw",
+      "kind": "skill",
+      "duration": 1.8833333253860474,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.550000011920929
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.8333333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.8833333253860474,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_bite",
+      "kind": "skill",
+      "duration": 1.1333333253860474,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8666666746139526,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.1333333253860474,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_cast",
+      "kind": "skill",
+      "duration": 2.4666666984558105,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.3666666746139526,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.200000047683716,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.4666666984558105,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_gore",
+      "kind": "skill",
+      "duration": 1.0,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.3333333432674408,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.949999988079071,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.0,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_projectile",
+      "kind": "skill",
+      "duration": 1.8333333730697632,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6000000238418579,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.0,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6000000238418579
+        },
+        {
+          "time": 1.0833333730697632,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.7333333492279053,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.8333333730697632,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_slash",
+      "kind": "skill",
+      "duration": 1.1666666269302368,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.5166666507720947,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0833333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.1666666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_smash",
+      "kind": "skill",
+      "duration": 1.2999999523162842,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": " attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.2999999523162842,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bird_throw",
+      "kind": "skill",
+      "duration": 2.116666555404663,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.0833332538604736,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.116666555404663,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_bite",
+      "kind": "skill",
+      "duration": 1.25,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0333333015441895,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.25,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_cast",
+      "kind": "skill",
+      "duration": 2.3333332538604736,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.049999952316284,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.3333332538604736,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_gore",
+      "kind": "skill",
+      "duration": 1.0499999523162842,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.949999988079071,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.0499999523162842,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_projectile",
+      "kind": "skill",
+      "duration": 2.2333333492279053,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.850000023841858,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.2333333492279053,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_slash",
+      "kind": "skill",
+      "duration": 0.9166666865348816,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_smash",
+      "kind": "skill",
+      "duration": 1.1666666269302368,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0166666507720947,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.1666666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "bug_throw",
+      "kind": "skill",
+      "duration": 2.0999999046325684,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.0,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.0999999046325684,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_bite",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_cast",
+      "kind": "skill",
+      "duration": 2.4666666984558105,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.383333444595337,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.4666666984558105,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_gore",
+      "kind": "skill",
+      "duration": 0.9333333373069763,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.9333333373069763,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_projectile",
+      "kind": "skill",
+      "duration": 3.0,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6499999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.9166667461395264,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 3.0,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_slash",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_smash",
+      "kind": "skill",
+      "duration": 1.5499999523162842,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.5166666507720947,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.5499999523162842,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dawn_throw",
+      "kind": "skill",
+      "duration": 1.9833333492279053,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.850000023841858,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9833333492279053,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_bite",
+      "kind": "skill",
+      "duration": 0.7666666507720947,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.75,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.7666666507720947,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_cast",
+      "kind": "skill",
+      "duration": 2.5833332538604736,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.549999952316284,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.5833332538604736,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_gore",
+      "kind": "skill",
+      "duration": 1.4833333492279053,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.4500000476837158,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.4833333492279053,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_projectile",
+      "kind": "skill",
+      "duration": 1.8333333730697632,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6499999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.75,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.8333333730697632,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_slash",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_smash",
+      "kind": "skill",
+      "duration": 1.7666666507720947,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.3499999940395355,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.7333333492279053,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.7666666507720947,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "dusk_throw",
+      "kind": "skill",
+      "duration": 1.649999976158142,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.5666667222976685,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.649999976158142,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_bite",
+      "kind": "skill",
+      "duration": 0.9666666388511658,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.5,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.9666666388511658,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_cast",
+      "kind": "skill",
+      "duration": 2.1666667461395264,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.0833332538604736,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.1666667461395264,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_gore",
+      "kind": "skill",
+      "duration": 0.949999988079071,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.9166666865348816,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.949999988079071,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_projectile",
+      "kind": "skill",
+      "duration": 1.9833333492279053,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.550000011920929,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.550000011920929
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.9166666269302368,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9833333492279053,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_slash",
+      "kind": "skill",
+      "duration": 1.0833333730697632,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0333333015441895,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.0833333730697632,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_smash",
+      "kind": "skill",
+      "duration": 1.399999976158142,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.0,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.2666666805744171,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.3833333253860474,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.399999976158142,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "mech_throw",
+      "kind": "skill",
+      "duration": 1.9166666269302368,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.01666666753590107,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.399999976158142,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.850000023841858,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9166666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_bite",
+      "kind": "skill",
+      "duration": 0.800000011920929,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.75,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.800000011920929,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_cast",
+      "kind": "skill",
+      "duration": 2.433333396911621,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.383333444595337,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.433333396911621,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_gore",
+      "kind": "skill",
+      "duration": 0.7333333492279053,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.7166666388511658,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.7333333492279053,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_projectile",
+      "kind": "skill",
+      "duration": 1.7666666507720947,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6499999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.6666666269302368,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.7666666507720947,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_slash",
+      "kind": "skill",
+      "duration": 1.1666666269302368,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0833333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.1666666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_smash",
+      "kind": "skill",
+      "duration": 1.1666666269302368,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8999999761581421,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.1666666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "plant_throw",
+      "kind": "skill",
+      "duration": 1.9166666269302368,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6499999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6499999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.850000023841858,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9166666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_bite",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/mouth-bite",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/mouth-bite",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_cast",
+      "kind": "skill",
+      "duration": 2.366666555404663,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.0,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5499999523162842,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.2166666984558105,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 2.2666666507720947,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 2.366666555404663,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_gore",
+      "kind": "skill",
+      "duration": 1.100000023841858,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.0833333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.100000023841858,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_projectile",
+      "kind": "skill",
+      "duration": 1.9166666269302368,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.6800000071525574,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.6800000071525574
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.8333333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9166666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_slash",
+      "kind": "skill",
+      "duration": 0.8500000238418579,
+      "attackAnimation": "attack/melee/tail-smash",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/tail-smash",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.8333333134651184,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.8500000238418579,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_smash",
+      "kind": "skill",
+      "duration": 1.4166666269302368,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 1.3833333253860474,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.4166666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "reptile_throw",
+      "kind": "skill",
+      "duration": 1.9166666269302368,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.699999988079071,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.699999988079071
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.8333333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.9166666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Melee",
+      "kind": "template",
+      "duration": 0.699999988079071,
+      "attackAnimation": "attack/melee/horn-gore",
+      "hitAnimation": "defense/hit-by-normal",
+      "isRanged": false,
+      "projectileTravel": null,
+      "events": [
+        {
+          "time": 0.01666666753590107,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.03333333507180214,
+          "function": "OnAttack",
+          "string": "attack/melee/horn-gore",
+          "float": 0.0
+        },
+        {
+          "time": 0.36666667461395264,
+          "function": "OnHit",
+          "string": "defense/hit-by-normal",
+          "float": 0.0
+        },
+        {
+          "time": 0.6833333373069763,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.699999988079071,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    },
+    {
+      "id": "Ranged",
+      "kind": "template",
+      "duration": 1.6666666269302368,
+      "attackAnimation": "attack/ranged/cast-fly",
+      "hitAnimation": "defense/hit-by-ranged-attack",
+      "isRanged": true,
+      "projectileTravel": 0.8999999761581421,
+      "events": [
+        {
+          "time": 0.03333333507180214,
+          "function": "OnStartLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 0.06666667014360428,
+          "function": "OnAttack",
+          "string": "attack/ranged/cast-fly",
+          "float": 0.0
+        },
+        {
+          "time": 0.5833333134651184,
+          "function": "OnThrow",
+          "string": null,
+          "float": 0.8999999761581421
+        },
+        {
+          "time": 1.25,
+          "function": "OnHit",
+          "string": "defense/hit-by-ranged-attack",
+          "float": 0.0
+        },
+        {
+          "time": 1.5833333730697632,
+          "function": "OnEndLoop",
+          "string": null,
+          "float": 0.0
+        },
+        {
+          "time": 1.6666666269302368,
+          "function": "OnBack",
+          "string": null,
+          "float": 0.0
+        }
+      ]
+    }
+  ]
+}

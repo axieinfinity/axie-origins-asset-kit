@@ -1,0 +1,411 @@
+{
+  "skillVfxIds": [
+    "aquatic_bite",
+    "aquatic_cast",
+    "aquatic_gore",
+    "aquatic_projectile",
+    "aquatic_slash",
+    "aquatic_smash",
+    "aquatic_throw",
+    "beast_bite",
+    "beast_cast",
+    "beast_gore",
+    "beast_projectile",
+    "beast_slash",
+    "beast_smash",
+    "beast_throw",
+    "bird_bite",
+    "bird_cast",
+    "bird_gore",
+    "bird_projectile",
+    "bird_slash",
+    "bird_smash",
+    "bird_throw",
+    "bug_bite",
+    "bug_cast",
+    "bug_gore",
+    "bug_projectile",
+    "bug_slash",
+    "bug_smash",
+    "bug_throw",
+    "dawn_bite",
+    "dawn_cast",
+    "dawn_gore",
+    "dawn_projectile",
+    "dawn_slash",
+    "dawn_smash",
+    "dawn_throw",
+    "dusk_bite",
+    "dusk_cast",
+    "dusk_gore",
+    "dusk_projectile",
+    "dusk_slash",
+    "dusk_smash",
+    "dusk_throw",
+    "mech_bite",
+    "mech_cast",
+    "mech_gore",
+    "mech_projectile",
+    "mech_slash",
+    "mech_smash",
+    "mech_throw",
+    "plant_bite",
+    "plant_cast",
+    "plant_gore",
+    "plant_projectile",
+    "plant_slash",
+    "plant_smash",
+    "plant_throw",
+    "reptile_bite",
+    "reptile_cast",
+    "reptile_gore",
+    "reptile_projectile",
+    "reptile_slash",
+    "reptile_smash",
+    "reptile_throw"
+  ],
+  "buffVfxIds": [
+    "bleed_apply",
+    "bubble",
+    "bubble_bomb",
+    "buff_apply",
+    "cleanse",
+    "cleanser",
+    "cure",
+    "death_mark_apply",
+    "debuff_apply",
+    "disarmed",
+    "dispel",
+    "dmg_boost",
+    "doubt",
+    "drain",
+    "fear",
+    "feather",
+    "fragile",
+    "fury_form",
+    "fury_on_transfrom",
+    "heal",
+    "heal_block",
+    "healing_boost",
+    "hex",
+    "leaf",
+    "poison_apply",
+    "power_awaken",
+    "power_gain",
+    "rage",
+    "reflect_damage",
+    "secret_apply",
+    "shield",
+    "shield_boost",
+    "shield_break",
+    "silence",
+    "sleep",
+    "stealth",
+    "stunned",
+    "summon_on_cast",
+    "summon_on_death",
+    "taunt",
+    "vulnerable",
+    "weak"
+  ],
+  "templates": [
+    "Melee",
+    "Ranged"
+  ],
+  "abilitiesByVfx": {
+    "aquatic_bite": [
+      "aquatic-mouth-02",
+      "aquatic-mouth-04",
+      "aquatic-mouth-08",
+      "aquatic-mouth-10"
+    ],
+    "aquatic_cast": [
+      "aquatic-eyes-02",
+      "aquatic-eyes-08",
+      "tool-chimerasplash-02"
+    ],
+    "aquatic_gore": [
+      "aquatic-horn-01",
+      "aquatic-horn-02",
+      "tool-chimerachomp-02"
+    ],
+    "aquatic_projectile": [
+      "aquatic-back-04",
+      "aquatic-ears-01",
+      "aquatic-ears-10",
+      "aquatic-horn-12"
+    ],
+    "aquatic_slash": [
+      "aquatic-ears-08",
+      "aquatic-ears-12",
+      "aquatic-horn-06",
+      "aquatic-tail-06",
+      "aquatic-tail-08",
+      "aquatic-tail-10",
+      "beast-mouth-03"
+    ],
+    "aquatic_smash": [
+      "aquatic-back-06",
+      "aquatic-horn-08",
+      "aquatic-tail-02",
+      "aquatic-tail-12",
+      "reptile-back-03"
+    ],
+    "aquatic_throw": [
+      "aquatic-back-10",
+      "aquatic-back-12",
+      "aquatic-horn-10",
+      "aquatic-tail-01"
+    ],
+    "beast_bite": [
+      "beast-ears-12",
+      "beast-mouth-02",
+      "beast-mouth-05",
+      "beast-mouth-08",
+      "tool-chimerabite-02",
+      "tool-chimerabloodybite-02",
+      "tool-chimeragrievousbite-02"
+    ],
+    "beast_cast": [
+      "tool-chimeraexterminate-02"
+    ],
+    "beast_gore": [
+      "beast-ears-03",
+      "beast-ears-08",
+      "beast-horn-01",
+      "beast-horn-02",
+      "beast-horn-04",
+      "beast-horn-08",
+      "beast-horn-12"
+    ],
+    "beast_projectile": [
+      "beast-back-08",
+      "beast-mouth-04"
+    ],
+    "beast_slash": [
+      "beast-back-02",
+      "beast-ears-02",
+      "beast-eyes-05",
+      "beast-eyes-10",
+      "beast-horn-10",
+      "beast-mouth-08",
+      "beast-tail-03",
+      "beast-tail-12",
+      "plant-back-03",
+      "tool-chimeraaxe-02"
+    ],
+    "beast_smash": [
+      "beast-back-04",
+      "beast-back-06",
+      "beast-eyes-04",
+      "beast-horn-07",
+      "beast-mouth-01",
+      "beast-tail-04",
+      "beast-tail-06",
+      "beast-tail-08"
+    ],
+    "beast_throw": [
+      "beast-back-01",
+      "beast-back-12",
+      "beast-ears-04",
+      "beast-tail-05",
+      "beast-tail-10",
+      "plant-horn-01",
+      "tool-chimeraladdlestrike-02"
+    ],
+    "bird_bite": [
+      "bird-mouth-04",
+      "bird-mouth-08",
+      "bird-mouth-10"
+    ],
+    "bird_cast": [
+      "bird-back-02",
+      "bird-ears-08",
+      "bird-eyes-08",
+      "bird-tail-01",
+      "bird-tail-02",
+      "bird-tail-08"
+    ],
+    "bird_gore": [
+      "bird-back-01",
+      "bird-back-06",
+      "bird-horn-10",
+      "bird-horn-12",
+      "bird-mouth-02",
+      "tool-featherdagger-02"
+    ],
+    "bird_projectile": [
+      "bird-back-04",
+      "bird-back-12",
+      "bird-ears-04",
+      "bird-ears-06",
+      "bird-ears-12",
+      "bird-horn-06",
+      "bird-horn-08",
+      "bird-mouth-01",
+      "bird-tail-06",
+      "bird-tail-12"
+    ],
+    "bird_slash": [
+      "bird-back-03"
+    ],
+    "bird_throw": [
+      "bird-back-08",
+      "bird-ears-10",
+      "bird-horn-02",
+      "bird-tail-04",
+      "bird-tail-10"
+    ],
+    "bug_bite": [
+      "bug-mouth-02",
+      "bug-mouth-04",
+      "bug-mouth-08",
+      "bug-mouth-10"
+    ],
+    "bug_cast": [
+      "bug-back-06",
+      "bug-back-10",
+      "bug-back-12",
+      "bug-ears-12",
+      "tool-chimeraapplygoo-02"
+    ],
+    "bug_gore": [
+      "bug-ears-04",
+      "bug-horn-08",
+      "tool-chimeragooattack-02"
+    ],
+    "bug_slash": [
+      "bug-back-04",
+      "bug-eyes-10",
+      "bug-horn-10",
+      "bug-tail-12"
+    ],
+    "bug_smash": [
+      "bug-back-08",
+      "bug-horn-02",
+      "bug-tail-03"
+    ],
+    "bug_throw": [
+      "bug-ears-06",
+      "bug-horn-06",
+      "bug-tail-04"
+    ],
+    "dawn_cast": [
+      "dawn-mouth-03"
+    ],
+    "dusk_cast": [
+      "dusk-eyes-05"
+    ],
+    "dusk_throw": [
+      "tool-chimeraunpredictableattack-02"
+    ],
+    "mech_bite": [
+      "mech-mouth-01",
+      "tool-chimeratailstrike-02"
+    ],
+    "mech_cast": [
+      "tool-chimeraalienbeam-02"
+    ],
+    "mech_gore": [
+      "mech-horn-01",
+      "mech-tail-03"
+    ],
+    "mech_slash": [
+      "mech-back-03"
+    ],
+    "plant_bite": [
+      "plant-mouth-02",
+      "plant-mouth-04",
+      "plant-mouth-08",
+      "plant-back-09",
+      "plant-back-09"
+    ],
+    "plant_cast": [
+      "plant-ears-02",
+      "plant-eyes-04",
+      "plant-tail-08",
+      "plant-tail-12",
+      "tool-chimeraapplyweaknfragile-02"
+    ],
+    "plant_gore": [
+      "plant-horn-02",
+      "plant-horn-04",
+      "plant-horn-10",
+      "plant-mouth-05",
+      "plant-mouth-05",
+      "tool-chimerathornyattack-02"
+    ],
+    "plant_projectile": [
+      "plant-horn-12",
+      "beast-eyes-09",
+      "beast-eyes-09",
+      "tool-chimeraapplyweak-02",
+      "tool-chimeraapplyweakndoubt-02"
+    ],
+    "plant_slash": [
+      "mech-horn-03",
+      "plant-tail-04"
+    ],
+    "plant_smash": [
+      "plant-mouth-01",
+      "plant-tail-02",
+      "plant-tail-10",
+      "tool-chimeranormalattack-02",
+      "tool-chimerasleeptight-02",
+      "tool-chimeragainbubble-02"
+    ],
+    "plant_throw": [
+      "plant-back-02",
+      "plant-ears-03",
+      "plant-ears-03",
+      "tool-chimeraapplysleep-02",
+      "tool-chimeraapplyweaknvulnerable-02"
+    ],
+    "reptile_bite": [
+      "reptile-mouth-01",
+      "reptile-mouth-02",
+      "reptile-mouth-08",
+      "reptile-mouth-10"
+    ],
+    "reptile_cast": [
+      "reptile-horn-06",
+      "reptile-tail-12"
+    ],
+    "reptile_gore": [
+      "reptile-ears-02",
+      "reptile-horn-01",
+      "reptile-horn-04",
+      "tool-pacu-02"
+    ],
+    "reptile_projectile": [
+      "reptile-ears-12"
+    ],
+    "reptile_slash": [
+      "reptile-eyes-10",
+      "reptile-horn-10",
+      "reptile-tail-04"
+    ],
+    "reptile_smash": [
+      "reptile-eyes-03",
+      "reptile-tail-06",
+      "reptile-tail-10"
+    ],
+    "reptile_throw": [
+      "reptile-back-04",
+      "reptile-horn-02",
+      "reptile-mouth-04"
+    ]
+  },
+  "counts": {
+    "skillVfxMappings": 188,
+    "uniqueVfxIdsInMappings": 47,
+    "cards": 588,
+    "statuses": 632,
+    "vfxTextures": 90,
+    "sfx": 152,
+    "statusIconTextures": 4,
+    "mixerAnimations": 46,
+    "statusIconSprites": 131,
+    "summoners": 8
+  }
+}

@@ -1,0 +1,69 @@
+{
+  "count": 8,
+  "items": [
+    {
+      "id": "clover",
+      "files": [
+        "Clover.atlas",
+        "Clover.png",
+        "Clover.skel"
+      ]
+    },
+    {
+      "id": "fruitsloth",
+      "files": [
+        "FruitSloth.atlas",
+        "FruitSloth.png",
+        "FruitSloth.skel"
+      ]
+    },
+    {
+      "id": "littlerobin",
+      "files": [
+        "LittleRobin.atlas",
+        "LittleRobin.png",
+        "LittleRobin.skel"
+      ]
+    },
+    {
+      "id": "mavis",
+      "files": [
+        "Mavis.atlas",
+        "Mavis.png",
+        "Mavis.skel"
+      ]
+    },
+    {
+      "id": "mushroom",
+      "files": [
+        "Mushroom.atlas",
+        "Mushroom.png",
+        "Mushroom.skel"
+      ]
+    },
+    {
+      "id": "sparrow",
+      "files": [
+        "Sparrow.atlas",
+        "Sparrow.png",
+        "Sparrow.skel"
+      ]
+    },
+    {
+      "id": "truefanhermitcrab",
+      "files": [
+        "TrueFanHermitCrab.atlas",
+        "TrueFanHermitCrab.png",
+        "TrueFanHermitCrab.skel"
+      ]
+    },
+    {
+      "id": "trunk",
+      "files": [
+        "Trunk.atlas",
+        "Trunk.png",
+        "Trunk.skel"
+      ]
+    }
+  ]
+}

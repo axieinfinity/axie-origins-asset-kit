@@ -1,0 +1,765 @@
+{
+  "count": 152,
+  "items": [
+    {
+      "name": "aquatic_bite_attack",
+      "file": "audio/aquatic_bite_attack.wav",
+      "bytes": 196320
+    },
+    {
+      "name": "aquatic_cast_attack",
+      "file": "audio/aquatic_cast_attack.wav",
+      "bytes": 273202
+    },
+    {
+      "name": "aquatic_cast_hit",
+      "file": "audio/aquatic_cast_hit.wav",
+      "bytes": 195002
+    },
+    {
+      "name": "aquatic_fly",
+      "file": "audio/aquatic_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "aquatic_gore_attack",
+      "file": "audio/aquatic_gore_attack.wav",
+      "bytes": 166622
+    },
+    {
+      "name": "aquatic_projectile_attack",
+      "file": "audio/aquatic_projectile_attack.wav",
+      "bytes": 242776
+    },
+    {
+      "name": "aquatic_projectile_fly",
+      "file": "audio/aquatic_projectile_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "aquatic_projectile_hit",
+      "file": "audio/aquatic_projectile_hit.wav",
+      "bytes": 238012
+    },
+    {
+      "name": "aquatic_slash_attack",
+      "file": "audio/aquatic_slash_attack.wav",
+      "bytes": 261812
+    },
+    {
+      "name": "aquatic_smash_attack",
+      "file": "audio/aquatic_smash_attack.wav",
+      "bytes": 241612
+    },
+    {
+      "name": "aquatic_throw_attack",
+      "file": "audio/aquatic_throw_attack.wav",
+      "bytes": 335502
+    },
+    {
+      "name": "aquatic_throw_fly",
+      "file": "audio/aquatic_throw_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "aquatic_throw_hit",
+      "file": "audio/aquatic_throw_hit.wav",
+      "bytes": 287580
+    },
+    {
+      "name": "beast_bite_attack",
+      "file": "audio/beast_bite_attack.wav",
+      "bytes": 151422
+    },
+    {
+      "name": "beast_cast_attack",
+      "file": "audio/beast_cast_attack.wav",
+      "bytes": 310696
+    },
+    {
+      "name": "beast_cast_hit",
+      "file": "audio/beast_cast_hit.wav",
+      "bytes": 316806
+    },
+    {
+      "name": "beast_fly",
+      "file": "audio/beast_fly.wav",
+      "bytes": 210638
+    },
+    {
+      "name": "beast_gore_attack",
+      "file": "audio/beast_gore_attack.wav",
+      "bytes": 133376
+    },
+    {
+      "name": "beast_projectile_attack",
+      "file": "audio/beast_projectile_attack.wav",
+      "bytes": 183162
+    },
+    {
+      "name": "beast_projectile_fly",
+      "file": "audio/beast_projectile_fly.wav",
+      "bytes": 210636
+    },
+    {
+      "name": "beast_projectile_hit",
+      "file": "audio/beast_projectile_hit.wav",
+      "bytes": 116048
+    },
+    {
+      "name": "beast_slash_attack",
+      "file": "audio/beast_slash_attack.wav",
+      "bytes": 169060
+    },
+    {
+      "name": "beast_smash_attack",
+      "file": "audio/beast_smash_attack.wav",
+      "bytes": 158226
+    },
+    {
+      "name": "beast_throw_attack",
+      "file": "audio/beast_throw_attack.wav",
+      "bytes": 126120
+    },
+    {
+      "name": "beast_throw_fly",
+      "file": "audio/beast_throw_fly.wav",
+      "bytes": 210636
+    },
+    {
+      "name": "beast_throw_hit",
+      "file": "audio/beast_throw_hit.wav",
+      "bytes": 197634
+    },
+    {
+      "name": "bird_bite_attack",
+      "file": "audio/bird_bite_attack.wav",
+      "bytes": 203912
+    },
+    {
+      "name": "bird_cast_attack",
+      "file": "audio/bird_cast_attack.wav",
+      "bytes": 200258
+    },
+    {
+      "name": "bird_cast_hit",
+      "file": "audio/bird_cast_hit.wav",
+      "bytes": 224102
+    },
+    {
+      "name": "bird_fly",
+      "file": "audio/bird_fly.wav",
+      "bytes": 226096
+    },
+    {
+      "name": "bird_gore_attack",
+      "file": "audio/bird_gore_attack.wav",
+      "bytes": 154484
+    },
+    {
+      "name": "bird_projectile_attack",
+      "file": "audio/bird_projectile_attack.wav",
+      "bytes": 282168
+    },
+    {
+      "name": "bird_projectile_fly",
+      "file": "audio/bird_projectile_fly.wav",
+      "bytes": 272974
+    },
+    {
+      "name": "bird_projectile_hit",
+      "file": "audio/bird_projectile_hit.wav",
+      "bytes": 205742
+    },
+    {
+      "name": "bird_slash_attack",
+      "file": "audio/bird_slash_attack.wav",
+      "bytes": 190418
+    },
+    {
+      "name": "bird_smash_attack",
+      "file": "audio/bird_smash_attack.wav",
+      "bytes": 212002
+    },
+    {
+      "name": "bird_throw_attack",
+      "file": "audio/bird_throw_attack.wav",
+      "bytes": 256004
+    },
+    {
+      "name": "bird_throw_fly",
+      "file": "audio/bird_throw_fly.wav",
+      "bytes": 272974
+    },
+    {
+      "name": "bird_throw_hit",
+      "file": "audio/bird_throw_hit.wav",
+      "bytes": 212672
+    },
+    {
+      "name": "bleed",
+      "file": "audio/bleed.wav",
+      "bytes": 264044
+    },
+    {
+      "name": "bubble",
+      "file": "audio/bubble.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "bubble_bomb",
+      "file": "audio/bubble_bomb.wav",
+      "bytes": 276044
+    },
+    {
+      "name": "buff",
+      "file": "audio/buff.wav",
+      "bytes": 384044
+    },
+    {
+      "name": "bug_bite_attack",
+      "file": "audio/bug_bite_attack.wav",
+      "bytes": 177898
+    },
+    {
+      "name": "bug_cast_attack",
+      "file": "audio/bug_cast_attack.wav",
+      "bytes": 78426
+    },
+    {
+      "name": "bug_cast_hit",
+      "file": "audio/bug_cast_hit.wav",
+      "bytes": 126878
+    },
+    {
+      "name": "bug_fly",
+      "file": "audio/bug_fly.wav",
+      "bytes": 93974
+    },
+    {
+      "name": "bug_gore_attack",
+      "file": "audio/bug_gore_attack.wav",
+      "bytes": 150828
+    },
+    {
+      "name": "bug_projectile_attack",
+      "file": "audio/bug_projectile_attack.wav",
+      "bytes": 115962
+    },
+    {
+      "name": "bug_projectile_fly",
+      "file": "audio/bug_projectile_fly.wav",
+      "bytes": 93974
+    },
+    {
+      "name": "bug_projectile_hit",
+      "file": "audio/bug_projectile_hit.wav",
+      "bytes": 167006
+    },
+    {
+      "name": "bug_slash_attack",
+      "file": "audio/bug_slash_attack.wav",
+      "bytes": 125480
+    },
+    {
+      "name": "bug_smash_attack",
+      "file": "audio/bug_smash_attack.wav",
+      "bytes": 203894
+    },
+    {
+      "name": "bug_throw_attack",
+      "file": "audio/bug_throw_attack.wav",
+      "bytes": 221070
+    },
+    {
+      "name": "bug_throw_fly",
+      "file": "audio/bug_throw_fly.wav",
+      "bytes": 93974
+    },
+    {
+      "name": "bug_throw_hit",
+      "file": "audio/bug_throw_hit.wav",
+      "bytes": 178174
+    },
+    {
+      "name": "cleanse",
+      "file": "audio/cleanse.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "cleanser",
+      "file": "audio/cleanser.wav",
+      "bytes": 288044
+    },
+    {
+      "name": "cure",
+      "file": "audio/cure.wav",
+      "bytes": 432044
+    },
+    {
+      "name": "damage_boost",
+      "file": "audio/damage_boost.wav",
+      "bytes": 276044
+    },
+    {
+      "name": "dawn_bite_attack",
+      "file": "audio/dawn_bite_attack.wav",
+      "bytes": 172218
+    },
+    {
+      "name": "dawn_cast_attack",
+      "file": "audio/dawn_cast_attack.wav",
+      "bytes": 219176
+    },
+    {
+      "name": "dawn_cast_hit",
+      "file": "audio/dawn_cast_hit.wav",
+      "bytes": 133088
+    },
+    {
+      "name": "dawn_fly",
+      "file": "audio/dawn_fly.wav",
+      "bytes": 250480
+    },
+    {
+      "name": "dawn_gore_attack",
+      "file": "audio/dawn_gore_attack.wav",
+      "bytes": 156566
+    },
+    {
+      "name": "dawn_projectile_attack",
+      "file": "audio/dawn_projectile_attack.wav",
+      "bytes": 211350
+    },
+    {
+      "name": "dawn_projectile_fly",
+      "file": "audio/dawn_projectile_fly.wav",
+      "bytes": 210634
+    },
+    {
+      "name": "dawn_projectile_hit",
+      "file": "audio/dawn_projectile_hit.wav",
+      "bytes": 152654
+    },
+    {
+      "name": "dawn_slash_attack",
+      "file": "audio/dawn_slash_attack.wav",
+      "bytes": 172218
+    },
+    {
+      "name": "dawn_smash_attack",
+      "file": "audio/dawn_smash_attack.wav",
+      "bytes": 191784
+    },
+    {
+      "name": "dawn_throw_attack",
+      "file": "audio/dawn_throw_attack.wav",
+      "bytes": 172218
+    },
+    {
+      "name": "dawn_throw_fly",
+      "file": "audio/dawn_throw_fly.wav",
+      "bytes": 210634
+    },
+    {
+      "name": "dawn_throw_hit",
+      "file": "audio/dawn_throw_hit.wav",
+      "bytes": 191784
+    },
+    {
+      "name": "death_mark",
+      "file": "audio/death_mark.wav",
+      "bytes": 360044
+    },
+    {
+      "name": "debuff",
+      "file": "audio/debuff.wav",
+      "bytes": 324044
+    },
+    {
+      "name": "disarm",
+      "file": "audio/disarm.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "dispel",
+      "file": "audio/dispel.wav",
+      "bytes": 258044
+    },
+    {
+      "name": "doubt",
+      "file": "audio/doubt.wav",
+      "bytes": 156044
+    },
+    {
+      "name": "drain",
+      "file": "audio/drain.wav",
+      "bytes": 384044
+    },
+    {
+      "name": "dusk_bite_attack",
+      "file": "audio/dusk_bite_attack.wav",
+      "bytes": 156566
+    },
+    {
+      "name": "dusk_cast_attack",
+      "file": "audio/dusk_cast_attack.wav",
+      "bytes": 197654
+    },
+    {
+      "name": "dusk_cast_hit",
+      "file": "audio/dusk_cast_hit.wav",
+      "bytes": 242654
+    },
+    {
+      "name": "dusk_fly",
+      "file": "audio/dusk_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "dusk_gore_attack",
+      "file": "audio/dusk_gore_attack.wav",
+      "bytes": 250480
+    },
+    {
+      "name": "dusk_projectile_attack",
+      "file": "audio/dusk_projectile_attack.wav",
+      "bytes": 324834
+    },
+    {
+      "name": "dusk_projectile_fly",
+      "file": "audio/dusk_projectile_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "dusk_projectile_hit",
+      "file": "audio/dusk_projectile_hit.wav",
+      "bytes": 180044
+    },
+    {
+      "name": "dusk_slash_attack",
+      "file": "audio/dusk_slash_attack.wav",
+      "bytes": 140914
+    },
+    {
+      "name": "dusk_smash_attack",
+      "file": "audio/dusk_smash_attack.wav",
+      "bytes": 231178
+    },
+    {
+      "name": "dusk_throw_attack",
+      "file": "audio/dusk_throw_attack.wav",
+      "bytes": 225592
+    },
+    {
+      "name": "dusk_throw_fly",
+      "file": "audio/dusk_throw_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "dusk_throw_hit",
+      "file": "audio/dusk_throw_hit.wav",
+      "bytes": 172218
+    },
+    {
+      "name": "fear",
+      "file": "audio/fear.wav",
+      "bytes": 324044
+    },
+    {
+      "name": "feather",
+      "file": "audio/feather.wav",
+      "bytes": 336044
+    },
+    {
+      "name": "heal",
+      "file": "audio/heal.wav",
+      "bytes": 384044
+    },
+    {
+      "name": "heal_block",
+      "file": "audio/heal_block.wav",
+      "bytes": 372044
+    },
+    {
+      "name": "hex",
+      "file": "audio/hex.wav",
+      "bytes": 396044
+    },
+    {
+      "name": "leaf",
+      "file": "audio/leaf.wav",
+      "bytes": 288044
+    },
+    {
+      "name": "mech_bite_attack",
+      "file": "audio/mech_bite_attack.wav",
+      "bytes": 148740
+    },
+    {
+      "name": "mech_cast_attack",
+      "file": "audio/mech_cast_attack.wav",
+      "bytes": 258306
+    },
+    {
+      "name": "mech_cast_hit",
+      "file": "audio/mech_cast_hit.wav",
+      "bytes": 137002
+    },
+    {
+      "name": "mech_fly",
+      "file": "audio/mech_fly.wav",
+      "bytes": 143952
+    },
+    {
+      "name": "mech_gore_attack",
+      "file": "audio/mech_gore_attack.wav",
+      "bytes": 160480
+    },
+    {
+      "name": "mech_projectile_attack",
+      "file": "audio/mech_projectile_attack.wav",
+      "bytes": 273958
+    },
+    {
+      "name": "mech_projectile_fly",
+      "file": "audio/mech_projectile_fly.wav",
+      "bytes": 143952
+    },
+    {
+      "name": "mech_projectile_hit",
+      "file": "audio/mech_projectile_hit.wav",
+      "bytes": 180044
+    },
+    {
+      "name": "mech_slash_attack",
+      "file": "audio/mech_slash_attack.wav",
+      "bytes": 152654
+    },
+    {
+      "name": "mech_smash_attack",
+      "file": "audio/mech_smash_attack.wav",
+      "bytes": 168306
+    },
+    {
+      "name": "mech_throw_attack",
+      "file": "audio/mech_throw_attack.wav",
+      "bytes": 199356
+    },
+    {
+      "name": "mech_throw_fly",
+      "file": "audio/mech_throw_fly.wav",
+      "bytes": 143952
+    },
+    {
+      "name": "mech_throw_hit",
+      "file": "audio/mech_throw_hit.wav",
+      "bytes": 168306
+    },
+    {
+      "name": "morph_aura_burst",
+      "file": "audio/morph_aura_burst.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "plant_bite_attack",
+      "file": "audio/plant_bite_attack.wav",
+      "bytes": 182002
+    },
+    {
+      "name": "plant_cast_attack",
+      "file": "audio/plant_cast_attack.wav",
+      "bytes": 142872
+    },
+    {
+      "name": "plant_cast_hit",
+      "file": "audio/plant_cast_hit.wav",
+      "bytes": 156566
+    },
+    {
+      "name": "plant_fly",
+      "file": "audio/plant_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "plant_gore_attack",
+      "file": "audio/plant_gore_attack.wav",
+      "bytes": 140914
+    },
+    {
+      "name": "plant_projectile_attack",
+      "file": "audio/plant_projectile_attack.wav",
+      "bytes": 191784
+    },
+    {
+      "name": "plant_projectile_fly",
+      "file": "audio/plant_projectile_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "plant_projectile_hit",
+      "file": "audio/plant_projectile_hit.wav",
+      "bytes": 150698
+    },
+    {
+      "name": "plant_slash_attack",
+      "file": "audio/plant_slash_attack.wav",
+      "bytes": 203524
+    },
+    {
+      "name": "plant_smash_attack",
+      "file": "audio/plant_smash_attack.wav",
+      "bytes": 146784
+    },
+    {
+      "name": "plant_throw_attack",
+      "file": "audio/plant_throw_attack.wav",
+      "bytes": 187872
+    },
+    {
+      "name": "plant_throw_fly",
+      "file": "audio/plant_throw_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "plant_throw_hit",
+      "file": "audio/plant_throw_hit.wav",
+      "bytes": 180044
+    },
+    {
+      "name": "poison",
+      "file": "audio/poison.wav",
+      "bytes": 462044
+    },
+    {
+      "name": "power_awaken",
+      "file": "audio/power_awaken.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "power_gain",
+      "file": "audio/power_gain.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "reflect_damage",
+      "file": "audio/reflect_damage.wav",
+      "bytes": 264044
+    },
+    {
+      "name": "reptile_bite_attack",
+      "file": "audio/reptile_bite_attack.wav",
+      "bytes": 156566
+    },
+    {
+      "name": "reptile_cast_attack",
+      "file": "audio/reptile_cast_attack.wav",
+      "bytes": 225044
+    },
+    {
+      "name": "reptile_cast_hit",
+      "file": "audio/reptile_cast_hit.wav",
+      "bytes": 195266
+    },
+    {
+      "name": "reptile_fly",
+      "file": "audio/reptile_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "reptile_gore_attack",
+      "file": "audio/reptile_gore_attack.wav",
+      "bytes": 140914
+    },
+    {
+      "name": "reptile_projectile_attack",
+      "file": "audio/reptile_projectile_attack.wav",
+      "bytes": 219176
+    },
+    {
+      "name": "reptile_projectile_fly",
+      "file": "audio/reptile_projectile_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "reptile_projectile_hit",
+      "file": "audio/reptile_projectile_hit.wav",
+      "bytes": 180104
+    },
+    {
+      "name": "reptile_slash_attack",
+      "file": "audio/reptile_slash_attack.wav",
+      "bytes": 180044
+    },
+    {
+      "name": "reptile_smash_attack",
+      "file": "audio/reptile_smash_attack.wav",
+      "bytes": 197654
+    },
+    {
+      "name": "reptile_throw_attack",
+      "file": "audio/reptile_throw_attack.wav",
+      "bytes": 324834
+    },
+    {
+      "name": "reptile_throw_fly",
+      "file": "audio/reptile_throw_fly.wav",
+      "bytes": 339792
+    },
+    {
+      "name": "reptile_throw_hit",
+      "file": "audio/reptile_throw_hit.wav",
+      "bytes": 156566
+    },
+    {
+      "name": "secret",
+      "file": "audio/secret.wav",
+      "bytes": 342044
+    },
+    {
+      "name": "shield",
+      "file": "audio/shield.wav",
+      "bytes": 324044
+    },
+    {
+      "name": "silent",
+      "file": "audio/silent.wav",
+      "bytes": 305642
+    },
+    {
+      "name": "sleep",
+      "file": "audio/sleep.wav",
+      "bytes": 438044
+    },
+    {
+      "name": "stunned",
+      "file": "audio/stunned.wav",
+      "bytes": 312044
+    },
+    {
+      "name": "summon_off",
+      "file": "audio/summon_off.wav",
+      "bytes": 300044
+    },
+    {
+      "name": "summon_on",
+      "file": "audio/summon_on.wav",
+      "bytes": 300044
+    },
+    {
+      "name": "taunt",
+      "file": "audio/taunt.wav",
+      "bytes": 396044
+    },
+    {
+      "name": "vunerable",
+      "file": "audio/vunerable.wav",
+      "bytes": 240044
+    },
+    {
+      "name": "weak",
+      "file": "audio/weak.wav",
+      "bytes": 312044
+    }
+  ]
+}

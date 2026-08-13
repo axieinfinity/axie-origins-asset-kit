@@ -1,0 +1,83 @@
+
+FruitSloth.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+arm-left-down
+  rotate: false
+  xy: 308, 75
+  size: 125, 69
+  orig: 125, 69
+  offset: 0, 0
+  index: -1
+arm-left-up
+  rotate: true
+  xy: 187, 139
+  size: 111, 92
+  orig: 111, 92
+  offset: 0, 0
+  index: -1
+arm-right-down
+  rotate: false
+  xy: 187, 70
+  size: 117, 65
+  orig: 117, 65
+  offset: 0, 0
+  index: -1
+arm-right-up
+  rotate: true
+  xy: 283, 148
+  size: 102, 90
+  orig: 102, 90
+  offset: 0, 0
+  index: -1
+body
+  rotate: false
+  xy: 4, 67
+  size: 179, 183
+  orig: 179, 183
+  offset: 0, 0
+  index: -1
+face
+  rotate: true
+  xy: 377, 184
+  size: 66, 24
+  orig: 67, 24
+  offset: 0, 0
+  index: -1
+face-attacked
+  rotate: true
+  xy: 415, 6
+  size: 65, 33
+  orig: 67, 33
+  offset: 1, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 260, 4
+  size: 62, 55
+  orig: 62, 55
+  offset: 0, 0
+  index: -1
+leg-left
+  rotate: false
+  xy: 319, 17
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+leg-right
+  rotate: false
+  xy: 367, 17
+  size: 44, 54
+  orig: 44, 54
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 4, 15
+  size: 252, 48
+  orig: 252, 48
+  offset: 0, 0
+  index: -1

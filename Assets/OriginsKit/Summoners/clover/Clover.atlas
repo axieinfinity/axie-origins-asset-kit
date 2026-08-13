@@ -1,0 +1,90 @@
+
+Clover.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 340, 60
+  size: 304, 149
+  orig: 305, 150
+  offset: 0, 1
+  index: -1
+bush-below
+  rotate: false
+  xy: 648, 87
+  size: 275, 122
+  orig: 275, 140
+  offset: 0, 18
+  index: -1
+bush-upper
+  rotate: false
+  xy: 4, 53
+  size: 332, 156
+  orig: 334, 171
+  offset: 2, 15
+  index: -1
+eyes-shut
+  rotate: true
+  xy: 927, 4
+  size: 112, 29
+  orig: 113, 29
+  offset: 0, 0
+  index: -1
+leg-back-left
+  rotate: true
+  xy: 927, 120
+  size: 42, 40
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+leg-front-left
+  rotate: true
+  xy: 960, 74
+  size: 42, 39
+  orig: 42, 40
+  offset: 0, 0
+  index: -1
+leg-front-right
+  rotate: true
+  xy: 927, 166
+  size: 43, 40
+  orig: 43, 40
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 648, 35
+  size: 252, 48
+  orig: 252, 48
+  offset: 0, 0
+  index: -1
+water-01
+  rotate: false
+  xy: 971, 195
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+water-02
+  rotate: true
+  xy: 971, 161
+  size: 13, 12
+  orig: 13, 14
+  offset: 0, 1
+  index: -1
+water-03
+  rotate: true
+  xy: 971, 146
+  size: 11, 12
+  orig: 13, 13
+  offset: 1, 1
+  index: -1
+water-04
+  rotate: false
+  xy: 971, 178
+  size: 13, 13
+  orig: 13, 13
+  offset: 0, 0
+  index: -1

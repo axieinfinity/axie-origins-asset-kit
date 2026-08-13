@@ -1,0 +1,41 @@
+
+Trunk.png
+size: 512,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: false
+  xy: 4, 4
+  size: 226, 206
+  orig: 228, 207
+  offset: 0, 1
+  index: -1
+leg-back
+  rotate: false
+  xy: 234, 98
+  size: 109, 65
+  orig: 109, 65
+  offset: 0, 0
+  index: -1
+leg-front
+  rotate: true
+  xy: 347, 97
+  size: 66, 70
+  orig: 66, 70
+  offset: 0, 0
+  index: -1
+leg-side
+  rotate: false
+  xy: 234, 41
+  size: 87, 53
+  orig: 87, 53
+  offset: 0, 0
+  index: -1
+shadow
+  rotate: false
+  xy: 234, 167
+  size: 226, 43
+  orig: 226, 43
+  offset: 0, 0
+  index: -1

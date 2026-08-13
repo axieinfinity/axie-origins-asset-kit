@@ -1,0 +1,76 @@
+
+victory.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+body
+  rotate: true
+  xy: 73, 17
+  size: 84, 64
+  orig: 84, 68
+  offset: 0, 4
+  index: -1
+clouth
+  rotate: false
+  xy: 4, 308
+  size: 660, 199
+  orig: 698, 199
+  offset: 19, 0
+  index: -1
+eye_b
+  rotate: false
+  xy: 4, 10
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+eye_f
+  rotate: false
+  xy: 12, 10
+  size: 4, 5
+  orig: 4, 5
+  offset: 0, 0
+  index: -1
+foot_b
+  rotate: true
+  xy: 54, 4
+  size: 16, 14
+  orig: 16, 14
+  offset: 0, 0
+  index: -1
+foot_f
+  rotate: false
+  xy: 54, 24
+  size: 15, 16
+  orig: 15, 16
+  offset: 0, 0
+  index: -1
+leaf
+  rotate: true
+  xy: 668, 44
+  size: 463, 222
+  orig: 463, 222
+  offset: 0, 0
+  index: -1
+victory
+  rotate: false
+  xy: 4, 105
+  size: 660, 199
+  orig: 698, 199
+  offset: 19, 0
+  index: -1
+wing_b
+  rotate: true
+  xy: 4, 19
+  size: 21, 46
+  orig: 21, 46
+  offset: 0, 0
+  index: -1
+wing_f
+  rotate: false
+  xy: 4, 48
+  size: 38, 53
+  orig: 38, 53
+  offset: 0, 0
+  index: -1

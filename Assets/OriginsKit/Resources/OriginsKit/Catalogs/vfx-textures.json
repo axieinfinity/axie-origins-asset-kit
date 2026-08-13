@@ -1,0 +1,545 @@
+{
+  "count": 90,
+  "items": [
+    {
+      "name": "BeaM-trails_222_TX",
+      "file": "textures/BeaM-trails_222_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "BITE_mesh_TX",
+      "file": "textures/BITE_mesh_TX.png",
+      "width": 512,
+      "height": 256
+    },
+    {
+      "name": "blood_Splash_TX",
+      "file": "textures/blood_Splash_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Break_TX",
+      "file": "textures/Break_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "bubble_for_mesh_2_TX",
+      "file": "textures/bubble_for_mesh_2_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "bubble_half_clear",
+      "file": "textures/bubble_half_clear.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "bubble_round3",
+      "file": "textures/bubble_round3.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "CharGlow_Tx",
+      "file": "textures/CharGlow_Tx.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Chormacolor3_TX",
+      "file": "textures/Chormacolor3_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Chormacolor4_TX",
+      "file": "textures/Chormacolor4_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Circle_Nova_TX",
+      "file": "textures/Circle_Nova_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cloud_2x2_hard",
+      "file": "textures/cloud_2x2_hard.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "cloud_2x2_hard_softshadow",
+      "file": "textures/cloud_2x2_hard_softshadow.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Color_05_TX",
+      "file": "textures/Color_05_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Confetti_Tx",
+      "file": "textures/Confetti_Tx.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Crack_TX",
+      "file": "textures/Crack_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Default-Particle",
+      "file": "textures/Default-Particle.png",
+      "width": 64,
+      "height": 64
+    },
+    {
+      "name": "disarm_Element_03_TX",
+      "file": "textures/disarm_Element_03_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Drain_Trail_test_5_TX",
+      "file": "textures/Drain_Trail_test_5_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Electric_3x3_2_TX",
+      "file": "textures/Electric_3x3_2_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Energy_Charge_Claim_TX",
+      "file": "textures/Energy_Charge_Claim_TX.png",
+      "width": 256,
+      "height": 512
+    },
+    {
+      "name": "Energy_Charge_TX",
+      "file": "textures/Energy_Charge_TX.png",
+      "width": 256,
+      "height": 512
+    },
+    {
+      "name": "explosion_spritesheet_3x3",
+      "file": "textures/explosion_spritesheet_3x3.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Fear_Face_TX",
+      "file": "textures/Fear_Face_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Feather_TX",
+      "file": "textures/Feather_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "FlameFlowers_TX",
+      "file": "textures/FlameFlowers_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "fragile_aura_TX",
+      "file": "textures/fragile_aura_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Fragile_frozen_TXT",
+      "file": "textures/Fragile_frozen_TXT.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Fruits_2x2_Tx",
+      "file": "textures/Fruits_2x2_Tx.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Ghost_trail_4_TX",
+      "file": "textures/Ghost_trail_4_TX.png",
+      "width": 128,
+      "height": 256
+    },
+    {
+      "name": "glow",
+      "file": "textures/glow.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Glow_Buff_02_TX",
+      "file": "textures/Glow_Buff_02_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Glow_horizon_TX",
+      "file": "textures/Glow_horizon_TX.png",
+      "width": 256,
+      "height": 64
+    },
+    {
+      "name": "gradient_horizontal",
+      "file": "textures/gradient_horizontal.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "gradient_vertical",
+      "file": "textures/gradient_vertical.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "gradient_vertical2",
+      "file": "textures/gradient_vertical2.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Impact_Element_TX",
+      "file": "textures/Impact_Element_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "leafly_trail_07_TX",
+      "file": "textures/leafly_trail_07_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Leaves_brighness_TX",
+      "file": "textures/Leaves_brighness_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Leaves_TX",
+      "file": "textures/Leaves_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "light_Ray_01_TX",
+      "file": "textures/light_Ray_01_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "lightning_02_TX",
+      "file": "textures/lightning_02_TX.png",
+      "width": 256,
+      "height": 512
+    },
+    {
+      "name": "Lightning_2x2_02_TX",
+      "file": "textures/Lightning_2x2_02_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "lightray3",
+      "file": "textures/lightray3.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Liquid_Noise_02_TX",
+      "file": "textures/Liquid_Noise_02_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Liquid_up_TX",
+      "file": "textures/Liquid_up_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "mask-square-black",
+      "file": "textures/mask-square-black.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Mech_Decal_01_TX",
+      "file": "textures/Mech_Decal_01_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Mech_parts_TX",
+      "file": "textures/Mech_parts_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Noise_03_TX",
+      "file": "textures/Noise_03_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Noise_06_TX",
+      "file": "textures/Noise_06_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Noise_07_TX",
+      "file": "textures/Noise_07_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "projectile_Vertical_TX",
+      "file": "textures/projectile_Vertical_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Rock_01_TX",
+      "file": "textures/Rock_01_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Secret_Bag_TX",
+      "file": "textures/Secret_Bag_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "sharp_red",
+      "file": "textures/sharp_red.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Silence_blur_TX",
+      "file": "textures/Silence_blur_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Silence_main_TX",
+      "file": "textures/Silence_main_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Slash_Puffy_Tx",
+      "file": "textures/Slash_Puffy_Tx.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Slash_Ray_TX",
+      "file": "textures/Slash_Ray_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Smash_ATK_05_TX",
+      "file": "textures/Smash_ATK_05_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Smash_ATK_07_TX",
+      "file": "textures/Smash_ATK_07_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Smash_ATK_08_TX",
+      "file": "textures/Smash_ATK_08_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "smoke-bomb-01-base-02",
+      "file": "textures/smoke-bomb-01-base-02.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "SmokeStylize_TX",
+      "file": "textures/SmokeStylize_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Spark_Stretch_TX",
+      "file": "textures/Spark_Stretch_TX.png",
+      "width": 128,
+      "height": 256
+    },
+    {
+      "name": "splash_damage_no_glow_TX",
+      "file": "textures/splash_damage_no_glow_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "splat01_animated_3x3",
+      "file": "textures/splat01_animated_3x3.png",
+      "width": 2048,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_01_TX",
+      "file": "textures/Spritesheet_FX_Texture_01_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_02_TX",
+      "file": "textures/Spritesheet_FX_Texture_02_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_03_TX",
+      "file": "textures/Spritesheet_FX_Texture_03_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_04_TX",
+      "file": "textures/Spritesheet_FX_Texture_04_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_05_TX",
+      "file": "textures/Spritesheet_FX_Texture_05_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_06_TX",
+      "file": "textures/Spritesheet_FX_Texture_06_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_07_TX",
+      "file": "textures/Spritesheet_FX_Texture_07_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Spritesheet_FX_Texture_08_TX",
+      "file": "textures/Spritesheet_FX_Texture_08_TX.png",
+      "width": 1024,
+      "height": 1024
+    },
+    {
+      "name": "Star_bubble_TX",
+      "file": "textures/Star_bubble_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Star_Heal_Bubble_TX",
+      "file": "textures/Star_Heal_Bubble_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Sword_DMG_TX",
+      "file": "textures/Sword_DMG_TX.png",
+      "width": 2048,
+      "height": 2048
+    },
+    {
+      "name": "Test_03_TX",
+      "file": "textures/Test_03_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "text_ah_zz",
+      "file": "textures/text_ah_zz.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Time_TX",
+      "file": "textures/Time_TX.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Vulnerable_Decal_TX",
+      "file": "textures/Vulnerable_Decal_TX.png",
+      "width": 512,
+      "height": 256
+    },
+    {
+      "name": "Vulnerable_Glow_TX",
+      "file": "textures/Vulnerable_Glow_TX.png",
+      "width": 512,
+      "height": 256
+    },
+    {
+      "name": "water_2x2_2_TX",
+      "file": "textures/water_2x2_2_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "water_dot",
+      "file": "textures/water_dot.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "Water_Splash_TX",
+      "file": "textures/Water_Splash_TX.png",
+      "width": 256,
+      "height": 256
+    },
+    {
+      "name": "wave3",
+      "file": "textures/wave3.png",
+      "width": 512,
+      "height": 512
+    },
+    {
+      "name": "Whitebroad_TX",
+      "file": "textures/Whitebroad_TX.png",
+      "width": 128,
+      "height": 128
+    },
+    {
+      "name": "ZackZZzz_TX",
+      "file": "textures/ZackZZzz_TX.png",
+      "width": 256,
+      "height": 64
+    }
+  ]
+}

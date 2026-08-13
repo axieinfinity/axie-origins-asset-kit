@@ -1,0 +1,40 @@
+
+flag_PVP.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pattern_flag1
+  rotate: false
+  xy: 4, 4
+  size: 440, 761
+  orig: 440, 761
+  offset: 0, 0
+  index: -1
+pattern_flag2
+  rotate: false
+  xy: 448, 4
+  size: 440, 761
+  orig: 442, 763
+  offset: 1, 1
+  index: -1
+
+flag_PVP2.png
+size: 1024,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pattern_flag3
+  rotate: false
+  xy: 4, 4
+  size: 440, 761
+  orig: 442, 763
+  offset: 1, 1
+  index: -1
+pattern_flag4
+  rotate: false
+  xy: 448, 4
+  size: 440, 761
+  orig: 442, 763
+  offset: 1, 1
+  index: -1
