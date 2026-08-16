@@ -20,14 +20,14 @@ Not a fighting game and not a folder dump. It is the live catalog of the Unity k
 
 ## Operating Context
 
-Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Assets/OriginsKit/`. Browser VFX playback uses flipbook previews (approximations of the Unity Shuriken prefabs). Spine 3.8 bodies (chimeras, starters, summoners, battle UI) play from the kit files. This is an organizer Vibeathon resource; it is not a public OSS dump.
+Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Assets/OriginsKit/`. Browser VFX playback uses videos recorded from the local Unity player (same SkillPlayer path as battle). Spine 3.8 bodies (chimeras, starters, summoners, battle UI) play from the kit files. This is an organizer Vibeathon resource; it is not a public OSS dump.
 
 ## Capabilities and Constraints
 
 - Catalog covers the whole kit: 63 skill VFX, 42 buffs, 188 ability maps, 105 activation timelines, 90 VFX textures, 152 SFX, 131 status icons, 8 summoners, 4 battle-UI spines, 22 chimeras, 38 starter spines, 20 arenas, 15 music loops, chimera/tool card art, intents, PvE UI, morph textures.
-- Sample stage stays pinned. Selecting a library item plays that item there (flipbook, Spine, still, or audio).
+- Sample stage stays pinned. Selecting a library item plays that item there (Unity-recorded video, Spine, still, or audio).
 - Gallery cards show a real preview of the same asset.
-- Skill/buff flipbooks are labeled as browser approximations; Unity prefabs + `SkillPlayer` are the source of truth.
+- Skill/buff videos are recorded from the local Unity player; Unity prefabs + `SkillPlayer` are the source of truth.
 - NFT Axie bodies are not in the kit; mixer animation *names* are.
 - Do not ship Epic Toon FX, client secrets, or Addressable OSX bundles.
 - Confirmed this turn: lives in the kit repo; playback is a full live stage (VFX, Spine, music, SFX) plus integration instructions.

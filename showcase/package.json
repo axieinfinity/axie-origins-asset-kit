@@ -5,6 +5,7 @@
   "type": "module",
   "scripts": {
     "catalog": "node scripts/build-catalog.mjs",
+    "encode-videos": "node scripts/encode-kit-videos.mjs",
     "dev": "node scripts/build-catalog.mjs && vite",
     "build": "node scripts/build-catalog.mjs && tsc && vite build",
     "preview": "vite preview --host --port 5177"

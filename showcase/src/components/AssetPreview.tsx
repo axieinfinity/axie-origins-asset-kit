@@ -2,6 +2,7 @@ import { PlayIcon } from '@axieinfinity/dango-icons'
 import type { LibraryItem } from '../catalog'
 import { FlipbookPreview } from './FlipbookPreview'
 import { SpinePreview } from './SpinePreview'
+import { VideoPreview } from './VideoPreview'
 
 type Props = {
   item?: LibraryItem | null
@@ -15,6 +16,18 @@ type Props = {
 
 export function AssetPreview({ item, mode, loop, speed, playKey, clip, className }: Props) {
   if (!item) return <div className={`preview-mount ${className || ''}`} />
+
+  if (item.video && (item.kind === 'skill' || item.kind === 'buff')) {
+    return (
+      <VideoPreview
+        item={item}
+        className={className}
+        playKey={playKey}
+        still={mode === 'mini'}
+        loop={loop !== false}
+      />
+    )
+  }
 
   if (item.flipbook && (item.kind === 'skill' || item.kind === 'buff')) {
     if (item.kind === 'buff' && item.src && mode === 'mini') {

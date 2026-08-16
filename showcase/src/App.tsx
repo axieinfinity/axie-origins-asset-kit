@@ -223,7 +223,7 @@ export function App() {
               ) : null}
               {selected?.cards?.length ? <Tag size={Size.Small}>{selected.cards.length} cards</Tag> : null}
               {selected?.kind === 'skill' || selected?.kind === 'buff' ? (
-                <Tag size={Size.Small}>flipbook preview</Tag>
+                <Tag size={Size.Small}>{selected.video ? 'Unity player video' : 'flipbook preview'}</Tag>
               ) : null}
             </Space>
             <Typography.Text level="3">{selected?.usage}</Typography.Text>
@@ -376,7 +376,7 @@ export function App() {
           <Alert
             intent={Intent.Info}
             title="Private Vibeathon kit"
-            content="Sky Mavis / Axie IP. Use for Axie Vibeathon and approved programs. Not a public dump. Flipbooks here are browser approximations of Unity Shuriken prefabs."
+            content="Sky Mavis / Axie IP. Use for Axie Vibeathon and approved programs. Not a public dump. Skill and buff clips are recorded from the local Unity player (SkillPlayer at scale 54)."
           />
           <Typography.Text>
             Open the clone in Unity 2021.3 LTS (URP 12.1.15). Copy <code>Assets/OriginsKit</code> into your project, or open this repo as the project. Do not add it as a UPM Git URL.

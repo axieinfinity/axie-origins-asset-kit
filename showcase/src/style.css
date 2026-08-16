@@ -145,6 +145,26 @@ body,
   color: var(--dg-color-danger);
 }
 
+.video-preview video,
+.video-preview img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  display: block;
+  background: transparent;
+}
+
+.player-stage.video-preview,
+.player-stage .video-preview,
+.video-preview {
+  min-height: inherit;
+}
+
+.card-stage.video-preview img,
+.procession-cell .video-preview img {
+  object-fit: contain;
+}
+
 .icon-preview,
 .audio-preview {
   display: grid;

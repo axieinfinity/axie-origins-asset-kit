@@ -9,6 +9,7 @@ const assets = join(kitRoot, 'Assets/OriginsKit')
 const flipSrc = '/Users/jaatster/Work/Projects/Axie Origins Client/origins-battle-mixer-pack/vfx/flipbooks'
 const publicDir = join(here, '../public')
 const flipDest = join(publicDir, 'previews/vfx')
+const videoDest = join(publicDir, 'previews/video')
 const outFile = join(publicDir, 'catalog.json')
 
 const CLASSES = ['aquatic', 'beast', 'bird', 'bug', 'plant', 'reptile', 'mech', 'dawn', 'dusk']
@@ -95,6 +96,35 @@ function copyFlipbooks() {
   return copied
 }
 
+function videoFor(id) {
+  const mp4 = join(videoDest, `${id}.mp4`)
+  const webm = join(videoDest, `${id}.webm`)
+  if (!existsSync(mp4) && !existsSync(webm)) return null
+  const posterPng = join(videoDest, `${id}.png`)
+  const posterJpg = join(videoDest, `${id}.jpg`)
+  const metaPath = join(videoDest, 'frames', id, 'meta.json')
+  let duration = 1
+  let fps = 30
+  if (existsSync(metaPath)) {
+    const meta = readJson(metaPath)
+    duration = meta.duration || 1
+    fps = meta.fps || 30
+  }
+  return {
+    url: existsSync(mp4) ? `/previews/video/${id}.mp4` : `/previews/video/${id}.webm`,
+    webm: existsSync(webm) ? `/previews/video/${id}.webm` : undefined,
+    poster: existsSync(posterJpg)
+      ? `/previews/video/${id}.jpg`
+      : existsSync(posterPng)
+        ? `/previews/video/${id}.png`
+        : undefined,
+    duration,
+    fps,
+    width: 960,
+    height: 540,
+  }
+}
+
 function flipbookFor(id) {
   const jsonPath = join(flipDest, `${id}.json`)
   const pngPath = join(flipDest, `${id}.png`)
@@ -160,6 +190,7 @@ function main() {
     const style = className ? id.slice(className.length + 1) : id
     const map = byVfx.get(id) || { cards: [], abilityIds: [] }
     const book = flipbookFor(id)
+    const video = videoFor(id)
     const attack = clip.events?.find((e) => e.function === 'OnAttack')
     const hit = clip.events?.find((e) => e.function === 'OnHit')
     items.push({
@@ -169,7 +200,7 @@ function main() {
       title: titleize(id),
       tags: [kind, className, style].filter(Boolean),
       family: className || kind,
-      preview: book ? 'flipbook' : 'texture',
+      preview: video ? 'video' : book ? 'flipbook' : 'texture',
       className,
       style,
       vfxId: id,
@@ -193,6 +224,7 @@ function main() {
             ? `/kit/Audio/${id}.wav`
             : null,
       flipbook: book,
+      video,
       usage:
         kind === 'skill'
           ? `Spawn Prefabs/Skills/${id} with SkillPlayer at scale 54. OnAttack plays the attacker mixer clip; OnHit plays the defender hit.`

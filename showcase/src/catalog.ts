@@ -14,7 +14,17 @@ export type ItemKind =
   | 'ui'
   | 'hud'
 
-export type PreviewKind = 'flipbook' | 'texture' | 'icon' | 'audio' | 'spine'
+export type PreviewKind = 'flipbook' | 'texture' | 'icon' | 'audio' | 'spine' | 'video'
+
+export type VideoPreviewInfo = {
+  url: string
+  webm?: string
+  poster?: string
+  duration: number
+  fps: number
+  width: number
+  height: number
+}
 
 export type ClipEvent = {
   time: number
@@ -55,6 +65,7 @@ export type LibraryItem = {
   spineBase?: string
   format?: 'skel' | 'json'
   flipbook?: { url: string; cols: number; rows: number; frames: number; fps: number; duration: number }
+  video?: VideoPreviewInfo
   actor?: string
   layers?: string[]
   usedInOriginsBattle?: boolean

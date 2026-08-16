@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:5177/ — pinned stage + full catalog of skills, buffs, chimeras, starters, cards, arenas, music, SFX, and HUD. Skill/buff playback is a flipbook preview; Unity prefabs are the source of truth.
+Open http://127.0.0.1:5177/ — pinned stage + full catalog of skills, buffs, chimeras, starters, cards, arenas, music, SFX, and HUD. Skill/buff clips are videos recorded from the local Unity player (`VfxLocalPlayer` / `SkillPlayer` at scale 54). In the Editor: **Origins → Play Local Player**, then ← → to cycle every clip.
 
 ### B. Copy into an existing project
 

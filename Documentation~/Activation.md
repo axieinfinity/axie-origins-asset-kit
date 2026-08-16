@@ -39,6 +39,10 @@ FighterEffect.SpawnSkill
 
 `SkillPlayer.Spawn` is that path without DOTween / EasyButtons / Addressables.
 
+## Local player
+
+The kit ships `VfxLocalPlayer`. In Unity: **Origins → Play Local Player** (baker) or drop `VfxLocalPlayer` on an empty scene camera (kit). Arrow keys cycle every ImportedVfx clip, Space replays. Catalog videos were recorded from this player at 960×540 / 30 fps.
+
 ## Clip events
 
 Every **skill** clip (63) fires some of these. Buffs usually fire none.

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.5.0 — 2026-08-16
+
+- Local Unity player (`VfxLocalPlayer`) plays every skill/buff the same way battle does: holder 1/54, instance 54, clip override, OnThrow projectile.
+- Catalog skill/buff previews are videos recorded from that player (960×540, 30 fps), not flipbook sheets.
+- Menu: Origins → Setup Local Player / Play Local Player / Record Kit Videos.
+
 ## 1.4.1 — 2026-08-16
 
 - Showcase: skill/buff previews recaptured from live Unity particles (not texture-atlas dumps).
