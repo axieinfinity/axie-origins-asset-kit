@@ -27,7 +27,7 @@ Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Asse
 - Catalog covers the whole kit: 63 skill VFX, 42 buffs, 188 ability maps, 105 activation timelines, 90 VFX textures, 152 SFX, 131 status icons, 8 summoners, 4 battle-UI spines, 22 chimeras, 38 starter spines, 20 arenas, 15 music loops, chimera/tool card art, intents, PvE UI, morph textures.
 - Sample stage stays pinned. Selecting a library item plays that item there (Unity-recorded video, Spine, still, or audio).
 - Gallery cards show a real preview of the same asset.
-- Skill/buff videos are recorded from the local Unity player; Unity prefabs + `SkillPlayer` are the source of truth.
+- Skill/buff videos are catalog previews. Unity prefabs + `SkillPlayer` are the source of truth.
 - NFT Axie bodies are not in the kit; mixer animation *names* are.
 - Do not ship Epic Toon FX, client secrets, or Addressable OSX bundles.
 - Confirmed this turn: lives in the kit repo; playback is a full live stage (VFX, Spine, music, SFX) plus integration instructions.
@@ -56,4 +56,4 @@ Do not invent license grants, public CDN URLs, or per-level chimera deck lists (
 
 ## Accessibility & Inclusion
 
-Keyboard selection of gallery cards and visible focus from Dango controls are required so the catalog is operable without a pointer.
+Keyboard selection of gallery cards and a visible focus ring are required so the catalog is operable without a pointer. `/` focuses search, `j`/`k` move the selection, `c` copies the Unity path.

@@ -1,5 +1,5 @@
 #!/usr/bin/env node
-import { existsSync, readdirSync, readFileSync, writeFileSync, mkdirSync } from 'node:fs'
+import { existsSync, readdirSync, readFileSync, writeFileSync, mkdirSync, statSync, unlinkSync } from 'node:fs'
 import { cpus } from 'node:os'
 import { dirname, join } from 'node:path'
 import { spawn } from 'node:child_process'
@@ -106,6 +106,9 @@ async function encodeOne(id, ff) {
     '-an',
     webm,
   ]).catch(() => {})
+  if (existsSync(webm) && statSync(webm).size < 1024) {
+    try { unlinkSync(webm) } catch {}
+  }
   return { id, frames: meta.frames, duration: meta.duration, lit: meta.lit }
 }
 

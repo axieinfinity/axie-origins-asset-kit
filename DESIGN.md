@@ -31,9 +31,10 @@ One system sans. Fixed rem steps. Mono only inside the snippet.
 
 ## Layout
 
-- Left rail: kinds grouped Battle / Characters / Art / Audio
-- Content: search, then 16:9 preview + facts, then the grid
-- Mobile: rail becomes a horizontal kind list; inspect stacks
+- Desktop: three columns — kind rail | pinned inspect (preview + facts) | scrolling search + grid
+- The inspect column stays on screen while the grid scrolls. That is the finder: see the asset, copy the path, keep browsing.
+- Narrow: rail becomes a horizontal kind list; inspect stays a sticky band above the grid
+- Phone: inspect stacks (preview then facts) and remains in the top of the viewport
 
 ## Components
 

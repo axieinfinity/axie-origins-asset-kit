@@ -1,5 +1,14 @@
 # Changelog
 
+## 1.6.2 — 2026-08-16
+
+- Finder is three columns: kind rail, pinned inspect, scrolling grid. The player stays on screen while you browse.
+- Skill/buff player no longer stacks a still poster over the video.
+- Starter, chimera, and summoner tiles play the Spine body. Atlas sheets and avatar portraits are not used as thumbs.
+- Inspect says skill/buff clips are preview videos; the Unity prefab is the file to use.
+- Empty takes (`plant_throw`, `taunt`, `vulnerable`) no longer play a black MP4. Buffs show the status icon; plant throw says the prefab is in the kit.
+- Recaptured bubble, cleanser, cure, dispel, and fragile so the catalog is not an atlas card.
+
 ## 1.6.1 — 2026-08-16
 
 - Reverted the Origins-battlefield chrome.

@@ -1,4 +1,3 @@
-import { Loader, Size } from '@axieinfinity/dango'
 import { Application } from 'pixi.js'
 import { Spine } from 'pixi-spine'
 import { TextureAtlas } from '@pixi-spine/base'
@@ -13,7 +12,11 @@ type Props = {
   clip?: string
   loop?: boolean
   playKey?: number
+  compact?: boolean
 }
+
+const MAX_COMPACT = 8
+let compactLive = 0
 
 async function loadSpine(item: LibraryItem) {
   if (!item.spineAtlas || !item.spineSkel || !item.spineBase) throw new Error('Missing spine paths')
@@ -63,32 +66,64 @@ async function loadSpine(item: LibraryItem) {
   return new Spine(parser.readSkeletonData(new Uint8Array(buffer)))
 }
 
-export function SpinePreview({ item, className, clip, loop = true, playKey = 0 }: Props) {
+export function SpinePreview({ item, className, clip, loop = true, playKey = 0, compact = false }: Props) {
   const hostRef = useRef<HTMLDivElement>(null)
   const [ready, setReady] = useState(false)
   const [failed, setFailed] = useState(false)
   const [error, setError] = useState('')
+  const [visible, setVisible] = useState(!compact)
 
   useEffect(() => {
     const host = hostRef.current
-    if (!host) return
+    if (!host || !compact) return
+    const io = new IntersectionObserver(([entry]) => setVisible(entry.isIntersecting), { rootMargin: '80px' })
+    io.observe(host)
+    return () => io.disconnect()
+  }, [compact, item.id])
+
+  useEffect(() => {
+    const host = hostRef.current
+    if (!host || !visible) return
     let cancelled = false
     let app: Application | null = null
+    let tookSlot = false
     setReady(false)
     setFailed(false)
     setError('')
     void (async () => {
       try {
+        if (compact) {
+          while (compactLive >= MAX_COMPACT) {
+            await new Promise((resolve) => setTimeout(resolve, 80))
+            if (cancelled) return
+          }
+          compactLive += 1
+          tookSlot = true
+        }
+        for (let i = 0; i < 40 && (host.clientWidth < 8 || host.clientHeight < 8); i += 1) {
+          await new Promise((resolve) => requestAnimationFrame(resolve))
+          if (cancelled) return
+        }
+        if (host.clientWidth < 8 || host.clientHeight < 8) throw new Error('preview host has no size')
         const spine = await loadSpine(item)
         if (cancelled) return
-        app = new Application({
-          resizeTo: host,
+        const common = {
+          width: host.clientWidth,
+          height: host.clientHeight,
           backgroundAlpha: 0,
           antialias: true,
           resolution: Math.min(2, window.devicePixelRatio || 1),
           autoDensity: true,
-        })
-        host.appendChild(app.view as HTMLCanvasElement)
+        }
+        try {
+          app = new Application(common)
+        } catch {
+          app = new Application({ ...common, forceCanvas: true })
+        }
+        const view = app.view as HTMLCanvasElement
+        view.style.width = '100%'
+        view.style.height = '100%'
+        host.appendChild(view)
         const names = spine.spineData.animations?.map((anim) => anim.name) || []
         const preferred =
           clip && names.includes(clip)
@@ -101,9 +136,11 @@ export function SpinePreview({ item, className, clip, loop = true, playKey = 0 }
         const layout = () => {
           const w = app!.screen.width
           const h = app!.screen.height
-          spine.position.set(w / 2, h * 0.88)
+          spine.position.set(w / 2, h * (compact ? 0.96 : 0.9))
           const bounds = spine.getLocalBounds()
-          const scale = Math.min((w * 0.82) / Math.max(1, bounds.width), (h * 0.82) / Math.max(1, bounds.height), 0.7)
+          const fit = compact ? 0.88 : 0.84
+          const cap = compact ? 1.4 : 0.82
+          const scale = Math.min((w * fit) / Math.max(1, bounds.width), (h * fit) / Math.max(1, bounds.height), cap)
           spine.scale.set(scale)
         }
         layout()
@@ -112,31 +149,23 @@ export function SpinePreview({ item, className, clip, loop = true, playKey = 0 }
       } catch (err) {
         console.error('Spine load failed', item.id, err)
         if (!cancelled) {
-          setError(err instanceof Error ? err.message : String(err))
           setFailed(true)
+          setError(err instanceof Error ? err.message : 'Spine failed')
         }
       }
     })()
     return () => {
       cancelled = true
+      if (tookSlot) compactLive = Math.max(0, compactLive - 1)
       app?.destroy(true, { children: true })
     }
-  }, [item.id, item.spineSkel, clip, loop, playKey])
+  }, [visible, item.id, item.spineSkel, clip, loop, playKey, compact])
 
   return (
-    <div className={`preview-mount ${className || ''}`}>
+    <div className={`preview-mount spine-preview ${className || ''}`}>
       <div ref={hostRef} className="preview-canvas" />
-      {!ready && !failed ? (
-        <div className="preview-loading">
-          <Loader.Circle size={Size.Small} />
-        </div>
-      ) : null}
-      {failed ? (
-        <div className="preview-fallback">
-          {item.src || item.plateUrl ? <img src={item.src || item.plateUrl} alt={item.title} /> : item.title}
-          {error && !error.includes('auto-detect') ? <small>{error}</small> : null}
-        </div>
-      ) : null}
+      {visible && !ready && !failed ? <div className="preview-loading">Loading</div> : null}
+      {failed ? <div className="preview-fallback">{item.title}</div> : null}
     </div>
   )
 }

@@ -110,18 +110,20 @@ function videoFor(id) {
     duration = meta.duration || 1
     fps = meta.fps || 30
   }
+  const posterPath = existsSync(posterJpg) ? posterJpg : existsSync(posterPng) ? posterPng : null
+  const posterBytes = posterPath ? statSync(posterPath).size : 0
+  const mp4Ok = existsSync(mp4) && statSync(mp4).size > 1024
+  const webmOk = existsSync(webm) && statSync(webm).size > 1024
+  if (!mp4Ok && !webmOk) return null
   return {
-    url: existsSync(mp4) ? `/previews/video/${id}.mp4` : `/previews/video/${id}.webm`,
-    webm: existsSync(webm) ? `/previews/video/${id}.webm` : undefined,
-    poster: existsSync(posterJpg)
-      ? `/previews/video/${id}.jpg`
-      : existsSync(posterPng)
-        ? `/previews/video/${id}.png`
-        : undefined,
+    url: mp4Ok ? `/previews/video/${id}.mp4` : `/previews/video/${id}.webm`,
+    webm: webmOk ? `/previews/video/${id}.webm` : undefined,
+    poster: posterPath ? `/previews/video/${id}${posterPath.endsWith('.png') ? '.png' : '.jpg'}` : undefined,
     duration,
     fps,
     width: 960,
     height: 540,
+    empty: posterBytes > 0 && posterBytes < 7000,
   }
 }
 
@@ -152,7 +154,6 @@ function spineFor(folder, slug) {
     spineAtlas: kitUrl(atlas),
     spineSkel: kitUrl(skelPath),
     spineBase: `/kit/${relative(assets, folder).split('\\').join('/')}/`,
-    plateUrl: kitUrl(png),
     format: skelPath.endsWith('.json') ? 'json' : 'skel',
   }
 }
@@ -253,7 +254,6 @@ function main() {
   for (const rec of pve.extractedSkeletons || []) {
     const folder = join(assets, 'PvE/Chimeras', rec.id)
     const spine = spineFor(folder, rec.id)
-    const portrait = join(assets, 'PvE/Avatars/portraits', `${rec.id}.png`)
     items.push({
       id: `chimera:${rec.id}`,
       kind: 'chimera',
@@ -265,8 +265,6 @@ function main() {
       duration: 1,
       clips: rec.unityClips || [],
       animation: (rec.unityClips || []).find((n) => n.includes('idle/normal')) || rec.unityClips?.[0],
-      src: existsSync(portrait) ? kitUrl(portrait) : spine?.plateUrl,
-      plateUrl: spine?.plateUrl,
       ...spine,
       unityPath: `Assets/OriginsKit/PvE/Chimeras/${rec.id}/`,
       usage: 'Spine 3.8 enemy body. Play action/idle/normal, then attack clips. Skills use Prefabs/Skills via pve-cards.json.',
@@ -276,9 +274,6 @@ function main() {
   for (const rec of pveStarters.extractedSkeletons || []) {
     const folder = join(assets, 'PvE/Starters', rec.id)
     const spine = spineFor(folder, rec.id)
-    const baseId = String(rec.axieId || rec.id).split('-')[0]
-    const portrait = join(assets, 'PvE/Avatars/starters', `${baseId}.png`)
-    const portraitUrl = existsSync(portrait) ? kitUrl(portrait) : null
     items.push({
       id: `starter:${rec.id}`,
       kind: 'starter',
@@ -290,8 +285,6 @@ function main() {
       duration: 1,
       clips: rec.unityClips || [],
       animation: 'action/idle/normal',
-      src: portraitUrl,
-      plateUrl: portraitUrl,
       ...spine,
       unityPath: `Assets/OriginsKit/PvE/Starters/${rec.id}/`,
       usage: 'Official starter Axie Spine. Same mixer clip names as NFT Axies. Use as a playable PvE roster body.',
@@ -459,8 +452,6 @@ function main() {
       spineAtlas: kitUrl(join(folder, atlas)),
       spineSkel: kitUrl(join(folder, skel)),
       spineBase: `/kit/Summoners/${slug}/`,
-      plateUrl: kitUrl(join(folder, png)),
-      src: kitUrl(join(folder, png)),
       format: 'skel',
       duration: 1,
       unityPath: `Assets/OriginsKit/Summoners/${slug}/`,
@@ -487,8 +478,6 @@ function main() {
       spineAtlas: kitUrl(join(folder, atlas)),
       spineSkel: kitUrl(join(folder, skel)),
       spineBase: `/kit/BattleUI/${slug}/`,
-      plateUrl: kitUrl(join(folder, png)),
-      src: kitUrl(join(folder, png)),
       format: skel.endsWith('.bytes') || skel.endsWith('.skel') ? 'skel' : 'json',
       duration: 1,
       unityPath: `Assets/OriginsKit/BattleUI/${slug}/`,

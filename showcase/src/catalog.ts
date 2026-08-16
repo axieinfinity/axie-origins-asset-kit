@@ -24,6 +24,7 @@ export type VideoPreviewInfo = {
   fps: number
   width: number
   height: number
+  empty?: boolean
 }
 
 export type ClipEvent = {

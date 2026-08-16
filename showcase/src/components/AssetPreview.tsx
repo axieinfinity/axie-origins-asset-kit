@@ -17,6 +17,18 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
   if (!item) return <div className={`preview-mount ${className || ''}`} />
 
   if (item.video && (item.kind === 'skill' || item.kind === 'buff')) {
+    if (item.video.empty) {
+      return (
+        <div className={`preview-mount empty-video ${item.src ? 'has-icon' : ''} ${className || ''}`}>
+          {item.src ? <img src={item.src} alt={item.title} /> : null}
+          {mode === 'player' ? (
+            <p className="empty-video-note">No video preview. The prefab is in the kit.</p>
+          ) : item.src ? null : (
+            <span className="preview-fallback">No preview</span>
+          )}
+        </div>
+      )
+    }
     return (
       <VideoPreview
         item={item}
@@ -47,22 +59,23 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
     )
   }
 
-  if (item.preview === 'spine' && item.spineSkel && mode === 'player') {
-    const plate = item.src || item.plateUrl
+  if (item.preview === 'spine') {
+    if (!item.spineSkel) {
+      return (
+        <div className={`preview-mount ${className || ''}`}>
+          <div className="preview-fallback">{item.title}</div>
+        </div>
+      )
+    }
     return (
-      <div className={`preview-mount ${className || ''}`}>
-        {plate ? <img className="character-plate" src={plate} alt="" /> : null}
-        <SpinePreview item={item} clip={clip || item.animation} loop={loop} playKey={playKey} />
-      </div>
-    )
-  }
-
-  if (item.preview === 'spine' && mode === 'mini' && (item.src || item.plateUrl)) {
-    const src = item.src || item.plateUrl
-    return (
-      <div className={`preview-mount icon-preview ${className || ''}`}>
-        {src ? <img src={src} alt={item.title} /> : <span>{item.title}</span>}
-      </div>
+      <SpinePreview
+        item={item}
+        className={className}
+        clip={clip || item.animation}
+        loop={loop}
+        playKey={playKey}
+        compact={mode === 'mini'}
+      />
     )
   }
 

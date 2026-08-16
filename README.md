@@ -61,7 +61,7 @@ Open http://127.0.0.1:5177/ — pick a kind, inspect the asset, copy the Unity p
 
 ### B. Copy into an existing project
 
-Copy the whole `Assets/OriginsKit` folder (keep `.meta` files) into your project’s `Assets/`. Built-in RP works as-is. On URP, particles still draw with the remapped Legacy shaders; reassign URP/Particles Unlit if you want pixel-perfect URP.
+Copy the whole `Assets/OriginsKit` folder (keep `.meta` files) into your project’s `Assets/`. Skill/buff materials use first-party `Sd_Origin2` Shader Graphs — they need **URP 12.1.15**. Built-in RP will pink those graphs.
 
 ### C. Optional `.unitypackage`
 

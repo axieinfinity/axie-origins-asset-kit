@@ -34,7 +34,6 @@ export function VideoPreview({ item, className, playKey = 0, still = false, loop
 
   return (
     <div className={`preview-mount video-preview ${className || ''}`}>
-      {video.poster ? <img className="poster-back" src={video.poster} alt="" /> : null}
       <video
         ref={videoRef}
         key={`${video.url}:${playKey}`}
