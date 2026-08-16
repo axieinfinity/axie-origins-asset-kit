@@ -1,6 +1,6 @@
 # Origins kit showcase
 
-Local catalog of everything in this repo. It is staged as an Origins battlefield: the selected skill or buff plays on the matching class arena, with wooden HUD chrome from the game.
+Local catalog of everything in this repo. Pinned stage plays the selected asset; the field below is the full kit.
 
 ```bash
 cd showcase

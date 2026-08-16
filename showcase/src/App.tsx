@@ -1,16 +1,74 @@
 /**
- * THESIS: The catalog is an Origins battlefield, not a docs dashboard.
- * OWN-WORLD: Painted class arenas, wooden HUD, cream on walnut, Changa One + Noto Sans.
- * STORY: Arrive mid-fight, copy the Unity path, walk the locker.
- * FIRST VIEWPORT: Full-bleed arena, screen-blended VFX, wood name plate.
- * FORM: In-battle HUD as catalog shell. User-pinned Origins world.
+ * THESIS: The kit is a live procession — one asset in motion, every sibling
+ * an equal fragment. Not a docs homepage with thumbnail cards.
+ * OWN-WORLD: Dango dark / kam / Work Sans. Chrome recedes; the playing figure leads.
+ * STORY: A builder lands on a playing skill, copies the Unity path, walks PvE next.
+ * FIRST VIEWPORT: Sticky theater (stage + integration + neighbor strip). Field below.
+ * FORM: Assigned procession (#5) fused with equal-fragment field. Seed 7aac86dd.
  */
 import { useEffect, useMemo, useState } from 'react'
+import {
+  Alert,
+  Badge,
+  Box,
+  Button,
+  ButtonVariant,
+  Dialog,
+  Dropdown,
+  IconButton,
+  Intent,
+  Loader,
+  Radio,
+  Search,
+  Size,
+  Space,
+  SpaceAlignItems,
+  SpaceDirection,
+  SpaceJustify,
+  SpecialTag,
+  Switch,
+  Tag,
+  Tabs,
+  Tooltip,
+  Typography,
+} from '@axieinfinity/dango'
+import {
+  CopyIcon,
+  InformationCircle01Icon,
+  PlayIcon,
+  ReloadIcon,
+  SpeakerIcon,
+  SpeakerMuteIcon,
+} from '@axieinfinity/dango-icons'
 import { AXIE_CLASSES, TABS, loadCatalog, snippetFor, type ItemKind, type LibraryItem } from './catalog'
 import { AssetPreview } from './components/AssetPreview'
 import { useAppToast } from './providers/ToastProvider'
 import { playLoop, playSfx, stopLoop, unlockAudio } from './audio'
-import { CLASS_COLOR, HUD, KIND_LABEL, arenaUrl, riddleCard, usesArenaBlend } from './origins'
+
+function kindIntent(kind: ItemKind) {
+  if (kind === 'skill' || kind === 'card') return Intent.Primary
+  if (kind === 'buff' || kind === 'status') return Intent.Success
+  if (kind === 'animation' || kind === 'ui') return Intent.Info
+  if (kind === 'chimera' || kind === 'starter') return Intent.Danger
+  return Intent.Default
+}
+
+function classTag(name?: string) {
+  if (!name) return null
+  const map: Record<string, (typeof SpecialTag.Type)[keyof typeof SpecialTag.Type]> = {
+    plant: SpecialTag.Type.Plant,
+    beast: SpecialTag.Type.Beast,
+    bug: SpecialTag.Type.Bug,
+    bird: SpecialTag.Type.Bird,
+    aquatic: SpecialTag.Type.Aquatic,
+    reptile: SpecialTag.Type.Reptile,
+    dusk: SpecialTag.Type.Dusk,
+    mech: SpecialTag.Type.Mech,
+    dawn: SpecialTag.Type.Dawn,
+  }
+  const type = map[name]
+  return type ? <SpecialTag type={type}>{name}</SpecialTag> : <Tag size={Size.Small}>{name}</Tag>
+}
 
 export function App() {
   const toast = useAppToast()
@@ -46,7 +104,7 @@ export function App() {
 
   const counts = useMemo(() => {
     const next: Record<string, number> = {}
-    for (const item of items) next[item.kind] = (item.kind in next ? next[item.kind] : 0) + 1
+    for (const item of items) next[item.kind] = (next[item.kind] || 0) + 1
     return next
   }, [items])
 
@@ -113,251 +171,235 @@ export function App() {
     if (!value) return
     try {
       await navigator.clipboard.writeText(value)
-      toast.open({ duration: 2, content: 'Copied ' + value })
+      toast.open({ duration: 2, content: <Typography.Text>Copied {value}</Typography.Text> })
     } catch {
-      toast.open({ duration: 2, content: 'Could not copy' })
+      toast.open({ duration: 2, content: <Typography.Text>Could not copy</Typography.Text> })
     }
   }
 
-  const setKind = (next: ItemKind) => {
-    setTab(next)
-    const url = new URL(window.location.href)
-    url.searchParams.set('tab', next)
-    window.history.replaceState(null, '', url)
-    const first = items.find((item) => item.kind === next)
-    if (first) select(first)
-  }
-
   if (!items.length && !error) {
-    return <div className="boot">Opening the battlefield…</div>
+    return (
+      <div className="app-shell">
+        <Space direction={SpaceDirection.Vertical} align={SpaceAlignItems.Center} justify={SpaceJustify.Center} style={{ minHeight: '60vh' }}>
+          <Loader.Circle size={Size.Large} />
+          <Typography.Text color="gray">Loading the Origins Unity kit…</Typography.Text>
+        </Space>
+      </div>
+    )
   }
-
-  const arena = arenaUrl(stageItem || selected)
-  const blend = usesArenaBlend(stageItem || selected)
 
   return (
-    <div className="origin-root">
-      <header className="hud-top">
+    <div className="app-shell">
+      <header className="mast">
         <div>
-          <h1>Origins Unity Kit</h1>
-          <p>Play it on the field. Copy the path. Drop it into Unity 2021.3.</p>
+          <Typography.Heading level="4">Origins Unity Kit</Typography.Heading>
+          <Typography.Text level="3" color="gray">
+            Everything this repo ships — play it, copy the path, drop it into Unity 2021.3.
+          </Typography.Text>
         </div>
-        <div style={{ display: 'flex', gap: 10, alignItems: 'center' }}>
-          <span className="hud-count">{items.length} pieces</span>
-          <button type="button" className="ghost-btn" onClick={() => setHelpOpen(true)}>
-            What you can build
-          </button>
-        </div>
+        <Space>
+          <Badge intent={Intent.Primary} text={`${items.length} assets`} size={Size.Small} />
+          <Button text="What you can build" icon={InformationCircle01Icon} variant={ButtonVariant.Outlined} size={Size.Small} onClick={() => setHelpOpen(true)} />
+        </Space>
       </header>
 
-      <section className="battlefield" aria-label="Battle stage">
-        <div className="arena-plate" style={{ backgroundImage: `url(${arena})` }} />
-        <div className={`stage-play${blend ? ' is-blend' : ''}`}>
+      <div className="player-dock">
+        <Box level="2" className="player-bar">
           <AssetPreview className="player-stage" mode="player" item={stageItem} loop={loop} playKey={playKey} clip={clip} />
-        </div>
-        <img className="jar" src={HUD.energy} alt="" />
-        <div className="name-plate">
-          <div>
-            <h2>{selected?.title || 'Pick a piece'}</h2>
-            <small>{selected?.unityPath || selected?.name}</small>
-          </div>
-          <div className="plate-actions">
-            <button type="button" className="wood-btn" onClick={() => selected && select(selected)}>
-              Replay
-            </button>
-            <button type="button" className={`wood-btn${loop ? ' is-on' : ''}`} onClick={() => setLoop((value) => !value)}>
-              {loop ? 'Loop on' : 'Loop off'}
-            </button>
-            <button
-              type="button"
-              className="wood-btn"
-              onClick={() => {
-                setMuted((value) => !value)
-                stopLoop()
-              }}
-            >
-              {muted ? 'Muted' : 'Sound'}
-            </button>
-            <button type="button" className="wood-btn" onClick={() => copyId(selected?.unityPath || selected?.name)}>
-              Copy path
-            </button>
-          </div>
-        </div>
-      </section>
-
-      <div className="meta-rail">
-        <div>
-          <p className="usage">{selected?.usage}</p>
-          {selected?.attackAnimation ? (
-            <p className="events">
-              OnAttack → {selected.attackAnimation}
-              {selected.hitAnimation ? ` · OnHit → ${selected.hitAnimation}` : ''}
-            </p>
-          ) : null}
-          <div className="chip-row">
-            {selected?.className ? (
-              <span className="chip" style={{ background: CLASS_COLOR[selected.className] || undefined, color: '#2a1810' }}>
-                {selected.className}
-              </span>
+          <div className="player-meta">
+            <Space justify={SpaceJustify.Between} align={SpaceAlignItems.Center}>
+              <Typography.Heading level="5">{selected?.title || 'Sample stage'}</Typography.Heading>
+              {selected ? <Badge intent={kindIntent(selected.kind)} text={selected.kind} size={Size.Small} /> : null}
+            </Space>
+            <Typography.Text level="3" color="gray">
+              {selected?.unityPath || selected?.name || 'Pick any fragment'}
+            </Typography.Text>
+            <Space wrap size="5">
+              {classTag(selected?.className)}
+              {selected?.isRanged ? (
+                <Tag intent={Intent.Info} size={Size.Small}>
+                  ranged
+                </Tag>
+              ) : null}
+              {selected?.cards?.length ? <Tag size={Size.Small}>{selected.cards.length} cards</Tag> : null}
+              {selected?.kind === 'skill' || selected?.kind === 'buff' ? (
+                <Tag size={Size.Small}>{selected.video ? 'Unity player video' : 'flipbook preview'}</Tag>
+              ) : null}
+            </Space>
+            <Typography.Text level="3">{selected?.usage}</Typography.Text>
+            {selected?.attackAnimation ? (
+              <Typography.Text level="4" color="gray">
+                OnAttack → {selected.attackAnimation}
+                {selected.hitAnimation ? ` · OnHit → ${selected.hitAnimation}` : ''}
+              </Typography.Text>
             ) : null}
-            {selected ? <span className="chip">{selected.kind}</span> : null}
-            {selected?.isRanged ? <span className="chip">ranged</span> : null}
-            {selected?.cards?.length ? <span className="chip">{selected.cards.length} cards</span> : null}
-            {selected?.video ? <span className="chip">player video</span> : null}
+            <pre className="snippet">{selected ? snippetFor(selected) : ''}</pre>
+            <Space align={SpaceAlignItems.Center} wrap>
+              <Tooltip target={<IconButton icon={PlayIcon} intent={Intent.Primary} onClick={() => selected && select(selected)} />}>
+                Play
+              </Tooltip>
+              <Tooltip target={<IconButton icon={ReloadIcon} onClick={() => selected && select(selected)} />}>
+                Replay
+              </Tooltip>
+              <Switch label="Loop" checked={loop} intent={Intent.Primary} onChange={(event) => setLoop(event.currentTarget.checked)} />
+              <Tooltip
+                target={
+                  <IconButton
+                    icon={muted ? SpeakerMuteIcon : SpeakerIcon}
+                    onClick={() => {
+                      setMuted((value) => !value)
+                      stopLoop()
+                    }}
+                  />
+                }
+              >
+                {muted ? 'Unmute' : 'Mute'}
+              </Tooltip>
+              <Tooltip target={<IconButton icon={CopyIcon} onClick={() => copyId(selected?.unityPath || selected?.name)} />}>
+                Copy path
+              </Tooltip>
+              {clips.length > 1 ? (
+                <Dropdown
+                  label="Clip"
+                  selectedOption={clip ? { key: clip, value: clip, label: clip } : undefined}
+                  onChange={(event) => {
+                    const next = String(event.option.value)
+                    setClip(next)
+                    setPlayKey((value) => value + 1)
+                  }}
+                >
+                  {clips.map((name) => (
+                    <Dropdown.Item key={name} data={{ key: name, value: name, label: name }} />
+                  ))}
+                </Dropdown>
+              ) : null}
+            </Space>
           </div>
-        </div>
-        <pre className="snippet">{selected ? snippetFor(selected) : ''}</pre>
+        </Box>
+        {procession.length ? (
+          <div className="procession" role="list">
+            {procession.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                role="listitem"
+                className={`procession-cell${selected?.id === item.id ? ' is-live' : ''}`}
+                onClick={() => select(item)}
+              >
+                <AssetPreview mode="mini" item={item} loop />
+                <span>{item.title}</span>
+              </button>
+            ))}
+          </div>
+        ) : null}
       </div>
 
-      {clips.length > 1 ? (
-        <div className="kind-row">
-          {clips.map((name) => (
-            <button
-              key={name}
-              type="button"
-              className={`kind-tab${clip === name ? ' is-on' : ''}`}
-              onClick={() => {
-                setClip(name)
-                setPlayKey((value) => value + 1)
-              }}
-            >
-              {name}
-            </button>
+      <Space className="library-body" direction={SpaceDirection.Vertical} size="3" block align={SpaceAlignItems.Stretch}>
+        {error ? <Alert intent={Intent.Danger} title="Catalog error" content={error} /> : null}
+
+        <Tabs
+          activeKey={tab}
+          onChange={(key) => {
+            const next = String(key) as ItemKind
+            setTab(next)
+            const url = new URL(window.location.href)
+            url.searchParams.set('tab', next)
+            window.history.replaceState(null, '', url)
+          }}
+          intent={Intent.Primary}
+          variant="underline"
+        >
+          {TABS.map((entry) => (
+            <Tabs.TabPane tab={`${entry.label} (${counts[entry.key] || 0})`} key={entry.key} />
           ))}
+        </Tabs>
+
+        <div className="toolbar">
+          <div className="grow">
+            <Search
+              placeholder={`Search ${TABS.find((entry) => entry.key === tab)?.label.toLowerCase() || 'the kit'}…`}
+              value={query}
+              onChange={(event) => setQuery(event.currentTarget.value)}
+              showRemoveIcon
+              onClickRemove={() => setQuery('')}
+            />
+          </div>
+          <Typography.Text level="3" color="gray">
+            {filtered.length} of {counts[tab] || 0}
+          </Typography.Text>
         </div>
-      ) : null}
 
-      {procession.length ? (
-        <div className="procession" role="list">
-          {procession.map((item) => (
-            <button
-              key={item.id}
-              type="button"
-              role="listitem"
-              className={`procession-cell${selected?.id === item.id ? ' is-live' : ''}`}
-              onClick={() => select(item)}
-            >
-              <Thumb item={item} />
-              <span>{item.title}</span>
-            </button>
-          ))}
-        </div>
-      ) : null}
+        {tab === 'skill' || tab === 'sfx' ? (
+          <Radio.Group value={classFilter} onChange={(event) => setClassFilter(event.currentTarget.value)}>
+            <Space wrap size="5">
+              <Radio value="all" label="All classes" />
+              {AXIE_CLASSES.map((cls) => (
+                <Radio key={cls} value={cls} label={cls} />
+              ))}
+            </Space>
+          </Radio.Group>
+        ) : null}
 
-      <div className="kind-row" role="tablist">
-        {TABS.map((entry) => (
-          <button
-            key={entry.key}
-            type="button"
-            role="tab"
-            aria-selected={tab === entry.key}
-            className={`kind-tab${tab === entry.key ? ' is-on' : ''}`}
-            onClick={() => setKind(entry.key)}
-          >
-            {KIND_LABEL[entry.key]} ({counts[entry.key] || 0})
-          </button>
-        ))}
-      </div>
+        {filtered.length ? (
+          <div className={`library-grid ${tab === 'status' || tab === 'sfx' || tab === 'hud' || tab === 'intent' ? 'is-dense' : ''}`}>
+            {filtered.map((item) => (
+              <button
+                key={item.id}
+                type="button"
+                className={`gallery-card${selected?.id === item.id ? ' is-active' : ''}`}
+                onClick={() => select(item)}
+              >
+                <AssetPreview className="card-stage" mode="mini" item={item} loop />
+                <span className="gallery-title">{item.title}</span>
+                <span className="gallery-name">{item.name}</span>
+              </button>
+            ))}
+          </div>
+        ) : (
+          <Box level="3" className="empty-state">
+            <Space direction={SpaceDirection.Vertical} align={SpaceAlignItems.Center}>
+              <Typography.Heading level="5">No assets match</Typography.Heading>
+              <Typography.Text color="gray">Clear search to see the rest of this tab.</Typography.Text>
+              <Button text="Clear search" intent={Intent.Primary} onClick={() => setQuery('')} />
+            </Space>
+          </Box>
+        )}
+      </Space>
 
-      {tab === 'skill' || tab === 'buff' || tab === 'sfx' ? (
-        <div className="class-row">
-          <button type="button" className={`class-tab${classFilter === 'all' ? ' is-on' : ''}`} onClick={() => setClassFilter('all')}>
-            All
-          </button>
-          {AXIE_CLASSES.map((cls) => (
-            <button
-              key={cls}
-              type="button"
-              className={`class-tab${classFilter === cls ? ' is-on' : ''}`}
-              onClick={() => setClassFilter(cls)}
-            >
-              {riddleCard(cls) ? <img src={riddleCard(cls)} alt="" /> : null}
-              {cls}
-            </button>
-          ))}
-        </div>
-      ) : null}
-
-      <div className="toolbar">
-        <div className="grow">
-          <input
-            className="search"
-            placeholder={`Search ${KIND_LABEL[tab].toLowerCase()}…`}
-            value={query}
-            onChange={(event) => setQuery(event.currentTarget.value)}
+      <Dialog
+        visible={helpOpen}
+        onClose={() => setHelpOpen(false)}
+        title={<Typography.Heading level="4">What this repo can do</Typography.Heading>}
+        size="large"
+      >
+        <Space direction={SpaceDirection.Vertical} size="2">
+          <Alert
+            intent={Intent.Info}
+            title="Private Vibeathon kit"
+            content="Sky Mavis / Axie IP. Use for Axie Vibeathon and approved programs. Not a public dump. Skill and buff clips are recorded from the local Unity player (SkillPlayer at scale 54)."
           />
-        </div>
-        <span className="count">
-          {filtered.length} of {counts[tab] || 0}
-        </span>
-      </div>
-
-      {error ? <p className="empty-state">{error}</p> : null}
-
-      {filtered.length ? (
-        <div className={`library-grid ${tab === 'status' || tab === 'sfx' || tab === 'hud' || tab === 'intent' ? 'is-dense' : ''}`}>
-          {filtered.map((item) => (
-            <button
-              key={item.id}
-              type="button"
-              className={`gallery-card${selected?.id === item.id ? ' is-active' : ''}`}
-              onClick={() => select(item)}
-            >
-              <Thumb item={item} tall />
-              <span className="gallery-title">{item.title}</span>
-              <span className="gallery-name">{item.name}</span>
-            </button>
-          ))}
-        </div>
-      ) : (
-        <div className="empty-state">
-          <p>No assets match. Clear search to see the rest of this rack.</p>
-          <button type="button" className="wood-btn" onClick={() => setQuery('')}>
-            Clear search
-          </button>
-        </div>
-      )}
-
-      {helpOpen ? (
-        <div className="help-scrim" onClick={() => setHelpOpen(false)} role="presentation">
-          <div
-            className="help-panel"
-            role="dialog"
-            aria-labelledby="help-title"
-            onClick={(event) => event.stopPropagation()}
-          >
-            <h2 id="help-title">What this repo can do</h2>
-            <p>Sky Mavis / Axie IP. Use for Axie Vibeathon and approved programs. Skill and buff clips are recorded from the local Unity player (SkillPlayer at scale 54).</p>
-            <p>
-              Open the clone in Unity 2021.3 LTS (URP 12.1.15). Copy <code>Assets/OriginsKit</code> into your project, or open this repo as the project.
-            </p>
-            <h3>You can build</h3>
-            <p>
-              A 2D Origins-style battler: mixer Axies (or starter spines) play the 46 battle clip names. Cards map through <code>skill-vfx.json</code> to 63 skill prefabs.
-            </p>
-            <p>A PvE adventure: 22 chimera bodies, 19 starter Axies, 38 chimera abilities, intent icons, 7 story arenas + 13 event arenas, and 15 music loops.</p>
-            <p>HUD and juice: 152 SFX, 131 status icons, summoner spines, win/lose/draw, morph auras, energy orbs, card attribute bursts.</p>
-            <h3>Not in the kit</h3>
-            <p>NFT Axie bodies (use the official mixer). Per-level chimera deck lists (server). Epic Toon FX. Client secrets.</p>
-            <button type="button" className="wood-btn" onClick={() => setHelpOpen(false)}>
-              Close
-            </button>
-          </div>
-        </div>
-      ) : null}
-    </div>
-  )
-}
-
-function Thumb({ item, tall }: { item: LibraryItem; tall?: boolean }) {
-  const arena = arenaUrl(item)
-  const blend = usesArenaBlend(item)
-  return (
-    <div className={`${tall ? 'card-stage' : 'thumb'}${blend ? ' is-blend' : ''}`}>
-      {blend || item.kind === 'skill' || item.kind === 'buff' ? (
-        <div className="thumb-arena" style={{ backgroundImage: `url(${arena})` }} />
-      ) : null}
-      <AssetPreview mode="mini" item={item} loop />
+          <Typography.Text>
+            Open the clone in Unity 2021.3 LTS (URP 12.1.15). Copy <code>Assets/OriginsKit</code> into your project, or open this repo as the project. Do not add it as a UPM Git URL.
+          </Typography.Text>
+          <Typography.Heading level="5">You can build</Typography.Heading>
+          <Typography.Text>
+            A 2D Origins-style battler: mixer Axies (or starter spines) play the 46 battle clip names. Cards map through <code>skill-vfx.json</code> to 63 skill prefabs. <code>SkillPlayer.Spawn</code> runs them at scale 54 and fires OnStartLoop / OnAttack / OnThrow / OnHit / OnEndLoop / OnBack.
+          </Typography.Text>
+          <Typography.Text>
+            A PvE adventure: 22 chimera bodies, 19 starter Axies, 38 chimera abilities, intent icons, 7 story arenas + 13 event arenas, and 15 music loops. Chimeras reuse the same skill VFX.
+          </Typography.Text>
+          <Typography.Text>
+            HUD and juice: 152 SFX, 131 status icons, summoner spines, win/lose/draw, morph auras, energy orbs, card attribute bursts.
+          </Typography.Text>
+          <Typography.Heading level="5">Not in the kit</Typography.Heading>
+          <Typography.Text>
+            NFT Axie bodies (use the official mixer). Per-level chimera deck lists (server). Epic Toon FX. Client secrets.
+          </Typography.Text>
+          <Typography.Text color="gray">
+            Docs live in Documentation~/ — Integration, Activation, PvE, Catalog, MixerAnimations.
+          </Typography.Text>
+        </Space>
+      </Dialog>
     </div>
   )
 }

@@ -1,57 +1,72 @@
-# Design
+---
+name: Origins Kit Showcase
+description: Dango catalog of the Unity Origins kit
+colors:
+  background: "#13161B"
+  text: "#FFFFFF"
+  primary: "#FF9345"
+  primary-hover: "#EB6F3A"
+  secondary: "#0094FF"
+  info: "#0094FF"
+  success: "#00B21D"
+  danger: "#E22737"
+  default: "#282C34"
+  box: "#1C1F25"
+  plant: "#AFDB1B"
+  beast: "#FDB014"
+  bug: "#FF433E"
+  bird: "#FA59A0"
+  aquatic: "#00F5F8"
+  reptile: "#9967FB"
+  dusk: "#029FAE"
+  mech: "#71898E"
+  dawn: "#7183E3"
+typography:
+  display:
+    fontFamily: "Work Sans, sans-serif"
+    fontWeight: 600
+  body:
+    fontFamily: "Work Sans, sans-serif"
+    fontWeight: 400
+rounded:
+  default: "4px"
+---
 
-<!-- impeccable:design-system 1 -->
+# Design System: Origins Kit Showcase
 
-The Origins Unity Kit catalog is an in-battle field, not a docs dashboard.
+## Overview
 
-## Surfaces
+**Creative North Star: App.Axie catalog, one figure in motion**
 
-- `showcase/` — local Experience catalog of every kit asset.
+Dango 0.4.54-beta.4. Dark room, kam orange on the live asset, Work Sans everywhere. The first viewport is a theater: the selected kit item plays, its Unity path and activation sit beside it, and neighbors process across a strip. The library below is an equal-fragment field.
 
-## Visitor mode
+## Colors
 
-Experience. The playing piece leads. Chrome is game HUD.
+Dango dark-first. Kam is the only brand accent.
 
-## Palette
+- Background `#13161B`
+- Box `#1C1F25`
+- Kam `#FF9345` — play, selected cell, active tab
+- Info `#0094FF` — kind badges
+- Class colors via `SpecialTag`
 
-| Token | Value | Role |
-| --- | --- | --- |
-| Cream | `#FDE5D2` | Primary type (ColorCodeConstants.DefaultTextCode) |
-| Cream dim | `#E8C9A8` | Secondary type, tinted from cream |
-| Ink | `#2A1810` | Page ground, walnut |
-| Wood | `#8B4A2A` | HUD rails |
-| Gold | `#FFC700` | Energy / live accent |
-| Ally | `#31BCEC` | ColorConstants.AvatarFrameAlly |
-| Enemy | `#FF6572` | ColorConstants.AvatarFrameEnemy |
-| Beast | `#F39230` | Class pigment |
-| Aquatic | `#1E8BC2` | Class pigment |
-| Plant | `#459A10` | Class pigment |
-| Bird | `#E9567B` | Class pigment |
-| Bug | `#CF2D37` | Class pigment |
-| Reptile | `#7442B3` | Class pigment |
-| Mech | `#8A7AB5` | Class pigment |
-| Dawn | `#BECEFF` | Class pigment |
-| Dusk | `#236F71` | Class pigment |
+## Typography
 
-## Type
-
-- Display: **Changa One** — stand-in for Origins `ChangeOneRegular`.
-- Body: **Noto Sans** 400/600/700 — same family as Origins TMP NotoSans SDF.
-
-## Materials
-
-Painted class arenas (`PvE/Backgrounds/class/bg-*.jpg`) are the stage plate. Wooden HUD (`InBattle/top_part`, `name_panel`, `bottom_part`) is the chrome. Energy jar sits on the field. Locker tiles use `Frames/frame_border`. Class filters use PvE riddle cards.
-
-Skill/buff video is keyed off near-black and drawn on the arena so the take reads as a fighter, not a floating mp4.
+Work Sans via Dango tokens. IDs and Unity paths use the system mono only inside code blocks.
 
 ## Components
 
-- Battlefield stage (arena + keyed VFX or portrait)
-- Wood name plate (title, path, replay / loop / sound / copy)
-- Procession of arena-backed thumbs
-- Kind tabs and class riddle filters
-- Locker grid in wooden frames
+Dango only: Box, Tabs, Search, Tag, SpecialTag, Button, IconButton, Switch, Slider, Dialog, Drawer, Dropdown, Alert, Typography, Space, Loader, Badge.
+
+No custom buttons. Selected gallery cell is kam outline 1px.
+
+## Layout
+
+- Sticky theater at top: stage | integration | controls
+- Neighbor procession under the stage (same-size fragments)
+- Tabbed equal field below
+- Mobile: theater stacks; procession scrolls sideways
 
 ## Motion
 
-One loop: the selected clip plays on the field. No scattered card entrances.
+One authored moment: the selected fragment stays put while the stage replay fires. Gallery loops only when visible.
