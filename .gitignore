@@ -40,3 +40,8 @@ showcase/public/previews/video/frames/
 showcase/public/previews/video-playtest/
 showcase/public/previews/video-unlit/
 showcase/public/previews/video/*.jpg.png
+# impeccable-ignore-start
+.impeccable/config.local.json
+.impeccable/*.png
+.impeccable/review/
+# impeccable-ignore-end

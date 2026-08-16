@@ -34,7 +34,7 @@ Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Asse
 
 ## Brand Commitments
 
-App.Axie / Dango is the binding design system from the prior Vibeathon library (Dango 0.4.54-beta.4, dango-icons 1.0.17-beta.1): dark-first, kam orange primary, Work Sans, `--dg-*` tokens. Do not invent a competing palette or component kit.
+The catalog looks like Axie Origins battle, not a marketing dashboard. Binding materials come from origin-client / the kit: painted class arenas, wooden HUD (name plate, rails, energy jar), cream `#FDE5D2` type, Changa One + Noto Sans, class pigments from `ColorConstants`. Dango stays only as a toast host.
 
 ## Evidence on Hand
 

@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.0 — 2026-08-16
+
+- Catalog visual world is Origins battle: painted class arenas, wooden HUD, cream type, Changa One + Noto Sans.
+- Skill/buff videos play keyed on the matching class arena. Thumbs use the same arena plates.
+- Starters and chimeras show portraits on the field.
+
 ## 1.5.0 — 2026-08-16
 
 - Local Unity player (`VfxLocalPlayer`) plays every skill/buff the same way battle does: holder 1/54, instance 54, clip override, OnThrow projectile.
