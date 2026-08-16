@@ -57,7 +57,7 @@ npm install
 npm run dev
 ```
 
-Open http://127.0.0.1:5177/ — pinned stage + full catalog of skills, buffs, chimeras, starters, cards, arenas, music, SFX, and HUD. Skill/buff clips are videos recorded from the local Unity player (`VfxLocalPlayer` / `SkillPlayer` at scale 54). In the Editor: **Origins → Play Local Player**, then ← → to cycle every clip.
+Open http://127.0.0.1:5177/ — pick a kind, inspect the asset, copy the Unity path. Skill and buff clips are videos recorded from `SkillPlayer`. In the Editor: **Origins → Play Local Player**.
 
 ### B. Copy into an existing project
 

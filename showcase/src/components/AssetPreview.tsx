@@ -1,4 +1,3 @@
-import { PlayIcon } from '@axieinfinity/dango-icons'
 import type { LibraryItem } from '../catalog'
 import { FlipbookPreview } from './FlipbookPreview'
 import { SpinePreview } from './SpinePreview'
@@ -49,7 +48,22 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
   }
 
   if (item.preview === 'spine' && item.spineSkel && mode === 'player') {
-    return <SpinePreview item={item} className={className} clip={clip || item.animation} loop={loop} playKey={playKey} />
+    const plate = item.src || item.plateUrl
+    return (
+      <div className={`preview-mount ${className || ''}`}>
+        {plate ? <img className="character-plate" src={plate} alt="" /> : null}
+        <SpinePreview item={item} clip={clip || item.animation} loop={loop} playKey={playKey} />
+      </div>
+    )
+  }
+
+  if (item.preview === 'spine' && mode === 'mini' && (item.src || item.plateUrl)) {
+    const src = item.src || item.plateUrl
+    return (
+      <div className={`preview-mount icon-preview ${className || ''}`}>
+        {src ? <img src={src} alt={item.title} /> : <span>{item.title}</span>}
+      </div>
+    )
   }
 
   if ((item.preview === 'texture' || item.preview === 'icon' || item.src || item.plateUrl) && item.preview !== 'audio') {
@@ -64,7 +78,6 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
   if (item.preview === 'audio') {
     return (
       <div className={`preview-mount audio-preview ${className || ''}`}>
-        <PlayIcon size={mode === 'player' ? 36 : 28} />
         <span>{item.title}</span>
       </div>
     )

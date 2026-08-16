@@ -88,6 +88,13 @@ export const TABS: { key: ItemKind; label: string }[] = [
   { key: 'hud', label: 'HUD' },
 ]
 
+export const NAV_GROUPS: { label: string; kinds: ItemKind[] }[] = [
+  { label: 'Battle', kinds: ['skill', 'buff'] },
+  { label: 'Characters', kinds: ['chimera', 'starter', 'animation', 'summoner'] },
+  { label: 'Art', kinds: ['card', 'arena', 'status', 'intent', 'ui', 'hud'] },
+  { label: 'Audio', kinds: ['music', 'sfx'] },
+]
+
 export const AXIE_CLASSES = ['aquatic', 'beast', 'bird', 'bug', 'plant', 'reptile', 'mech', 'dawn', 'dusk']
 
 export async function loadCatalog(): Promise<LibraryItem[]> {

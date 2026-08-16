@@ -1,6 +1,6 @@
 # Origins kit showcase
 
-Local catalog of everything in this repo. Pinned stage plays the selected asset; the field below is the full kit.
+Local catalog of everything in this repo. Pick a kind, inspect the asset, copy the Unity path.
 
 ```bash
 cd showcase

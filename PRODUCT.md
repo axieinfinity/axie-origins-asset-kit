@@ -34,7 +34,7 @@ Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Asse
 
 ## Brand Commitments
 
-App.Axie / Dango is the binding design system from the prior Vibeathon library (Dango 0.4.54-beta.4, dango-icons 1.0.17-beta.1): dark-first, kam orange primary, Work Sans, `--dg-*` tokens. Do not invent a competing palette or component kit.
+This surface is a catalog, not a mock battle screen and not an App.Axie marketing shell. Visual chrome stays quiet so the asset, the Unity path, and the copy action stay first. Do not dress the page as Origins HUD.
 
 ## Evidence on Hand
 
@@ -51,8 +51,8 @@ Do not invent license grants, public CDN URLs, or per-level chimera deck lists (
 1. The asset is the product — chrome exists to find, play, and copy it.
 2. What you see in the gallery is what the stage plays.
 3. Names, ability IDs, and Unity paths stay copyable and exact.
-4. Stay inside Dango; do not restyle the system.
-5. Be honest about Unity vs browser: particles are flipbooks here, prefabs in the Editor.
+4. Chrome exists to find, play, and copy — not to look like the game.
+5. Be honest about Unity vs browser: videos here, prefabs in the Editor.
 
 ## Accessibility & Inclusion
 

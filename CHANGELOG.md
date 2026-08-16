@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.6.1 — 2026-08-16
+
+- Reverted the Origins-battlefield chrome.
+- Catalog is a finder: grouped kind rail, 16:9 preview well, facts + copy path, scannable grid.
+- Skills and buffs still use recorded videos; characters use portraits in the grid.
+
 ## 1.5.0 — 2026-08-16
 
 - Local Unity player (`VfxLocalPlayer`) plays every skill/buff the same way battle does: holder 1/54, instance 54, clip override, OnThrow projectile.
