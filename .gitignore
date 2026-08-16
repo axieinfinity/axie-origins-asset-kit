@@ -33,4 +33,6 @@ sysinfo.txt
 .plastic/
 inittest.txt
 
-*.apk
+node_modules/
+showcase/node_modules/
+showcase/dist/

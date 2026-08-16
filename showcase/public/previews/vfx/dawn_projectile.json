@@ -1,0 +1,10 @@
+{
+  "id": "dawn_projectile",
+  "frames": 32,
+  "cols": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 3.0,
+  "systems": 34
+}

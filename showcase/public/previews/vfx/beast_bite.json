@@ -1,0 +1,10 @@
+{
+  "id": "beast_bite",
+  "frames": 19,
+  "cols": 8,
+  "rows": 3,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 0.7166666388511658,
+  "systems": 9
+}

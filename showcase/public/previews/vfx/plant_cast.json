@@ -1,0 +1,10 @@
+{
+  "id": "plant_cast",
+  "frames": 32,
+  "cols": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 2.433333396911621,
+  "systems": 40
+}

@@ -49,6 +49,16 @@ Axie **bodies** are not included. Mix them with the official 2D mixer, then play
 2. Unity Hub → Unity **2021.3 LTS** → **Open** → the clone.
 3. Drop a prefab from `Assets/OriginsKit/Prefabs/Skills/` into a scene, or use `SkillPlayer.Spawn`.
 
+### Browse everything locally
+
+```bash
+cd showcase
+npm install
+npm run dev
+```
+
+Open http://127.0.0.1:5177/ — pinned stage + full catalog of skills, buffs, chimeras, starters, cards, arenas, music, SFX, and HUD. Skill/buff playback is a flipbook preview; Unity prefabs are the source of truth.
+
 ### B. Copy into an existing project
 
 Copy the whole `Assets/OriginsKit` folder (keep `.meta` files) into your project’s `Assets/`. Built-in RP works as-is. On URP, particles still draw with the remapped Legacy shaders; reassign URP/Particles Unlit if you want pixel-perfect URP.

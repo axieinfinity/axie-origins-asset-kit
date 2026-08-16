@@ -1,0 +1,10 @@
+{
+  "id": "shield_break",
+  "frames": 25,
+  "cols": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 0.9833333492279053,
+  "systems": 9
+}

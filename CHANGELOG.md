@@ -1,5 +1,12 @@
 # Changelog
 
+## 1.4.0 — 2026-08-16
+
+- Local showcase at `showcase/` (`npm run dev` → http://127.0.0.1:5177/).
+- Pinned live stage plus a catalog of every kit category (830 entries).
+- Flipbook previews for skills/buffs; Spine for chimeras, starters, summoners, battle UI; stills for cards, arenas, icons; audio for music/SFX.
+- Integration snippet, Unity path, and “What you can build” on the same page.
+
 ## 1.3.0 — 2026-08-13
 
 - Full PvE pack: 22 chimera bodies, 38 starter-Axie spines, 73 chimera rows, 41 teams, 35 nodes.

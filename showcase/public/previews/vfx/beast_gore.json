@@ -1,0 +1,10 @@
+{
+  "id": "beast_gore",
+  "frames": 24,
+  "cols": 8,
+  "rows": 3,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 0.9166666865348816,
+  "systems": 17
+}

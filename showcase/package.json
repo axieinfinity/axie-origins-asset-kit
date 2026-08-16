@@ -1,0 +1,28 @@
+{
+  "name": "origins-kit-showcase",
+  "private": true,
+  "version": "1.3.0",
+  "type": "module",
+  "scripts": {
+    "catalog": "node scripts/build-catalog.mjs",
+    "dev": "node scripts/build-catalog.mjs && vite",
+    "build": "node scripts/build-catalog.mjs && tsc && vite build",
+    "preview": "vite preview --host --port 5177"
+  },
+  "dependencies": {
+    "@axieinfinity/dango": "^0.4.54-beta.4",
+    "@axieinfinity/dango-icons": "^1.0.17-beta.1",
+    "@pixi-spine/runtime-3.8": "^4.0.3",
+    "pixi-spine": "^4.0.3",
+    "pixi.js": "^7.2.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.3.18",
+    "@types/react-dom": "^18.3.5",
+    "@vitejs/plugin-react": "^4.3.4",
+    "typescript": "~5.6.3",
+    "vite": "^5.4.11"
+  }
+}

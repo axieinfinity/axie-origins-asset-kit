@@ -1,0 +1,10 @@
+{
+  "id": "plant_smash",
+  "frames": 29,
+  "cols": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 1.1666666269302368,
+  "systems": 18
+}

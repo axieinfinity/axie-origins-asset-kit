@@ -1,0 +1,10 @@
+{
+  "id": "shield_break-origin",
+  "frames": 26,
+  "cols": 8,
+  "rows": 4,
+  "frameSize": 256,
+  "fps": 24,
+  "duration": 1.0,
+  "systems": 9
+}
