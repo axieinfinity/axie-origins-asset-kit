@@ -1,10 +1,9 @@
 {
   "id": "bird_bite",
-  "frames": 29,
+  "frames": 30,
   "cols": 8,
   "rows": 4,
   "frameSize": 256,
   "fps": 24,
-  "duration": 1.1666666269302368,
-  "systems": 19
+  "duration": 1.167
 }

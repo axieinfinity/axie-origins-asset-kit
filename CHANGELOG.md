@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.4.1 — 2026-08-16
+
+- Showcase: skill/buff previews recaptured from live Unity particles (not texture-atlas dumps).
+- Showcase: starter thumbnails use character portraits instead of Spine atlas sheets.
+- Empty looping buffs fall back to their status icons.
+
 ## 1.4.0 — 2026-08-16
 
 - Local showcase at `showcase/` (`npm run dev` → http://127.0.0.1:5177/).

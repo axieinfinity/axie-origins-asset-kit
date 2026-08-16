@@ -1,10 +1,9 @@
 {
   "id": "plant_gore",
-  "frames": 24,
+  "frames": 26,
   "cols": 8,
-  "rows": 3,
+  "rows": 4,
   "frameSize": 256,
   "fps": 24,
-  "duration": 0.9166666865348816,
-  "systems": 22
+  "duration": 1
 }

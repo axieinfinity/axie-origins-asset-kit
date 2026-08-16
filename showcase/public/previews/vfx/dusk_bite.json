@@ -1,10 +1,9 @@
 {
   "id": "dusk_bite",
-  "frames": 22,
+  "frames": 26,
   "cols": 8,
-  "rows": 3,
+  "rows": 4,
   "frameSize": 256,
   "fps": 24,
-  "duration": 0.8500000238418579,
-  "systems": 22
+  "duration": 1
 }

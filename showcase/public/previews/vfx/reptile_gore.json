@@ -1,10 +1,9 @@
 {
   "id": "reptile_gore",
-  "frames": 31,
+  "frames": 32,
   "cols": 8,
   "rows": 4,
   "frameSize": 256,
   "fps": 24,
-  "duration": 1.2166666984558105,
-  "systems": 23
+  "duration": 1.217
 }

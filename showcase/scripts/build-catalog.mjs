@@ -13,6 +13,51 @@ const outFile = join(publicDir, 'catalog.json')
 
 const CLASSES = ['aquatic', 'beast', 'bird', 'bug', 'plant', 'reptile', 'mech', 'dawn', 'dusk']
 
+const BUFF_ICON = {
+  bleed_apply: 'debuff_bleed',
+  bubble: 'buff_bubble',
+  bubble_bomb: 'buff_bubble_bomb',
+  buff_apply: 'buff_alert',
+  cleanse: 'buff_cleanser',
+  cleanser: 'buff_cleanser',
+  cure: 'buff_healing_boost',
+  death_mark_apply: 'debuff_death_mark',
+  debuff_apply: 'debuff_weak',
+  disarmed: 'debuff_disarmed',
+  dispel: 'buff_cleanser',
+  dmg_boost: 'buff_dmg_boost',
+  doubt: 'debuff_doubt',
+  drain: 'debuff_heal_block',
+  fear: 'debuff_fear',
+  feather: 'buff_feather',
+  fragile: 'debuff_fragile',
+  fury_form: 'buff_fury',
+  fury_on_transfrom: 'buff_fury',
+  heal: 'buff_healing_boost',
+  heal_block: 'debuff_heal_block',
+  healing_boost: 'buff_healing_boost',
+  hex: 'debuff_hex',
+  leaf: 'buff_leaf',
+  poison_apply: 'debuff_poison',
+  power_awaken: 'buff_power_awaken',
+  power_gain: 'buff_power_awaken',
+  rage: 'buff_rage',
+  reflect_damage: 'secret_reflect',
+  secret_apply: 'secret',
+  shield: 'buff_shield_boost',
+  shield_boost: 'buff_shield_boost',
+  shield_break: 'buff_shield_boost',
+  silence: 'debuff_silence',
+  sleep: 'debuff_sleep',
+  stealth: 'buff_stealth',
+  stunned: 'debuff_stunned',
+  summon_on_cast: 'summon_timber',
+  summon_on_death: 'summon_timber',
+  taunt: 'neutral_taunt',
+  vulnerable: 'debuff_vulnerable',
+  weak: 'debuff_weak',
+}
+
 function readJson(path) {
   return JSON.parse(readFileSync(path, 'utf8'))
 }
@@ -42,7 +87,9 @@ function copyFlipbooks() {
   for (const name of readdirSync(flipSrc)) {
     if (name.includes('smash 1')) continue
     if (!name.endsWith('.png') && !name.endsWith('.json')) continue
-    copyFileSync(join(flipSrc, name), join(flipDest, name))
+    const dest = join(flipDest, name)
+    if (existsSync(dest)) continue
+    copyFileSync(join(flipSrc, name), dest)
     copied.push(name)
   }
   return copied
@@ -135,6 +182,9 @@ function main() {
       abilityIds: map.abilityIds,
       unityPath: `Assets/OriginsKit/Prefabs/${kind === 'buff' ? 'Buffs' : 'Skills'}/${id}.prefab`,
       clipPath: `Assets/OriginsKit/Animations/${id}.anim`,
+      src: kind === 'buff' && BUFF_ICON[id] && existsSync(join(assets, `Textures/StatusIcons/${BUFF_ICON[id]}.png`))
+        ? `/kit/Textures/StatusIcons/${BUFF_ICON[id]}.png`
+        : undefined,
       sfxUrl: existsSync(join(assets, `Audio/${id}_attack.wav`))
         ? `/kit/Audio/${id}_attack.wav`
         : existsSync(join(assets, `Audio/${id.replace('_apply', '')}.wav`))
@@ -194,6 +244,9 @@ function main() {
   for (const rec of pveStarters.extractedSkeletons || []) {
     const folder = join(assets, 'PvE/Starters', rec.id)
     const spine = spineFor(folder, rec.id)
+    const baseId = String(rec.axieId || rec.id).split('-')[0]
+    const portrait = join(assets, 'PvE/Avatars/starters', `${baseId}.png`)
+    const portraitUrl = existsSync(portrait) ? kitUrl(portrait) : null
     items.push({
       id: `starter:${rec.id}`,
       kind: 'starter',
@@ -205,8 +258,8 @@ function main() {
       duration: 1,
       clips: rec.unityClips || [],
       animation: 'action/idle/normal',
-      src: spine?.plateUrl,
-      plateUrl: spine?.plateUrl,
+      src: portraitUrl,
+      plateUrl: portraitUrl,
       ...spine,
       unityPath: `Assets/OriginsKit/PvE/Starters/${rec.id}/`,
       usage: 'Official starter Axie Spine. Same mixer clip names as NFT Axies. Use as a playable PvE roster body.',

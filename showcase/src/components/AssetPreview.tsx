@@ -17,7 +17,22 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
   if (!item) return <div className={`preview-mount ${className || ''}`} />
 
   if (item.flipbook && (item.kind === 'skill' || item.kind === 'buff')) {
-    return <FlipbookPreview item={item} className={className} speed={mode === 'mini' ? 1 : speed} playKey={playKey} />
+    if (item.kind === 'buff' && item.src && mode === 'mini') {
+      return (
+        <div className={`preview-mount icon-preview ${className || ''}`}>
+          <img src={item.src} alt={item.title} />
+        </div>
+      )
+    }
+    return (
+      <FlipbookPreview
+        item={item}
+        className={className}
+        speed={mode === 'mini' ? 1 : speed}
+        playKey={playKey}
+        still={mode === 'mini'}
+      />
+    )
   }
 
   if (item.preview === 'spine' && item.spineSkel && mode === 'player') {
