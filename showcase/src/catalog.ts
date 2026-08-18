@@ -75,7 +75,7 @@ export type LibraryItem = {
 export const TABS: { key: ItemKind; label: string }[] = [
   { key: 'skill', label: 'Skills' },
   { key: 'buff', label: 'Buffs' },
-  { key: 'animation', label: 'Anims' },
+  { key: 'animation', label: 'Moves' },
   { key: 'chimera', label: 'Chimeras' },
   { key: 'starter', label: 'Starters' },
   { key: 'card', label: 'Cards' },
@@ -86,8 +86,12 @@ export const TABS: { key: ItemKind; label: string }[] = [
   { key: 'intent', label: 'Intents' },
   { key: 'summoner', label: 'Summoners' },
   { key: 'ui', label: 'Battle UI' },
-  { key: 'hud', label: 'HUD' },
+  { key: 'hud', label: 'Interface' },
 ]
+
+export const NAV_PRIMARY: ItemKind[] = ['skill', 'buff', 'chimera', 'starter', 'card', 'arena', 'music']
+
+export const NAV_MORE: ItemKind[] = ['summoner', 'animation', 'status', 'intent', 'ui', 'hud', 'sfx']
 
 export const NAV_GROUPS: { label: string; kinds: ItemKind[] }[] = [
   { label: 'Battle', kinds: ['skill', 'buff'] },
@@ -105,7 +109,7 @@ export async function loadCatalog(): Promise<LibraryItem[]> {
   return data.items as LibraryItem[]
 }
 
-export function snippetFor(item: LibraryItem) {
+export function snippetFor(item: LibraryItem, clip?: string) {
   if (item.kind === 'skill' || item.kind === 'buff') {
     return `var prefab = Resources.Load<GameObject>("ImportedVfx/${item.vfxId}");
 var player = SkillPlayer.Spawn(prefab, attacker.position, attacker);
@@ -114,10 +118,10 @@ player.Attack += (_, anim) => PlayMixer(attacker, anim);
 player.Hit += (_, anim) => PlayMixer(defender, anim);`
   }
   if (item.kind === 'chimera' || item.kind === 'starter' || item.kind === 'summoner') {
-    return `skeleton.AnimationState.SetAnimation(0, "${item.animation || 'action/idle/normal'}", true);`
+    return `skeleton.AnimationState.SetAnimation(0, "${clip || item.animation || 'action/idle/normal'}", true);`
   }
   if (item.kind === 'animation') {
-    return `skeleton.AnimationState.SetAnimation(0, "${item.name}", false);`
+    return `skeleton.AnimationState.SetAnimation(0, "${clip || item.name}", false);`
   }
   return item.unityPath || item.name
 }

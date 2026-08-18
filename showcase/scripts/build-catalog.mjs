@@ -265,6 +265,9 @@ function main() {
       duration: 1,
       clips: rec.unityClips || [],
       animation: (rec.unityClips || []).find((n) => n.includes('idle/normal')) || rec.unityClips?.[0],
+      src: existsSync(join(assets, `PvE/Avatars/portraits/${rec.id}.png`))
+        ? kitUrl(join(assets, `PvE/Avatars/portraits/${rec.id}.png`))
+        : undefined,
       ...spine,
       unityPath: `Assets/OriginsKit/PvE/Chimeras/${rec.id}/`,
       usage: 'Spine 3.8 enemy body. Play action/idle/normal, then attack clips. Skills use Prefabs/Skills via pve-cards.json.',
@@ -285,6 +288,11 @@ function main() {
       duration: 1,
       clips: rec.unityClips || [],
       animation: 'action/idle/normal',
+      src: existsSync(join(assets, `PvE/Avatars/starters/${String(rec.axieId || rec.id).replace(/-\d+$/, '')}.png`))
+        ? kitUrl(join(assets, `PvE/Avatars/starters/${String(rec.axieId || rec.id).replace(/-\d+$/, '')}.png`))
+        : existsSync(join(assets, `PvE/Avatars/starters/${rec.id}.png`))
+          ? kitUrl(join(assets, `PvE/Avatars/starters/${rec.id}.png`))
+          : undefined,
       ...spine,
       unityPath: `Assets/OriginsKit/PvE/Starters/${rec.id}/`,
       usage: 'Official starter Axie Spine. Same mixer clip names as NFT Axies. Use as a playable PvE roster body.',

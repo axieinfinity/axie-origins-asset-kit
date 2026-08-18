@@ -22,7 +22,7 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
         <div className={`preview-mount empty-video ${item.src ? 'has-icon' : ''} ${className || ''}`}>
           {item.src ? <img src={item.src} alt={item.title} /> : null}
           {mode === 'player' ? (
-            <p className="empty-video-note">No video preview. The prefab is in the kit.</p>
+            <p className="empty-video-note">No preview</p>
           ) : item.src ? null : (
             <span className="preview-fallback">No preview</span>
           )}
@@ -60,6 +60,13 @@ export function AssetPreview({ item, mode, loop, speed, playKey, clip, className
   }
 
   if (item.preview === 'spine') {
+    if (mode === 'mini' && item.src) {
+      return (
+        <div className={`preview-mount icon-preview is-fill ${className || ''}`}>
+          <img src={item.src} alt={item.title} />
+        </div>
+      )
+    }
     if (!item.spineSkel) {
       return (
         <div className={`preview-mount ${className || ''}`}>

@@ -8,15 +8,15 @@ web
 
 ## Users
 
-Vibeathon builders who cloned the private Origins Unity kit and need to see every reusable asset before they wire it into a 2D Axie game. They are at a desk, comparing clips, copying IDs and Unity paths, and checking how a skill, chimera, card, or arena will feel.
+Anyone opening the kit gallery — Vibeathon builders first, plus anyone who wants to see Origins battle art. They are browsing, not wiring Unity yet.
 
 ## Product Purpose
 
-A local page inside `axie-origins-unity-kit` that showcases everything the repo ships and explains what you can build with it. Success is: every kit category is findable, selecting an item plays it on a pinned live stage, and the same panel shows exact IDs, Unity paths, and how Origins activates it.
+A local public gallery of everything the kit ships. Success is: land on a real home, pick a collection from the nav, play the asset, keep browsing. No Unity jargon on the surface.
 
 ## Positioning
 
-Not a fighting game and not a folder dump. It is the live catalog of the Unity kit: first-party Origins battle VFX, mixer names, PvE chimeras, starter Axies, cards, intents, arenas, music, SFX, and HUD art, demonstrated in the browser with the same IDs a builder will call in Unity.
+An Origins gallery, not a DAM and not a battlefield HUD. First-party skills, buffs, chimeras, starters, cards, arenas, and music — shown as they look, named as they play.
 
 ## Operating Context
 
@@ -34,7 +34,7 @@ Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Asse
 
 ## Brand Commitments
 
-This surface is a catalog, not a mock battle screen and not an App.Axie marketing shell. Visual chrome stays quiet so the asset, the Unity path, and the copy action stay first. Do not dress the page as Origins HUD.
+Use the Axie Infinity mark. Do not dress the page as live Origins HUD. Do not put Unity paths, snippets, or engine notes on the gallery surface.
 
 ## Evidence on Hand
 
@@ -48,12 +48,12 @@ Do not invent license grants, public CDN URLs, or per-level chimera deck lists (
 
 ## Product Principles
 
-1. The asset is the product — chrome exists to find, play, and copy it.
+1. The asset is the product — chrome exists to find and play it.
 2. What you see in the gallery is what the stage plays.
-3. Names, ability IDs, and Unity paths stay copyable and exact.
-4. Chrome exists to find, play, and copy — not to look like the game.
-5. Be honest about Unity vs browser: videos here, prefabs in the Editor.
+3. Names stay human. Engine paths stay out of the gallery.
+4. Chrome recedes. Do not look like the game HUD.
+5. Prefabs remain the Unity source of truth; the gallery does not explain that unless asked.
 
 ## Accessibility & Inclusion
 
-Keyboard selection of gallery cards and a visible focus ring are required so the catalog is operable without a pointer. `/` focuses search, `j`/`k` move the selection, `c` copies the Unity path.
+Keyboard selection of gallery cards and a visible focus ring are required so the catalog is operable without a pointer. `/` focuses search, `j`/`k` move the selection, `[` `]` change animations.

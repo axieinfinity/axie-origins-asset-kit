@@ -15,7 +15,7 @@ type Props = {
   compact?: boolean
 }
 
-const MAX_COMPACT = 8
+const MAX_COMPACT = 16
 let compactLive = 0
 
 async function loadSpine(item: LibraryItem) {
@@ -165,7 +165,11 @@ export function SpinePreview({ item, className, clip, loop = true, playKey = 0, 
     <div className={`preview-mount spine-preview ${className || ''}`}>
       <div ref={hostRef} className="preview-canvas" />
       {visible && !ready && !failed ? <div className="preview-loading">Loading</div> : null}
-      {failed ? <div className="preview-fallback">{item.title}</div> : null}
+      {failed && item.src ? (
+        <img className="spine-still" src={item.src} alt={item.title} />
+      ) : failed ? (
+        <div className="preview-fallback">{item.title}</div>
+      ) : null}
     </div>
   )
 }

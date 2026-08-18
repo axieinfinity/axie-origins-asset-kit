@@ -16,9 +16,19 @@ export function VideoPreview({ item, className, playKey = 0, still = false, loop
   useEffect(() => {
     const el = videoRef.current
     if (!el || still || !video) return
-    el.currentTime = 0
-    const play = el.play()
-    if (play && typeof play.catch === 'function') play.catch(() => {})
+    const start = () => {
+      const peek = Number.isFinite(el.duration) && el.duration > 0 ? Math.min(0.7, el.duration * 0.28) : 0.4
+      try {
+        el.currentTime = peek
+      } catch {
+        /* ignore seek before ready */
+      }
+      const play = el.play()
+      if (play && typeof play.catch === 'function') play.catch(() => {})
+    }
+    if (el.readyState >= 1) start()
+    else el.addEventListener('loadedmetadata', start, { once: true })
+    return () => el.removeEventListener('loadedmetadata', start)
   }, [playKey, video?.url, still, loop])
 
   if (!video) return <div className={`preview-mount ${className || ''}`} />

@@ -1,0 +1,8 @@
+.git
+.impeccable
+Library
+Temp
+Logs
+showcase/node_modules
+showcase/public/previews/video/frames
+**/.DS_Store

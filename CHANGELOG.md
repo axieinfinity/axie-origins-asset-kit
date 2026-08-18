@@ -1,5 +1,18 @@
 # Changelog
 
+## 1.8.0 — 2026-08-16
+
+- Impeccable initiated in-repo (hook, live config, doctor). Gallery world is Class System: paper, ink, class color only.
+
+## 1.7.0 — 2026-08-16
+
+- Showcase is a public gallery: landing page, top nav with the Axie mark, no Unity paths or snippets on the surface.
+- Chimeras and starters still expose Spine animations under the preview.
+
+## 1.6.3 — 2026-08-16
+
+- Chimeras and starters show their Spine animations under the preview. Group chips, then clip names. `[` / `]` cycles them. Tiles with more than one clip say how many.
+
 ## 1.6.2 — 2026-08-16
 
 - Finder is three columns: kind rail, pinned inspect, scrolling grid. The player stays on screen while you browse.
