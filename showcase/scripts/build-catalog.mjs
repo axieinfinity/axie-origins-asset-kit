@@ -251,7 +251,9 @@ function main() {
     })
   }
 
+  const starterBodiesInChimeraFolder = new Set(['machito', 'shilin'])
   for (const rec of pve.extractedSkeletons || []) {
+    if (starterBodiesInChimeraFolder.has(rec.id)) continue
     const folder = join(assets, 'PvE/Chimeras', rec.id)
     const spine = spineFor(folder, rec.id)
     items.push({

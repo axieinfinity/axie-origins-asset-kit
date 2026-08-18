@@ -25,17 +25,17 @@ This folder is everything a builder needs to ship an Origins-style PvE fight wit
 | `Catalogs/pve-intents.json` | Intent → icon map |
 | `Catalogs/pve-starters.json` | Starter Axie genes / names / extracted spines |
 
-`machito` and `shilin` ship as extra chimera bodies (live Addressable catalog) even though they are not in the current 73 `ChimeraInfos` rows.
+`machito` and `shilin` folders also exist under `PvE/Chimeras/` (live Addressable leftovers). They are **starter Axies**, not enemies. Use `PvE/Starters/18` (Machito) and `PvE/Starters/11` (Shillin). The gallery does not list them as chimeras.
 
 ## Characters
 
 ### Chimeras (enemies)
 
-22 unique skeletons. Game data reuses them across 73 rows at different levels:
+20 unique enemy skeletons. Game data reuses them across 73 rows at different levels:
 
-`alpha-wolf` `aqua-alpha-wolf` `aqua-slime-atk` `aqua-slime-boss` `aqua-slime-def` `aqua-slime-sup` `aqua-wolf` `daddy-bear` `dryad-fighter` `dryad-mage` `dryad-ranger` `flowering-treant` `forest-slime-fighter` `forest-slime-flower` `gray-wolf` `machito` `mommy-bear` `shilin` `slime` `treant` `treant-fighter` `werewolf`
+`alpha-wolf` `aqua-alpha-wolf` `aqua-slime-atk` `aqua-slime-boss` `aqua-slime-def` `aqua-slime-sup` `aqua-wolf` `daddy-bear` `dryad-fighter` `dryad-mage` `dryad-ranger` `flowering-treant` `forest-slime-fighter` `forest-slime-flower` `gray-wolf` `mommy-bear` `slime` `treant` `treant-fighter` `werewolf`
 
-Most folders are binary Spine 3.8 (`.skel`). `machito` and `shilin` are JSON skeletons (same 3.8.79 runtime).
+Most folders are binary Spine 3.8 (`.skel`).
 
 ```csharp
 // After spine-unity imports .skel / .atlas / .png

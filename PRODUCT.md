@@ -24,7 +24,7 @@ Served locally from `showcase/` inside the kit clone. Kit binaries stay at `Asse
 
 ## Capabilities and Constraints
 
-- Catalog covers the whole kit: 63 skill VFX, 42 buffs, 188 ability maps, 105 activation timelines, 90 VFX textures, 152 SFX, 131 status icons, 8 summoners, 4 battle-UI spines, 22 chimeras, 38 starter spines, 20 arenas, 15 music loops, chimera/tool card art, intents, PvE UI, morph textures.
+- Catalog covers the whole kit: 63 skill VFX, 42 buffs, 188 ability maps, 105 activation timelines, 90 VFX textures, 152 SFX, 131 status icons, 8 summoners, 4 battle-UI spines, 20 chimeras, 38 starter spines, 20 arenas, 15 music loops, chimera/tool card art, intents, PvE UI, morph textures.
 - Sample stage stays pinned. Selecting a library item plays that item there (Unity-recorded video, Spine, still, or audio).
 - Gallery cards show a real preview of the same asset.
 - Skill/buff videos are catalog previews. Unity prefabs + `SkillPlayer` are the source of truth.

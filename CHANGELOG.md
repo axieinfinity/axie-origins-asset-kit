@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.8.1 — 2026-08-18
+
+- Production `/kit` staging now copies Spine atlas PNG pages, so chimera and starter bodies can play.
+- Machito and Shillin stay under Starters only. They are not listed as chimeras.
+
 ## 1.8.0 — 2026-08-16
 
 - Impeccable initiated in-repo (hook, live config, doctor). Gallery world is Class System: paper, ink, class color only.

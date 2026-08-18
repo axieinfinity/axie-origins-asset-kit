@@ -19,7 +19,7 @@ This is not a browser pack. Prefabs, clips, textures, and audio are Unity 2021.3
 | 131 | Status icons | `Assets/OriginsKit/Textures/StatusIcons/` |
 | 8 | Summoner Spine sets | `Assets/OriginsKit/Summoners/` |
 | 4 | Battle UI Spine (win / lose / draw / flag) | `Assets/OriginsKit/BattleUI/` |
-| 22 | PvE chimera Spine bodies + animations | `Assets/OriginsKit/PvE/Chimeras/` |
+| 20 | PvE chimera Spine bodies + animations | `Assets/OriginsKit/PvE/Chimeras/` |
 | 38 | Starter Axie Spine bodies (19 characters × 2 stages) | `Assets/OriginsKit/PvE/Starters/` |
 | 20 | Story + event battle arenas | `Assets/OriginsKit/PvE/Backgrounds/` |
 | 15 | PvE / boss / seasonal music | `Assets/OriginsKit/PvE/Music/` |

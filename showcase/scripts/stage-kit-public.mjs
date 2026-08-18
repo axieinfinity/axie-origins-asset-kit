@@ -1,7 +1,7 @@
 #!/usr/bin/env node
 /** Copy catalog-referenced /kit/* files into showcase/public/kit for production. */
 import { copyFileSync, existsSync, mkdirSync, readFileSync, statSync } from 'node:fs'
-import { dirname, join } from 'node:path'
+import { basename, dirname, join } from 'node:path'
 import { fileURLToPath } from 'node:url'
 
 const here = dirname(fileURLToPath(import.meta.url))
@@ -16,6 +16,18 @@ const walk = (value) => {
   else if (value && typeof value === 'object') Object.values(value).forEach(walk)
 }
 walk(catalog)
+
+for (const rel of [...paths]) {
+  if (!rel.endsWith('.atlas')) continue
+  const atlasPath = join(kitRoot, rel)
+  if (!existsSync(atlasPath) || !statSync(atlasPath).isFile()) continue
+  const dir = dirname(rel)
+  const text = readFileSync(atlasPath, 'utf8')
+  for (const match of text.matchAll(/^\S+\.(png|jpg|jpeg)$/gim)) {
+    paths.add(`${dir}/${match[0]}`.replace(/\\/g, '/'))
+  }
+  paths.add(`${dir}/${basename(rel, '.atlas')}.png`.replace(/\\/g, '/'))
+}
 
 let copied = 0
 let missing = 0
