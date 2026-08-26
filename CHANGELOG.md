@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.9.2 — 2026-08-26
+
+- Move the kit to the Axie Infinity GitHub org as [`axieinfinity/axie-origins-asset-kit`](https://github.com/axieinfinity/axie-origins-asset-kit).
+- GitHub description and docs cover both Unity prefabs and the additive overlay runtime.
+
 ## 1.9.1 — 2026-08-26
 
 - Rename the GitHub repo to `axie-origins-kit` (not Unity-only).

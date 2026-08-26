@@ -7,7 +7,7 @@ Two stacks ship in this repo:
 - **Unity** — native SkillEffect / BuffEffect prefabs, clips, textures, SFX (`Assets/OriginsKit`)
 - **Additive overlay runtime** — Vite + PixiJS 7.2.4 + `@axieinfinity/mixer` 1.4.9, with a DOM canvas overlay (`mix-blend-mode: plus-lighter`) for every skill and buff (`web-vfx/`)
 
-**Private repo.** Read `LICENSE.md` before you ship anything.
+Hosted at [axieinfinity/axie-origins-asset-kit](https://github.com/axieinfinity/axie-origins-asset-kit). Read `LICENSE.md` before you ship anything.
 
 ## What you get
 
@@ -46,9 +46,9 @@ Axie **bodies** are not included. Mix them with the official 2D mixer, then play
 
 ### A. Open as a project (recommended)
 
-1. Get access to this private repo, then:
+1. Clone from the Axie Infinity org:
    ```bash
-   git clone https://github.com/jaatster/axie-origins-kit.git
+   git clone https://github.com/axieinfinity/axie-origins-asset-kit.git
    ```
 2. Unity Hub → Unity **2021.3 LTS** → **Open** → the clone.
 3. Drop a prefab from `Assets/OriginsKit/Prefabs/Skills/` into a scene, or use `SkillPlayer.Spawn`.

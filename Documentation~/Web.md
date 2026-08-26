@@ -1,6 +1,6 @@
 # Additive overlay runtime
 
-Browser playback of Origins skill and buff plates: Vite + PixiJS 7.2.4 mixer Axies + a DOM canvas overlay with additive blending. Unity prefabs remain the source of truth; these atlases are the web drop-in.
+Part of [`axieinfinity/axie-origins-asset-kit`](https://github.com/axieinfinity/axie-origins-asset-kit). Browser playback of Origins skill and buff plates: Vite + PixiJS 7.2.4 mixer Axies + a DOM canvas overlay with additive blending. Unity prefabs remain the source of truth; these atlases are the web drop-in.
 
 See `web-vfx/README.md`.
 

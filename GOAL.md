@@ -6,7 +6,7 @@ Done when:
 
 1. Every skill and buff in the Unity kit has a web additive atlas + `clip.json`.
 2. `web-vfx` plays any of those clips on mixer Axies via a DOM overlay.
-3. The GitHub repo documents both Unity and web paths.
+3. The GitHub repo (`axieinfinity/axie-origins-asset-kit`) documents both Unity and additive overlay paths.
 
 ---
 

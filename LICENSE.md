@@ -9,4 +9,4 @@ These assets come from **Axie Infinity: Origins**, a Sky Mavis game.
 - Spine runtime use is covered by Esoteric Software’s Spine license. Play Axie bodies with the official 2D mixer (`@axieinfinity/mixer`, `unity-axie-gtk2d`).
 - If you are not building for Axie Vibeathon or another approved program, do not ship these files.
 
-This repo is **private**. Share access only with Vibeathon participants.
+This kit lives in the **Axie Infinity GitHub org** (`axieinfinity/axie-origins-asset-kit`). It is a Vibeathon builder resource, not an open-source dump. Use is still limited to Axie Vibeathon and other Sky Mavis-approved programs.
