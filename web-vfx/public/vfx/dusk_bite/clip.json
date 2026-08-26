@@ -1,0 +1,107 @@
+{
+  "id": "dusk_bite",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 0.8666666666666667,
+    "frames": 39,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 34,
+    "y": 0,
+    "w": 556,
+    "h": 321
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 5,
+    "frameW": 556,
+    "frameH": 321
+  },
+  "frames": 39,
+  "fps": 30.0,
+  "duration": 0.8666666666666667,
+  "clipDuration": 0.8500000238418579,
+  "attackAnimation": "attack/melee/horn-gore",
+  "hitAnimation": "defense/hit-by-normal",
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 247.312,
+    "y": 174.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 640.754,
+    "y": 281.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 22,
+  "events": [
+    {
+      "time": 0.01666666753590107,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.03333333507180214,
+      "function": "OnAttack",
+      "string": "attack/melee/horn-gore",
+      "float": 0.0
+    },
+    {
+      "time": 0.36666667461395264,
+      "function": "OnHit",
+      "string": "defense/hit-by-normal",
+      "float": 0.0
+    },
+    {
+      "time": 0.75,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.7666666507720947,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 22
+}

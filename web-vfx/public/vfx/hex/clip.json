@@ -1,0 +1,73 @@
+{
+  "id": "hex",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.9,
+    "frames": 69,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 241,
+    "y": 0,
+    "w": 457,
+    "h": 478
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 457,
+    "frameH": 478
+  },
+  "frames": 69,
+  "fps": 30.0,
+  "duration": 1.9,
+  "clipDuration": 2.0,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 227.693,
+    "y": 228.122,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 239.0,
+    "y": 288.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 468.693,
+    "y": 228.122
+  },
+  "peakFrame": 18,
+  "events": [],
+  "systems": 10
+}

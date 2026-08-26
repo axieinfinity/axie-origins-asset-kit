@@ -1,0 +1,107 @@
+{
+  "id": "aquatic_slash",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 0.9,
+    "frames": 39,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 12,
+    "y": 0,
+    "w": 470,
+    "h": 304
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 5,
+    "frameW": 470,
+    "frameH": 304
+  },
+  "frames": 39,
+  "fps": 30.0,
+  "duration": 0.9,
+  "clipDuration": 0.8666666746139526,
+  "attackAnimation": "attack/melee/tail-smash",
+  "hitAnimation": "defense/hit-by-normal",
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 269.312,
+    "y": 174.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 662.754,
+    "y": 281.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 9,
+  "events": [
+    {
+      "time": 0.0,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.01666666753590107,
+      "function": "OnAttack",
+      "string": "attack/melee/tail-smash",
+      "float": 0.0
+    },
+    {
+      "time": 0.36666667461395264,
+      "function": "OnHit",
+      "string": "defense/hit-by-normal",
+      "float": 0.0
+    },
+    {
+      "time": 0.8333333134651184,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.8666666746139526,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 13
+}

@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Origins web VFX — Jack stack</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <header class="top">
+      <div>
+        <p class="kicker">Jack stack · Vite + PixiJS 7.2.4 + mixer 1.4.9 · DOM overlay</p>
+        <h1>Origins skill &amp; buff VFX</h1>
+      </div>
+      <div class="controls">
+        <button id="play" type="button">Play</button>
+        <label>
+          Layer
+          <select id="layer">
+            <option value="dom">DOM canvas overlay</option>
+            <option value="pixi">Pixi ADD (Axie layer only)</option>
+            <option value="css">CSS mix-blend plus-lighter</option>
+          </select>
+        </label>
+        <label class="check"><input id="loop" type="checkbox" checked /> Loop</label>
+      </div>
+    </header>
+
+    <section class="stage-wrap has-list">
+      <aside class="library">
+        <div class="library-bar">
+          <input id="search" type="search" placeholder="Filter clips" />
+          <select id="kind">
+            <option value="all">All</option>
+            <option value="skill">Skills</option>
+            <option value="buff">Buffs</option>
+          </select>
+        </div>
+        <div id="list" class="clip-list"></div>
+      </aside>
+      <div id="battlefield" class="battlefield">
+        <div id="pixi-host" class="layer pixi"></div>
+        <canvas id="vfx-dom" class="layer overlay"></canvas>
+        <img id="vfx-css" class="layer overlay css-vfx" alt="" hidden />
+      </div>
+      <aside class="meta" id="hud">
+        <p>Loading catalog…</p>
+      </aside>
+    </section>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

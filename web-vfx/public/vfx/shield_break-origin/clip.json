@@ -1,0 +1,74 @@
+{
+  "id": "shield_break-origin",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.0666666666666667,
+    "frames": 69,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 166,
+    "y": 14,
+    "w": 646,
+    "h": 438
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 646,
+    "frameH": 438
+  },
+  "frames": 69,
+  "fps": 30.0,
+  "duration": 1.0666666666666667,
+  "clipDuration": 1.0,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 212.954,
+    "y": 217.957,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 314.0,
+    "y": 274.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 378.954,
+    "y": 231.957
+  },
+  "peakFrame": 7,
+  "events": [],
+  "systems": 9,
+  "variantOf": "shield_break"
+}

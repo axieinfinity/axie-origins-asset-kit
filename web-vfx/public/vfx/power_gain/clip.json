@@ -1,0 +1,73 @@
+{
+  "id": "power_gain",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.7666666666666666,
+    "frames": 69,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 270,
+    "y": 66,
+    "w": 374,
+    "h": 376
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 374,
+    "frameH": 376
+  },
+  "frames": 69,
+  "fps": 30.0,
+  "duration": 1.7666666666666666,
+  "clipDuration": 1.9833333492279053,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 186.343,
+    "y": 186.184,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 210.0,
+    "y": 222.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 456.343,
+    "y": 252.184
+  },
+  "peakFrame": 28,
+  "events": [],
+  "systems": 9
+}

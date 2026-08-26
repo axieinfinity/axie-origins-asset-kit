@@ -1,0 +1,142 @@
+:root {
+  color-scheme: dark;
+  --bg: #12161c;
+  --panel: #1b212b;
+  --ink: #e8edf4;
+  --muted: #93a0b3;
+  --kam: #ff8a3d;
+  --line: rgba(255, 255, 255, 0.08);
+  font-family: "Avenir Next", "Segoe UI", sans-serif;
+}
+
+* { box-sizing: border-box; }
+html, body { margin: 0; background: var(--bg); color: var(--ink); }
+body { min-height: 100vh; }
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  gap: 24px;
+  align-items: flex-end;
+  padding: 20px 24px 12px;
+  border-bottom: 1px solid var(--line);
+}
+.kicker { margin: 0; color: var(--muted); font-size: 12px; letter-spacing: 0.04em; text-transform: uppercase; }
+h1 { margin: 4px 0 0; font-size: 28px; font-weight: 650; }
+h2 { margin: 0 0 8px; font-size: 16px; font-weight: 650; }
+.controls { display: flex; gap: 12px; align-items: center; flex-wrap: wrap; }
+button, select {
+  background: var(--panel);
+  color: var(--ink);
+  border: 1px solid var(--line);
+  border-radius: 8px;
+  padding: 8px 12px;
+  font: inherit;
+}
+button { background: var(--kam); color: #1a0f08; font-weight: 650; border: 0; cursor: pointer; }
+.check { display: flex; gap: 6px; align-items: center; color: var(--muted); font-size: 13px; }
+
+.stage-wrap { display: grid; grid-template-columns: 1fr 280px; gap: 16px; padding: 16px 24px; }
+.stage-wrap.has-list { grid-template-columns: 240px 1fr 260px; }
+.library {
+  background: var(--panel);
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  min-height: min(62dvh, 560px);
+  overflow: hidden;
+}
+.library-bar { display: flex; gap: 8px; padding: 10px; }
+.library-bar input, .library-bar select { flex: 1; min-width: 0; }
+.clip-list { overflow: auto; padding: 0 8px 10px; }
+.clip {
+  display: flex;
+  justify-content: space-between;
+  gap: 8px;
+  width: 100%;
+  background: transparent;
+  color: var(--ink);
+  text-align: left;
+  padding: 8px 10px;
+  margin-bottom: 4px;
+  font-weight: 500;
+}
+.clip span { color: var(--muted); font-size: 11px; text-transform: uppercase; }
+.clip.is-on { background: var(--kam); color: #1a0f08; }
+.clip.is-on span { color: #4a2a14; }
+.battlefield {
+  position: relative;
+  isolation: isolate;
+  height: min(62dvh, 560px);
+  min-height: 280px;
+  border-radius: 12px;
+  overflow: hidden;
+  background:
+    linear-gradient(180deg, #243044 0%, #1a2433 42%, #3a4a38 42.2%, #2a3828 100%);
+  box-shadow: inset 0 0 0 1px var(--line);
+}
+.battlefield .layer { position: absolute; inset: 0; width: 100%; height: 100%; }
+.battlefield .overlay {
+  pointer-events: none;
+  mix-blend-mode: plus-lighter;
+}
+@supports not (mix-blend-mode: plus-lighter) {
+  .battlefield .overlay { mix-blend-mode: screen; }
+}
+.css-vfx { object-fit: none; }
+.pixi canvas { display: block; width: 100%; height: 100%; }
+
+.meta {
+  background: var(--panel);
+  border-radius: 12px;
+  padding: 14px 16px;
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+  border: 1px solid var(--line);
+}
+.meta strong { color: var(--ink); }
+.meta p { margin: 0 0 8px; }
+
+.compare { padding: 8px 24px 32px; }
+.note, .stats { color: var(--muted); font-size: 13px; }
+.compare-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+figure { margin: 0; background: #131820; border-radius: 10px; overflow: hidden; border: 1px solid var(--line); }
+figure canvas { width: 100%; height: auto; display: block; background: #131820; }
+figcaption { padding: 8px 10px; font-size: 12px; color: var(--muted); }
+
+@media (max-width: 1100px) {
+  .stage-wrap.has-list { grid-template-columns: 1fr 240px; }
+  .library { grid-column: 1 / -1; min-height: 180px; max-height: 220px; }
+}
+@media (max-width: 900px) {
+  .top {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    gap: 10px;
+    padding: 12px 16px 10px;
+  }
+  .kicker { font-size: 11px; }
+  h1 { font-size: 22px; }
+  .controls {
+    margin-top: 0;
+    gap: 8px;
+  }
+  .controls select { max-width: 100%; }
+  .stage-wrap, .stage-wrap.has-list {
+    display: block;
+    padding: 12px 16px;
+  }
+  .library { margin-bottom: 12px; max-height: 200px; min-height: 160px; }
+  .battlefield {
+    height: min(52dvh, 420px);
+    min-height: 300px;
+  }
+  .meta { margin-top: 12px; }
+}

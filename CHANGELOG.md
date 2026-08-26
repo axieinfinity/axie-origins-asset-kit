@@ -1,5 +1,11 @@
 # Changelog
 
+## 1.9.0 — 2026-08-26
+
+- Web VFX stack for Jack’s Vite + PixiJS 7.2.4 + mixer 1.4.9 + DOM overlay path.
+- Additive atlases for all 63 skills, 42 buffs, and two extra Unity captures (`beast_smash 1`, `shield_break-origin`) — 107 clips under `web-vfx/public/vfx/`.
+- `web-vfx` player lists every clip, plays Origins `OnAttack` / `OnHit` events on mixer Axies, and keeps the overlay sized for mobile.
+
 ## 1.8.1 — 2026-08-18
 
 - Production `/kit` staging now copies Spine atlas PNG pages, so chimera and starter bodies can play.

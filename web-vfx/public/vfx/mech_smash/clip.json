@@ -1,0 +1,107 @@
+{
+  "id": "mech_smash",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.667,
+    "frames": 51,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 7,
+    "y": 0,
+    "w": 573,
+    "h": 338
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 7,
+    "frameW": 573,
+    "frameH": 338
+  },
+  "frames": 51,
+  "fps": 30.0,
+  "duration": 1.667,
+  "clipDuration": 1.399999976158142,
+  "attackAnimation": "attack/melee/horn-gore",
+  "hitAnimation": "defense/hit-by-normal",
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 274.312,
+    "y": 174.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 667.754,
+    "y": 281.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 21,
+  "events": [
+    {
+      "time": 0.0,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.0,
+      "function": "OnAttack",
+      "string": "attack/melee/horn-gore",
+      "float": 0.0
+    },
+    {
+      "time": 0.2666666805744171,
+      "function": "OnHit",
+      "string": "defense/hit-by-normal",
+      "float": 0.0
+    },
+    {
+      "time": 1.3833333253860474,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 1.399999976158142,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 13
+}

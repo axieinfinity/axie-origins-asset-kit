@@ -1,0 +1,73 @@
+{
+  "id": "reflect_damage",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.5333333333333334,
+    "frames": 69,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 0,
+    "y": 25,
+    "w": 666,
+    "h": 447
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 666,
+    "frameH": 447
+  },
+  "frames": 69,
+  "fps": 30.0,
+  "duration": 1.5333333333333334,
+  "clipDuration": 1.5499999523162842,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 375.029,
+    "y": 226.644,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 480.0,
+    "y": 263.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 375.029,
+    "y": 251.644
+  },
+  "peakFrame": 8,
+  "events": [],
+  "systems": 11
+}

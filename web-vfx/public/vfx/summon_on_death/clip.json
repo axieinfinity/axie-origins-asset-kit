@@ -1,0 +1,73 @@
+{
+  "id": "summon_on_death",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.5,
+    "frames": 72,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 143,
+    "y": 0,
+    "w": 602,
+    "h": 540
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 602,
+    "frameH": 540
+  },
+  "frames": 72,
+  "fps": 30.0,
+  "duration": 1.5,
+  "clipDuration": 2.0833332538604736,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 339.228,
+    "y": 305.619,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 337.0,
+    "y": 288.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 482.228,
+    "y": 305.619
+  },
+  "peakFrame": 7,
+  "events": [],
+  "systems": 7
+}

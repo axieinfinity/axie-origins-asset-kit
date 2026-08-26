@@ -1,5 +1,17 @@
 # Goal
 
+Ship **full Origins skill and buff VFX coverage** on both stacks in this repo: Unity prefabs (`Assets/OriginsKit`) and Jack-stack web atlases (`web-vfx/`).
+
+Done when:
+
+1. Every skill and buff in the Unity kit has a web additive atlas + `clip.json`.
+2. `web-vfx` plays any of those clips on mixer Axies via a DOM overlay.
+3. The GitHub repo documents both Unity and web paths.
+
+---
+
+Earlier gallery goal (still true of `showcase/`):
+
 Turn `showcase/` into a **public Origins gallery**.
 
 A visitor lands, sees the Axie mark, and can browse every skill, buff, chimera, starter, card, arena, and track without reading Unity paths, SkillPlayer notes, or code snippets. The page has a real landing, a top navigation bar, and a tight mobile layout. The artifacts lead. Chrome recedes.

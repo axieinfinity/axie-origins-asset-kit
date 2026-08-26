@@ -1,0 +1,73 @@
+{
+  "id": "healing_boost",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 2.033333333333333,
+    "frames": 72,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 274,
+    "y": 79,
+    "w": 391,
+    "h": 394
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 9,
+    "frameW": 391,
+    "frameH": 394
+  },
+  "frames": 72,
+  "fps": 30.0,
+  "duration": 2.033333333333333,
+  "clipDuration": 2.0999999046325684,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 195.623,
+    "y": 198.913,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 206.0,
+    "y": 209.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 469.623,
+    "y": 277.913
+  },
+  "peakFrame": 3,
+  "events": [],
+  "systems": 8
+}

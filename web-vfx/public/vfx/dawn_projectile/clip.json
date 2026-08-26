@@ -1,0 +1,113 @@
+{
+  "id": "dawn_projectile",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 2.033333333333333,
+    "frames": 93,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 222,
+    "y": 73,
+    "w": 466,
+    "h": 302
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 12,
+    "frameW": 466,
+    "frameH": 302
+  },
+  "frames": 93,
+  "fps": 30.0,
+  "duration": 2.033333333333333,
+  "clipDuration": 3.0,
+  "attackAnimation": "attack/ranged/cast-fly",
+  "hitAnimation": "defense/hit-by-ranged-attack",
+  "isRanged": true,
+  "projectileTravel": 0.6499999761581421,
+  "anchor": {
+    "x": 59.312,
+    "y": 101.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 452.754,
+    "y": 208.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 22,
+  "events": [
+    {
+      "time": 0.03333333507180214,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.06666667014360428,
+      "function": "OnAttack",
+      "string": "attack/ranged/cast-fly",
+      "float": 0.0
+    },
+    {
+      "time": 0.5833333134651184,
+      "function": "OnThrow",
+      "string": null,
+      "float": 0.6499999761581421
+    },
+    {
+      "time": 1.25,
+      "function": "OnHit",
+      "string": "defense/hit-by-ranged-attack",
+      "float": 0.0
+    },
+    {
+      "time": 2.9166667461395264,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 3.0,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 34
+}

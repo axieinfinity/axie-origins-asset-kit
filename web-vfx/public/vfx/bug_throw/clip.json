@@ -1,0 +1,113 @@
+{
+  "id": "bug_throw",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.883,
+    "frames": 57,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 191,
+    "y": 35,
+    "w": 497,
+    "h": 340
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 8,
+    "frameW": 497,
+    "frameH": 340
+  },
+  "frames": 57,
+  "fps": 30.0,
+  "duration": 1.883,
+  "clipDuration": 2.5833332538604736,
+  "attackAnimation": "attack/ranged/cast-fly",
+  "hitAnimation": "defense/hit-by-ranged-attack",
+  "isRanged": true,
+  "projectileTravel": 0.699999988079071,
+  "anchor": {
+    "x": 90.312,
+    "y": 139.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 483.754,
+    "y": 246.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 25,
+  "events": [
+    {
+      "time": 0.03333333507180214,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.06666667014360428,
+      "function": "OnAttack",
+      "string": "attack/ranged/cast-fly",
+      "float": 0.0
+    },
+    {
+      "time": 0.5833333134651184,
+      "function": "OnThrow",
+      "string": null,
+      "float": 0.699999988079071
+    },
+    {
+      "time": 1.25,
+      "function": "OnHit",
+      "string": "defense/hit-by-ranged-attack",
+      "float": 0.0
+    },
+    {
+      "time": 2.0,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 2.0999999046325684,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 26
+}

@@ -2,7 +2,10 @@
 
 First-party **Axie Infinity: Origins** battle assets, extracted as **native Unity assets** for Axie Vibeathon.
 
-This is not a browser pack. Prefabs, clips, textures, and audio are Unity 2021.3 assets you open in the Editor or add as a UPM git package.
+Two stacks ship in this repo:
+
+- **Unity** — native SkillEffect / BuffEffect prefabs, clips, textures, SFX (`Assets/OriginsKit`)
+- **Web (Jack stack)** — additive atlases + Vite/Pixi/DOM overlay player for every skill and buff (`web-vfx/`)
 
 **Private repo.** Read `LICENSE.md` before you ship anything.
 
@@ -12,6 +15,7 @@ This is not a browser pack. Prefabs, clips, textures, and audio are Unity 2021.3
 | ---: | --- | --- |
 | 63 | Skill VFX prefabs + clips | `Assets/OriginsKit/Prefabs/Skills/`, `Animations/` |
 | 42 | Buff / status VFX prefabs + clips | `Assets/OriginsKit/Prefabs/Buffs/` |
+| 107 | Web additive VFX atlases (63 skills + 42 buffs + 2 capture variants) | `web-vfx/public/vfx/` |
 | 105 | Activation timelines (events + child on/off) | `Assets/OriginsKit/Catalogs/activation.json` |
 | 188 | Card ability → VFX + mixer animation | `Assets/OriginsKit/Catalogs/skill-vfx.json` |
 | 90 | Battle VFX textures | `Assets/OriginsKit/Textures/Vfx/` |
@@ -58,6 +62,16 @@ npm run dev
 ```
 
 Open http://127.0.0.1:5177/ — pick a kind, inspect the asset, copy the Unity path. Skill and buff clips are videos recorded from `SkillPlayer`. In the Editor: **Origins → Play Local Player**.
+
+### Web / Jack stack (Vite + Pixi 7.2.4 + DOM overlay)
+
+```bash
+cd web-vfx
+npm install
+npm run dev
+```
+
+Open http://127.0.0.1:5178/ — every skill and buff plays as an additive atlas on mixer Axies. Integration notes: `web-vfx/README.md`. Rebuild plates: `python3 web-vfx/scripts/process_all.py --jobs 16`.
 
 ### B. Copy into an existing project
 

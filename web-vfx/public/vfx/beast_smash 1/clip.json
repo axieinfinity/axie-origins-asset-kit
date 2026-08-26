@@ -1,0 +1,77 @@
+{
+  "id": "beast_smash 1",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.5,
+    "frames": 45,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -2.1176466941833496,
+      0.0
+    ]
+  },
+  "crop": {
+    "x": 32,
+    "y": 0,
+    "w": 928,
+    "h": 493
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 6,
+    "frameW": 928,
+    "frameH": 493
+  },
+  "frames": 45,
+  "fps": 30.0,
+  "duration": 1.5,
+  "clipDuration": 1.0,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 549.022,
+    "y": 281.066,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 642.754,
+    "y": 281.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 581.022,
+    "y": 281.066
+  },
+  "peakFrame": 10,
+  "events": [],
+  "systems": 43,
+  "variantOf": "beast_smash"
+}

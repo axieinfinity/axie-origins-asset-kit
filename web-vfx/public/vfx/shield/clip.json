@@ -1,0 +1,73 @@
+{
+  "id": "shield",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.3666666666666667,
+    "frames": 81,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 222,
+    "y": 107,
+    "w": 476,
+    "h": 402
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 11,
+    "frameW": 476,
+    "frameH": 402
+  },
+  "frames": 81,
+  "fps": 30.0,
+  "duration": 1.3666666666666667,
+  "clipDuration": 5.0333333015441895,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 225.635,
+    "y": 198.858,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 258.0,
+    "y": 181.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 447.635,
+    "y": 305.858
+  },
+  "peakFrame": 11,
+  "events": [],
+  "systems": 20
+}

@@ -1,0 +1,73 @@
+{
+  "id": "bubble_bomb",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 2.533333333333333,
+    "frames": 81,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 154,
+    "y": 0,
+    "w": 621,
+    "h": 504
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 11,
+    "frameW": 621,
+    "frameH": 504
+  },
+  "frames": 81,
+  "fps": 30.0,
+  "duration": 2.533333333333333,
+  "clipDuration": 2.4166667461395264,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 310.23,
+    "y": 177.72,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 326.0,
+    "y": 288.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 464.23,
+    "y": 177.72
+  },
+  "peakFrame": 65,
+  "events": [],
+  "systems": 17
+}

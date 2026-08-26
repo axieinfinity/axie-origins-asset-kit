@@ -1,0 +1,107 @@
+{
+  "id": "plant_slash",
+  "kind": "skill",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 1.0,
+    "frames": 47,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 6.1,
+      "position": [
+        0.0,
+        -0.35,
+        -20
+      ]
+    },
+    "holder": [
+      4.4,
+      -0.6
+    ],
+    "defenderLocal": [
+      -8.888887405395508,
+      2.407406806945801
+    ]
+  },
+  "crop": {
+    "x": 8,
+    "y": 0,
+    "w": 593,
+    "h": 398
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 6,
+    "frameW": 593,
+    "frameH": 398
+  },
+  "frames": 47,
+  "fps": 30.0,
+  "duration": 1.0,
+  "clipDuration": 1.25,
+  "attackAnimation": "attack/melee/tail-smash",
+  "hitAnimation": "defense/hit-by-normal",
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 273.312,
+    "y": 174.508,
+    "space": "crop",
+    "mapsTo": "defender"
+  },
+  "attackerInCrop": {
+    "x": 666.754,
+    "y": 281.066
+  },
+  "captureAttacker": {
+    "x": 674.754,
+    "y": 281.066
+  },
+  "captureDefender": {
+    "x": 281.312,
+    "y": 174.508
+  },
+  "peakFrame": 16,
+  "events": [
+    {
+      "time": 0.01666666753590107,
+      "function": "OnStartLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 0.03333333507180214,
+      "function": "OnAttack",
+      "string": "attack/melee/tail-smash",
+      "float": 0.0
+    },
+    {
+      "time": 0.36666667461395264,
+      "function": "OnHit",
+      "string": "defense/hit-by-normal",
+      "float": 0.0
+    },
+    {
+      "time": 1.0833333730697632,
+      "function": "OnEndLoop",
+      "string": null,
+      "float": 0.0
+    },
+    {
+      "time": 1.1666666269302368,
+      "function": "OnBack",
+      "string": null,
+      "float": 0.0
+    }
+  ],
+  "systems": 14
+}

@@ -1,0 +1,73 @@
+{
+  "id": "feather",
+  "kind": "buff",
+  "blend": "additive",
+  "source": {
+    "capture": "unity-SkillEffect",
+    "fps": 30.0,
+    "width": 960,
+    "height": 540,
+    "duration": 2.4,
+    "frames": 81,
+    "background": [
+      19,
+      22,
+      27
+    ],
+    "camera": {
+      "orthographicSize": 5.2,
+      "position": [
+        0.0,
+        0.35,
+        -20
+      ]
+    },
+    "holder": [
+      0.0,
+      0.0
+    ],
+    "defenderLocal": null
+  },
+  "crop": {
+    "x": 300,
+    "y": 0,
+    "w": 361,
+    "h": 432
+  },
+  "atlas": {
+    "file": "atlas.png",
+    "cols": 8,
+    "rows": 11,
+    "frameW": 361,
+    "frameH": 432
+  },
+  "frames": 81,
+  "fps": 30.0,
+  "duration": 2.4,
+  "clipDuration": 2.5166666507720947,
+  "attackAnimation": null,
+  "hitAnimation": null,
+  "isRanged": false,
+  "projectileTravel": null,
+  "anchor": {
+    "x": 179.186,
+    "y": 235.338,
+    "space": "crop",
+    "mapsTo": "target"
+  },
+  "attackerInCrop": {
+    "x": 180.0,
+    "y": 288.173
+  },
+  "captureAttacker": {
+    "x": 480.0,
+    "y": 288.173
+  },
+  "captureDefender": {
+    "x": 479.186,
+    "y": 235.338
+  },
+  "peakFrame": 44,
+  "events": [],
+  "systems": 13
+}
