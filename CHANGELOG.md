@@ -1,8 +1,13 @@
 # Changelog
 
+## 1.9.1 — 2026-08-26
+
+- Rename the GitHub repo to `axie-origins-kit` (not Unity-only).
+- Call the browser path **additive overlay runtime** (Vite + PixiJS 7.2.4 mixer + DOM canvas overlay).
+
 ## 1.9.0 — 2026-08-26
 
-- Web VFX stack for Jack’s Vite + PixiJS 7.2.4 + mixer 1.4.9 + DOM overlay path.
+- Additive overlay runtime (Vite + PixiJS 7.2.4 + mixer 1.4.9 + DOM canvas overlay).
 - Additive atlases for all 63 skills, 42 buffs, and two extra Unity captures (`beast_smash 1`, `shield_break-origin`) — 107 clips under `web-vfx/public/vfx/`.
 - `web-vfx` player lists every clip, plays Origins `OnAttack` / `OnHit` events on mixer Axies, and keeps the overlay sized for mobile.
 

@@ -1,6 +1,6 @@
-# Origins web VFX (Jack stack)
+# Additive overlay runtime
 
-Browser playback of every Origins **skill** and **buff** SkillEffect for:
+Browser playback of every Origins **skill** and **buff** SkillEffect. The runtime is Vite + TypeScript, PixiJS 7.2.4 mixer Axies, and a DOM canvas overlay with additive blending (`plus-lighter` / canvas `lighter`):
 
 ```
 Vite + TypeScript

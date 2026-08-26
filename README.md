@@ -1,11 +1,11 @@
-# Axie Origins Battle Kit (Unity)
+# Axie Origins Battle Kit
 
-First-party **Axie Infinity: Origins** battle assets, extracted as **native Unity assets** for Axie Vibeathon.
+First-party **Axie Infinity: Origins** battle assets for Axie Vibeathon.
 
 Two stacks ship in this repo:
 
 - **Unity** — native SkillEffect / BuffEffect prefabs, clips, textures, SFX (`Assets/OriginsKit`)
-- **Web (Jack stack)** — additive atlases + Vite/Pixi/DOM overlay player for every skill and buff (`web-vfx/`)
+- **Additive overlay runtime** — Vite + PixiJS 7.2.4 + `@axieinfinity/mixer` 1.4.9, with a DOM canvas overlay (`mix-blend-mode: plus-lighter`) for every skill and buff (`web-vfx/`)
 
 **Private repo.** Read `LICENSE.md` before you ship anything.
 
@@ -48,7 +48,7 @@ Axie **bodies** are not included. Mix them with the official 2D mixer, then play
 
 1. Get access to this private repo, then:
    ```bash
-   git clone https://github.com/jaatster/axie-origins-unity-kit.git
+   git clone https://github.com/jaatster/axie-origins-kit.git
    ```
 2. Unity Hub → Unity **2021.3 LTS** → **Open** → the clone.
 3. Drop a prefab from `Assets/OriginsKit/Prefabs/Skills/` into a scene, or use `SkillPlayer.Spawn`.
@@ -63,7 +63,7 @@ npm run dev
 
 Open http://127.0.0.1:5177/ — pick a kind, inspect the asset, copy the Unity path. Skill and buff clips are videos recorded from `SkillPlayer`. In the Editor: **Origins → Play Local Player**.
 
-### Web / Jack stack (Vite + Pixi 7.2.4 + DOM overlay)
+### Additive overlay runtime (Vite + PixiJS 7.2.4 + DOM overlay)
 
 ```bash
 cd web-vfx

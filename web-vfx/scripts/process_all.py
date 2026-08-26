@@ -24,7 +24,7 @@ PAD = 12
 THRESH = 2
 COLS = 8
 
-ROOT = Path("/Users/jaatster/Work/Projects/axie-origins-unity-kit")
+ROOT = Path(__file__).resolve().parents[2]
 FRAMES = ROOT / "showcase/public/previews/video/frames"
 DST = ROOT / "web-vfx/public/vfx"
 CATALOGS = ROOT / "Assets/OriginsKit/Catalogs"

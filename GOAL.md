@@ -1,6 +1,6 @@
 # Goal
 
-Ship **full Origins skill and buff VFX coverage** on both stacks in this repo: Unity prefabs (`Assets/OriginsKit`) and Jack-stack web atlases (`web-vfx/`).
+Ship **full Origins skill and buff VFX coverage** on both stacks in this repo: Unity prefabs (`Assets/OriginsKit`) and additive overlay atlases (`web-vfx/`).
 
 Done when:
 

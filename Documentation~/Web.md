@@ -1,6 +1,6 @@
-# Web VFX
+# Additive overlay runtime
 
-Jack-stack playback of Origins skill and buff plates. Unity prefabs remain the source of truth; these atlases are the browser drop-in.
+Browser playback of Origins skill and buff plates: Vite + PixiJS 7.2.4 mixer Axies + a DOM canvas overlay with additive blending. Unity prefabs remain the source of truth; these atlases are the web drop-in.
 
 See `web-vfx/README.md`.
 
